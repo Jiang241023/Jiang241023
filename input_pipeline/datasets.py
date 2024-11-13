@@ -24,13 +24,6 @@ def load(name, data_dir, batch_size=batch_size, caching=True):
         num_examples = sum(1 for _ in full_ds.unbatch())
         print(f"Total number of samples in full dataset: {num_examples}")
 
-        for images, _ in full_ds.take(1):
-            image_shape = images.shape[1:]
-            break
-
-        class_names = full_ds.class_names
-        num_classes = len(class_names)
-
         # Define df_info
        # ds_info = {
         #    "num_examples": num_examples,
@@ -44,8 +37,6 @@ def load(name, data_dir, batch_size=batch_size, caching=True):
         total_samples = sum(1 for _ in full_ds.unbatch())
         val_size = int(0.2 * total_samples)
         train_size = int(total_samples) - val_size
-        print(f"Total number of samples in full dataset: {total_samples}")
-        print(f"Training size: {train_size}, Validation size: {val_size}")
 
         ds_train = full_ds.unbatch().take(train_size)
         ds_val = full_ds.unbatch().skip(train_size).take(val_size)
