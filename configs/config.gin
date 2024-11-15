@@ -11,11 +11,16 @@ vgg_block.kernel_size = (3, 3)
 Trainer.total_steps = 1e5
 Trainer.log_interval = 1e4
 Trainer.ckpt_interval = 1e4
+Trainer.learning_rate = 1e-5
 
 # Input pipeline
 load.name = 'idrid'
 load.data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\train"
+load.test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
+load.batch_size = 16
 preprocess.img_height = 256
 preprocess.img_width = 256
 prepare.batch_size = 16
 prepare.caching = True
+
+
