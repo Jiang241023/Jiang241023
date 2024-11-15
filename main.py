@@ -10,7 +10,7 @@ from utils import utils_params, utils_misc
 from models.architectures import vgg_like
 
 FLAGS = flags.FLAGS
-flags.DEFINE_boolean('train', True, 'Specify whether to train or evaluate a model.')
+flags.DEFINE_boolean('train', False, 'Specify whether to train or evaluate a model.')
 
 def main(argv):
 
@@ -35,16 +35,19 @@ def main(argv):
     # model
     model = vgg_like(input_shape=ds_info["features"]["image"]["shape"], n_classes=ds_info["features"]["label"]["num_classes"])
 
+    for layer in model.layers[:-10]: # freeze the base layer except 10 layers
+        layer.trainable = False
+
     if FLAGS.train:
         trainer = Trainer(model, ds_train, ds_val, ds_info, run_paths)
         for _ in trainer.train():
             continue
     else:
         evaluate(model,
-                 checkpoint,
                  ds_test,
                  ds_info,
-                 run_paths)
+                 run_paths,
+                 checkpoint = False)
 
 if __name__ == "__main__":
     wandb.login(key="40c93726af78ad0b90c6fe3174c18599ecf9f619")
