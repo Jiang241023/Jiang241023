@@ -2,7 +2,7 @@ import tensorflow as tf
 from metrics import ConfusionMatrix
 import logging
 
-def evaluate(model, ds_test, ds_info, run_paths, checkpoint = False):
+def evaluate(model, ds_test, ds_info, run_paths, checkpoint = None):
 
     #if checkpoint:
 

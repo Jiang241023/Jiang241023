@@ -7,7 +7,7 @@ class ConfusionMatrix(tf.keras.metrics.Metric):
     def __init(self, num_classes, name="confusion_matrix", **kwargs):
         super(ConfusionMatrix, self).__init__(name=name, **kwargs)
         # ...
-        num_classes = num_classes
+        self.num_classes = num_classes
         self.confusion_matrix = self.add_weight(
             name = 'confusion_matrix',
             shape = (num_classes, num_classes),
@@ -21,7 +21,7 @@ class ConfusionMatrix(tf.keras.metrics.Metric):
         y_pred = tf.cast(y_pred, tf.int32)
 
         # calculate the confusion matrix
-        result = tf.math.confusion_matrix(y_true, y_pred, num_classes = self.confusion_matrix, dtype = tf.int32)
+        result = tf.math.confusion_matrix(y_true, y_pred, num_classes = self.num_classes, dtype = tf.int32)
 
         # update the existing confusion matrix by adding the values to it
         self.confusion_matrix.assign_add(result)
