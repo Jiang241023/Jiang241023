@@ -47,13 +47,13 @@ def load(name, batch_size, data_dir, test_data_dir, caching=True):
         ds_val = full_ds.unbatch().skip(train_size)
 
         # allow the data to be processed in chunks during training and validation
-        ds_train = ds_train.batch(batch_size = batch_size)
-        ds_val = ds_val.batch(batch_size = batch_size)
+        ds_train = ds_train.batch(batch_size = batch_size, drop_remainder=True)
+        ds_val = ds_val.batch(batch_size = batch_size, drop_remainder=True)
 
         ds_test= None
         if test_data_dir:
             ds_test = tf.keras.preprocessing.image_dataset_from_directory(
-                test_data_dir, batch_size = batch_size, label_mode = 'int'
+                test_data_dir, batch_size = 1, label_mode = 'int'
             )
 
         # Prepare and return the training and validation datasets
@@ -123,7 +123,7 @@ def prepare(ds_train, ds_val, batch_size, ds_test=None, ds_info=None, caching=Tr
         ds_test = ds_test.map(preprocess, num_parallel_calls=tf.data.AUTOTUNE)
         if caching:
             ds_test = ds_test.cache()
-        ds_test = ds_test.batch(batch_size).prefetch(tf.data.AUTOTUNE)
+        ds_test = ds_test.prefetch(tf.data.AUTOTUNE)
 
 
     return ds_train, ds_val, ds_test, ds_info

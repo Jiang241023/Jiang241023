@@ -2,55 +2,57 @@ import tensorflow as tf
 from metrics import ConfusionMatrix
 import logging
 
-def evaluate(model, ds_test, ds_info, run_paths, checkpoint = None):
-
-    #if checkpoint:
-
+def evaluate(model, ds_test, ds_info, run_paths, checkpoint=None):
     metrics = ConfusionMatrix()
-
-    evaluation_accuracy = tf.keras.metrics.BinaryAccuracy(name = 'evaluation_accuracy')
-
+    evaluation_accuracy = tf.keras.metrics.BinaryAccuracy(name='evaluation_accuracy')
 
     for test_images, test_labels in ds_test:
-
-        #print(f"test image shape: {test_images.shape}")
-        #print(f"test_labels shape: {test_labels.shape}")
         predictions = model(test_images, training=False)
         predictions = tf.squeeze(predictions, axis=-1)
-        #print(f"prediction shape: {predictions.shape}")
+        threshold = 0.39
+        predictions = tf.cast(predictions > threshold , tf.int32)
 
-        # convert the prediction to 0 to 1 using threshold = 0.5
-        predictions = tf.cast(predictions > 0.5, tf.int32)
-        # accuracy --> compare prediction and true labels,
 
-        #update metrics
         evaluation_accuracy.update_state(test_labels, predictions)
-        metrics.update_state(y_true = test_labels, y_pred = predictions)
+        metrics.update_state(test_labels, predictions)
 
-        
 
-    final_evaluation_accuracy = evaluation_accuracy.result().numpy()
     confusion_matrix_result = metrics.result().numpy()
+    final_evaluation_accuracy = evaluation_accuracy.result().numpy()
+
+
+    tp = confusion_matrix_result[1, 1]
+    fp = confusion_matrix_result[0, 1]
+    tn = confusion_matrix_result[0, 0]
+    fn = confusion_matrix_result[1, 0]
+
+    sensitivity = tp / (tp + fn) if (tp + fn) > 0 else 0.0  # 召回率
+    specificity = tn / (tn + fp) if (tn + fp) > 0 else 0.0  # 特异性
+    precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0    # 精确率
+    f1_score = 2 * (precision * sensitivity) / (precision + sensitivity) if (precision + sensitivity) > 0 else 0.0
 
     logging.info(f"final_evaluation_accuracy: {final_evaluation_accuracy:.2%}")
-    logging.info(f"confusion_matrix_result: {confusion_matrix_result}")
-
-    nums_TP = confusion_matrix_result[1, 1]
-    nums_TN = confusion_matrix_result[0, 0]
-    nums_FP = confusion_matrix_result[0, 1]
-    nums_FN = confusion_matrix_result[1, 0]
-
+    logging.info(f"Confusion Matrix: TP={tp}, FP={fp}, TN={tn}, FN={fn}")
 
     print(
-        f" the number of TPs: {nums_TP}\n",
-        f"the number of TNs: {nums_TN}\n",
-        f"the number of FPs: {nums_FP}\n",
-        f"the number of FNs: {nums_FN}"
+        f"Accuracy: {final_evaluation_accuracy:.2%}\n",
+        f"Sensitivity (Recall): {sensitivity:.2%}\n",
+        f"Specificity: {specificity:.2%}\n",
+        f"Precision: {precision:.2%}\n",
+        f"F1-Score: {f1_score:.2%}\n",
+        f"Confusion Matrix: TP={tp}, FP={fp}, TN={tn}, FN={fn}"
     )
+
     return {
-        "final_evaluation_accuracy:", final_evaluation_accuracy,
-        f"the number of TPs:{nums_TP}\n",
-        f"the number of TNs:{nums_TN}\n",
-        f"the number of FPs:{nums_FP}\n",
-        f"the number of FNs:{nums_FN}"
+        "accuracy": final_evaluation_accuracy,
+        "sensitivity": sensitivity,
+        "specificity": specificity,
+        "precision": precision,
+        "f1_score": f1_score,
+        "confusion_matrix": {
+            "tp": tp,
+            "fp": fp,
+            "tn": tn,
+            "fn": fn
+        }
     }

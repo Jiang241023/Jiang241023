@@ -51,4 +51,5 @@ def main(argv):
 
 if __name__ == "__main__":
     wandb.login(key="40c93726af78ad0b90c6fe3174c18599ecf9f619")
+
     app.run(main)
