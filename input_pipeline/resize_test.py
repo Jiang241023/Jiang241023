@@ -4,8 +4,8 @@ from PIL import Image
 from tqdm import tqdm
 
 
-resized_folder = r'F:\IDRID_dataset\images_augmented\images_augmented\test'
-final_folder = r'F:\IDRID_dataset\images_augmented\images_augmented\test\binary'
+resized_folder = r'F:\IDRID_dataset\images_revized\test'
+final_folder = r'F:\IDRID_dataset\images_revized\test\binary'
 csv_file_path = r'F:\IDRID_dataset\labels\test.csv'
 
 

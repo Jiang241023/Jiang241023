@@ -1,6 +1,5 @@
 import tensorflow as tf
-import numpy as np
-import logging
+
 
 
 class ConfusionMatrix(tf.keras.metrics.Metric):
@@ -13,9 +12,6 @@ class ConfusionMatrix(tf.keras.metrics.Metric):
         self.fn = self.add_weight(name="false_negatives", initializer="zeros", dtype=tf.int32)
 
     def update_state(self, y_true, y_pred, sample_weight=None):
-        # Cast inputs to int32 for logical operations
-        y_true = tf.cast(y_true, tf.int32)
-        y_pred = tf.cast(y_pred, tf.int32)
 
         # Calculate confusion matrix components
         self.tp.assign_add(tf.reduce_sum(tf.cast((y_pred == 1) & (y_true == 1), tf.int32)))
@@ -32,10 +28,4 @@ class ConfusionMatrix(tf.keras.metrics.Metric):
             "fn": self.fn.numpy()
         }
 
-    def reset_states(self):
-        # Reset all confusion matrix components to zero
-        self.tp.assign(0)
-        self.fp.assign(0)
-        self.tn.assign(0)
-        self.fn.assign(0)
 
