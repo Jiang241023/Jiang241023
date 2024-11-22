@@ -2,12 +2,17 @@ import gin
 import logging
 import wandb
 from absl import app, flags
-
 from train import Trainer
 from evaluation.eval import evaluate
 from input_pipeline import datasets
 from utils import utils_params, utils_misc
 from models.architectures import vgg_like
+import numpy as np
+import random
+import tensorflow as tf
+tf.random.set_seed(42)
+np.random.seed(42)
+random.seed(42)
 
 FLAGS = flags.FLAGS
 flags.DEFINE_boolean('train', False, 'Specify whether to train or evaluate a model.')
@@ -35,8 +40,6 @@ def main(argv):
     # model
     model = vgg_like(input_shape=ds_info["features"]["image"]["shape"], n_classes=ds_info["features"]["label"]["num_classes"])
 
-    for layer in model.layers[:-10]: # freeze the base layer except 10 layers
-        layer.trainable = False
 
     if FLAGS.train:
         trainer = Trainer(model, ds_train, ds_val, ds_info, run_paths)
@@ -46,8 +49,9 @@ def main(argv):
         evaluate(model,
                  ds_test,
                  ds_info,
-                 run_paths,
-                 checkpoint = False)
+                 run_paths = None,
+                 checkpoint = None)
+
 
 if __name__ == "__main__":
     wandb.login(key="40c93726af78ad0b90c6fe3174c18599ecf9f619")

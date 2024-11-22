@@ -7,8 +7,8 @@ import os
 import cv2
 
 
-sample_data_path = r"F:\IDRID_dataset\images\test"
-output_folder = r"F:\IDRID_dataset\images_augmented\images_augmented\test"
+sample_data_path = r"F:\学校\课程文件\dl lab\idrid\IDRID_dataset\images\test"
+output_folder = r"F:\学校\课程文件\dl lab\idrid\IDRID_dataset\images_revized\test"
 
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
@@ -24,7 +24,7 @@ def trim(image):
     # calculate the row wise and column wise sums to find where the significant content exists
     row_sums = np.sum(img_gray, axis = 1)
     col_sums = np.sum(img_gray, axis = 0)
-    rows = np.where(row_sums > img.shape[1] * percentage)[0] # return the rows index of rows which contain atleast 2% of its content
+    rows = np.where(row_sums > img.shape[1] * percentage)[0] # return the rows index of rows which contain at least 2% of its content
     cols = np.where (col_sums > img.shape[0] * percentage)[0]
     # find the min and max rows and columns for croping
     min_row, min_col = np.min(rows), np.min(cols)
@@ -67,4 +67,4 @@ def multi_image_resize(input_path_folder, output_path_folder, output_size=None):
     with Pool() as p:
         list(tqdm(p.imap_unordered(save_single, jobs), total=len(jobs)))
 if __name__ == '__main__':
-    multi_image_resize(sample_data_path, output_folder, output_size = (256,256))
+    #multi_image_resize(sample_data_path, output_folder, output_size = (256,256))
