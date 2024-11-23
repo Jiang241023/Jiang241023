@@ -1,0 +1,424 @@
+I1123 15:11:18.227738 25444 datasets.py:14] Preparing dataset idrid...
+Found 588 files belonging to 2 classes.
+Found 103 files belonging to 2 classes.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 15:11:18.652637 25444 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:18.661360 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:18.669952 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 15:11:18.677263 25444 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1123 15:11:18.750824 25444 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 15:11:18.785319 25444 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:18.792040 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:18.801175 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 15:11:18.807146 25444 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 15:11:18.824218 25444 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:18.832303 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:18.843165 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 15:11:18.851188 25444 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1123 15:11:18.909486 25444 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 15:11:18.930370 25444 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:18.938562 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:18.946299 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 15:11:18.953333 25444 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 15:11:19.005259 25444 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:19.013690 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:19.023119 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+W1123 15:11:19.029891 25444 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+W1123 15:11:19.043008 25444 pfor.py:1082] Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 15:11:19.051761 25444 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+W1123 15:11:19.075117 25444 pfor.py:1082] Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 15:11:19.125532 25444 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:19.134825 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:19.144970 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 15:11:19.154152 25444 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1123 15:11:19.234222 25444 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 15:11:19.269519 25444 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:19.279885 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:19.290469 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 15:11:19.300988 25444 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 15:11:19.319663 25444 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:19.329639 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:19.340692 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 15:11:19.349556 25444 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1123 15:11:19.403244 25444 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 15:11:19.423533 25444 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:19.433092 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:19.443421 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 15:11:19.452627 25444 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 15:11:19.507526 25444 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:19.517818 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 15:11:19.527839 25444 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+W1123 15:11:19.536345 25444 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+W1123 15:11:19.553051 25444 pfor.py:1082] Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 15:11:19.563421 25444 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+W1123 15:11:19.587050 25444 pfor.py:1082] Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+Images: [[[[-1.9404067 -1.8498551 -1.6173724]
+   [-1.9404067 -1.8498551 -1.6173724]
+   [-1.9404067 -1.8498551 -1.6173724]
+   ...
+   [-1.9125667 -1.8498551 -1.6126603]
+   [-1.8514171 -1.8498551 -1.598265 ]
+   [-1.8198023 -1.8498551 -1.590397 ]]
+
+  [[-1.9404067 -1.8498551 -1.6173724]
+   [-1.9404067 -1.8498551 -1.6173724]
+   [-1.9404067 -1.8498551 -1.6173724]
+   ...
+   [-1.9101392 -1.8498551 -1.6101674]
+   [-1.8611865 -1.8498551 -1.5945736]
+   [-1.838879  -1.8498551 -1.5871572]]
+
+  [[-1.9404067 -1.8498551 -1.6173724]
+   [-1.9404067 -1.8498551 -1.6173724]
+   [-1.9404067 -1.8498551 -1.6173724]
+   ...
+   [-1.9330516 -1.8498551 -1.616381 ]
+   [-1.9159676 -1.8498551 -1.612304 ]
+   [-1.9075588 -1.8498551 -1.6098946]]
+
+  ...
+
+  [[-1.9404067 -1.8275409 -1.6119467]
+   [-1.9404067 -1.8325073 -1.6134977]
+   [-1.9404067 -1.8438293 -1.6163812]
+   ...
+   [-1.9404067 -1.8498551 -1.6173724]
+   [-1.9404067 -1.8498551 -1.6173724]
+   [-1.9404067 -1.8498551 -1.6173724]]
+
+  [[-1.9404067 -1.7979128 -1.5918527]
+   [-1.9404067 -1.8071514 -1.5973052]
+   [-1.9404067 -1.8301177 -1.6101675]
+   ...
+   [-1.9404067 -1.8498551 -1.6173724]
+   [-1.9404067 -1.8498551 -1.6173724]
+   [-1.9404067 -1.8498551 -1.6173724]]
+
+  [[-1.9404067 -1.7880343 -1.5863769]
+   [-1.9404067 -1.8014102 -1.5957828]
+   [-1.9404067 -1.8307333 -1.6124619]
+   ...
+   [-1.9404067 -1.8498551 -1.6173724]
+   [-1.9404067 -1.8498551 -1.6173724]
+   [-1.9404067 -1.8498551 -1.6173724]]]
+
+
+ [[[-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   ...
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]]
+
+  [[-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   ...
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]]
+
+  [[-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   ...
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]]
+
+  ...
+
+  [[-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   ...
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]]
+
+  [[-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   ...
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]]
+
+  [[-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   ...
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]
+   [-1.9770159 -1.9509966 -1.7535567]]]
+
+
+ [[[-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   ...
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]]
+
+  [[-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   ...
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]]
+
+  [[-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   ...
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]]
+
+  ...
+
+  [[-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   ...
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]]
+
+  [[-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   ...
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]]
+
+  [[-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   ...
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]
+   [-2.027082  -1.9608641 -1.7421768]]]
+
+
+ ...
+
+
+ [[[-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   ...
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]]
+
+  [[-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   ...
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]]
+
+  [[-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   ...
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]]
+
+  ...
+
+  [[-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   ...
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]]
+
+  [[-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   ...
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]]
+
+  [[-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   ...
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]
+   [-1.8656485 -1.7942404 -1.5701454]]]
+
+
+ [[[-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   ...
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]]
+
+  [[-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   ...
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]]
+
+  [[-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   ...
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]]
+
+  ...
+
+  [[-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   ...
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]]
+
+  [[-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   ...
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]]
+
+  [[-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   ...
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]
+   [-2.117904  -2.0357141 -1.8044444]]]
+
+
+ [[[-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   ...
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]]
+
+  [[-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   ...
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]]
+
+  [[-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   ...
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]]
+
+  ...
+
+  [[-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   ...
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]]
+
+  [[-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   ...
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]]
+
+  [[-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   ...
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]
+   [-1.9666224 -1.9347771 -1.7440331]]]]
+Labels: [0 0 0 0 1 0 0 0 1 0 1 1 1 1 1 0]
+Number of batches in validation dataset: 7
+Validation batch shape: (16, 256, 256, 3), Label shape: (16,)
+I1123 15:11:25.597127 25444 train.py:84] Step 370, Loss: 0.695306122303009, Accuracy: 50.4054069519043, Test Loss: 0.6906113028526306, Test Accuracy: 55.357139587402344
+I1123 15:11:25.599208 25444 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T15-11-17-645103\ckpts.
+I1123 15:11:27.375849 25444 train.py:84] Step 740, Loss: 0.6904197335243225, Accuracy: 52.989864349365234, Test Loss: 0.6848176717758179, Test Accuracy: 53.57142639160156
+I1123 15:11:27.377661 25444 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T15-11-17-645103\ckpts.
+I1123 15:11:29.166819 25444 train.py:84] Step 1110, Loss: 0.6853165030479431, Accuracy: 55.15202713012695, Test Loss: 0.6800594329833984, Test Accuracy: 58.03571319580078
+I1123 15:11:29.168541 25444 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T15-11-17-645103\ckpts.
+I1123 15:11:30.945331 25444 train.py:84] Step 1480, Loss: 0.6837033629417419, Accuracy: 56.06418991088867, Test Loss: 0.6744080781936646, Test Accuracy: 59.82142639160156
+I1123 15:11:30.947159 25444 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T15-11-17-645103\ckpts.
+I1123 15:11:32.740814 25444 train.py:84] Step 1850, Loss: 0.6791777610778809, Accuracy: 57.820945739746094, Test Loss: 0.6684881448745728, Test Accuracy: 63.392860412597656
+I1123 15:11:32.743323 25444 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T15-11-17-645103\ckpts.
+I1123 15:11:32.743762 25444 train.py:112] Finished training after 1850 steps.

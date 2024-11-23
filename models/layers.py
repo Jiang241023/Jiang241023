@@ -19,3 +19,29 @@ def vgg_block(inputs, filters, kernel_size):
     out = tf.keras.layers.MaxPool2D((2, 2))(out)
 
     return out
+
+@gin.configurable
+def mobilenet_block(inputs, filters, strides = 1):
+
+    out = tf.keras.layers.DepthwiseConv2D(
+        kernel_size = (3, 3),
+        strides = strides,
+        padding = 'same',
+        use_bias = False
+     )(inputs)
+
+    out = tf.keras.layers.BatchNormalization()(out)
+    out = tf.keras.layers.ReLU()(out)
+
+    out = tf.keras.layers.Conv2D(
+        filters = filters,
+        kernel_size=  (1, 1),
+        strides = 1,
+        padding = 'same',
+        use_bias=False
+    )(out)
+
+    out = tf.keras.layers.BatchNormalization()(out)
+    out = tf.keras.layers.ReLU()(out)
+
+    return out

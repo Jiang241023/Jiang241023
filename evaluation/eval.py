@@ -5,12 +5,6 @@ import numpy
 from metrics import ConfusionMatrix
 import logging
 
-import os
-test_data_dir = r"F:\IDRID_dataset\images_revized\test\binary"
-class_0_count = len(os.listdir(os.path.join(test_data_dir, "class_0")))
-class_1_count = len(os.listdir(os.path.join(test_data_dir, "class_1")))
-print(f"Class 0: {class_0_count} images, Class 1: {class_1_count} images")
-
 def evaluate(model, ds_test, ds_info, run_paths, checkpoint):
 
     # latest_checkpoint = tf.train.latest_checkpoint(run_paths["path_ckpts_train"])
@@ -27,9 +21,10 @@ def evaluate(model, ds_test, ds_info, run_paths, checkpoint):
     for idx, (images, labels) in enumerate(ds_test):
         # Check the total number of test samples
         test_total_samples = sum(1 for _ in ds_test.unbatch())
-        print(f"Total test samples in dataset: {test_total_samples}")
+       # print(f"Total test samples in dataset: {test_total_samples}")
 
         predictions = model(images, training = False)
+        print(f"Raw predictions for batch {idx}: {predictions.numpy()}")
         threshold = 0.5
         predictions = tf.cast(predictions > threshold, tf.int32)
 
@@ -37,16 +32,16 @@ def evaluate(model, ds_test, ds_info, run_paths, checkpoint):
         matches = tf.cast(predictions == labels, tf.float32)
         batch_accuracy = tf.reduce_mean(matches)
         accuracy_list.append(batch_accuracy.numpy())
-        print(f"test Images shape: {images.shape}")
-        print(f"test Labels shape: {labels.shape}")
-
-        # Debug batch details
-        print(f"Batch {idx}: Images shape: {images.shape}, Labels shape: {labels.shape}")
-        print(f"Batch {idx}: Predictions shape: {predictions.shape}")
-
-        # Check the sum of predictions and labels
-        print(f"Batch {idx}: Sum of predictions: {tf.reduce_sum(predictions).numpy()}")
-        print(f"Batch {idx}: Sum of labels: {tf.reduce_sum(labels).numpy()}")
+        # print(f"test Images shape: {images.shape}")
+        # print(f"test Labels shape: {labels.shape}")
+        #
+        # # Debug batch details
+        # print(f"Batch {idx}: Images shape: {images.shape}, Labels shape: {labels.shape}")
+        # print(f"Batch {idx}: Predictions shape: {predictions.shape}")
+        #
+        # # Check the sum of predictions and labels
+        # print(f"Batch {idx}: Sum of predictions: {tf.reduce_sum(predictions).numpy()}")
+        # print(f"Batch {idx}: Sum of labels: {tf.reduce_sum(labels).numpy()}")
 
         # Update confusion matrix metrics
         #metrics.update_state(labels, predictions)
@@ -60,7 +55,7 @@ def evaluate(model, ds_test, ds_info, run_paths, checkpoint):
     # Calculate metrics
     accuracy = sum(accuracy_list) / len(accuracy_list)
     total_samples = tp + fp + tn + fn
-    print(f"Total samples accounted for: {total_samples}")
+    #print(f"Total samples accounted for: {total_samples}")
 
     # results = metrics.result()
     #

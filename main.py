@@ -10,6 +10,7 @@ from models.architectures import vgg_like
 import numpy as np
 import random
 import tensorflow as tf
+
 tf.random.set_seed(42)
 np.random.seed(42)
 random.seed(42)
@@ -34,18 +35,37 @@ def main(argv):
                config=utils_params.gin_config_to_readable_dictionary(gin.config._CONFIG))
 
     # setup pipeline
-    ds_train, ds_val, ds_test, ds_info = datasets.load()
+    ds_train, ds_val, ds_test, ds_info = datasets.load(name = 'idrid')
+    # for images, labels in ds_train.take(1):  # Take 3 batches
+    #     print(f"Images: {images.numpy()}")  # Check image tensor values
+    #     print(f"Labels: {labels.numpy()}")
 
-
-    # model
+        # model
     model = vgg_like(input_shape=ds_info["features"]["image"]["shape"], n_classes=ds_info["features"]["label"]["num_classes"])
-
+    # 打印模型结构
+    model.summary()
 
     if FLAGS.train:
+        print(f"Training checkpoint path: {run_paths['path_ckpts_train']}")
         trainer = Trainer(model, ds_train, ds_val, ds_info, run_paths)
         for _ in trainer.train():
             continue
+
     else:
+        checkpoint_path = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T20-05-36-598001\ckpts'  # 保存检查点的路径
+
+        # 创建 checkpoint 对象
+        checkpoint = tf.train.Checkpoint(model=model)
+
+        # 查找最新的检查点
+        latest_checkpoint = tf.train.latest_checkpoint(checkpoint_path)
+
+        if latest_checkpoint:
+            print(f"Restoring from checkpoint: {latest_checkpoint}")
+            checkpoint.restore(latest_checkpoint).expect_partial()  # 加载检查点
+        else:
+            print("No checkpoint found. Starting from scratch.")
+
         evaluate(model,
                  ds_test,
                  ds_info,

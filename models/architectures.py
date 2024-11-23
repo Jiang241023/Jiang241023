@@ -1,8 +1,8 @@
 import gin
 import tensorflow as tf
 from tensorflow.python.keras.utils.version_utils import training
-
-from layers import vgg_block
+from tensorflow.keras.applications import MobileNet
+from layers import vgg_block, mobilenet_block
 
 @gin.configurable
 def vgg_like(input_shape, n_classes, base_filters, n_blocks, dense_units, dropout_rate = 0.5):
@@ -19,14 +19,14 @@ def vgg_like(input_shape, n_classes, base_filters, n_blocks, dense_units, dropou
     Returns:
         (keras.Model): keras model object
     """
-    # Load the pretrained VGG16 model excluding the top classification layer
+    #Load the pretrained VGG16 model excluding the top classification layer
     base_model = tf.keras.applications.VGG16(include_top=False, weights='imagenet', input_shape=input_shape)
     base_model.trainable = False
 
     assert n_blocks > 0, 'Number of blocks has to be at least 1.'
 
     inputs = tf.keras.Input(input_shape)
-    out = vgg_block(inputs,base_filters,kernel_size=(3,3))
+    out = vgg_block(inputs, base_filters, kernel_size=(3,3))
     #for i in range(1, n_blocks):
        # out = vgg_block(out, base_filters * 2 ** (i), kernel_size=(3,3))
     out = tf.keras.layers.GlobalAveragePooling2D()(out)
@@ -34,4 +34,41 @@ def vgg_like(input_shape, n_classes, base_filters, n_blocks, dense_units, dropou
     out = tf.keras.layers.Dropout(dropout_rate)(out)
     outputs = tf.keras.layers.Dense(n_classes-1, activation = tf.sigmoid)(out)
 
+    # base_model = MobileNet(weights='imagenet', include_top=False, input_shape=(256, 256, 3))
+    # base_model.trainable = False
+    #
+    # assert n_blocks > 0, 'Number of blocks has to be at least 1.'
+    # inputs = tf.keras.Input(input_shape)
+    # out = mobilenet_block(inputs, base_filters, strides = 1)
+    # for i in range(1, n_blocks):
+    #     out = mobilenet_block(out, base_filters, strides = 1)
+    # out = tf.keras.layers.GlobalAveragePooling2D()(out)
+    # out = tf.keras.layers.Dense(dense_units, activation=tf.nn.relu)(out)
+    # out = tf.keras.layers.Dropout(dropout_rate)(out)
+    # outputs = tf.keras.layers.Dense(n_classes-1, activation = tf.sigmoid)(out)
+
     return tf.keras.Model(inputs=inputs, outputs=outputs, name='vgg_like')
+
+
+@gin.configurable
+def Basic_CNN(input_shape, base_filters, kernel_size, dense_units, dropout_rate, n_classes):
+    """Defines a basic CNN Network as benchmark.
+      in oder to validate the whole training precess
+        """
+    inputs = tf.keras.Input(input_shape)
+    out = tf.keras.layers.Conv2D(base_filters, kernel_size, padding='same', activation=tf.nn.relu)(inputs)
+    out = tf.keras.layers.MaxPool2D((2, 2))(out)
+    out = tf.keras.layers.Conv2D(base_filters * 2, kernel_size, padding='same', activation=tf.nn.relu)(out)
+    out = tf.keras.layers.BatchNormalization()(out)
+    out = tf.keras.layers.MaxPool2D((2, 2))(out)
+    out = tf.keras.layers.Conv2D(base_filters * 4, kernel_size, padding='same', activation=tf.nn.relu)(out)
+    out = tf.keras.layers.MaxPool2D((2, 2))(out)
+    out = tf.keras.layers.Conv2D(base_filters * 8, kernel_size, padding='same', activation=tf.nn.relu)(out)
+    out = tf.keras.layers.BatchNormalization()(out)
+    out = tf.keras.layers.MaxPool2D((2, 2))(out)
+    out = tf.keras.layers.GlobalAveragePooling2D()(out)
+    out = tf.keras.layers.Dense(dense_units, activation=tf.nn.relu)(out)
+    out = tf.keras.layers.Dropout(dropout_rate)(out)
+    outputs = tf.keras.layers.Dense(n_classes, activation=tf.nn.softmax)(out)
+
+    return tf.keras.Model(inputs=inputs, outputs=outputs, name='Basic_CNN')
