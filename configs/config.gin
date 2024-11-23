@@ -4,19 +4,25 @@ vgg_like.n_blocks = 3
 vgg_like.dense_units = 32
 vgg_like.dropout_rate = 0.5
 
+mobilenet_like.base_filters = 128
+mobilenet_like.n_blocks = 5
+mobilenet_like.dense_units = 32
+mobilenet_like.dropout_rate = 0.5
+
 # Layers
 vgg_block.kernel_size = (3, 3)
+mobilenet_block.strides = 1
 
 # Training
-Trainer.total_steps = 370
-Trainer.log_interval = 37
-Trainer.ckpt_interval = 37
+Trainer.total_steps = 3700
+Trainer.log_interval = 370
+Trainer.ckpt_interval = 370
 Trainer.learning_rate = 1e-4
 
 # Input pipeline
 load.name = 'idrid'
-load.data_dir = r"F:\IDRID_dataset\images_augmented\train"
-load.test_data_dir = r"F:\IDRID_dataset\images_revized\test\binary"
+load.data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\train"
+load.test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
 load.batch_size = 16
 preprocess.img_height = 256
 preprocess.img_width = 256

@@ -1,7 +1,5 @@
 import tensorflow as tf
 
-
-
 class ConfusionMatrix(tf.keras.metrics.Metric):
     def __init__(self, num_classes=2, name="confusion_matrix", **kwargs):
         super(ConfusionMatrix, self).__init__(name=name, **kwargs)

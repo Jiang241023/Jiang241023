@@ -1,0 +1,839 @@
+I1122 20:39:46.233369 25732 datasets.py:14] Preparing dataset idrid...
+Found 588 files belonging to 2 classes.
+Found 103 files belonging to 2 classes.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1122 20:39:46.671581 25732 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:46.680749 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:46.689353 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1122 20:39:46.695472 25732 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1122 20:39:46.771330 25732 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1122 20:39:46.804237 25732 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:46.812888 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:46.821149 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1122 20:39:46.828060 25732 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1122 20:39:46.844440 25732 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:46.852488 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:46.861128 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1122 20:39:46.868252 25732 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1122 20:39:46.922790 25732 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1122 20:39:46.942669 25732 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:46.951290 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:46.959634 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1122 20:39:46.966458 25732 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1122 20:39:47.017969 25732 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:47.025009 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:47.033499 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+W1122 20:39:47.040269 25732 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+W1122 20:39:47.053197 25732 pfor.py:1082] Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1122 20:39:47.062519 25732 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+W1122 20:39:47.082900 25732 pfor.py:1082] Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1122 20:39:47.132299 25732 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:47.141248 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:47.151597 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1122 20:39:47.159663 25732 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1122 20:39:47.236322 25732 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1122 20:39:47.269899 25732 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:47.280616 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:47.291636 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1122 20:39:47.300422 25732 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1122 20:39:47.320121 25732 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:47.329849 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:47.340142 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1122 20:39:47.349029 25732 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1122 20:39:47.407994 25732 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1122 20:39:47.428665 25732 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:47.437958 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:47.447512 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1122 20:39:47.456054 25732 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1122 20:39:47.511988 25732 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:47.521945 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1122 20:39:47.531988 25732 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+W1122 20:39:47.541005 25732 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+W1122 20:39:47.556582 25732 pfor.py:1082] Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1122 20:39:47.566806 25732 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+W1122 20:39:47.589817 25732 pfor.py:1082] Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+WARNING:tensorflow:`input_shape` is undefined or non-square, or `rows` is not in [128, 160, 192, 224]. Weights for input shape (224, 224) will be loaded as the default.
+W1122 20:39:48.204532 25732 mobilenet.py:241] `input_shape` is undefined or non-square, or `rows` is not in [128, 160, 192, 224]. Weights for input shape (224, 224) will be loaded as the default.
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 0: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 0: Predictions shape: (1, 1)
+Batch 0: Sum of predictions: 0
+Batch 0: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 1: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 1: Predictions shape: (1, 1)
+Batch 1: Sum of predictions: 0
+Batch 1: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 2: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 2: Predictions shape: (1, 1)
+Batch 2: Sum of predictions: 0
+Batch 2: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 3: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 3: Predictions shape: (1, 1)
+Batch 3: Sum of predictions: 0
+Batch 3: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 4: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 4: Predictions shape: (1, 1)
+Batch 4: Sum of predictions: 0
+Batch 4: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 5: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 5: Predictions shape: (1, 1)
+Batch 5: Sum of predictions: 0
+Batch 5: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 6: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 6: Predictions shape: (1, 1)
+Batch 6: Sum of predictions: 0
+Batch 6: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 7: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 7: Predictions shape: (1, 1)
+Batch 7: Sum of predictions: 0
+Batch 7: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 8: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 8: Predictions shape: (1, 1)
+Batch 8: Sum of predictions: 0
+Batch 8: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 9: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 9: Predictions shape: (1, 1)
+Batch 9: Sum of predictions: 0
+Batch 9: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 10: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 10: Predictions shape: (1, 1)
+Batch 10: Sum of predictions: 0
+Batch 10: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 11: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 11: Predictions shape: (1, 1)
+Batch 11: Sum of predictions: 0
+Batch 11: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 12: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 12: Predictions shape: (1, 1)
+Batch 12: Sum of predictions: 0
+Batch 12: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 13: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 13: Predictions shape: (1, 1)
+Batch 13: Sum of predictions: 0
+Batch 13: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 14: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 14: Predictions shape: (1, 1)
+Batch 14: Sum of predictions: 0
+Batch 14: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 15: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 15: Predictions shape: (1, 1)
+Batch 15: Sum of predictions: 0
+Batch 15: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 16: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 16: Predictions shape: (1, 1)
+Batch 16: Sum of predictions: 0
+Batch 16: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 17: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 17: Predictions shape: (1, 1)
+Batch 17: Sum of predictions: 0
+Batch 17: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 18: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 18: Predictions shape: (1, 1)
+Batch 18: Sum of predictions: 0
+Batch 18: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 19: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 19: Predictions shape: (1, 1)
+Batch 19: Sum of predictions: 0
+Batch 19: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 20: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 20: Predictions shape: (1, 1)
+Batch 20: Sum of predictions: 0
+Batch 20: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 21: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 21: Predictions shape: (1, 1)
+Batch 21: Sum of predictions: 0
+Batch 21: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 22: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 22: Predictions shape: (1, 1)
+Batch 22: Sum of predictions: 0
+Batch 22: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 23: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 23: Predictions shape: (1, 1)
+Batch 23: Sum of predictions: 0
+Batch 23: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 24: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 24: Predictions shape: (1, 1)
+Batch 24: Sum of predictions: 0
+Batch 24: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 25: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 25: Predictions shape: (1, 1)
+Batch 25: Sum of predictions: 0
+Batch 25: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 26: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 26: Predictions shape: (1, 1)
+Batch 26: Sum of predictions: 0
+Batch 26: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 27: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 27: Predictions shape: (1, 1)
+Batch 27: Sum of predictions: 0
+Batch 27: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 28: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 28: Predictions shape: (1, 1)
+Batch 28: Sum of predictions: 0
+Batch 28: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 29: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 29: Predictions shape: (1, 1)
+Batch 29: Sum of predictions: 0
+Batch 29: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 30: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 30: Predictions shape: (1, 1)
+Batch 30: Sum of predictions: 0
+Batch 30: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 31: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 31: Predictions shape: (1, 1)
+Batch 31: Sum of predictions: 0
+Batch 31: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 32: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 32: Predictions shape: (1, 1)
+Batch 32: Sum of predictions: 0
+Batch 32: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 33: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 33: Predictions shape: (1, 1)
+Batch 33: Sum of predictions: 0
+Batch 33: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 34: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 34: Predictions shape: (1, 1)
+Batch 34: Sum of predictions: 0
+Batch 34: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 35: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 35: Predictions shape: (1, 1)
+Batch 35: Sum of predictions: 0
+Batch 35: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 36: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 36: Predictions shape: (1, 1)
+Batch 36: Sum of predictions: 0
+Batch 36: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 37: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 37: Predictions shape: (1, 1)
+Batch 37: Sum of predictions: 0
+Batch 37: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 38: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 38: Predictions shape: (1, 1)
+Batch 38: Sum of predictions: 0
+Batch 38: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 39: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 39: Predictions shape: (1, 1)
+Batch 39: Sum of predictions: 0
+Batch 39: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 40: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 40: Predictions shape: (1, 1)
+Batch 40: Sum of predictions: 0
+Batch 40: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 41: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 41: Predictions shape: (1, 1)
+Batch 41: Sum of predictions: 0
+Batch 41: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 42: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 42: Predictions shape: (1, 1)
+Batch 42: Sum of predictions: 0
+Batch 42: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 43: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 43: Predictions shape: (1, 1)
+Batch 43: Sum of predictions: 0
+Batch 43: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 44: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 44: Predictions shape: (1, 1)
+Batch 44: Sum of predictions: 0
+Batch 44: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 45: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 45: Predictions shape: (1, 1)
+Batch 45: Sum of predictions: 0
+Batch 45: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 46: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 46: Predictions shape: (1, 1)
+Batch 46: Sum of predictions: 0
+Batch 46: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 47: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 47: Predictions shape: (1, 1)
+Batch 47: Sum of predictions: 0
+Batch 47: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 48: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 48: Predictions shape: (1, 1)
+Batch 48: Sum of predictions: 0
+Batch 48: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 49: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 49: Predictions shape: (1, 1)
+Batch 49: Sum of predictions: 0
+Batch 49: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 50: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 50: Predictions shape: (1, 1)
+Batch 50: Sum of predictions: 0
+Batch 50: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 51: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 51: Predictions shape: (1, 1)
+Batch 51: Sum of predictions: 0
+Batch 51: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 52: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 52: Predictions shape: (1, 1)
+Batch 52: Sum of predictions: 0
+Batch 52: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 53: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 53: Predictions shape: (1, 1)
+Batch 53: Sum of predictions: 0
+Batch 53: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 54: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 54: Predictions shape: (1, 1)
+Batch 54: Sum of predictions: 0
+Batch 54: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 55: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 55: Predictions shape: (1, 1)
+Batch 55: Sum of predictions: 0
+Batch 55: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 56: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 56: Predictions shape: (1, 1)
+Batch 56: Sum of predictions: 0
+Batch 56: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 57: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 57: Predictions shape: (1, 1)
+Batch 57: Sum of predictions: 0
+Batch 57: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 58: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 58: Predictions shape: (1, 1)
+Batch 58: Sum of predictions: 0
+Batch 58: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 59: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 59: Predictions shape: (1, 1)
+Batch 59: Sum of predictions: 0
+Batch 59: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 60: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 60: Predictions shape: (1, 1)
+Batch 60: Sum of predictions: 0
+Batch 60: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 61: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 61: Predictions shape: (1, 1)
+Batch 61: Sum of predictions: 0
+Batch 61: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 62: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 62: Predictions shape: (1, 1)
+Batch 62: Sum of predictions: 0
+Batch 62: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 63: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 63: Predictions shape: (1, 1)
+Batch 63: Sum of predictions: 0
+Batch 63: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 64: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 64: Predictions shape: (1, 1)
+Batch 64: Sum of predictions: 0
+Batch 64: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 65: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 65: Predictions shape: (1, 1)
+Batch 65: Sum of predictions: 0
+Batch 65: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 66: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 66: Predictions shape: (1, 1)
+Batch 66: Sum of predictions: 0
+Batch 66: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 67: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 67: Predictions shape: (1, 1)
+Batch 67: Sum of predictions: 0
+Batch 67: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 68: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 68: Predictions shape: (1, 1)
+Batch 68: Sum of predictions: 0
+Batch 68: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 69: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 69: Predictions shape: (1, 1)
+Batch 69: Sum of predictions: 0
+Batch 69: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 70: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 70: Predictions shape: (1, 1)
+Batch 70: Sum of predictions: 0
+Batch 70: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 71: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 71: Predictions shape: (1, 1)
+Batch 71: Sum of predictions: 0
+Batch 71: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 72: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 72: Predictions shape: (1, 1)
+Batch 72: Sum of predictions: 0
+Batch 72: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 73: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 73: Predictions shape: (1, 1)
+Batch 73: Sum of predictions: 0
+Batch 73: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 74: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 74: Predictions shape: (1, 1)
+Batch 74: Sum of predictions: 0
+Batch 74: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 75: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 75: Predictions shape: (1, 1)
+Batch 75: Sum of predictions: 0
+Batch 75: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 76: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 76: Predictions shape: (1, 1)
+Batch 76: Sum of predictions: 0
+Batch 76: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 77: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 77: Predictions shape: (1, 1)
+Batch 77: Sum of predictions: 0
+Batch 77: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 78: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 78: Predictions shape: (1, 1)
+Batch 78: Sum of predictions: 0
+Batch 78: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 79: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 79: Predictions shape: (1, 1)
+Batch 79: Sum of predictions: 0
+Batch 79: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 80: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 80: Predictions shape: (1, 1)
+Batch 80: Sum of predictions: 0
+Batch 80: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 81: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 81: Predictions shape: (1, 1)
+Batch 81: Sum of predictions: 0
+Batch 81: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 82: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 82: Predictions shape: (1, 1)
+Batch 82: Sum of predictions: 0
+Batch 82: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 83: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 83: Predictions shape: (1, 1)
+Batch 83: Sum of predictions: 0
+Batch 83: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 84: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 84: Predictions shape: (1, 1)
+Batch 84: Sum of predictions: 0
+Batch 84: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 85: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 85: Predictions shape: (1, 1)
+Batch 85: Sum of predictions: 0
+Batch 85: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 86: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 86: Predictions shape: (1, 1)
+Batch 86: Sum of predictions: 0
+Batch 86: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 87: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 87: Predictions shape: (1, 1)
+Batch 87: Sum of predictions: 0
+Batch 87: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 88: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 88: Predictions shape: (1, 1)
+Batch 88: Sum of predictions: 0
+Batch 88: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 89: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 89: Predictions shape: (1, 1)
+Batch 89: Sum of predictions: 0
+Batch 89: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 90: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 90: Predictions shape: (1, 1)
+Batch 90: Sum of predictions: 0
+Batch 90: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 91: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 91: Predictions shape: (1, 1)
+Batch 91: Sum of predictions: 0
+Batch 91: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 92: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 92: Predictions shape: (1, 1)
+Batch 92: Sum of predictions: 0
+Batch 92: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 93: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 93: Predictions shape: (1, 1)
+Batch 93: Sum of predictions: 0
+Batch 93: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 94: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 94: Predictions shape: (1, 1)
+Batch 94: Sum of predictions: 0
+Batch 94: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 95: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 95: Predictions shape: (1, 1)
+Batch 95: Sum of predictions: 0
+Batch 95: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 96: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 96: Predictions shape: (1, 1)
+Batch 96: Sum of predictions: 0
+Batch 96: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 97: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 97: Predictions shape: (1, 1)
+Batch 97: Sum of predictions: 0
+Batch 97: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 98: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 98: Predictions shape: (1, 1)
+Batch 98: Sum of predictions: 0
+Batch 98: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 99: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 99: Predictions shape: (1, 1)
+Batch 99: Sum of predictions: 0
+Batch 99: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 100: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 100: Predictions shape: (1, 1)
+Batch 100: Sum of predictions: 0
+Batch 100: Sum of labels: 1
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 101: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 101: Predictions shape: (1, 1)
+Batch 101: Sum of predictions: 0
+Batch 101: Sum of labels: 0
+Total test samples in dataset: 103
+test Images shape: (1, 256, 256, 3)
+test Labels shape: (1,)
+Batch 102: Images shape: (1, 256, 256, 3), Labels shape: (1,)
+Batch 102: Predictions shape: (1, 1)
+Batch 102: Sum of predictions: 0
+Batch 102: Sum of labels: 1
+Total samples accounted for: 103
+I1122 20:39:52.033284 25732 eval.py:74] Accuracy: 37.86%
+I1122 20:39:52.033284 25732 eval.py:75] Confusion Matrix: TP=0, FP=0, TN=39, FN=64
+I1122 20:39:52.033284 25732 eval.py:76] Sensitivity (Recall): 0.00%
+I1122 20:39:52.033284 25732 eval.py:77] Specificity: 100.00%
+I1122 20:39:52.033284 25732 eval.py:78] Precision: 0.00%
+I1122 20:39:52.033284 25732 eval.py:79] F1-Score: 0.00%
+Accuracy is: 37.86%
+Sensitivity (Recall): 0.00%
+Specificity: 100.00%
+Precision: 0.00%
+F1-Score: 0.00%
+Confusion Matrix: TP=0, FP=0, TN=39, FN=64

@@ -1,0 +1,261 @@
+I1123 19:34:47.919780 13944 datasets.py:23] Preparing dataset idrid...
+Found 588 files belonging to 2 classes.
+Found 103 files belonging to 2 classes.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 19:34:48.343683 13944 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:48.352562 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:48.361346 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 19:34:48.368423 13944 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1123 19:34:48.441669 13944 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 19:34:48.476077 13944 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:48.484211 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:48.492880 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 19:34:48.499174 13944 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 19:34:48.515207 13944 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:48.523771 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:48.531887 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 19:34:48.539959 13944 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1123 19:34:48.593458 13944 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 19:34:48.614175 13944 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:48.622681 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:48.631111 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 19:34:48.637146 13944 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 19:34:48.688063 13944 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:48.695614 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:48.704590 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+W1123 19:34:48.711732 13944 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+W1123 19:34:48.722996 13944 pfor.py:1082] Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 19:34:48.732167 13944 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+W1123 19:34:48.753756 13944 pfor.py:1082] Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 19:34:48.803200 13944 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:48.812574 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:48.822523 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 19:34:48.830470 13944 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1123 19:34:48.907865 13944 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 19:34:49.054153 13944 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:49.063074 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:49.072629 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 19:34:49.080456 13944 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 19:34:49.098366 13944 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:49.107316 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:49.117240 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 19:34:49.126098 13944 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1123 19:34:49.182296 13944 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 19:34:49.204815 13944 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:49.214234 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:49.224067 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 19:34:49.232208 13944 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1123 19:34:49.286499 13944 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:49.295315 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1123 19:34:49.305077 13944 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+W1123 19:34:49.313652 13944 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+W1123 19:34:49.328143 13944 pfor.py:1082] Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1123 19:34:49.338645 13944 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+W1123 19:34:49.363165 13944 pfor.py:1082] Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+Number of batches in validation dataset: 7
+Validation batch shape: (16, 256, 256, 3), Label shape: (16,)
+I1123 19:34:55.338697 13944 train.py:84] Step 370, Loss: 0.6955811381340027, Accuracy: 49.746620178222656, Test Loss: 0.6879459023475647, Test Accuracy: 60.71428680419922
+I1123 19:34:55.340831 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:34:57.120598 13944 train.py:84] Step 740, Loss: 0.690422773361206, Accuracy: 52.31419372558594, Test Loss: 0.6850045919418335, Test Accuracy: 55.357139587402344
+I1123 19:34:57.123138 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:34:58.897974 13944 train.py:84] Step 1110, Loss: 0.6872161626815796, Accuracy: 55.067569732666016, Test Loss: 0.6792203187942505, Test Accuracy: 66.96428680419922
+I1123 19:34:58.900462 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:00.674981 13944 train.py:84] Step 1480, Loss: 0.6830525994300842, Accuracy: 56.7398681640625, Test Loss: 0.6744033694267273, Test Accuracy: 66.96428680419922
+I1123 19:35:00.677007 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:02.450900 13944 train.py:84] Step 1850, Loss: 0.6785704493522644, Accuracy: 59.18918991088867, Test Loss: 0.6683226823806763, Test Accuracy: 66.96428680419922
+I1123 19:35:02.452999 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:04.225206 13944 train.py:84] Step 2220, Loss: 0.6760897040367126, Accuracy: 60.03378677368164, Test Loss: 0.661838173866272, Test Accuracy: 66.96428680419922
+I1123 19:35:04.227231 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:06.000130 13944 train.py:84] Step 2590, Loss: 0.6731001734733582, Accuracy: 60.59121322631836, Test Loss: 0.6559430360794067, Test Accuracy: 69.64286041259766
+I1123 19:35:06.002557 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:07.778142 13944 train.py:84] Step 2960, Loss: 0.6678274869918823, Accuracy: 61.55405807495117, Test Loss: 0.6474617123603821, Test Accuracy: 69.64286041259766
+I1123 19:35:07.780185 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:09.555060 13944 train.py:84] Step 3330, Loss: 0.6623221635818481, Accuracy: 62.31418991088867, Test Loss: 0.6394093632698059, Test Accuracy: 68.75
+I1123 19:35:09.557148 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:11.331924 13944 train.py:84] Step 3700, Loss: 0.6609968543052673, Accuracy: 62.60135269165039, Test Loss: 0.6372694373130798, Test Accuracy: 68.75
+I1123 19:35:11.334083 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:13.108881 13944 train.py:84] Step 4070, Loss: 0.6577643752098083, Accuracy: 63.46283721923828, Test Loss: 0.6310243606567383, Test Accuracy: 70.53571319580078
+I1123 19:35:13.110925 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:14.885195 13944 train.py:84] Step 4440, Loss: 0.6569613218307495, Accuracy: 62.83783721923828, Test Loss: 0.6252656579017639, Test Accuracy: 66.96428680419922
+I1123 19:35:14.887274 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:16.673433 13944 train.py:84] Step 4810, Loss: 0.6520662307739258, Accuracy: 64.25675964355469, Test Loss: 0.6205671429634094, Test Accuracy: 67.85713958740234
+I1123 19:35:16.675589 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:18.489706 13944 train.py:84] Step 5180, Loss: 0.6506896018981934, Accuracy: 64.17229461669922, Test Loss: 0.6194677352905273, Test Accuracy: 67.85713958740234
+I1123 19:35:18.491442 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:20.297413 13944 train.py:84] Step 5550, Loss: 0.650355875492096, Accuracy: 64.40878295898438, Test Loss: 0.6188270449638367, Test Accuracy: 69.64286041259766
+I1123 19:35:20.299570 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:22.096312 13944 train.py:84] Step 5920, Loss: 0.6482945680618286, Accuracy: 65.3040542602539, Test Loss: 0.6167486310005188, Test Accuracy: 68.75
+I1123 19:35:22.098725 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:23.877895 13944 train.py:84] Step 6290, Loss: 0.6454912424087524, Accuracy: 65.01689147949219, Test Loss: 0.613658607006073, Test Accuracy: 68.75
+I1123 19:35:23.880167 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:25.659577 13944 train.py:84] Step 6660, Loss: 0.6447988748550415, Accuracy: 65.4560775756836, Test Loss: 0.6119416356086731, Test Accuracy: 67.85713958740234
+I1123 19:35:25.661593 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:27.439040 13944 train.py:84] Step 7030, Loss: 0.6395414471626282, Accuracy: 65.47296905517578, Test Loss: 0.6082501411437988, Test Accuracy: 68.75
+I1123 19:35:27.441124 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:29.218933 13944 train.py:84] Step 7400, Loss: 0.6384188532829285, Accuracy: 66.1148681640625, Test Loss: 0.6059690117835999, Test Accuracy: 68.75
+I1123 19:35:29.221301 13944 train.py:106] Saving checkpoint to F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T19-34-47-367070\ckpts.
+I1123 19:35:29.221644 13944 train.py:112] Finished training after 7400 steps.
+Raw predictions for batch 0: [[0.5820056]]
+Raw predictions for batch 1: [[0.62304085]]
+Raw predictions for batch 2: [[0.6062816]]
+Raw predictions for batch 3: [[0.35202307]]
+Raw predictions for batch 4: [[0.587248]]
+Raw predictions for batch 5: [[0.6046092]]
+Raw predictions for batch 6: [[0.62875247]]
+Raw predictions for batch 7: [[0.72429305]]
+Raw predictions for batch 8: [[0.39422432]]
+Raw predictions for batch 9: [[0.60266614]]
+Raw predictions for batch 10: [[0.48092267]]
+Raw predictions for batch 11: [[0.35933837]]
+Raw predictions for batch 12: [[0.5883761]]
+Raw predictions for batch 13: [[0.5913995]]
+Raw predictions for batch 14: [[0.37040767]]
+Raw predictions for batch 15: [[0.54634535]]
+Raw predictions for batch 16: [[0.61114794]]
+Raw predictions for batch 17: [[0.5052418]]
+Raw predictions for batch 18: [[0.36963475]]
+Raw predictions for batch 19: [[0.60592353]]
+Raw predictions for batch 20: [[0.3290333]]
+Raw predictions for batch 21: [[0.6579134]]
+Raw predictions for batch 22: [[0.32096672]]
+Raw predictions for batch 23: [[0.6905572]]
+Raw predictions for batch 24: [[0.527097]]
+Raw predictions for batch 25: [[0.70354486]]
+Raw predictions for batch 26: [[0.51403046]]
+Raw predictions for batch 27: [[0.6502382]]
+Raw predictions for batch 28: [[0.3306811]]
+Raw predictions for batch 29: [[0.34502578]]
+Raw predictions for batch 30: [[0.57810605]]
+Raw predictions for batch 31: [[0.5823693]]
+Raw predictions for batch 32: [[0.65083164]]
+Raw predictions for batch 33: [[0.6421232]]
+Raw predictions for batch 34: [[0.6169559]]
+Raw predictions for batch 35: [[0.32203457]]
+Raw predictions for batch 36: [[0.34860045]]
+Raw predictions for batch 37: [[0.3685488]]
+Raw predictions for batch 38: [[0.6865919]]
+Raw predictions for batch 39: [[0.63900125]]
+Raw predictions for batch 40: [[0.5978484]]
+Raw predictions for batch 41: [[0.47222474]]
+Raw predictions for batch 42: [[0.46213466]]
+Raw predictions for batch 43: [[0.6642967]]
+Raw predictions for batch 44: [[0.44540736]]
+Raw predictions for batch 45: [[0.34824702]]
+Raw predictions for batch 46: [[0.5763281]]
+Raw predictions for batch 47: [[0.5907658]]
+Raw predictions for batch 48: [[0.57791066]]
+Raw predictions for batch 49: [[0.6742807]]
+Raw predictions for batch 50: [[0.7109208]]
+Raw predictions for batch 51: [[0.34576952]]
+Raw predictions for batch 52: [[0.5926561]]
+Raw predictions for batch 53: [[0.6036284]]
+Raw predictions for batch 54: [[0.6686603]]
+Raw predictions for batch 55: [[0.56701523]]
+Raw predictions for batch 56: [[0.72225124]]
+Raw predictions for batch 57: [[0.59339225]]
+Raw predictions for batch 58: [[0.37722456]]
+Raw predictions for batch 59: [[0.5901516]]
+Raw predictions for batch 60: [[0.5816641]]
+Raw predictions for batch 61: [[0.6250639]]
+Raw predictions for batch 62: [[0.63100785]]
+Raw predictions for batch 63: [[0.51426685]]
+Raw predictions for batch 64: [[0.33513716]]
+Raw predictions for batch 65: [[0.7437705]]
+Raw predictions for batch 66: [[0.54710007]]
+Raw predictions for batch 67: [[0.49802148]]
+Raw predictions for batch 68: [[0.6455166]]
+Raw predictions for batch 69: [[0.5975441]]
+Raw predictions for batch 70: [[0.61585486]]
+Raw predictions for batch 71: [[0.6121354]]
+Raw predictions for batch 72: [[0.5302955]]
+Raw predictions for batch 73: [[0.65283346]]
+Raw predictions for batch 74: [[0.61936045]]
+Raw predictions for batch 75: [[0.6158221]]
+Raw predictions for batch 76: [[0.5583041]]
+Raw predictions for batch 77: [[0.46094465]]
+Raw predictions for batch 78: [[0.34662035]]
+Raw predictions for batch 79: [[0.58862305]]
+Raw predictions for batch 80: [[0.37719217]]
+Raw predictions for batch 81: [[0.47751212]]
+Raw predictions for batch 82: [[0.63249]]
+Raw predictions for batch 83: [[0.690631]]
+Raw predictions for batch 84: [[0.6211189]]
+Raw predictions for batch 85: [[0.3517046]]
+Raw predictions for batch 86: [[0.649262]]
+Raw predictions for batch 87: [[0.6155347]]
+Raw predictions for batch 88: [[0.6075265]]
+Raw predictions for batch 89: [[0.42204472]]
+Raw predictions for batch 90: [[0.6416916]]
+Raw predictions for batch 91: [[0.33382872]]
+Raw predictions for batch 92: [[0.63468504]]
+Raw predictions for batch 93: [[0.61153126]]
+Raw predictions for batch 94: [[0.4410215]]
+Raw predictions for batch 95: [[0.57645804]]
+Raw predictions for batch 96: [[0.6170308]]
+Raw predictions for batch 97: [[0.6685762]]
+Raw predictions for batch 98: [[0.36024484]]
+Raw predictions for batch 99: [[0.6094574]]
+Raw predictions for batch 100: [[0.59604925]]
+Raw predictions for batch 101: [[0.36798567]]
+Raw predictions for batch 102: [[0.38207313]]
+I1123 19:35:31.413001 13944 eval.py:75] Accuracy: 60.19%
+I1123 19:35:31.414178 13944 eval.py:76] Confusion Matrix: TP=47, FP=24, TN=15, FN=17
+I1123 19:35:31.414178 13944 eval.py:77] Sensitivity (Recall): 73.44%
+I1123 19:35:31.414178 13944 eval.py:78] Specificity: 38.46%
+I1123 19:35:31.414178 13944 eval.py:79] Precision: 66.20%
+I1123 19:35:31.414178 13944 eval.py:80] F1-Score: 69.63%
+Accuracy is: 60.19%
+Sensitivity (Recall): 73.44%
+Specificity: 38.46%
+Precision: 66.20%
+F1-Score: 69.63%
+Confusion Matrix: TP=47, FP=24, TN=15, FN=17
