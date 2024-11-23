@@ -1,16 +1,15 @@
 import tensorflow as tf
 import logging
-import keras
-from keras import layers
+
 
 batch_size = 16
 
-data_augmentation = keras.Sequential([
-    keras.layers.RandomRotation(factor=0.03),  # Approximately ±10 degrees,
-    keras.layers.RandomZoom(height_factor=0.1, width_factor=0.1),  # small zoom
-    keras.layers.RandomBrightness(0.1),
-    keras.layers.RandomContrast(0.1),
-    keras.layers.RandomFlip("horizontal_and_vertical")
+data_augmentation = tf.keras.Sequential([
+    tf.keras.layers.RandomRotation(factor=0.03),  # Approximately ±10 degrees,
+    tf.keras.layers.RandomZoom(height_factor=0.1, width_factor=0.1),  # small zoom
+    tf.keras.layers.RandomBrightness(0.1),
+    tf.keras.layers.RandomContrast(0.1),
+    tf.keras.layers.RandomFlip("horizontal_and_vertical")
 ])
 
 
@@ -36,7 +35,7 @@ def load(name, data_dir, batch_size=batch_size, caching=True):
         logging.info(f"Preparing dataset {name}...")
 
         # Load dataset from directory structure, where each subdirectory represents a class,return an object, which is an iterable tuples (image, label)
-        full_ds = keras.preprocessing.image_dataset_from_directory(
+        full_ds = tf.keras.preprocessing.image_dataset_from_directory(
             data_dir,
             batch_size=batch_size,
             label_mode='int'  # use 'int' for integer label , for classification
@@ -99,7 +98,7 @@ ds_train, ds_val, _, _ = load("idrid", data_dir)
 
 
 # Load the pretrained Model VGG16
-base_model = keras.applications.VGG16(
+base_model = tf.keras.applications.VGG16(
     input_shape=(256, 256, 3),
     include_top=False,
     weights="imagenet"
@@ -109,17 +108,17 @@ base_model = keras.applications.VGG16(
 base_model.trainable = False
 
 # Build the model
-model = keras.Sequential([
+model = tf.keras.Sequential([
     base_model,
-    layers.GlobalAveragePooling2D(),
-    layers.Dense(1024),  # Dense layer without activation
-    layers.LeakyReLU(negative_slope = 0.01),  # LeakyReLU with a small negative slope
-    layers.Dropout(0.5),
-    layers.Dense(1, activation='sigmoid')
+    tf.keras.layers.GlobalAveragePooling2D(),
+    tf.keras.layers.Dense(1024),  # Dense layer without activation
+    tf.keras.layers.LeakyReLU(negative_slope = 0.01),  # LeakyReLU with a small negative slope
+    tf.keras.layers.Dropout(0.5),
+    tf.keras.layers.Dense(1, activation='sigmoid')
 ])
 
 model.compile(
-    optimizer = keras.optimizers.Adam(learning_rate=1e-3),
+    optimizer = tf.keras.optimizers.Adam(learning_rate=1e-3),
     loss='binary_crossentropy',
     metrics=['accuracy']
 )
@@ -129,5 +128,4 @@ small_ds = ds_train.take(10)
 # Train the model
 
 history = model.fit(small_ds, validation_data=ds_val, epochs=40, verbose=1)
-
 

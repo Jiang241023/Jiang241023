@@ -50,6 +50,8 @@ def load(name, batch_size, data_dir, test_data_dir, caching=True):
         ds_train = ds_train.batch(batch_size = batch_size, drop_remainder=True)
         ds_val = ds_val.batch(batch_size = batch_size, drop_remainder=True)
 
+
+
         ds_test= None
         if test_data_dir:
             ds_test = tf.keras.preprocessing.image_dataset_from_directory(
@@ -96,7 +98,7 @@ def load(name, batch_size, data_dir, test_data_dir, caching=True):
 
 
 @gin.configurable
-def prepare(ds_train, ds_val, batch_size, ds_test=None, ds_info=None, caching=True):
+def prepare(ds_train, ds_val, batch_size, ds_test = None, ds_info=None, caching=True):
     """Prepare datasets with preprocessing, augmentation, batching, caching, and prefetching"""
     # Prepare training dataset
     ds_train = ds_train.map(augment, num_parallel_calls=tf.data.AUTOTUNE)
