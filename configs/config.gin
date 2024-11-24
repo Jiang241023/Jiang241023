@@ -4,23 +4,17 @@ vgg_like.n_blocks = 3
 vgg_like.dense_units = 32
 vgg_like.dropout_rate = 0.5
 
-#mobilenet_like.base_filters = 128
-#mobilenet_like.n_blocks = 5
-#mobilenet_like.dense_units = 32
-#mobilenet_like.dropout_rate = 0.5
-
-Basic_CNN.base_filters = 8
-Basic_CNN.dense_units = 32
-Basic_CNN.dropout_rate = 0.5
-Basic_CNN.kernel_size = (3, 3)
-
+mobilenet_like.base_filters = 128
+mobilenet_like.n_blocks = 5
+mobilenet_like.dense_units = 32
+mobilenet_like.dropout_rate = 0.5
 
 # Layers
 vgg_block.kernel_size = (3, 3)
 mobilenet_block.strides = 1
 
 # Training
-Trainer.total_steps = 7400
+Trainer.total_steps = 3700
 Trainer.log_interval = 370
 Trainer.ckpt_interval = 370
 Trainer.learning_rate = 1e-4

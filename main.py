@@ -6,14 +6,9 @@ from train import Trainer
 from evaluation.eval import evaluate
 from input_pipeline import datasets
 from utils import utils_params, utils_misc
-from models.architectures import vgg_like
-import numpy as np
-import random
+from models.architectures import mobilenet_like, vgg_like
 import tensorflow as tf
 
-tf.random.set_seed(42)
-np.random.seed(42)
-random.seed(42)
 
 FLAGS = flags.FLAGS
 flags.DEFINE_boolean('train', False, 'Specify whether to train or evaluate a model.')
@@ -40,9 +35,8 @@ def main(argv):
     #     print(f"Images: {images.numpy()}")  # Check image tensor values
     #     print(f"Labels: {labels.numpy()}")
 
-        # model
-    model = vgg_like(input_shape=ds_info["features"]["image"]["shape"], n_classes=ds_info["features"]["label"]["num_classes"])
-    # 打印模型结构
+     # model
+    model = mobilenet_like(input_shape=ds_info["features"]["image"]["shape"], n_classes=ds_info["features"]["label"]["num_classes"])
     model.summary()
 
     if FLAGS.train:
@@ -52,25 +46,18 @@ def main(argv):
             continue
 
     else:
-        checkpoint_path = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-23T20-05-36-598001\ckpts'  # 保存检查点的路径
-
-        # 创建 checkpoint 对象
+        checkpoint_path = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-24T09-50-10-824323\ckpts'  # 保存检查点的路径
         checkpoint = tf.train.Checkpoint(model=model)
-
-        # 查找最新的检查点
         latest_checkpoint = tf.train.latest_checkpoint(checkpoint_path)
 
         if latest_checkpoint:
             print(f"Restoring from checkpoint: {latest_checkpoint}")
-            checkpoint.restore(latest_checkpoint).expect_partial()  # 加载检查点
+            checkpoint.restore(latest_checkpoint)
         else:
             print("No checkpoint found. Starting from scratch.")
 
         evaluate(model,
-                 ds_test,
-                 ds_info,
-                 run_paths = None,
-                 checkpoint = None)
+                 ds_test)
 
 
 if __name__ == "__main__":

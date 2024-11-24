@@ -7,3 +7,5 @@
 {"time":"2024-11-22T20:04:39.5977409+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"8j3fr9sa"}}
 {"time":"2024-11-22T20:04:39.8951527+01:00","level":"INFO","msg":"Starting system monitor"}
 {"time":"2024-11-22T20:11:39.8996148+01:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 24052"}
+{"time":"2024-11-24T09:31:07.6342767+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/diabetic-retinopathy-detection/8j3fr9sa/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-24T09:31:09.7027235+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/diabetic-retinopathy-detection/8j3fr9sa/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}

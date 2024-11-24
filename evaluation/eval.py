@@ -1,26 +1,17 @@
 import tensorflow as tf
 from keras.utils.version_utils import training
-from tensorflow.python.layers.core import dropout
-import numpy
 from metrics import ConfusionMatrix
 import logging
 
-def evaluate(model, ds_test, ds_info, run_paths, checkpoint):
+def evaluate(model, ds_test):
 
-    # latest_checkpoint = tf.train.latest_checkpoint(run_paths["path_ckpts_train"])
-    # if latest_checkpoint:
-    #     checkpoint.rstore(latest_checkpoint)
-    #     logging.info(f"Restored from the checkpoint: {latest_checkpoint}")
-    # else:
-    #     logging.info("No checkpoint found.")
-
-    #metrics = ConfusionMatrix()
+    metrics = ConfusionMatrix()
     accuracy_list = []
     tp, fp, fn, tn = 0, 0, 0, 0
 
     for idx, (images, labels) in enumerate(ds_test):
         # Check the total number of test samples
-        test_total_samples = sum(1 for _ in ds_test.unbatch())
+        #test_total_samples = sum(1 for _ in ds_test.unbatch())
        # print(f"Total test samples in dataset: {test_total_samples}")
 
         predictions = model(images, training = False)
@@ -44,12 +35,12 @@ def evaluate(model, ds_test, ds_info, run_paths, checkpoint):
         # print(f"Batch {idx}: Sum of labels: {tf.reduce_sum(labels).numpy()}")
 
         # Update confusion matrix metrics
-        #metrics.update_state(labels, predictions)
+        metrics.update_state(labels, predictions)
         #print(f"true positive for a batch {idx} is {tf.cast((predictions == 1) & (labels == 1), tf.int32)}")
-        tp += tf.reduce_sum(tf.cast((predictions == 1) & (labels == 1), tf.int32)).numpy()
-        fp += tf.reduce_sum(tf.cast((predictions == 1) & (labels == 0), tf.int32)).numpy()
-        tn += tf.reduce_sum(tf.cast((predictions == 0) & (labels == 0), tf.int32)).numpy()
-        fn += tf.reduce_sum(tf.cast((predictions == 0) & (labels == 1), tf.int32)).numpy()
+        # tp += tf.reduce_sum(tf.cast((predictions == 1) & (labels == 1), tf.int32)).numpy()
+        # fp += tf.reduce_sum(tf.cast((predictions == 1) & (labels == 0), tf.int32)).numpy()
+        # tn += tf.reduce_sum(tf.cast((predictions == 0) & (labels == 0), tf.int32)).numpy()
+        # fn += tf.reduce_sum(tf.cast((predictions == 0) & (labels == 1), tf.int32)).numpy()
 
     #print(f"Batch {idx}: TP={tp}, FP={fp}, TN={tn}, FN={fn}")
     # Calculate metrics
@@ -57,12 +48,12 @@ def evaluate(model, ds_test, ds_info, run_paths, checkpoint):
     total_samples = tp + fp + tn + fn
     #print(f"Total samples accounted for: {total_samples}")
 
-    # results = metrics.result()
-    #
-    # tp = results["tp"]
-    # fp = results["fp"]
-    # tn = results["tn"]
-    # fn = results["fn"]
+    results = metrics.result()
+
+    tp = results["tp"]
+    fp = results["fp"]
+    tn = results["tn"]
+    fn = results["fn"]
     # update confusion matrix
 
 
