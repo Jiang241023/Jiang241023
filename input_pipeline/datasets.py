@@ -27,6 +27,13 @@ def load(name, batch_size = 16, data_dir = data_dir  , test_data_dir = test_data
             data_dir,
             batch_size=batch_size,
             label_mode='int') # use 'int' for integer label , for classification
+        # for image, label in full_ds.take(1):
+        #     # 转换为 NumPy 格式
+        #     image_np = image.numpy()
+        #     # 设置 NumPy 打印选项
+        #     np.set_printoptions(precision=3, suppress=True, threshold=np.inf)  # precision 控制小数位数，threshold 控制打印所有值
+        #     print(f"Image: {image_np}")
+        #     print(f"label : {label}")
 
         # Calculate the number of examples for shuffle buffer size
         num_examples = sum(1 for _ in full_ds.unbatch())
