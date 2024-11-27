@@ -14,8 +14,36 @@ def vgg_block(inputs, filters, kernel_size):
         (Tensor): output of the VGG block
     """
 
-    out = tf.keras.layers.Conv2D(filters, kernel_size, padding='same', activation=tf.nn.relu , kernel_regularizer=l2(1e-4))(inputs)
-    out = tf.keras.layers.Conv2D(filters, kernel_size, padding='same', activation=tf.nn.relu, kernel_regularizer=l2(1e-4))(out)
+    out = tf.keras.layers.Conv2D(filters, kernel_size, padding='same', activation = 'relu', kernel_regularizer=l2(1e-4))(inputs)
     out = tf.keras.layers.MaxPool2D((2, 2))(out)
+
+    out = tf.keras.layers.Conv2D(filters, kernel_size, padding='same', activation = 'relu', kernel_regularizer=l2(1e-4))(out)
+    out = tf.keras.layers.MaxPool2D((2, 2))(out)
+
+    return out
+
+@gin.configurable
+def mobilenet_block(inputs, filters, strides = 1):
+
+    out = tf.keras.layers.DepthwiseConv2D(
+        kernel_size = (3, 3),
+        strides = strides,
+        padding = 'same',
+        use_bias = False
+     )(inputs)
+
+    out = tf.keras.layers.BatchNormalization()(out)
+    out = tf.keras.layers.ReLU()(out)
+
+    out = tf.keras.layers.Conv2D(
+        filters = filters,
+        kernel_size=  (1, 1),
+        strides = 1,
+        padding = 'same',
+        use_bias=False
+    )(out)
+
+    out = tf.keras.layers.BatchNormalization()(out)
+    out = tf.keras.layers.ReLU()(out)
 
     return out

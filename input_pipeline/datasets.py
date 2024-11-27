@@ -2,14 +2,23 @@ import gin
 from tensorflow.data.experimental import AUTOTUNE
 import tensorflow as tf
 import logging
-
 from preprocessing import preprocess, augment
 import tensorflow_datasets as tfds
 from tensorflow.keras.utils import image_dataset_from_directory
+from PIL import Image
+import matplotlib.pyplot as plt
+import numpy as np
 
 
+#
+data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\train"
+test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
+# print(f"Checking data directory: {data_dir}")
+# for root, dirs, files in os.walk(data_dir):
+#     for file in files:
+#         print(f"Found file: {os.path.join(root, file)}")
 @gin.configurable
-def load(name, batch_size, data_dir, test_data_dir, caching=True):
+def load(name, batch_size = 16, data_dir = data_dir  , test_data_dir = test_data_dir  , caching=True):
     if name == "idrid":
         logging.info(f"Preparing dataset {name}...")
 
@@ -18,6 +27,13 @@ def load(name, batch_size, data_dir, test_data_dir, caching=True):
             data_dir,
             batch_size=batch_size,
             label_mode='int') # use 'int' for integer label , for classification
+        # for image, label in full_ds.take(1):
+        #     # 转换为 NumPy 格式
+        #     image_np = image.numpy()
+        #     # 设置 NumPy 打印选项
+        #     np.set_printoptions(precision=3, suppress=True, threshold=np.inf)  # precision 控制小数位数，threshold 控制打印所有值
+        #     print(f"Image: {image_np}")
+        #     print(f"label : {label}")
 
         # Calculate the number of examples for shuffle buffer size
         num_examples = sum(1 for _ in full_ds.unbatch())
@@ -36,6 +52,8 @@ def load(name, batch_size, data_dir, test_data_dir, caching=True):
                 "label": {"num_classes": num_classes, "dtype": tf.int64}
             }
         }
+        num_batches = int(len(full_ds) * 0.8)
+        print(f"no of batches is {num_batches}")
 
         # Split into training and validation sets
         total_samples = sum(1 for _ in full_ds.unbatch())
@@ -46,9 +64,11 @@ def load(name, batch_size, data_dir, test_data_dir, caching=True):
         ds_train = full_ds.unbatch().take(train_size)
         ds_val = full_ds.unbatch().skip(train_size)
 
+
         # allow the data to be processed in chunks during training and validation
-        ds_train = ds_train.batch(batch_size = batch_size, drop_remainder=True)
-        ds_val = ds_val.batch(batch_size = batch_size, drop_remainder=True)
+        ds_train = ds_train.batch(batch_size = batch_size)
+        ds_val = ds_val.batch(batch_size = batch_size)
+
 
 
 
@@ -59,7 +79,7 @@ def load(name, batch_size, data_dir, test_data_dir, caching=True):
             )
 
         # Prepare and return the training and validation datasets
-        return prepare(ds_train, ds_val, ds_test=ds_test, ds_info=ds_info, batch_size=batch_size, caching=caching)
+        return prepare(ds_train, ds_val, num_batches, ds_test=ds_test, ds_info=ds_info, caching=caching)
 
 
     elif name == "eyepacs":
@@ -73,6 +93,7 @@ def load(name, batch_size, data_dir, test_data_dir, caching=True):
         )
 
         def _preprocess(img_label_dict):
+
             return img_label_dict['image'], img_label_dict['label']
 
         ds_train = ds_train.map(_preprocess, num_parallel_calls=tf.data.experimental.AUTOTUNE)
@@ -98,13 +119,19 @@ def load(name, batch_size, data_dir, test_data_dir, caching=True):
 
 
 @gin.configurable
-def prepare(ds_train, ds_val, batch_size, ds_test = None, ds_info=None, caching=True):
+def prepare(ds_train, ds_val, num_batches, ds_test = None, ds_info=None, caching=True):
+
     """Prepare datasets with preprocessing, augmentation, batching, caching, and prefetching"""
     # Prepare training dataset
     ds_train = ds_train.map(augment, num_parallel_calls=tf.data.AUTOTUNE)
+   # for images, labels in ds_train.take(1):
+    #    print(f"After augment - Images Min: {tf.reduce_min(images).numpy()}, Max: {tf.reduce_max(images).numpy()}")
     ds_train = ds_train.map(preprocess, num_parallel_calls=tf.data.AUTOTUNE)
     if caching:
         ds_train = ds_train.cache()
+  #  for images, labels in ds_train.take(1):
+  #      print(
+ #           f"After preprocess - Images Min: {tf.reduce_min(images).numpy()}, Max: {tf.reduce_max(images).numpy()}")
 
     if ds_info:
        shuffle_buffer_size = ds_info.get("num_examples", 1000) // 10  # Default to 1000 if ds_info not provided
@@ -128,4 +155,28 @@ def prepare(ds_train, ds_val, batch_size, ds_test = None, ds_info=None, caching=
         ds_test = ds_test.prefetch(tf.data.AUTOTUNE)
 
 
-    return ds_train, ds_val, ds_test, ds_info
+    return ds_train, ds_val, ds_test, ds_info , num_batches
+
+
+
+# ds_train, ds_val, ds_test, ds_info = load(name = 'idrid')
+# for images, labels in ds_train.take(4):
+#     # Denormalize if images are normalized (for example, using mean and std)
+#     def denormalize(image):
+#         mean = [0.485, 0.456, 0.406]
+#         std = [0.229, 0.224, 0.225]
+#         return image * std + mean
+#
+#
+#     denormalized_image = denormalize(images[0])
+#     denormalized_image = tf.clip_by_value(denormalized_image, 0, 1)  # Clip to valid range
+#     num_images = 5
+#     # Show the image
+#     plt.figure(figsize=(15,5))
+#     for i in range(num_images):
+#         plt.subplot(1 ,num_images,i + 1)
+#         plt.imshow(denormalized_image[i].numpy())
+#         plt.title(f"label : {labels[i]}")
+#         plt.axis("off")
+#     plt.show()
+#     break
