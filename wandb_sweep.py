@@ -46,7 +46,7 @@ sweep_config = {
         'goal': 'maximize'
     },
     'parameters': {
-        'Trainer.total_steps': {
+        'Trainer.total_epochs': {
             'values': [5e4]
         },
         'vgg_like.base_filters': {

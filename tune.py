@@ -41,7 +41,7 @@ ray.init(num_cpus=10, num_gpus=1)
 analysis = tune.run(
     train_func, num_samples=2, resources_per_trial={"cpu": 10, "gpu": 1},
     config={
-        "Trainer.total_steps": tune.grid_search([1e4]),
+        "Trainer.total_epochs": tune.grid_search([1e4]),
         "vgg_like.base_filters": tune.choice([8, 16]),
         "vgg_like.n_blocks": tune.choice([2, 3, 4, 5]),
         "vgg_like.dense_units": tune.choice([32, 64]),

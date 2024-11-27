@@ -6,13 +6,12 @@ from train import Trainer
 from evaluation.eval import evaluate
 from input_pipeline import datasets
 from utils import utils_params, utils_misc
-from models.architectures import vgg_like
-import numpy as np
-import random
+from models.architectures import mobilenet_like, vgg_like
 import tensorflow as tf
-tf.random.set_seed(42)
-np.random.seed(42)
-random.seed(42)
+from tensorflow.keras.models import load_model
+
+
+
 
 FLAGS = flags.FLAGS
 flags.DEFINE_boolean('train', False, 'Specify whether to train or evaluate a model.')
@@ -34,26 +33,44 @@ def main(argv):
                config=utils_params.gin_config_to_readable_dictionary(gin.config._CONFIG))
 
     # setup pipeline
-    ds_train, ds_val, ds_test, ds_info = datasets.load()
+    ds_train, ds_val, ds_test, ds_info ,num_batches = datasets.load(name = 'idrid')
+    # for images, labels in ds_train.take(1):  # Take 3 batches
+    #     print(f"Images: {images.numpy()}")  # Check image tensor values
+    #     print(f"Labels: {labels.numpy()}")
 
-
-    # model
-    model = vgg_like(input_shape=ds_info["features"]["image"]["shape"], n_classes=ds_info["features"]["label"]["num_classes"])
-
+     # model
+    model , base_model = vgg_like(input_shape=ds_info["features"]["image"]["shape"], n_classes=ds_info["features"]["label"]["num_classes"])
+    model.summary()
 
     if FLAGS.train:
-        trainer = Trainer(model, ds_train, ds_val, ds_info, run_paths)
+
+        trainer = Trainer(model, ds_train, ds_val, ds_info, run_paths, num_batches)
+        for layer in model.layers:
+            print(layer.name, layer.trainable)
+
+        for layer in base_model.layers[-10:]:
+            layer.trainable = True
+
         for _ in trainer.train():
             continue
+        print(f"Training checkpoint path: {run_paths['path_ckpts_train']}")
+
+
     else:
+        checkpoint_path = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\checkpoints'
+        checkpoint = tf.train.Checkpoint(model=model)
+        latest_checkpoint = tf.train.latest_checkpoint(checkpoint_path)
+
+        if latest_checkpoint:
+            print(f"Restoring from checkpoint: {latest_checkpoint}")
+            checkpoint.restore(latest_checkpoint)
+        else:
+            print("No checkpoint found. Starting from scratch.")
+
         evaluate(model,
-                 ds_test,
-                 ds_info,
-                 run_paths = None,
-                 checkpoint = None)
+                 ds_test)
 
 
 if __name__ == "__main__":
     wandb.login(key="40c93726af78ad0b90c6fe3174c18599ecf9f619")
-
     app.run(main)

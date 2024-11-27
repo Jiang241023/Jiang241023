@@ -6,13 +6,17 @@ import wandb
 
 @gin.configurable
 class Trainer(object):
-    def __init__(self, model, ds_train, ds_val, ds_info, run_paths, total_steps, log_interval, ckpt_interval, learning_rate):
+    def __init__(self, model, ds_train, ds_val, ds_info, run_paths, num_batches, total_epochs, learning_rate):
         # Summary Writer
         # ....
 
         # Checkpoint Manager
         # ...
-
+        self.checkpoint = tf.train.Checkpoint(optimizer=tf.keras.optimizers.Adam(learning_rate=learning_rate),
+                                              model=model)
+        self.checkpoint_manager = tf.train.CheckpointManager(self.checkpoint,
+                                                             directory=run_paths["path_ckpts_train"],
+                                                             max_to_keep=1)
         # Loss objective
         self.loss_object = tf.keras.losses.BinaryCrossentropy(from_logits=False) # from_logits=False: output has already been processed through the sigmoid activation function.
         self.optimizer = tf.keras.optimizers.Adam(learning_rate=learning_rate)
@@ -29,18 +33,15 @@ class Trainer(object):
         self.ds_val = ds_val
         self.ds_info = ds_info
         self.run_paths = run_paths
-        self.total_steps = total_steps
-        self.log_interval = log_interval
-        self.ckpt_interval = ckpt_interval
+        self.total_epochs = total_epochs
+        self.log_interval = num_batches
+        #self.ckpt_interval = ckpt_interval
 
-        # # Checkpoint Manager
-        # # ...
-        # self.checkpoint = tf.train.Checkpoint(optimizer = self.optimizer, model = self.model)
-        # self.checkpoint_manager = tf.train.CheckpointManager(self.checkpoint, directory = self.run_paths["path_ckpts_train"], max_to_keep = 10)
 
         print(f"Number of batches in validation dataset: {len(list(self.ds_val))}")
         for image, label in ds_val.take(1):
             print(f"Validation batch shape: {image.shape}, Label shape: {label.shape}")
+
     @tf.function
     def train_step(self, images, labels):
         with tf.GradientTape() as tape:
@@ -66,12 +67,13 @@ class Trainer(object):
 
 
     def train(self):
+        #print(f"no of batches is {self.log_interval}")
         for idx, (images, labels) in enumerate(self.ds_train):
 
             step = idx + 1
             self.train_step(images, labels)
 
-            if step % self.log_interval == 0:
+            if step % (10 * self.log_interval) == 0:
 
                 # Reset test metrics
                 self.test_loss.reset_states()
@@ -80,8 +82,8 @@ class Trainer(object):
                 for test_images, test_labels in self.ds_val:
                     self.test_step(test_images, test_labels)
 
-                template = 'Step {}, Loss: {}, Accuracy: {}, Test Loss: {}, Test Accuracy: {}'
-                logging.info(template.format(step,
+                template = 'epochs: {}, Loss: {}, Accuracy: {}, Test Loss: {}, Test Accuracy: {}'
+                logging.info(template.format(step/self.log_interval,
                                              self.train_loss.result(),
                                              self.train_accuracy.result() * 100,
                                              self.test_loss.result(),
@@ -99,18 +101,17 @@ class Trainer(object):
                 self.train_loss.reset_states()
                 self.train_accuracy.reset_states()
 
-
                 yield self.test_accuracy.result().numpy()
 
-            if step % self.ckpt_interval == 0:
-                logging.info(f'Saving checkpoint to {self.run_paths["path_ckpts_train"]}.')
-                # Save checkpoint
-                # ...
-             #   self.checkpoint_manager.save()
+            # if step % self.ckpt_interval == 0:
+            #     logging.info(f'Saving checkpoint to {self.run_paths["path_ckpts_train"]}.')
+            #     # Save checkpoint
+            #     # ...
+            #     self.checkpoint_manager.save()
 
-            if step % self.total_steps == 0:
-                logging.info(f'Finished training after {step} steps.')
+            if step % (self.total_epochs * self.log_interval) == 0:
+                logging.info(f'Finished training after {step/self.log_interval} steps.')
                 # Save final checkpoint
                 # ...
-              #  self.checkpoint_manager.save()
+                self.checkpoint_manager.save()
                 return self.test_accuracy.result().numpy()
