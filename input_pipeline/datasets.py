@@ -11,14 +11,13 @@ import numpy as np
 
 
 #
-data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\train"
-test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
+#test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
 # print(f"Checking data directory: {data_dir}")
 # for root, dirs, files in os.walk(data_dir):
 #     for file in files:
 #         print(f"Found file: {os.path.join(root, file)}")
 @gin.configurable
-def load(name, batch_size = 16, data_dir = data_dir  , test_data_dir = test_data_dir  , caching=True):
+def load(batch_size, name, data_dir, test_data_dir, caching=True):
     if name == "idrid":
         logging.info(f"Preparing dataset {name}...")
 
@@ -27,13 +26,6 @@ def load(name, batch_size = 16, data_dir = data_dir  , test_data_dir = test_data
             data_dir,
             batch_size=batch_size,
             label_mode='int') # use 'int' for integer label , for classification
-        # for image, label in full_ds.take(1):
-        #     # 转换为 NumPy 格式
-        #     image_np = image.numpy()
-        #     # 设置 NumPy 打印选项
-        #     np.set_printoptions(precision=3, suppress=True, threshold=np.inf)  # precision 控制小数位数，threshold 控制打印所有值
-        #     print(f"Image: {image_np}")
-        #     print(f"label : {label}")
 
         # Calculate the number of examples for shuffle buffer size
         num_examples = sum(1 for _ in full_ds.unbatch())
@@ -68,9 +60,6 @@ def load(name, batch_size = 16, data_dir = data_dir  , test_data_dir = test_data
         # allow the data to be processed in chunks during training and validation
         ds_train = ds_train.batch(batch_size = batch_size)
         ds_val = ds_val.batch(batch_size = batch_size)
-
-
-
 
         ds_test= None
         if test_data_dir:
