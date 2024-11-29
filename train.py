@@ -16,7 +16,7 @@ class Trainer(object):
                                               model=model)
         self.checkpoint_manager = tf.train.CheckpointManager(self.checkpoint,
                                                              directory=run_paths["path_ckpts_train"],
-                                                             max_to_keep=1)
+                                                             max_to_keep=5)
         # Loss objective
         self.loss_object = tf.keras.losses.BinaryCrossentropy(from_logits=False) # from_logits=False: output has already been processed through the sigmoid activation function.
         self.optimizer = tf.keras.optimizers.Adam(learning_rate=learning_rate)
@@ -73,7 +73,7 @@ class Trainer(object):
             step = idx + 1
             self.train_step(images, labels)
 
-            if step % (10 * self.log_interval) == 0:
+            if step % (1 * self.log_interval) == 0:
 
                 # Reset test metrics
                 self.test_loss.reset_states()
@@ -110,7 +110,7 @@ class Trainer(object):
             #     self.checkpoint_manager.save()
 
             if step % (self.total_epochs * self.log_interval) == 0:
-                logging.info(f'Finished training after {step/self.log_interval} steps.')
+                logging.info(f'Finished training after {step/self.log_interval} epochs.')
                 # Save final checkpoint
                 # ...
                 self.checkpoint_manager.save()

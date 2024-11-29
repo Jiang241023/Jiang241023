@@ -1,12 +1,11 @@
 import gin
 import tensorflow as tf
-from tensorflow.python.keras.utils.version_utils import training
-from tensorflow.keras.applications import MobileNet
-from layers import vgg_block, mobilenet_block
+from tensorflow.keras.applications import MobileNet, VGG16, InceptionResNetV2
+from layers import vgg_block, mobilenet_block, InceptionResNetV2_block
 from tensorflow.keras.regularizers import l2
 
 @gin.configurable
-def vgg_like(input_shape, n_classes, base_filters, n_blocks, dense_units, dropout_rate = 0.5):
+def vgg_like(n_classes, base_filters, n_blocks, dense_units, input_shape = (256, 256, 3), dropout_rate = 0.5):
     """Defines a VGG-like architecture.
 
     Parameters:
@@ -21,15 +20,17 @@ def vgg_like(input_shape, n_classes, base_filters, n_blocks, dense_units, dropou
         (keras.Model): keras model object
     """
     #Load the pretrained VGG16 model excluding the top classification layer
-    base_model = tf.keras.applications.VGG16(include_top=False, weights='imagenet', input_shape=input_shape)
+    base_model = VGG16(include_top=False, weights='imagenet', input_shape=input_shape)
     base_model.trainable = False
 
     assert n_blocks > 0, 'Number of blocks has to be at least 1.'
 
-    inputs = tf.keras.Input(input_shape)
-    out = vgg_block(inputs, base_filters, kernel_size=(3,3))
-    #for i in range(1, n_blocks):
-       # out = vgg_block(out, base_filters * 2 ** (i), kernel_size=(3,3))
+    inputs = tf.keras.Input(shape = input_shape)
+    print(inputs.shape) # -> (None, 256, 256, 3)
+    inputs_2 = base_model(inputs)
+    print(inputs_2.shape) # -> (None, 8, 8, 512)
+    for i in range(n_blocks):
+        out = vgg_block(inputs_2, base_filters, kernel_size=(3,3))
     out = tf.keras.layers.GlobalAveragePooling2D()(out)
     out = tf.keras.layers.Dense(dense_units, kernel_regularizer=l2(1e-4))(out)
     out = tf.keras.layers.LeakyReLU(alpha = 0.01)(out)
@@ -38,21 +39,39 @@ def vgg_like(input_shape, n_classes, base_filters, n_blocks, dense_units, dropou
     return tf.keras.Model(inputs=inputs, outputs=outputs, name='vgg_like') , base_model
 
 @gin.configurable
-def mobilenet_like(n_classes, base_filters, n_blocks, dense_units, input_shape=(256, 256), dropout_rate = 0.5):
-
+def mobilenet_like(n_classes, base_filters, n_blocks, dense_units, input_shape = (256, 256, 3), dropout_rate = 0.5):
 
     base_model = MobileNet(weights='imagenet', include_top=False, input_shape=(256, 256, 3))
     base_model.trainable = False
 
     assert n_blocks > 0, 'Number of blocks has to be at least 1.'
-    inputs = tf.keras.Input(input_shape)
-    out = mobilenet_block(inputs, base_filters, strides = 1)
-    for i in range(0, n_blocks):
-        out = mobilenet_block(out, base_filters, strides = 1)
+    inputs = tf.keras.Input(shape = input_shape)
+    inputs_2 = base_model(inputs)
+    for i in range(n_blocks):
+        out = mobilenet_block(inputs_2, filters = base_filters, strides = 1)
     out = tf.keras.layers.GlobalAveragePooling2D()(out)
     out = tf.keras.layers.Dense(dense_units, activation=tf.nn.relu)(out)
     out = tf.keras.layers.Dropout(dropout_rate)(out)
     outputs = tf.keras.layers.Dense(n_classes-1, activation = tf.sigmoid)(out)
 
-    return tf.keras.Model(inputs=inputs, outputs=outputs, name='mobile_like')
+    return tf.keras.Model(inputs=inputs, outputs=outputs, name='mobilenet_like'), base_model
 
+
+@gin.configurable
+def inception_v2_like(n_classes, base_filters, n_blocks, dense_units, input_shape = (256, 256, 3), dropout_rate = 0.5):
+
+
+    base_model = InceptionResNetV2(weights='imagenet', include_top=False, input_shape=(256, 256, 3))
+    base_model.trainable = False
+
+    assert n_blocks > 0, 'Number of blocks has to be at least 1.'
+    inputs = tf.keras.Input(shape = input_shape)
+    inputs_2 = base_model(inputs)
+    for i in range(n_blocks):
+        out = InceptionResNetV2_block(inputs_2, filters = base_filters)
+    out = tf.keras.layers.GlobalAveragePooling2D()(out)
+    out = tf.keras.layers.Dense(dense_units, activation=tf.nn.relu)(out)
+    out = tf.keras.layers.Dropout(dropout_rate)(out)
+    outputs = tf.keras.layers.Dense(n_classes-1, activation = tf.sigmoid)(out)
+
+    return tf.keras.Model(inputs=inputs, outputs=outputs, name='inception_v2_like'), base_model
