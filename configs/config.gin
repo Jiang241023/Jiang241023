@@ -35,8 +35,13 @@ preprocess.img_width = 256
 prepare.caching = True
 
 # Deep visualization
-deep_visualization.data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\train"
-deep_visualization.test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
-
-
-
+grad_cam_visualization.name = 'idrid'
+grad_cam_visualization.batch_size = 16
+grad_cam_visualization.data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\train"
+grad_cam_visualization.test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
+grad_cam_visualization.base_filters = 81
+grad_cam_visualization.n_blocks = 5
+grad_cam_visualization.dense_units = 65
+grad_cam_visualization.dropout_rate = 0.1619613221243074
+grad_cam_visualization.checkpoint_path = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-30T18-05-21-229835_mobilenet_like\ckpts'
+grad_cam_visualization.img_path = r'F:\IDRID_dataset\images_augmented\images_augmented\train\class_1\IDRiD_001_aug_0.jpg'
