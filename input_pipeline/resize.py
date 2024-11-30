@@ -66,5 +66,6 @@ def multi_image_resize(input_path_folder, output_path_folder, output_size=None):
 
     with Pool() as p:
         list(tqdm(p.imap_unordered(save_single, jobs), total=len(jobs)))
+
 if __name__ == '__main__':
-    #multi_image_resize(sample_data_path, output_folder, output_size = (256,256))
+    multi_image_resize(sample_data_path, output_folder, output_size = (256,256))

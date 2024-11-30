@@ -8,6 +8,7 @@ from input_pipeline import datasets
 from utils import utils_params, utils_misc
 from models.architectures import mobilenet_like, vgg_like, inception_v2_like
 import tensorflow as tf
+from deep_visualization import GRAD_CAM_visualization
 
 FLAGS = flags.FLAGS
 flags.DEFINE_boolean('train', False, 'Specify whether to train or evaluate a model.')
@@ -43,6 +44,7 @@ def main(argv):
 
     # gin-config
     gin.parse_config_files_and_bindings([r'F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\configs\config.gin'], [])
+    print(gin.config_str())
     utils_params.save_config(run_paths_1['path_gin'], gin.config_str())
     utils_params.save_config(run_paths_2['path_gin'], gin.config_str())
     utils_params.save_config(run_paths_3['path_gin'], gin.config_str())
@@ -103,9 +105,6 @@ def main(argv):
 
 
     else:
-        #checkpoint_path_1 = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-29T18-06-50-456158_mobilenet_like\ckpts'
-        #checkpoint_path_2 = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-29T18-06-50-457157_vgg_like\ckpts'
-
         checkpoint_path_1 = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-30T18-05-21-229835_mobilenet_like\ckpts'
         checkpoint_path_2 = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-30T18-05-21-230837_vgg_like\ckpts'
         checkpoint_path_3 = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-30T18-05-21-231837_inception_v2\ckpts'
