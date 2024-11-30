@@ -34,10 +34,9 @@ preprocess.img_width = 256
 #prepare.batch_size = 16
 prepare.caching = True
 
-# Wandb_sweep
-#train_func.name = 'idrid'
-#train_func.data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\train"
-#train_func.test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
+# Deep visualization
+deep_visualization.data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\train"
+deep_visualization.test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
 
 
 
