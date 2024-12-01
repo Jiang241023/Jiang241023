@@ -1,21 +1,13 @@
 from tensorflow.keras.models import load_model
-import gin
 import numpy as np
 import tensorflow as tf
 import cv2
 import matplotlib.pyplot as plt
-import os
 from input_pipeline import datasets
 from models.architectures import mobilenet_like
-from train import Trainer
-
-# Deep visualization
-# data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\train"
-# test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
-# batch_size = 16
 
 
-@gin.configurable
+
 def grad_cam_visualization(name, batch_size, data_dir, test_data_dir, base_filters, n_blocks, dense_units, dropout_rate, checkpoint_path, img_path):
     # Load ds_train
     ds_train, _, _, ds_info, _ = datasets.load(name=name, batch_size=batch_size, data_dir=data_dir,
@@ -176,5 +168,14 @@ def grad_cam_visualization(name, batch_size, data_dir, test_data_dir, base_filte
 
 
 if __name__ == '__main__':
-    gin.parse_config_files_and_bindings([r'F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\configs\config.gin'], [])
+    name = 'idrid'
+    batch_size = 16
+    data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\train"
+    test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
+    base_filters = 81
+    n_blocks = 5
+    dense_units = 65
+    dropout_rate = 0.1619613221243074
+    checkpoint_path = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-30T18-05-21-229835_mobilenet_like\ckpts'
+    img_path = r'F:\IDRID_dataset\images_augmented\images_augmented\train\class_1\IDRiD_001_aug_0.jpg'
     grad_cam_visualization()

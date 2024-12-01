@@ -8,7 +8,7 @@ from input_pipeline import datasets
 from utils import utils_params, utils_misc
 from models.architectures import mobilenet_like, vgg_like, inception_v2_like
 import tensorflow as tf
-from deep_visualization import GRAD_CAM_visualization
+
 
 FLAGS = flags.FLAGS
 flags.DEFINE_boolean('train', False, 'Specify whether to train or evaluate a model.')
@@ -35,7 +35,7 @@ def main(argv):
     # generate folder structures
     run_paths_1 = utils_params.gen_run_folder(path_model_id = 'mobilenet_like')
     run_paths_2 = utils_params.gen_run_folder(path_model_id = 'vgg_like')
-    run_paths_3 = utils_params.gen_run_folder(path_model_id = 'inception_v2')
+    run_paths_3 = utils_params.gen_run_folder(path_model_id = 'inception_v2_like')
 
     # set loggers
     utils_misc.set_loggers(run_paths_1['path_logs_train'], logging.INFO)
@@ -44,7 +44,7 @@ def main(argv):
 
     # gin-config
     gin.parse_config_files_and_bindings([r'F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\configs\config.gin'], [])
-    print(gin.config_str())
+    #print(gin.config_str())
     utils_params.save_config(run_paths_1['path_gin'], gin.config_str())
     utils_params.save_config(run_paths_2['path_gin'], gin.config_str())
     utils_params.save_config(run_paths_3['path_gin'], gin.config_str())
@@ -105,9 +105,9 @@ def main(argv):
 
 
     else:
-        checkpoint_path_1 = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-30T18-05-21-229835_mobilenet_like\ckpts'
-        checkpoint_path_2 = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-30T18-05-21-230837_vgg_like\ckpts'
-        checkpoint_path_3 = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-30T18-05-21-231837_inception_v2\ckpts'
+        checkpoint_path_1 = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\mobilenet_like_2\ckpts'
+        checkpoint_path_2 = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\vgg_like_3\ckpts'
+        checkpoint_path_3 = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\inception_v2_like_2\ckpts'
 
         # Model_1
         checkpoint_1 = tf.train.Checkpoint(model = model_1)
