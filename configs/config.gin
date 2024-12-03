@@ -1,18 +1,35 @@
 # Architectures
-vgg_like.base_filters = 25
-vgg_like.n_blocks = 2
-vgg_like.dense_units = 19
-vgg_like.dropout_rate = 0.3164042287842991
+#mobilenet_like.base_filters = 81
+#mobilenet_like.n_blocks = 5
+#mobilenet_like.dense_units = 65
+#mobilenet_like.dropout_rate =  0.1619613221243074
 
-mobilenet_like.base_filters = 81
-mobilenet_like.n_blocks = 5
-mobilenet_like.dense_units = 65
-mobilenet_like.dropout_rate = 0.1619613221243074
+mobilenet_like.base_filters = 63
+mobilenet_like.n_blocks = 7
+mobilenet_like.dense_units = 150
+mobilenet_like.dropout_rate =  0.38026722341156816
 
-inception_v2_like.base_filters = 25
+#vgg_like.base_filters = 25
+#vgg_like.n_blocks = 2
+#vgg_like.dense_units = 19
+#vgg_like.dropout_rate = 0.3164042287842991
+
+vgg_like.base_filters = 83
+vgg_like.n_blocks = 3
+vgg_like.dense_units = 113
+vgg_like.dropout_rate = 0.21791097881864296
+
+#inception_v2_like.base_filters = 25
+#inception_v2_like.n_blocks = 3
+#inception_v2_like.dense_units = 38
+#inception_v2_like.dropout_rate = 0.31787335350858814
+
+inception_v2_like.base_filters = 52
 inception_v2_like.n_blocks = 3
-inception_v2_like.dense_units = 38
-inception_v2_like.dropout_rate = 0.31787335350858814
+inception_v2_like.dense_units = 231
+inception_v2_like.dropout_rate = 0.2250767833808686
+
+
 
 # Layers
 layers.vgg_block.kernel_size = (3, 3)
@@ -34,14 +51,5 @@ preprocess.img_width = 256
 #prepare.batch_size = 16
 prepare.caching = True
 
-# Deep visualization
-grad_cam_visualization.name = 'idrid'
-grad_cam_visualization.batch_size = 16
-grad_cam_visualization.data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\train"
-grad_cam_visualization.test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
-grad_cam_visualization.base_filters = 81
-grad_cam_visualization.n_blocks = 5
-grad_cam_visualization.dense_units = 65
-grad_cam_visualization.dropout_rate = 0.1619613221243074
-grad_cam_visualization.checkpoint_path = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-30T18-05-21-229835_mobilenet_like\ckpts'
-grad_cam_visualization.img_path = r'F:\IDRID_dataset\images_augmented\images_augmented\train\class_1\IDRiD_001_aug_0.jpg'
+#Grad_cam
+grad_cam_visualization.img_path =  r'F:\IDRID_dataset\images_augmented\images_augmented\train\class_1\IDRiD_001_aug_0.jpg'

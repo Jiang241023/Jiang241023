@@ -26,7 +26,29 @@ def train_model(model, base_model, ds_train, ds_val, num_batches, ds_info, run_p
     print(f'Training completed for {path_model_id}')
     print('-' * 88)
 
+def evaluate(model, ds_test):
+    metrics = tf.keras.metrics.Accuracy()  # Replace ConfusionMatrix with tf.keras.metrics.Accuracy if needed
+    accuracy_list = []
+
+    for idx, (images, labels) in enumerate(ds_test):
+        threshold = 0.5
+
+        # Model predictions
+        predictions = tf.cast(model(images, training=False) > threshold, tf.int32)
+
+        # Calculate batch accuracy
+        batch_accuracy = tf.reduce_mean(tf.cast(predictions == labels, tf.float32))
+        accuracy_list.append(batch_accuracy.numpy())
+
+        # Update metrics (optional)
+        metrics.update_state(labels, predictions)
+
+    # Calculate overall accuracy
+    accuracy = sum(accuracy_list) / len(accuracy_list)
+    return accuracy
+
 def train_func():
+
     with wandb.init() as run:
         gin.clear_config()
         # Hyperparameters
@@ -41,20 +63,16 @@ def train_func():
         model_type = run.config['model_type']
         run_paths = utils_params.gen_run_folder(path_model_id = model_type)
 
-
         # set loggers
         utils_misc.set_loggers(run_paths['path_logs_train'], logging.INFO)
-
 
         # gin-config
         gin.parse_config_files_and_bindings([r'F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\configs\config.gin'], bindings)
         utils_params.save_config(run_paths['path_gin'], gin.config_str())
 
-
         # setup pipeline
         #ds_train, ds_val, ds_test, ds_info = load()
         ds_train, ds_val, ds_test, ds_info, num_batches = load(name='idrid')
-
 
         # Model
         if model_type == 'mobilenet_like':
@@ -78,47 +96,145 @@ def train_func():
                     run_paths = run_paths,
                     path_model_id = model_type)
 
+        # Evaluate the model after training
+        print(f"Evaluating {model_type} on the test dataset...")
+
+        accuracy = evaluate(model, ds_test)
+        print(f"Test accuracy for {model_type}: {accuracy}")
+
+        # Log the test accuracy to WandB
+        wandb.log({'test_accuracy': accuracy})
+
 model_types = ['mobilenet_like', 'vgg_like', 'inception_v2_like']
 for model in model_types:
-    sweep_config = {
-        'name': 'idrid-sweep',
-        'method': 'random',
-        'metric': {
-            'name': 'val_acc',
-            'goal': 'maximize'
-        },
-        'parameters': {
-            'Trainer.total_epochs': {
-                'values': [10]
+    if model == 'mobilenet_like':
+        sweep_config = {
+            'name': f"{model}-sweep",
+            'method': 'random',
+            'metric': {
+                'name': 'val_acc',
+                'goal': 'maximize'
             },
-            'model_type':{
-                'values': [model]
-            },
-            'vgg_like.base_filters': {
-                'distribution': 'q_log_uniform',
-                'q': 1,
-                'min': math.log(8), # -> ln8 = 2.0794
-                'max': math.log(128) # -> ln128 = 4.852
-            },
-            'vgg_like.n_blocks': {
-                'distribution': 'q_uniform',
-                'q': 1,
-                'min': 2,
-                'max': 6
-            },
-            'vgg_like.dense_units': {
-                'distribution': 'q_log_uniform',
-                'q': 1,
-                'min': math.log(16),
-                'max': math.log(256)
-            },
-            'vgg_like.dropout_rate': {
-                'distribution': 'uniform',
-                'min': 0.1,
-                'max': 0.9
+            'parameters': {
+                'Trainer.total_epochs': {
+                    'values': [10]
+                },
+                'model_type':{
+                    'values': [model]
+                },
+                'mobilenet_like.base_filters': {
+                    'distribution': 'q_log_uniform',
+                    'q': 1,
+                    'min': math.log(8), # -> ln8 = 2.0794
+                    'max': math.log(128) # -> ln128 = 4.852
+                },
+                'mobilenet_like.n_blocks': {
+                    'distribution': 'q_uniform',
+                    'q': 1,
+                    'min': 2,
+                    'max': 8
+                },
+                'mobilenet_like.dense_units': {
+                    'distribution': 'q_log_uniform',
+                    'q': 1,
+                    'min': math.log(16),
+                    'max': math.log(256)
+                },
+                'mobilenet_like.dropout_rate': {
+                    'distribution': 'uniform',
+                    'min': 0.1,
+                    'max': 0.9
+                }
             }
         }
-    }
-    sweep_id = wandb.sweep(sweep_config)
+        sweep_id = wandb.sweep(sweep_config)
 
-    wandb.agent(sweep_id, function=train_func, count=100)
+        wandb.agent(sweep_id, function=train_func, count=100)
+
+    elif model == 'vgg_like':
+        sweep_config = {
+            'name': f"{model}-sweep",
+            'method': 'random',
+            'metric': {
+                'name': 'val_acc',
+                'goal': 'maximize'
+            },
+            'parameters': {
+                'Trainer.total_epochs': {
+                    'values': [10]
+                },
+                'model_type':{
+                    'values': [model]
+                },
+                'vgg_like.base_filters': {
+                    'distribution': 'q_log_uniform',
+                    'q': 1,
+                    'min': math.log(8), # -> ln8 = 2.0794
+                    'max': math.log(128) # -> ln128 = 4.852
+                },
+                'vgg_like.n_blocks': {
+                    'distribution': 'q_uniform',
+                    'q': 1,
+                    'min': 2,
+                    'max': 8
+                },
+                'vgg_like.dense_units': {
+                    'distribution': 'q_log_uniform',
+                    'q': 1,
+                    'min': math.log(16),
+                    'max': math.log(256)
+                },
+                'vgg_like.dropout_rate': {
+                    'distribution': 'uniform',
+                    'min': 0.1,
+                    'max': 0.9
+                }
+            }
+        }
+        sweep_id = wandb.sweep(sweep_config)
+
+        wandb.agent(sweep_id, function=train_func, count=100)
+
+    elif model == 'inception_v2_like':
+        sweep_config = {
+            'name': f"{model}-sweep",
+            'method': 'random',
+            'metric': {
+                'name': 'val_acc',
+                'goal': 'maximize'
+            },
+            'parameters': {
+                'Trainer.total_epochs': {
+                    'values': [10]
+                },
+                'model_type':{
+                    'values': [model]
+                },
+                'inception_v2_like.base_filters': {
+                    'distribution': 'q_log_uniform',
+                    'q': 1,
+                    'min': math.log(8), # -> ln8 = 2.0794
+                    'max': math.log(128) # -> ln128 = 4.852
+                },
+                'inception_v2_like.n_blocks': {
+                    'distribution': 'q_uniform',
+                    'q': 1,
+                    'min': 2,
+                    'max': 8
+                },
+                'inception_v2_like.dense_units': {
+                    'distribution': 'q_log_uniform',
+                    'q': 1,
+                    'min': math.log(16),
+                    'max': math.log(256)
+                },
+                'inception_v2_like.dropout_rate': {
+                    'distribution': 'uniform',
+                    'min': 0.1,
+                    'max': 0.9
+                }
+            }
+        }
+        sweep_id = wandb.sweep(sweep_config)
+
+        wandb.agent(sweep_id, function=train_func, count=100)
