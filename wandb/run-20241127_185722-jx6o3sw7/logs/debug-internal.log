@@ -1,0 +1,9 @@
+{"time":"2024-11-27T18:57:22.6421557+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-27T18:57:22.6421557+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241127_185722-jx6o3sw7\\logs\\debug-core.log"}
+{"time":"2024-11-27T18:57:22.7676626+01:00","level":"INFO","msg":"created new stream","id":"jx6o3sw7"}
+{"time":"2024-11-27T18:57:22.7676626+01:00","level":"INFO","msg":"stream: started","id":"jx6o3sw7"}
+{"time":"2024-11-27T18:57:22.7676626+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"jx6o3sw7"}}
+{"time":"2024-11-27T18:57:22.7676626+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"jx6o3sw7"}}
+{"time":"2024-11-27T18:57:22.7676626+01:00","level":"INFO","msg":"sender: started","stream_id":"jx6o3sw7"}
+{"time":"2024-11-27T18:57:23.0246222+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T08:21:52.3545036+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/diabetic-retinopathy-detection/jx6o3sw7/file_stream"}

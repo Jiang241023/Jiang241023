@@ -1,0 +1,17 @@
+{"time":"2024-11-30T14:07:10.7322839+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T14:07:10.7322839+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_140710-oe141roc\\logs\\debug-core.log"}
+{"time":"2024-11-30T14:07:10.8571203+01:00","level":"INFO","msg":"created new stream","id":"oe141roc"}
+{"time":"2024-11-30T14:07:10.8571203+01:00","level":"INFO","msg":"stream: started","id":"oe141roc"}
+{"time":"2024-11-30T14:07:10.8571203+01:00","level":"INFO","msg":"sender: started","stream_id":"oe141roc"}
+{"time":"2024-11-30T14:07:10.8571203+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"oe141roc"}}
+{"time":"2024-11-30T14:07:10.8571203+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"oe141roc"}}
+{"time":"2024-11-30T14:07:11.2764201+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T14:07:23.5713744+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T14:07:23.5713744+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T14:07:24.2613525+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T14:07:24.4914228+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-11-30T14:07:25.4979288+01:00","level":"INFO","msg":"stream: closing","id":"oe141roc"}
+{"time":"2024-11-30T14:07:25.4979288+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"oe141roc"}}
+{"time":"2024-11-30T14:07:25.4979288+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"oe141roc"}}
+{"time":"2024-11-30T14:07:25.4979288+01:00","level":"INFO","msg":"sender: closed","stream_id":"oe141roc"}
+{"time":"2024-11-30T14:07:25.4979288+01:00","level":"INFO","msg":"stream: closed","id":"oe141roc"}

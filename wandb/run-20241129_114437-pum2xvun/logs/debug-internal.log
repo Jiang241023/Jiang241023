@@ -1,0 +1,17 @@
+{"time":"2024-11-29T11:44:37.4210863+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-29T11:44:37.4210863+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241129_114437-pum2xvun\\logs\\debug-core.log"}
+{"time":"2024-11-29T11:44:37.5479482+01:00","level":"INFO","msg":"created new stream","id":"pum2xvun"}
+{"time":"2024-11-29T11:44:37.5479482+01:00","level":"INFO","msg":"stream: started","id":"pum2xvun"}
+{"time":"2024-11-29T11:44:37.5479482+01:00","level":"INFO","msg":"sender: started","stream_id":"pum2xvun"}
+{"time":"2024-11-29T11:44:37.5479482+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"pum2xvun"}}
+{"time":"2024-11-29T11:44:37.5479482+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"pum2xvun"}}
+{"time":"2024-11-29T11:44:37.9707367+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-29T11:44:38.1544268+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-29T11:44:38.1544268+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-29T11:44:39.1602399+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-11-29T11:44:39.1607434+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-29T11:44:40.3971999+01:00","level":"INFO","msg":"stream: closing","id":"pum2xvun"}
+{"time":"2024-11-29T11:44:40.3971999+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"pum2xvun"}}
+{"time":"2024-11-29T11:44:40.3971999+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"pum2xvun"}}
+{"time":"2024-11-29T11:44:40.3971999+01:00","level":"INFO","msg":"sender: closed","stream_id":"pum2xvun"}
+{"time":"2024-11-29T11:44:40.3971999+01:00","level":"INFO","msg":"stream: closed","id":"pum2xvun"}

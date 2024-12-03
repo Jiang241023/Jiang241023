@@ -1,0 +1,16 @@
+{"time":"2024-11-27T19:21:14.2656853+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-27T19:21:14.2656853+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241127_192114-qthn3ivd\\logs\\debug-core.log"}
+{"time":"2024-11-27T19:21:14.3940001+01:00","level":"INFO","msg":"created new stream","id":"qthn3ivd"}
+{"time":"2024-11-27T19:21:14.3940001+01:00","level":"INFO","msg":"stream: started","id":"qthn3ivd"}
+{"time":"2024-11-27T19:21:14.3940001+01:00","level":"INFO","msg":"sender: started","stream_id":"qthn3ivd"}
+{"time":"2024-11-27T19:21:14.3940001+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"qthn3ivd"}}
+{"time":"2024-11-27T19:21:14.3940001+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"qthn3ivd"}}
+{"time":"2024-11-27T19:21:14.6880674+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-27T19:21:19.7091221+01:00","level":"INFO","msg":"stream: closing","id":"qthn3ivd"}
+{"time":"2024-11-27T19:21:19.7091221+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-27T19:21:19.7091221+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-27T19:21:20.4139318+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-27T19:21:20.643273+01:00","level":"INFO","msg":"sender: closed","stream_id":"qthn3ivd"}
+{"time":"2024-11-27T19:21:20.643273+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"qthn3ivd"}}
+{"time":"2024-11-27T19:21:20.643273+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"qthn3ivd"}}
+{"time":"2024-11-27T19:21:20.643273+01:00","level":"INFO","msg":"stream: closed","id":"qthn3ivd"}

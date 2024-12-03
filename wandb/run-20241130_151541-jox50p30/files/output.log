@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\gin\config_parser.py", line 527, in _maybe_parse_basic_type
+    value = ast.literal_eval(token_value)
+  File "E:\anaconda\lib\ast.py", line 110, in literal_eval
+    return _convert(node_or_string)
+  File "E:\anaconda\lib\ast.py", line 109, in _convert
+    return _convert_signed_num(node)
+  File "E:\anaconda\lib\ast.py", line 83, in _convert_signed_num
+    return _convert_num(node)
+  File "E:\anaconda\lib\ast.py", line 74, in _convert_num
+    _raise_malformed_node(node)
+  File "E:\anaconda\lib\ast.py", line 71, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string on line 1: <ast.Name object at 0x00000226CB458430>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\wandb_sweep.py", line 50, in train_func
+    gin.parse_config_files_and_bindings([r'F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\configs\config.gin'], bindings)
+  File "E:\anaconda\lib\site-packages\gin\config.py", line 2499, in parse_config_files_and_bindings
+    parse_config(bindings, skip_unknown)
+  File "E:\anaconda\lib\site-packages\gin\config.py", line 2322, in parse_config
+    for statement in parser:
+  File "E:\anaconda\lib\site-packages\gin\config_parser.py", line 211, in __next__
+    statement = self.parse_statement()
+  File "E:\anaconda\lib\site-packages\gin\config_parser.py", line 240, in parse_statement
+    value = self.parse_value()
+  File "E:\anaconda\lib\site-packages\gin\config_parser.py", line 280, in parse_value
+    success, value = parser()
+  File "E:\anaconda\lib\site-packages\gin\config_parser.py", line 530, in _maybe_parse_basic_type
+    self._raise_syntax_error(err_str.format(e, token_value))
+  File "E:\anaconda\lib\site-packages\gin\config_parser.py", line 331, in _raise_syntax_error
+    raise SyntaxError(msg, location)
+  File "<string>", line 2
+    model_type=vgg_like
+              ^
+SyntaxError: malformed node or string on line 1: <ast.Name object at 0x00000226CB458430>
+    Failed to parse token 'vgg_like'

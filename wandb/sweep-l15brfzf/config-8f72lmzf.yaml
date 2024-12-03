@@ -1,0 +1,14 @@
+wandb_version: 1
+
+Trainer.total_epochs:
+  value: 10
+inception_v2_like.base_filters:
+  value: 11
+inception_v2_like.dense_units:
+  value: 149
+inception_v2_like.dropout_rate:
+  value: 0.6004241721299388
+inception_v2_like.n_blocks:
+  value: 3
+model_type:
+  value: inception_v2_like

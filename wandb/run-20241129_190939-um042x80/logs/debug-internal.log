@@ -1,0 +1,17 @@
+{"time":"2024-11-29T19:09:39.0191234+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-29T19:09:39.0191234+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241129_190939-um042x80\\logs\\debug-core.log"}
+{"time":"2024-11-29T19:09:39.1446577+01:00","level":"INFO","msg":"created new stream","id":"um042x80"}
+{"time":"2024-11-29T19:09:39.1446577+01:00","level":"INFO","msg":"stream: started","id":"um042x80"}
+{"time":"2024-11-29T19:09:39.1446577+01:00","level":"INFO","msg":"sender: started","stream_id":"um042x80"}
+{"time":"2024-11-29T19:09:39.1446577+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"um042x80"}}
+{"time":"2024-11-29T19:09:39.1446577+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"um042x80"}}
+{"time":"2024-11-29T19:09:39.3744315+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-29T19:09:39.5459662+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-29T19:09:39.5464698+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-29T19:09:40.5516744+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.4233136},{"desc":"uploading config.yaml","runtime_seconds":0.2338656,"progress":"694B/694B"}],"total_operations":2}}
+{"time":"2024-11-29T19:09:40.7087671+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-29T19:09:41.9457468+01:00","level":"INFO","msg":"stream: closing","id":"um042x80"}
+{"time":"2024-11-29T19:09:41.9457468+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"um042x80"}}
+{"time":"2024-11-29T19:09:41.9457468+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"um042x80"}}
+{"time":"2024-11-29T19:09:41.9457468+01:00","level":"INFO","msg":"sender: closed","stream_id":"um042x80"}
+{"time":"2024-11-29T19:09:41.9457468+01:00","level":"INFO","msg":"stream: closed","id":"um042x80"}

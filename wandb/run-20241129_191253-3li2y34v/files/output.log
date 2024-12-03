@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\wandb_sweep.py", line 29, in train_func
+    gin.parse_config_files_and_bindings([r'F:Jiang241023\configs\config.gin'], bindings)
+  File "E:\anaconda\lib\site-packages\gin\config.py", line 2497, in parse_config_files_and_bindings
+    includes_and_imports = parse_config_file(config_file, skip_unknown)
+  File "E:\anaconda\lib\site-packages\gin\config.py", line 2457, in parse_config_file
+    raise IOError(err_str.format(config_file, prefixes))
+OSError: Unable to open file: F:Jiang241023\configs\config.gin. Searched config paths: [''].

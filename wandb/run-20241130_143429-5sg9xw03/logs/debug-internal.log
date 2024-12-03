@@ -1,0 +1,17 @@
+{"time":"2024-11-30T14:34:29.3171679+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T14:34:29.3171679+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_143429-5sg9xw03\\logs\\debug-core.log"}
+{"time":"2024-11-30T14:34:29.4381047+01:00","level":"INFO","msg":"created new stream","id":"5sg9xw03"}
+{"time":"2024-11-30T14:34:29.4381047+01:00","level":"INFO","msg":"stream: started","id":"5sg9xw03"}
+{"time":"2024-11-30T14:34:29.4381047+01:00","level":"INFO","msg":"sender: started","stream_id":"5sg9xw03"}
+{"time":"2024-11-30T14:34:29.4381047+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"5sg9xw03"}}
+{"time":"2024-11-30T14:34:29.4381047+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"5sg9xw03"}}
+{"time":"2024-11-30T14:34:29.693219+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T14:34:51.1532242+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T14:34:51.1532242+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T14:34:52.1615748+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4836219,"progress":"4.5KB/4.5KB"}],"total_operations":1}}
+{"time":"2024-11-30T14:34:52.3879659+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T14:34:53.6016571+01:00","level":"INFO","msg":"stream: closing","id":"5sg9xw03"}
+{"time":"2024-11-30T14:34:53.6016571+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"5sg9xw03"}}
+{"time":"2024-11-30T14:34:53.6016571+01:00","level":"INFO","msg":"sender: closed","stream_id":"5sg9xw03"}
+{"time":"2024-11-30T14:34:53.6016571+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"5sg9xw03"}}
+{"time":"2024-11-30T14:34:53.6016571+01:00","level":"INFO","msg":"stream: closed","id":"5sg9xw03"}

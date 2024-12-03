@@ -1,0 +1,1071 @@
+I1127 17:59:52.373375 34112 datasets.py:23] Preparing dataset idrid...
+Found 588 files belonging to 2 classes.
+no of batches is 29
+Found 103 files belonging to 2 classes.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1127 17:59:52.825563 34112 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:52.835139 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:52.842880 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1127 17:59:52.849787 34112 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1127 17:59:52.933127 34112 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1127 17:59:52.967562 34112 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:52.975609 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:52.987134 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1127 17:59:52.994677 34112 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1127 17:59:53.011510 34112 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.018695 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.026979 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1127 17:59:53.034599 34112 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1127 17:59:53.100445 34112 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1127 17:59:53.121037 34112 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.129258 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.137348 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1127 17:59:53.144320 34112 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1127 17:59:53.196337 34112 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.207878 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.217164 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+W1127 17:59:53.224708 34112 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+W1127 17:59:53.237201 34112 pfor.py:1082] Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1127 17:59:53.245463 34112 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+W1127 17:59:53.267596 34112 pfor.py:1082] Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1127 17:59:53.324314 34112 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.334221 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.343571 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1127 17:59:53.352131 34112 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1127 17:59:53.556774 34112 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1127 17:59:53.589257 34112 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.598481 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.607769 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1127 17:59:53.615972 34112 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1127 17:59:53.633415 34112 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.642597 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.656676 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1127 17:59:53.665930 34112 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1127 17:59:53.720856 34112 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1127 17:59:53.740818 34112 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.749854 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.761913 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1127 17:59:53.774855 34112 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1127 17:59:53.829744 34112 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.839966 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1127 17:59:53.852902 34112 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+W1127 17:59:53.861227 34112 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+W1127 17:59:53.881064 34112 pfor.py:1082] Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1127 17:59:53.891911 34112 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+W1127 17:59:53.913990 34112 pfor.py:1082] Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+Model: "vgg_like"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ input_2 (InputLayer)        [(None, 256, 256, 3)]     0
+
+ conv2d (Conv2D)             (None, 256, 256, 6)       168
+
+ max_pooling2d (MaxPooling2D  (None, 128, 128, 6)      0
+ )
+
+ conv2d_1 (Conv2D)           (None, 128, 128, 6)       330
+
+ max_pooling2d_1 (MaxPooling  (None, 64, 64, 6)        0
+ 2D)
+
+ global_average_pooling2d (G  (None, 6)                0
+ lobalAveragePooling2D)
+
+ dense (Dense)               (None, 128)               896
+
+ leaky_re_lu (LeakyReLU)     (None, 128)               0
+
+ dropout (Dropout)           (None, 128)               0
+
+ dense_1 (Dense)             (None, 1)                 129
+
+=================================================================
+Total params: 1,523
+Trainable params: 1,523
+Non-trainable params: 0
+_________________________________________________________________
+Number of batches in validation dataset: 8
+Validation batch shape: (16, 256, 256, 3), Label shape: (16,)
+input_2 True
+conv2d True
+max_pooling2d True
+conv2d_1 True
+max_pooling2d_1 True
+global_average_pooling2d True
+dense True
+leaky_re_lu True
+dropout True
+dense_1 True
+I1127 17:59:59.298882 34112 train.py:86] epochs: 10.0, Loss: 0.7064868807792664, Accuracy: 51.61219787597656, Test Loss: 0.6897919178009033, Test Accuracy: 52.991455078125
+I1127 17:59:59.988746 34112 train.py:86] epochs: 20.0, Loss: 0.6953271627426147, Accuracy: 51.904869079589844, Test Loss: 0.6902953386306763, Test Accuracy: 52.991455078125
+I1127 18:00:00.714869 34112 train.py:86] epochs: 30.0, Loss: 0.6940407156944275, Accuracy: 51.94121551513672, Test Loss: 0.6899181008338928, Test Accuracy: 52.991455078125
+I1127 18:00:01.409668 34112 train.py:86] epochs: 40.0, Loss: 0.6926738023757935, Accuracy: 52.68132019042969, Test Loss: 0.6890513300895691, Test Accuracy: 52.991455078125
+I1127 18:00:02.068817 34112 train.py:86] epochs: 50.0, Loss: 0.6885786056518555, Accuracy: 53.67033004760742, Test Loss: 0.6874573826789856, Test Accuracy: 52.991455078125
+I1127 18:00:02.827336 34112 train.py:86] epochs: 60.0, Loss: 0.6866632103919983, Accuracy: 53.9372673034668, Test Loss: 0.685218334197998, Test Accuracy: 52.991455078125
+I1127 18:00:03.459673 34112 train.py:86] epochs: 70.0, Loss: 0.6820068359375, Accuracy: 55.69231033325195, Test Loss: 0.6806530952453613, Test Accuracy: 52.991455078125
+I1127 18:00:04.089160 34112 train.py:86] epochs: 80.0, Loss: 0.6806833148002625, Accuracy: 56.109886169433594, Test Loss: 0.6764160394668579, Test Accuracy: 60.68376159667969
+I1127 18:00:04.721554 34112 train.py:86] epochs: 90.0, Loss: 0.6731875538825989, Accuracy: 58.91643142700195, Test Loss: 0.6675077080726624, Test Accuracy: 66.66667175292969
+I1127 18:00:05.354469 34112 train.py:86] epochs: 100.0, Loss: 0.6681831479072571, Accuracy: 61.31868362426758, Test Loss: 0.6592202186584473, Test Accuracy: 70.0854721069336
+I1127 18:00:05.987459 34112 train.py:86] epochs: 110.0, Loss: 0.6618490815162659, Accuracy: 63.362640380859375, Test Loss: 0.6507928967475891, Test Accuracy: 69.23077392578125
+I1127 18:00:06.623838 34112 train.py:86] epochs: 120.0, Loss: 0.6575603485107422, Accuracy: 64.26847839355469, Test Loss: 0.6451341509819031, Test Accuracy: 72.64957427978516
+I1127 18:00:07.267647 34112 train.py:86] epochs: 130.0, Loss: 0.6538859009742737, Accuracy: 64.46588897705078, Test Loss: 0.6408565044403076, Test Accuracy: 70.94017028808594
+I1127 18:00:07.897434 34112 train.py:86] epochs: 140.0, Loss: 0.6486884355545044, Accuracy: 64.50121307373047, Test Loss: 0.6284699440002441, Test Accuracy: 71.79487609863281
+I1127 18:00:08.525065 34112 train.py:86] epochs: 150.0, Loss: 0.6448615789413452, Accuracy: 65.3652114868164, Test Loss: 0.6299349069595337, Test Accuracy: 70.0854721069336
+I1127 18:00:09.156286 34112 train.py:86] epochs: 160.0, Loss: 0.644961953163147, Accuracy: 65.010986328125, Test Loss: 0.6232976317405701, Test Accuracy: 72.64957427978516
+I1127 18:00:09.791002 34112 train.py:86] epochs: 170.0, Loss: 0.6418114900588989, Accuracy: 66.0671157836914, Test Loss: 0.6192576885223389, Test Accuracy: 72.64957427978516
+I1127 18:00:10.424363 34112 train.py:86] epochs: 180.0, Loss: 0.6366467475891113, Accuracy: 65.67032623291016, Test Loss: 0.6168030500411987, Test Accuracy: 73.5042724609375
+I1127 18:00:11.054225 34112 train.py:86] epochs: 190.0, Loss: 0.6408450603485107, Accuracy: 65.47252655029297, Test Loss: 0.6116324663162231, Test Accuracy: 73.5042724609375
+I1127 18:00:11.691375 34112 train.py:86] epochs: 200.0, Loss: 0.6358067393302917, Accuracy: 66.68128967285156, Test Loss: 0.6120222210884094, Test Accuracy: 74.35897827148438
+I1127 18:00:12.336869 34112 train.py:86] epochs: 210.0, Loss: 0.6333750486373901, Accuracy: 66.28571319580078, Test Loss: 0.6130126118659973, Test Accuracy: 71.79487609863281
+I1127 18:00:12.980249 34112 train.py:86] epochs: 220.0, Loss: 0.6336932182312012, Accuracy: 66.21977996826172, Test Loss: 0.6073039770126343, Test Accuracy: 74.35897827148438
+I1127 18:00:13.630010 34112 train.py:86] epochs: 230.0, Loss: 0.6318310499191284, Accuracy: 66.52774810791016, Test Loss: 0.6058537364006042, Test Accuracy: 74.35897827148438
+I1127 18:00:14.262205 34112 train.py:86] epochs: 240.0, Loss: 0.6321956515312195, Accuracy: 66.28571319580078, Test Loss: 0.6055445671081543, Test Accuracy: 74.35897827148438
+I1127 18:00:14.896317 34112 train.py:86] epochs: 250.0, Loss: 0.6274924278259277, Accuracy: 66.70329284667969, Test Loss: 0.6102268695831299, Test Accuracy: 69.23077392578125
+I1127 18:00:15.525232 34112 train.py:86] epochs: 260.0, Loss: 0.6316672563552856, Accuracy: 66.76902770996094, Test Loss: 0.6060764193534851, Test Accuracy: 72.64957427978516
+I1127 18:00:16.160912 34112 train.py:86] epochs: 270.0, Loss: 0.6271774768829346, Accuracy: 67.29669952392578, Test Loss: 0.6062272191047668, Test Accuracy: 70.0854721069336
+I1127 18:00:16.797620 34112 train.py:86] epochs: 280.0, Loss: 0.6266111731529236, Accuracy: 66.68132019042969, Test Loss: 0.607428252696991, Test Accuracy: 69.23077392578125
+I1127 18:00:17.498056 34112 train.py:86] epochs: 290.0, Loss: 0.6246461868286133, Accuracy: 67.0541763305664, Test Loss: 0.603766143321991, Test Accuracy: 70.0854721069336
+I1127 18:00:18.182179 34112 train.py:86] epochs: 300.0, Loss: 0.6270067691802979, Accuracy: 67.16483306884766, Test Loss: 0.5995239019393921, Test Accuracy: 74.35897827148438
+I1127 18:00:18.818744 34112 train.py:86] epochs: 310.0, Loss: 0.6240353584289551, Accuracy: 67.12088012695312, Test Loss: 0.5965559482574463, Test Accuracy: 74.35897827148438
+I1127 18:00:19.444660 34112 train.py:86] epochs: 320.0, Loss: 0.6185269355773926, Accuracy: 68.06317138671875, Test Loss: 0.5954030752182007, Test Accuracy: 74.35897827148438
+I1127 18:00:20.130119 34112 train.py:86] epochs: 330.0, Loss: 0.6202004551887512, Accuracy: 67.58241271972656, Test Loss: 0.5945796370506287, Test Accuracy: 74.35897827148438
+I1127 18:00:20.764288 34112 train.py:86] epochs: 340.0, Loss: 0.6190614700317383, Accuracy: 68.0, Test Loss: 0.5982152223587036, Test Accuracy: 70.0854721069336
+I1127 18:00:21.446087 34112 train.py:86] epochs: 350.0, Loss: 0.6183136105537415, Accuracy: 68.0412368774414, Test Loss: 0.5904300808906555, Test Accuracy: 74.35897827148438
+I1127 18:00:22.117804 34112 train.py:86] epochs: 360.0, Loss: 0.6202462315559387, Accuracy: 67.9120864868164, Test Loss: 0.5936458110809326, Test Accuracy: 71.79487609863281
+I1127 18:00:22.790761 34112 train.py:86] epochs: 370.0, Loss: 0.6162887811660767, Accuracy: 68.24176025390625, Test Loss: 0.5907841920852661, Test Accuracy: 74.35897827148438
+I1127 18:00:23.559494 34112 train.py:86] epochs: 380.0, Loss: 0.6174771785736084, Accuracy: 68.21977996826172, Test Loss: 0.5856500267982483, Test Accuracy: 74.35897827148438
+I1127 18:00:24.195390 34112 train.py:86] epochs: 390.0, Loss: 0.6146005392074585, Accuracy: 67.99736785888672, Test Loss: 0.5884130001068115, Test Accuracy: 74.35897827148438
+I1127 18:00:24.831371 34112 train.py:86] epochs: 400.0, Loss: 0.6136108040809631, Accuracy: 68.26058959960938, Test Loss: 0.5944748520851135, Test Accuracy: 69.23077392578125
+I1127 18:00:25.465179 34112 train.py:86] epochs: 410.0, Loss: 0.6135204434394836, Accuracy: 68.26373291015625, Test Loss: 0.5868659019470215, Test Accuracy: 73.5042724609375
+I1127 18:00:26.100400 34112 train.py:86] epochs: 420.0, Loss: 0.6137818694114685, Accuracy: 68.5054931640625, Test Loss: 0.5826513767242432, Test Accuracy: 74.35897827148438
+I1127 18:00:26.745734 34112 train.py:86] epochs: 430.0, Loss: 0.6123033761978149, Accuracy: 68.43955993652344, Test Loss: 0.5856241583824158, Test Accuracy: 71.79487609863281
+I1127 18:00:27.375863 34112 train.py:86] epochs: 440.0, Loss: 0.611997127532959, Accuracy: 69.11603546142578, Test Loss: 0.5854182839393616, Test Accuracy: 70.94017028808594
+I1127 18:00:28.080729 34112 train.py:86] epochs: 450.0, Loss: 0.6105661988258362, Accuracy: 68.04395294189453, Test Loss: 0.5888671278953552, Test Accuracy: 70.94017028808594
+I1127 18:00:28.831507 34112 train.py:86] epochs: 460.0, Loss: 0.6097853779792786, Accuracy: 68.47993469238281, Test Loss: 0.5838177800178528, Test Accuracy: 70.94017028808594
+I1127 18:00:29.502563 34112 train.py:86] epochs: 470.0, Loss: 0.6077833771705627, Accuracy: 68.76922607421875, Test Loss: 0.5844148397445679, Test Accuracy: 71.79487609863281
+I1127 18:00:30.152564 34112 train.py:86] epochs: 480.0, Loss: 0.6071203351020813, Accuracy: 69.03296661376953, Test Loss: 0.5870122313499451, Test Accuracy: 70.0854721069336
+I1127 18:00:30.809714 34112 train.py:86] epochs: 490.0, Loss: 0.6047464609146118, Accuracy: 68.63347625732422, Test Loss: 0.5870766639709473, Test Accuracy: 66.66667175292969
+I1127 18:00:31.443317 34112 train.py:86] epochs: 500.0, Loss: 0.6038486957550049, Accuracy: 68.94505310058594, Test Loss: 0.5775030851364136, Test Accuracy: 72.64957427978516
+I1127 18:00:32.077955 34112 train.py:86] epochs: 510.0, Loss: 0.6053223609924316, Accuracy: 68.87911987304688, Test Loss: 0.5884427428245544, Test Accuracy: 66.66667175292969
+I1127 18:00:32.705522 34112 train.py:86] epochs: 520.0, Loss: 0.6063966751098633, Accuracy: 69.31867980957031, Test Loss: 0.5838316082954407, Test Accuracy: 71.79487609863281
+I1127 18:00:33.334050 34112 train.py:86] epochs: 530.0, Loss: 0.606062114238739, Accuracy: 69.29151153564453, Test Loss: 0.5808398127555847, Test Accuracy: 70.94017028808594
+I1127 18:00:33.960969 34112 train.py:86] epochs: 540.0, Loss: 0.6036173701286316, Accuracy: 69.64834594726562, Test Loss: 0.5778651237487793, Test Accuracy: 71.79487609863281
+I1127 18:00:34.586116 34112 train.py:86] epochs: 550.0, Loss: 0.6006957292556763, Accuracy: 69.53845977783203, Test Loss: 0.580701470375061, Test Accuracy: 70.0854721069336
+I1127 18:00:35.214364 34112 train.py:86] epochs: 560.0, Loss: 0.6011856198310852, Accuracy: 69.2257080078125, Test Loss: 0.5716732144355774, Test Accuracy: 72.64957427978516
+I1127 18:00:35.840003 34112 train.py:86] epochs: 570.0, Loss: 0.6006540656089783, Accuracy: 69.01099395751953, Test Loss: 0.5820831060409546, Test Accuracy: 67.52136993408203
+I1127 18:00:36.468029 34112 train.py:86] epochs: 580.0, Loss: 0.599331796169281, Accuracy: 69.60440063476562, Test Loss: 0.5789134502410889, Test Accuracy: 69.23077392578125
+I1127 18:00:37.096890 34112 train.py:86] epochs: 590.0, Loss: 0.6036339402198792, Accuracy: 69.44505310058594, Test Loss: 0.5767988562583923, Test Accuracy: 70.94017028808594
+I1127 18:00:37.726419 34112 train.py:86] epochs: 600.0, Loss: 0.6009638905525208, Accuracy: 69.47252655029297, Test Loss: 0.5771022439002991, Test Accuracy: 69.23077392578125
+I1127 18:00:38.355641 34112 train.py:86] epochs: 610.0, Loss: 0.5973818302154541, Accuracy: 69.67033386230469, Test Loss: 0.5790801048278809, Test Accuracy: 69.23077392578125
+I1127 18:00:38.985132 34112 train.py:86] epochs: 620.0, Loss: 0.601536750793457, Accuracy: 69.20377349853516, Test Loss: 0.5667687058448792, Test Accuracy: 72.64957427978516
+I1127 18:00:39.614417 34112 train.py:86] epochs: 630.0, Loss: 0.5969388484954834, Accuracy: 70.19779968261719, Test Loss: 0.5904185175895691, Test Accuracy: 67.52136993408203
+I1127 18:00:40.244785 34112 train.py:86] epochs: 640.0, Loss: 0.5998139381408691, Accuracy: 69.3792495727539, Test Loss: 0.5794796943664551, Test Accuracy: 69.23077392578125
+I1127 18:00:40.875997 34112 train.py:86] epochs: 650.0, Loss: 0.5957996249198914, Accuracy: 69.76436614990234, Test Loss: 0.5692074298858643, Test Accuracy: 72.64957427978516
+I1127 18:00:41.508883 34112 train.py:86] epochs: 660.0, Loss: 0.5991417765617371, Accuracy: 69.62052917480469, Test Loss: 0.5716990232467651, Test Accuracy: 70.94017028808594
+I1127 18:00:42.140621 34112 train.py:86] epochs: 670.0, Loss: 0.5969905853271484, Accuracy: 69.64834594726562, Test Loss: 0.5717746019363403, Test Accuracy: 70.94017028808594
+I1127 18:00:42.771827 34112 train.py:86] epochs: 680.0, Loss: 0.598616898059845, Accuracy: 70.28571319580078, Test Loss: 0.5839805603027344, Test Accuracy: 66.66667175292969
+I1127 18:00:43.400062 34112 train.py:86] epochs: 690.0, Loss: 0.5966711640357971, Accuracy: 70.34437561035156, Test Loss: 0.5766869187355042, Test Accuracy: 69.23077392578125
+I1127 18:00:44.026583 34112 train.py:86] epochs: 700.0, Loss: 0.5960587859153748, Accuracy: 69.75213623046875, Test Loss: 0.5782593488693237, Test Accuracy: 67.52136993408203
+I1127 18:00:44.651038 34112 train.py:86] epochs: 710.0, Loss: 0.5981351733207703, Accuracy: 69.73626708984375, Test Loss: 0.5798459053039551, Test Accuracy: 67.52136993408203
+I1127 18:00:45.278674 34112 train.py:86] epochs: 720.0, Loss: 0.5984218120574951, Accuracy: 69.93406677246094, Test Loss: 0.5751664042472839, Test Accuracy: 69.23077392578125
+I1127 18:00:45.905290 34112 train.py:86] epochs: 730.0, Loss: 0.5957340598106384, Accuracy: 69.93406677246094, Test Loss: 0.5690104961395264, Test Accuracy: 70.0854721069336
+I1127 18:00:46.551056 34112 train.py:86] epochs: 740.0, Loss: 0.5949369072914124, Accuracy: 70.04396057128906, Test Loss: 0.570182204246521, Test Accuracy: 69.23077392578125
+I1127 18:00:47.189133 34112 train.py:86] epochs: 750.0, Loss: 0.5951868891716003, Accuracy: 69.70826721191406, Test Loss: 0.5749274492263794, Test Accuracy: 69.23077392578125
+I1127 18:00:47.820559 34112 train.py:86] epochs: 760.0, Loss: 0.5958263874053955, Accuracy: 70.43955993652344, Test Loss: 0.5771021246910095, Test Accuracy: 67.52136993408203
+I1127 18:00:48.449106 34112 train.py:86] epochs: 770.0, Loss: 0.5954259634017944, Accuracy: 69.68633270263672, Test Loss: 0.5768758058547974, Test Accuracy: 67.52136993408203
+I1127 18:00:49.077608 34112 train.py:86] epochs: 780.0, Loss: 0.5952374935150146, Accuracy: 70.13186645507812, Test Loss: 0.5778314471244812, Test Accuracy: 67.52136993408203
+I1127 18:00:49.711575 34112 train.py:86] epochs: 790.0, Loss: 0.5940816402435303, Accuracy: 70.25662994384766, Test Loss: 0.5658624768257141, Test Accuracy: 70.94017028808594
+I1127 18:00:50.381808 34112 train.py:86] epochs: 800.0, Loss: 0.5935393571853638, Accuracy: 69.93406677246094, Test Loss: 0.5714912414550781, Test Accuracy: 70.0854721069336
+I1127 18:00:51.026432 34112 train.py:86] epochs: 810.0, Loss: 0.5954325199127197, Accuracy: 70.15384674072266, Test Loss: 0.5763840675354004, Test Accuracy: 67.52136993408203
+I1127 18:00:51.676349 34112 train.py:86] epochs: 820.0, Loss: 0.5950523614883423, Accuracy: 69.94954681396484, Test Loss: 0.5657020807266235, Test Accuracy: 68.37606811523438
+I1127 18:00:52.303812 34112 train.py:86] epochs: 830.0, Loss: 0.5864241719245911, Accuracy: 70.44703674316406, Test Loss: 0.5644950270652771, Test Accuracy: 69.23077392578125
+I1127 18:00:52.933750 34112 train.py:86] epochs: 840.0, Loss: 0.5910329222679138, Accuracy: 70.05921936035156, Test Loss: 0.5702754855155945, Test Accuracy: 70.0854721069336
+I1127 18:00:53.563155 34112 train.py:86] epochs: 850.0, Loss: 0.5923106670379639, Accuracy: 69.75823974609375, Test Loss: 0.5656484365463257, Test Accuracy: 67.52136993408203
+I1127 18:00:54.194990 34112 train.py:86] epochs: 860.0, Loss: 0.5900646448135376, Accuracy: 70.37362670898438, Test Loss: 0.5785770416259766, Test Accuracy: 67.52136993408203
+I1127 18:00:54.825097 34112 train.py:86] epochs: 870.0, Loss: 0.5908913016319275, Accuracy: 70.563720703125, Test Loss: 0.5679625272750854, Test Accuracy: 68.37606811523438
+I1127 18:00:55.468572 34112 train.py:86] epochs: 880.0, Loss: 0.5909993052482605, Accuracy: 69.84615325927734, Test Loss: 0.5694553256034851, Test Accuracy: 69.23077392578125
+I1127 18:00:56.139080 34112 train.py:86] epochs: 890.0, Loss: 0.5895005464553833, Accuracy: 69.9276123046875, Test Loss: 0.5722752213478088, Test Accuracy: 67.52136993408203
+I1127 18:00:56.825459 34112 train.py:86] epochs: 900.0, Loss: 0.5891490578651428, Accuracy: 70.28571319580078, Test Loss: 0.5722399950027466, Test Accuracy: 67.52136993408203
+I1127 18:00:57.471271 34112 train.py:86] epochs: 910.0, Loss: 0.5888128876686096, Accuracy: 70.4835205078125, Test Loss: 0.5621343851089478, Test Accuracy: 69.23077392578125
+I1127 18:00:58.106190 34112 train.py:86] epochs: 920.0, Loss: 0.5868155360221863, Accuracy: 70.30769348144531, Test Loss: 0.5653366446495056, Test Accuracy: 67.52136993408203
+I1127 18:00:58.740089 34112 train.py:86] epochs: 930.0, Loss: 0.5897579193115234, Accuracy: 70.03728485107422, Test Loss: 0.5700787305831909, Test Accuracy: 69.23077392578125
+I1127 18:00:59.372910 34112 train.py:86] epochs: 940.0, Loss: 0.5890681743621826, Accuracy: 70.45404815673828, Test Loss: 0.5705252289772034, Test Accuracy: 69.23077392578125
+I1127 18:01:00.004158 34112 train.py:86] epochs: 950.0, Loss: 0.5888391137123108, Accuracy: 70.19779968261719, Test Loss: 0.5713048577308655, Test Accuracy: 67.52136993408203
+I1127 18:01:00.641777 34112 train.py:86] epochs: 960.0, Loss: 0.5895370244979858, Accuracy: 70.65933990478516, Test Loss: 0.5706772804260254, Test Accuracy: 69.23077392578125
+I1127 18:01:01.274178 34112 train.py:86] epochs: 970.0, Loss: 0.5863624811172485, Accuracy: 70.65933990478516, Test Loss: 0.5672065615653992, Test Accuracy: 68.37606811523438
+I1127 18:01:01.904201 34112 train.py:86] epochs: 980.0, Loss: 0.5892329216003418, Accuracy: 69.94954681396484, Test Loss: 0.5691473484039307, Test Accuracy: 68.37606811523438
+I1127 18:01:02.535084 34112 train.py:86] epochs: 990.0, Loss: 0.5893654823303223, Accuracy: 70.30769348144531, Test Loss: 0.562382161617279, Test Accuracy: 67.52136993408203
+I1127 18:01:03.206016 34112 train.py:86] epochs: 1000.0, Loss: 0.5858704447746277, Accuracy: 70.43211364746094, Test Loss: 0.5667495131492615, Test Accuracy: 68.37606811523438
+I1127 18:01:03.846990 34112 train.py:86] epochs: 1010.0, Loss: 0.5828303694725037, Accuracy: 70.57916259765625, Test Loss: 0.5723678469657898, Test Accuracy: 67.52136993408203
+I1127 18:01:04.481246 34112 train.py:86] epochs: 1020.0, Loss: 0.5861890316009521, Accuracy: 69.97148132324219, Test Loss: 0.5660303235054016, Test Accuracy: 68.37606811523438
+I1127 18:01:05.119183 34112 train.py:86] epochs: 1030.0, Loss: 0.5842422246932983, Accuracy: 70.69532775878906, Test Loss: 0.567316472530365, Test Accuracy: 68.37606811523438
+I1127 18:01:05.756156 34112 train.py:86] epochs: 1040.0, Loss: 0.5908702611923218, Accuracy: 70.32967376708984, Test Loss: 0.5625301003456116, Test Accuracy: 67.52136993408203
+I1127 18:01:06.391873 34112 train.py:86] epochs: 1050.0, Loss: 0.5853284001350403, Accuracy: 70.21977996826172, Test Loss: 0.5700726509094238, Test Accuracy: 67.52136993408203
+I1127 18:01:07.024491 34112 train.py:86] epochs: 1060.0, Loss: 0.5881609916687012, Accuracy: 70.23469543457031, Test Loss: 0.5608514547348022, Test Accuracy: 67.52136993408203
+I1127 18:01:07.653697 34112 train.py:86] epochs: 1070.0, Loss: 0.5878468751907349, Accuracy: 70.57916259765625, Test Loss: 0.5696160793304443, Test Accuracy: 67.52136993408203
+I1127 18:01:08.312312 34112 train.py:86] epochs: 1080.0, Loss: 0.5848714113235474, Accuracy: 70.278564453125, Test Loss: 0.5721654891967773, Test Accuracy: 68.37606811523438
+I1127 18:01:08.951766 34112 train.py:86] epochs: 1090.0, Loss: 0.5845984220504761, Accuracy: 69.9276123046875, Test Loss: 0.56536865234375, Test Accuracy: 68.37606811523438
+I1127 18:01:09.586158 34112 train.py:86] epochs: 1100.0, Loss: 0.5854008793830872, Accuracy: 70.38097381591797, Test Loss: 0.5712782740592957, Test Accuracy: 68.37606811523438
+I1127 18:01:10.216706 34112 train.py:86] epochs: 1110.0, Loss: 0.5835906267166138, Accuracy: 70.03728485107422, Test Loss: 0.5586825013160706, Test Accuracy: 67.52136993408203
+I1127 18:01:10.862480 34112 train.py:86] epochs: 1120.0, Loss: 0.5816580057144165, Accuracy: 70.62952423095703, Test Loss: 0.5646799802780151, Test Accuracy: 68.37606811523438
+I1127 18:01:11.514300 34112 train.py:86] epochs: 1130.0, Loss: 0.5838043093681335, Accuracy: 70.24176025390625, Test Loss: 0.5610154867172241, Test Accuracy: 68.37606811523438
+I1127 18:01:12.146597 34112 train.py:86] epochs: 1140.0, Loss: 0.5836964845657349, Accuracy: 69.97801971435547, Test Loss: 0.5730624794960022, Test Accuracy: 68.37606811523438
+I1127 18:01:12.775715 34112 train.py:86] epochs: 1150.0, Loss: 0.5858435034751892, Accuracy: 70.43955993652344, Test Loss: 0.5651276111602783, Test Accuracy: 66.66667175292969
+I1127 18:01:13.407917 34112 train.py:86] epochs: 1160.0, Loss: 0.5761644840240479, Accuracy: 71.09014892578125, Test Loss: 0.5625017881393433, Test Accuracy: 68.37606811523438
+I1127 18:01:14.037038 34112 train.py:86] epochs: 1170.0, Loss: 0.5846999287605286, Accuracy: 70.02198028564453, Test Loss: 0.5648261308670044, Test Accuracy: 67.52136993408203
+I1127 18:01:14.670780 34112 train.py:86] epochs: 1180.0, Loss: 0.5811721682548523, Accuracy: 70.87080383300781, Test Loss: 0.5602999329566956, Test Accuracy: 67.52136993408203
+I1127 18:01:15.308609 34112 train.py:86] epochs: 1190.0, Loss: 0.5808005332946777, Accuracy: 71.12088012695312, Test Loss: 0.5689047574996948, Test Accuracy: 66.66667175292969
+I1127 18:01:15.943092 34112 train.py:86] epochs: 1200.0, Loss: 0.5815208554267883, Accuracy: 71.12088012695312, Test Loss: 0.5704424977302551, Test Accuracy: 68.37606811523438
+I1127 18:01:16.585032 34112 train.py:86] epochs: 1210.0, Loss: 0.5808197855949402, Accuracy: 70.23469543457031, Test Loss: 0.5615983009338379, Test Accuracy: 68.37606811523438
+I1127 18:01:17.245129 34112 train.py:86] epochs: 1220.0, Loss: 0.580338180065155, Accuracy: 71.14286041259766, Test Loss: 0.5605560541152954, Test Accuracy: 68.37606811523438
+I1127 18:01:17.917515 34112 train.py:86] epochs: 1230.0, Loss: 0.5853369832038879, Accuracy: 70.19779968261719, Test Loss: 0.561320960521698, Test Accuracy: 68.37606811523438
+I1127 18:01:18.552960 34112 train.py:86] epochs: 1240.0, Loss: 0.5819977521896362, Accuracy: 70.54178619384766, Test Loss: 0.567734956741333, Test Accuracy: 66.66667175292969
+I1127 18:01:19.190190 34112 train.py:86] epochs: 1250.0, Loss: 0.5802661180496216, Accuracy: 70.66725158691406, Test Loss: 0.5589264631271362, Test Accuracy: 68.37606811523438
+I1127 18:01:19.819982 34112 train.py:86] epochs: 1260.0, Loss: 0.5804321765899658, Accuracy: 70.7172622680664, Test Loss: 0.5624920129776001, Test Accuracy: 68.37606811523438
+I1127 18:01:20.485942 34112 train.py:86] epochs: 1270.0, Loss: 0.5785281658172607, Accuracy: 70.84886932373047, Test Loss: 0.5645281672477722, Test Accuracy: 67.52136993408203
+I1127 18:01:21.128827 34112 train.py:86] epochs: 1280.0, Loss: 0.582308292388916, Accuracy: 70.29288482666016, Test Loss: 0.5604438781738281, Test Accuracy: 68.37606811523438
+I1127 18:01:21.779088 34112 train.py:86] epochs: 1290.0, Loss: 0.5777917504310608, Accuracy: 70.60758972167969, Test Loss: 0.563063383102417, Test Accuracy: 67.52136993408203
+I1127 18:01:22.406965 34112 train.py:86] epochs: 1300.0, Loss: 0.5803176760673523, Accuracy: 70.4101791381836, Test Loss: 0.5675526857376099, Test Accuracy: 66.66667175292969
+I1127 18:01:23.037277 34112 train.py:86] epochs: 1310.0, Loss: 0.5789787173271179, Accuracy: 71.010986328125, Test Loss: 0.5654754042625427, Test Accuracy: 66.66667175292969
+I1127 18:01:23.665230 34112 train.py:86] epochs: 1320.0, Loss: 0.5818625688552856, Accuracy: 70.63735961914062, Test Loss: 0.5559445023536682, Test Accuracy: 66.66667175292969
+I1127 18:01:24.295458 34112 train.py:86] epochs: 1330.0, Loss: 0.5798666477203369, Accuracy: 70.37362670898438, Test Loss: 0.551993191242218, Test Accuracy: 70.94017028808594
+I1127 18:01:24.926699 34112 train.py:86] epochs: 1340.0, Loss: 0.5741792321205139, Accuracy: 71.09014892578125, Test Loss: 0.5580487847328186, Test Accuracy: 68.37606811523438
+I1127 18:01:25.560283 34112 train.py:86] epochs: 1350.0, Loss: 0.5789879560470581, Accuracy: 70.4835205078125, Test Loss: 0.565908670425415, Test Accuracy: 66.66667175292969
+I1127 18:01:26.192303 34112 train.py:86] epochs: 1360.0, Loss: 0.5785302519798279, Accuracy: 70.67339324951172, Test Loss: 0.5549081563949585, Test Accuracy: 68.37606811523438
+I1127 18:01:26.827813 34112 train.py:86] epochs: 1370.0, Loss: 0.5739893913269043, Accuracy: 71.4945068359375, Test Loss: 0.5645915269851685, Test Accuracy: 66.66667175292969
+I1127 18:01:27.462971 34112 train.py:86] epochs: 1380.0, Loss: 0.5770081877708435, Accuracy: 70.3956069946289, Test Loss: 0.5567817091941833, Test Accuracy: 67.52136993408203
+I1127 18:01:28.097380 34112 train.py:86] epochs: 1390.0, Loss: 0.5763011574745178, Accuracy: 70.54945373535156, Test Loss: 0.5572129487991333, Test Accuracy: 68.37606811523438
+I1127 18:01:28.733833 34112 train.py:86] epochs: 1400.0, Loss: 0.5773372650146484, Accuracy: 70.563720703125, Test Loss: 0.5604198575019836, Test Accuracy: 68.37606811523438
+I1127 18:01:29.364997 34112 train.py:86] epochs: 1410.0, Loss: 0.5770696997642517, Accuracy: 70.5054931640625, Test Loss: 0.5662400722503662, Test Accuracy: 66.66667175292969
+I1127 18:01:30.000379 34112 train.py:86] epochs: 1420.0, Loss: 0.578084409236908, Accuracy: 70.70330047607422, Test Loss: 0.5683668255805969, Test Accuracy: 66.66667175292969
+I1127 18:01:30.635259 34112 train.py:86] epochs: 1430.0, Loss: 0.575576663017273, Accuracy: 70.89273834228516, Test Loss: 0.5683683156967163, Test Accuracy: 67.52136993408203
+I1127 18:01:31.266509 34112 train.py:86] epochs: 1440.0, Loss: 0.5775240659713745, Accuracy: 70.54945373535156, Test Loss: 0.5566103458404541, Test Accuracy: 67.52136993408203
+I1127 18:01:31.900057 34112 train.py:86] epochs: 1450.0, Loss: 0.5742044448852539, Accuracy: 70.4175796508789, Test Loss: 0.5650804042816162, Test Accuracy: 66.66667175292969
+I1127 18:01:32.527897 34112 train.py:86] epochs: 1460.0, Loss: 0.5771543383598328, Accuracy: 70.9146728515625, Test Loss: 0.5557436347007751, Test Accuracy: 67.52136993408203
+I1127 18:01:33.159101 34112 train.py:86] epochs: 1470.0, Loss: 0.5742802619934082, Accuracy: 70.87911987304688, Test Loss: 0.5619139075279236, Test Accuracy: 68.37606811523438
+I1127 18:01:33.788869 34112 train.py:86] epochs: 1480.0, Loss: 0.5747974514961243, Accuracy: 70.989013671875, Test Loss: 0.5602739453315735, Test Accuracy: 69.23077392578125
+I1127 18:01:34.418984 34112 train.py:86] epochs: 1490.0, Loss: 0.5730453133583069, Accuracy: 70.3663101196289, Test Loss: 0.5700623393058777, Test Accuracy: 68.37606811523438
+I1127 18:01:35.051638 34112 train.py:86] epochs: 1500.0, Loss: 0.5761635899543762, Accuracy: 71.05494689941406, Test Loss: 0.5543013215065002, Test Accuracy: 68.37606811523438
+I1127 18:01:35.684239 34112 train.py:86] epochs: 1510.0, Loss: 0.574510931968689, Accuracy: 70.4175796508789, Test Loss: 0.5652661323547363, Test Accuracy: 68.37606811523438
+I1127 18:01:36.313187 34112 train.py:86] epochs: 1520.0, Loss: 0.5690287351608276, Accuracy: 71.30949401855469, Test Loss: 0.5569449663162231, Test Accuracy: 69.23077392578125
+I1127 18:01:36.949442 34112 train.py:86] epochs: 1530.0, Loss: 0.5717094540596008, Accuracy: 70.94505310058594, Test Loss: 0.5537316203117371, Test Accuracy: 68.37606811523438
+I1127 18:01:37.620491 34112 train.py:86] epochs: 1540.0, Loss: 0.5757133960723877, Accuracy: 70.563720703125, Test Loss: 0.5511922836303711, Test Accuracy: 68.37606811523438
+I1127 18:01:38.256744 34112 train.py:86] epochs: 1550.0, Loss: 0.5737705826759338, Accuracy: 70.84342956542969, Test Loss: 0.5567228198051453, Test Accuracy: 68.37606811523438
+I1127 18:01:38.888657 34112 train.py:86] epochs: 1560.0, Loss: 0.5717227458953857, Accuracy: 71.1120834350586, Test Loss: 0.5534993410110474, Test Accuracy: 70.0854721069336
+I1127 18:01:39.527818 34112 train.py:86] epochs: 1570.0, Loss: 0.5749009251594543, Accuracy: 70.19779968261719, Test Loss: 0.5600588917732239, Test Accuracy: 69.23077392578125
+I1127 18:01:40.166083 34112 train.py:86] epochs: 1580.0, Loss: 0.5714744925498962, Accuracy: 71.33142852783203, Test Loss: 0.5529735088348389, Test Accuracy: 70.0854721069336
+I1127 18:01:40.813320 34112 train.py:86] epochs: 1590.0, Loss: 0.5775914192199707, Accuracy: 71.03296661376953, Test Loss: 0.5566707253456116, Test Accuracy: 70.94017028808594
+I1127 18:01:41.446166 34112 train.py:86] epochs: 1600.0, Loss: 0.5689533948898315, Accuracy: 71.20879364013672, Test Loss: 0.5664137005805969, Test Accuracy: 68.37606811523438
+I1127 18:01:42.079045 34112 train.py:86] epochs: 1610.0, Loss: 0.5719161033630371, Accuracy: 71.265625, Test Loss: 0.5560048818588257, Test Accuracy: 70.0854721069336
+I1127 18:01:42.708867 34112 train.py:86] epochs: 1620.0, Loss: 0.5700960755348206, Accuracy: 71.31867980957031, Test Loss: 0.5520393252372742, Test Accuracy: 69.23077392578125
+I1127 18:01:43.384668 34112 train.py:86] epochs: 1630.0, Loss: 0.5697005391120911, Accuracy: 71.42857360839844, Test Loss: 0.564093291759491, Test Accuracy: 67.52136993408203
+I1127 18:01:44.066741 34112 train.py:86] epochs: 1640.0, Loss: 0.573188066482544, Accuracy: 70.96703338623047, Test Loss: 0.5541461110115051, Test Accuracy: 70.0854721069336
+I1127 18:01:44.710939 34112 train.py:86] epochs: 1650.0, Loss: 0.5699421763420105, Accuracy: 71.24369049072266, Test Loss: 0.5511907935142517, Test Accuracy: 70.0854721069336
+I1127 18:01:45.343768 34112 train.py:86] epochs: 1660.0, Loss: 0.5738539695739746, Accuracy: 71.12088012695312, Test Loss: 0.5515758395195007, Test Accuracy: 70.0854721069336
+I1127 18:01:45.976125 34112 train.py:86] epochs: 1670.0, Loss: 0.5734073519706726, Accuracy: 70.4101791381836, Test Loss: 0.5515477061271667, Test Accuracy: 70.0854721069336
+I1127 18:01:46.612381 34112 train.py:86] epochs: 1680.0, Loss: 0.5702807307243347, Accuracy: 71.4065933227539, Test Loss: 0.5580019950866699, Test Accuracy: 68.37606811523438
+I1127 18:01:47.246977 34112 train.py:86] epochs: 1690.0, Loss: 0.5706358551979065, Accuracy: 70.79120635986328, Test Loss: 0.5532119274139404, Test Accuracy: 70.0854721069336
+I1127 18:01:47.877696 34112 train.py:86] epochs: 1700.0, Loss: 0.5739287734031677, Accuracy: 71.03296661376953, Test Loss: 0.5505213141441345, Test Accuracy: 70.0854721069336
+I1127 18:01:48.511955 34112 train.py:86] epochs: 1710.0, Loss: 0.5701335072517395, Accuracy: 71.13401794433594, Test Loss: 0.5540412068367004, Test Accuracy: 70.94017028808594
+I1127 18:01:49.150500 34112 train.py:86] epochs: 1720.0, Loss: 0.5705507397651672, Accuracy: 71.02434539794922, Test Loss: 0.5507394075393677, Test Accuracy: 70.94017028808594
+I1127 18:01:49.788008 34112 train.py:86] epochs: 1730.0, Loss: 0.5652197599411011, Accuracy: 71.69230651855469, Test Loss: 0.5542082786560059, Test Accuracy: 70.0854721069336
+I1127 18:01:50.420877 34112 train.py:86] epochs: 1740.0, Loss: 0.5719977021217346, Accuracy: 71.20879364013672, Test Loss: 0.5504962801933289, Test Accuracy: 69.23077392578125
+I1127 18:01:51.054783 34112 train.py:86] epochs: 1750.0, Loss: 0.5713552832603455, Accuracy: 71.14286041259766, Test Loss: 0.5463936924934387, Test Accuracy: 71.79487609863281
+I1127 18:01:51.728633 34112 train.py:86] epochs: 1760.0, Loss: 0.5743292570114136, Accuracy: 71.36264038085938, Test Loss: 0.5578137636184692, Test Accuracy: 68.37606811523438
+I1127 18:01:52.362551 34112 train.py:86] epochs: 1770.0, Loss: 0.57053142786026, Accuracy: 70.9146728515625, Test Loss: 0.552144467830658, Test Accuracy: 70.0854721069336
+I1127 18:01:52.998883 34112 train.py:86] epochs: 1780.0, Loss: 0.5728054642677307, Accuracy: 70.95854187011719, Test Loss: 0.5534989237785339, Test Accuracy: 70.94017028808594
+I1127 18:01:53.633408 34112 train.py:86] epochs: 1790.0, Loss: 0.5677367448806763, Accuracy: 71.26183319091797, Test Loss: 0.559555172920227, Test Accuracy: 68.37606811523438
+I1127 18:01:54.296622 34112 train.py:86] epochs: 1800.0, Loss: 0.5672852396965027, Accuracy: 71.15595245361328, Test Loss: 0.5572568774223328, Test Accuracy: 69.23077392578125
+I1127 18:01:54.979378 34112 train.py:86] epochs: 1810.0, Loss: 0.5735516548156738, Accuracy: 71.09014892578125, Test Loss: 0.5506550073623657, Test Accuracy: 70.0854721069336
+I1127 18:01:55.642257 34112 train.py:86] epochs: 1820.0, Loss: 0.5695675611495972, Accuracy: 71.12088012695312, Test Loss: 0.5513314604759216, Test Accuracy: 70.0854721069336
+I1127 18:01:56.277399 34112 train.py:86] epochs: 1830.0, Loss: 0.5673019289970398, Accuracy: 71.69230651855469, Test Loss: 0.5521940588951111, Test Accuracy: 70.0854721069336
+I1127 18:01:56.911239 34112 train.py:86] epochs: 1840.0, Loss: 0.569320559501648, Accuracy: 71.05494689941406, Test Loss: 0.5518554449081421, Test Accuracy: 70.0854721069336
+I1127 18:01:57.541058 34112 train.py:86] epochs: 1850.0, Loss: 0.5653210878372192, Accuracy: 71.61658477783203, Test Loss: 0.5522423386573792, Test Accuracy: 70.0854721069336
+I1127 18:01:58.174350 34112 train.py:86] epochs: 1860.0, Loss: 0.5741977691650391, Accuracy: 70.83516693115234, Test Loss: 0.5537553429603577, Test Accuracy: 70.0854721069336
+I1127 18:01:58.801064 34112 train.py:86] epochs: 1870.0, Loss: 0.5662572383880615, Accuracy: 70.989013671875, Test Loss: 0.5535680055618286, Test Accuracy: 70.0854721069336
+I1127 18:01:59.425430 34112 train.py:86] epochs: 1880.0, Loss: 0.5707186460494995, Accuracy: 70.9146728515625, Test Loss: 0.547436535358429, Test Accuracy: 70.0854721069336
+I1127 18:02:00.053662 34112 train.py:86] epochs: 1890.0, Loss: 0.5662108659744263, Accuracy: 71.84615325927734, Test Loss: 0.5528666973114014, Test Accuracy: 70.0854721069336
+I1127 18:02:00.687712 34112 train.py:86] epochs: 1900.0, Loss: 0.5715703964233398, Accuracy: 71.29670715332031, Test Loss: 0.5598446130752563, Test Accuracy: 67.52136993408203
+I1127 18:02:01.324099 34112 train.py:86] epochs: 1910.0, Loss: 0.5679320096969604, Accuracy: 70.68132019042969, Test Loss: 0.5429650545120239, Test Accuracy: 74.35897827148438
+I1127 18:02:01.950477 34112 train.py:86] epochs: 1920.0, Loss: 0.5678991675376892, Accuracy: 71.35336303710938, Test Loss: 0.5433052778244019, Test Accuracy: 75.21367645263672
+I1127 18:02:02.584569 34112 train.py:86] epochs: 1930.0, Loss: 0.5683028101921082, Accuracy: 71.28755950927734, Test Loss: 0.5510229468345642, Test Accuracy: 70.94017028808594
+I1127 18:02:03.217575 34112 train.py:86] epochs: 1940.0, Loss: 0.5668543577194214, Accuracy: 71.37194061279297, Test Loss: 0.5572542548179626, Test Accuracy: 67.52136993408203
+I1127 18:02:03.849686 34112 train.py:86] epochs: 1950.0, Loss: 0.5735980272293091, Accuracy: 70.62952423095703, Test Loss: 0.5431533455848694, Test Accuracy: 75.21367645263672
+I1127 18:02:04.477469 34112 train.py:86] epochs: 1960.0, Loss: 0.565561830997467, Accuracy: 71.36264038085938, Test Loss: 0.5390411615371704, Test Accuracy: 73.5042724609375
+I1127 18:02:05.108152 34112 train.py:86] epochs: 1970.0, Loss: 0.567048192024231, Accuracy: 71.13401794433594, Test Loss: 0.5498910546302795, Test Accuracy: 70.94017028808594
+I1127 18:02:05.736914 34112 train.py:86] epochs: 1980.0, Loss: 0.5693250298500061, Accuracy: 71.29670715332031, Test Loss: 0.553202211856842, Test Accuracy: 70.0854721069336
+I1127 18:02:06.366750 34112 train.py:86] epochs: 1990.0, Loss: 0.5681856870651245, Accuracy: 70.80500030517578, Test Loss: 0.5499717593193054, Test Accuracy: 70.94017028808594
+I1127 18:02:06.998731 34112 train.py:86] epochs: 2000.0, Loss: 0.565755307674408, Accuracy: 71.010986328125, Test Loss: 0.5468186736106873, Test Accuracy: 70.0854721069336
+I1127 18:02:07.631221 34112 train.py:86] epochs: 2010.0, Loss: 0.5630931854248047, Accuracy: 70.87911987304688, Test Loss: 0.5425426959991455, Test Accuracy: 73.5042724609375
+I1127 18:02:08.258058 34112 train.py:86] epochs: 2020.0, Loss: 0.5662264823913574, Accuracy: 71.010986328125, Test Loss: 0.5661246180534363, Test Accuracy: 67.52136993408203
+I1127 18:02:08.889885 34112 train.py:86] epochs: 2030.0, Loss: 0.5654587149620056, Accuracy: 71.20879364013672, Test Loss: 0.5445052981376648, Test Accuracy: 72.64957427978516
+I1127 18:02:09.518618 34112 train.py:86] epochs: 2040.0, Loss: 0.5706310272216797, Accuracy: 71.02434539794922, Test Loss: 0.5442849397659302, Test Accuracy: 74.35897827148438
+I1127 18:02:10.149784 34112 train.py:86] epochs: 2050.0, Loss: 0.569521963596344, Accuracy: 71.18681335449219, Test Loss: 0.5447053909301758, Test Accuracy: 72.64957427978516
+I1127 18:02:10.786467 34112 train.py:86] epochs: 2060.0, Loss: 0.5687523484230042, Accuracy: 71.42857360839844, Test Loss: 0.549954891204834, Test Accuracy: 70.0854721069336
+I1127 18:02:11.418859 34112 train.py:86] epochs: 2070.0, Loss: 0.566392183303833, Accuracy: 71.37530517578125, Test Loss: 0.5500286221504211, Test Accuracy: 70.94017028808594
+I1127 18:02:12.052411 34112 train.py:86] epochs: 2080.0, Loss: 0.5691364407539368, Accuracy: 71.0988998413086, Test Loss: 0.5428005456924438, Test Accuracy: 74.35897827148438
+I1127 18:02:12.686158 34112 train.py:86] epochs: 2090.0, Loss: 0.5636215806007385, Accuracy: 71.51648712158203, Test Loss: 0.5526586771011353, Test Accuracy: 70.0854721069336
+I1127 18:02:13.321350 34112 train.py:86] epochs: 2100.0, Loss: 0.5662720203399658, Accuracy: 71.41917419433594, Test Loss: 0.5486013293266296, Test Accuracy: 70.94017028808594
+I1127 18:02:13.953283 34112 train.py:86] epochs: 2110.0, Loss: 0.5645780563354492, Accuracy: 71.4065933227539, Test Loss: 0.5523037314414978, Test Accuracy: 70.94017028808594
+I1127 18:02:14.584746 34112 train.py:86] epochs: 2120.0, Loss: 0.5629400610923767, Accuracy: 71.0682144165039, Test Loss: 0.5498712658882141, Test Accuracy: 71.79487609863281
+I1127 18:02:15.212264 34112 train.py:86] epochs: 2130.0, Loss: 0.5640341639518738, Accuracy: 71.6043930053711, Test Loss: 0.54430091381073, Test Accuracy: 72.64957427978516
+I1127 18:02:15.839655 34112 train.py:86] epochs: 2140.0, Loss: 0.5658332705497742, Accuracy: 71.38461303710938, Test Loss: 0.5475629568099976, Test Accuracy: 71.79487609863281
+I1127 18:02:16.474058 34112 train.py:86] epochs: 2150.0, Loss: 0.5680001974105835, Accuracy: 71.04627990722656, Test Loss: 0.5497230887413025, Test Accuracy: 70.94017028808594
+I1127 18:02:17.105033 34112 train.py:86] epochs: 2160.0, Loss: 0.5675912499427795, Accuracy: 71.03296661376953, Test Loss: 0.5596919655799866, Test Accuracy: 68.37606811523438
+I1127 18:02:17.736723 34112 train.py:86] epochs: 2170.0, Loss: 0.5660357475280762, Accuracy: 71.6043930053711, Test Loss: 0.5439590811729431, Test Accuracy: 73.5042724609375
+I1127 18:02:18.376034 34112 train.py:86] epochs: 2180.0, Loss: 0.5637959837913513, Accuracy: 71.27472686767578, Test Loss: 0.5465068817138672, Test Accuracy: 72.64957427978516
+I1127 18:02:19.016900 34112 train.py:86] epochs: 2190.0, Loss: 0.5620105266571045, Accuracy: 71.83592987060547, Test Loss: 0.5479556322097778, Test Accuracy: 70.94017028808594
+I1127 18:02:19.650334 34112 train.py:86] epochs: 2200.0, Loss: 0.5671921372413635, Accuracy: 70.84886932373047, Test Loss: 0.5399830341339111, Test Accuracy: 73.5042724609375
+I1127 18:02:20.280544 34112 train.py:86] epochs: 2210.0, Loss: 0.5568777322769165, Accuracy: 72.21977996826172, Test Loss: 0.5497791767120361, Test Accuracy: 71.79487609863281
+I1127 18:02:20.908088 34112 train.py:86] epochs: 2220.0, Loss: 0.5656275749206543, Accuracy: 71.27472686767578, Test Loss: 0.5453605651855469, Test Accuracy: 72.64957427978516
+I1127 18:02:21.558172 34112 train.py:86] epochs: 2230.0, Loss: 0.5602716207504272, Accuracy: 71.33142852783203, Test Loss: 0.5465394258499146, Test Accuracy: 71.79487609863281
+I1127 18:02:22.188729 34112 train.py:86] epochs: 2240.0, Loss: 0.5630564093589783, Accuracy: 71.7463150024414, Test Loss: 0.5417745113372803, Test Accuracy: 75.21367645263672
+I1127 18:02:22.822016 34112 train.py:86] epochs: 2250.0, Loss: 0.5694425106048584, Accuracy: 71.22175598144531, Test Loss: 0.5507232546806335, Test Accuracy: 71.79487609863281
+I1127 18:02:23.452910 34112 train.py:86] epochs: 2260.0, Loss: 0.5622957348823547, Accuracy: 71.33142852783203, Test Loss: 0.555337131023407, Test Accuracy: 69.23077392578125
+I1127 18:02:24.086741 34112 train.py:86] epochs: 2270.0, Loss: 0.5657092928886414, Accuracy: 71.6043930053711, Test Loss: 0.5459964275360107, Test Accuracy: 72.64957427978516
+I1127 18:02:24.719156 34112 train.py:86] epochs: 2280.0, Loss: 0.5601567625999451, Accuracy: 72.0, Test Loss: 0.5487526059150696, Test Accuracy: 71.79487609863281
+I1127 18:02:25.369544 34112 train.py:86] epochs: 2290.0, Loss: 0.5634436011314392, Accuracy: 70.95854187011719, Test Loss: 0.5488786697387695, Test Accuracy: 71.79487609863281
+I1127 18:02:26.013087 34112 train.py:86] epochs: 2300.0, Loss: 0.5628787279129028, Accuracy: 71.56044006347656, Test Loss: 0.546729564666748, Test Accuracy: 73.5042724609375
+I1127 18:02:26.645239 34112 train.py:86] epochs: 2310.0, Loss: 0.5642581582069397, Accuracy: 71.47252655029297, Test Loss: 0.5488107800483704, Test Accuracy: 71.79487609863281
+I1127 18:02:27.277977 34112 train.py:86] epochs: 2320.0, Loss: 0.5615518689155579, Accuracy: 71.95604705810547, Test Loss: 0.5617455244064331, Test Accuracy: 67.52136993408203
+I1127 18:02:27.908162 34112 train.py:86] epochs: 2330.0, Loss: 0.5612333416938782, Accuracy: 70.78306579589844, Test Loss: 0.552555501461029, Test Accuracy: 70.94017028808594
+I1127 18:02:28.570793 34112 train.py:86] epochs: 2340.0, Loss: 0.5597329139709473, Accuracy: 72.28571319580078, Test Loss: 0.5486754775047302, Test Accuracy: 71.79487609863281
+I1127 18:02:29.249200 34112 train.py:86] epochs: 2350.0, Loss: 0.5615142583847046, Accuracy: 71.53845977783203, Test Loss: 0.543070375919342, Test Accuracy: 74.35897827148438
+I1127 18:02:29.917865 34112 train.py:86] epochs: 2360.0, Loss: 0.5616158246994019, Accuracy: 71.64835357666016, Test Loss: 0.5452491044998169, Test Accuracy: 73.5042724609375
+I1127 18:02:30.555446 34112 train.py:86] epochs: 2370.0, Loss: 0.5601996183395386, Accuracy: 71.33142852783203, Test Loss: 0.5553168058395386, Test Accuracy: 70.0854721069336
+I1127 18:02:31.199954 34112 train.py:86] epochs: 2380.0, Loss: 0.5634598731994629, Accuracy: 71.69230651855469, Test Loss: 0.5541695356369019, Test Accuracy: 70.0854721069336
+I1127 18:02:31.830292 34112 train.py:86] epochs: 2390.0, Loss: 0.5620723962783813, Accuracy: 71.33142852783203, Test Loss: 0.5400164127349854, Test Accuracy: 75.21367645263672
+I1127 18:02:32.460602 34112 train.py:86] epochs: 2400.0, Loss: 0.5585860013961792, Accuracy: 72.35164642333984, Test Loss: 0.5433371067047119, Test Accuracy: 73.5042724609375
+I1127 18:02:33.093499 34112 train.py:86] epochs: 2410.0, Loss: 0.5634436011314392, Accuracy: 71.52884674072266, Test Loss: 0.5515846014022827, Test Accuracy: 71.79487609863281
+I1127 18:02:33.722267 34112 train.py:86] epochs: 2420.0, Loss: 0.5564460754394531, Accuracy: 71.47252655029297, Test Loss: 0.543201208114624, Test Accuracy: 72.64957427978516
+I1127 18:02:34.351558 34112 train.py:86] epochs: 2430.0, Loss: 0.5623785257339478, Accuracy: 71.34066009521484, Test Loss: 0.5442340970039368, Test Accuracy: 72.64957427978516
+I1127 18:02:34.978600 34112 train.py:86] epochs: 2440.0, Loss: 0.5592541694641113, Accuracy: 71.79206085205078, Test Loss: 0.5506108999252319, Test Accuracy: 71.79487609863281
+I1127 18:02:35.606310 34112 train.py:86] epochs: 2450.0, Loss: 0.5651787519454956, Accuracy: 70.79120635986328, Test Loss: 0.5439252853393555, Test Accuracy: 73.5042724609375
+I1127 18:02:36.231735 34112 train.py:86] epochs: 2460.0, Loss: 0.5639353394508362, Accuracy: 71.51648712158203, Test Loss: 0.5546663403511047, Test Accuracy: 69.23077392578125
+I1127 18:02:36.858152 34112 train.py:86] epochs: 2470.0, Loss: 0.5599461793899536, Accuracy: 71.52884674072266, Test Loss: 0.5381572842597961, Test Accuracy: 74.35897827148438
+I1127 18:02:37.486371 34112 train.py:86] epochs: 2480.0, Loss: 0.5556826591491699, Accuracy: 72.24176025390625, Test Loss: 0.549511730670929, Test Accuracy: 71.79487609863281
+I1127 18:02:38.113897 34112 train.py:86] epochs: 2490.0, Loss: 0.5620994567871094, Accuracy: 71.4065933227539, Test Loss: 0.5404145121574402, Test Accuracy: 73.5042724609375
+I1127 18:02:38.739966 34112 train.py:86] epochs: 2500.0, Loss: 0.5579698085784912, Accuracy: 72.01140594482422, Test Loss: 0.5361339449882507, Test Accuracy: 73.5042724609375
+I1127 18:02:39.369776 34112 train.py:86] epochs: 2510.0, Loss: 0.5624152421951294, Accuracy: 72.13186645507812, Test Loss: 0.5506103038787842, Test Accuracy: 70.94017028808594
+I1127 18:02:39.997390 34112 train.py:86] epochs: 2520.0, Loss: 0.5595951676368713, Accuracy: 71.62637329101562, Test Loss: 0.5460256338119507, Test Accuracy: 72.64957427978516
+I1127 18:02:40.627763 34112 train.py:86] epochs: 2530.0, Loss: 0.5618366599082947, Accuracy: 72.10989379882812, Test Loss: 0.5482792854309082, Test Accuracy: 71.79487609863281
+I1127 18:02:41.258899 34112 train.py:86] epochs: 2540.0, Loss: 0.5612959265708923, Accuracy: 71.66045379638672, Test Loss: 0.5447260737419128, Test Accuracy: 73.5042724609375
+I1127 18:02:41.888110 34112 train.py:86] epochs: 2550.0, Loss: 0.5539274215698242, Accuracy: 72.13186645507812, Test Loss: 0.5429009795188904, Test Accuracy: 72.64957427978516
+I1127 18:02:42.517607 34112 train.py:86] epochs: 2560.0, Loss: 0.5654013752937317, Accuracy: 71.29670715332031, Test Loss: 0.5450626611709595, Test Accuracy: 73.5042724609375
+I1127 18:02:43.145642 34112 train.py:86] epochs: 2570.0, Loss: 0.5591495633125305, Accuracy: 71.83592987060547, Test Loss: 0.5526307821273804, Test Accuracy: 70.0854721069336
+I1127 18:02:43.773433 34112 train.py:86] epochs: 2580.0, Loss: 0.5585442185401917, Accuracy: 71.71428680419922, Test Loss: 0.5426304340362549, Test Accuracy: 73.5042724609375
+I1127 18:02:44.402961 34112 train.py:86] epochs: 2590.0, Loss: 0.5625304579734802, Accuracy: 70.94505310058594, Test Loss: 0.5423224568367004, Test Accuracy: 73.5042724609375
+I1127 18:02:45.039471 34112 train.py:86] epochs: 2600.0, Loss: 0.5637631416320801, Accuracy: 71.57271575927734, Test Loss: 0.5471925735473633, Test Accuracy: 73.5042724609375
+I1127 18:02:45.697094 34112 train.py:86] epochs: 2610.0, Loss: 0.5578050017356873, Accuracy: 71.6043930053711, Test Loss: 0.5470255613327026, Test Accuracy: 71.79487609863281
+I1127 18:02:46.329383 34112 train.py:86] epochs: 2620.0, Loss: 0.5613059997558594, Accuracy: 71.75823974609375, Test Loss: 0.5441377758979797, Test Accuracy: 73.5042724609375
+I1127 18:02:46.965398 34112 train.py:86] epochs: 2630.0, Loss: 0.5590675473213196, Accuracy: 71.89010620117188, Test Loss: 0.5443893074989319, Test Accuracy: 73.5042724609375
+I1127 18:02:47.602783 34112 train.py:86] epochs: 2640.0, Loss: 0.5553145408630371, Accuracy: 72.16494750976562, Test Loss: 0.5423514246940613, Test Accuracy: 73.5042724609375
+I1127 18:02:48.247606 34112 train.py:86] epochs: 2650.0, Loss: 0.5592563152313232, Accuracy: 71.81399536132812, Test Loss: 0.5512582659721375, Test Accuracy: 70.0854721069336
+I1127 18:02:48.882196 34112 train.py:86] epochs: 2660.0, Loss: 0.5603308081626892, Accuracy: 71.78022003173828, Test Loss: 0.5548052191734314, Test Accuracy: 69.23077392578125
+I1127 18:02:49.517924 34112 train.py:86] epochs: 2670.0, Loss: 0.5621021389961243, Accuracy: 71.27472686767578, Test Loss: 0.5397714376449585, Test Accuracy: 74.35897827148438
+I1127 18:02:50.143205 34112 train.py:86] epochs: 2680.0, Loss: 0.5574062466621399, Accuracy: 72.04395294189453, Test Loss: 0.5382087826728821, Test Accuracy: 74.35897827148438
+I1127 18:02:50.773054 34112 train.py:86] epochs: 2690.0, Loss: 0.5593840479850769, Accuracy: 72.12107849121094, Test Loss: 0.5474950075149536, Test Accuracy: 72.64957427978516
+I1127 18:02:51.416216 34112 train.py:86] epochs: 2700.0, Loss: 0.5624894499778748, Accuracy: 71.56044006347656, Test Loss: 0.5442630648612976, Test Accuracy: 73.5042724609375
+I1127 18:02:52.074627 34112 train.py:86] epochs: 2710.0, Loss: 0.5590620040893555, Accuracy: 71.80220031738281, Test Loss: 0.5454279184341431, Test Accuracy: 72.64957427978516
+I1127 18:02:52.707258 34112 train.py:86] epochs: 2720.0, Loss: 0.5549866557121277, Accuracy: 72.38429260253906, Test Loss: 0.541187047958374, Test Accuracy: 73.5042724609375
+I1127 18:02:53.338953 34112 train.py:86] epochs: 2730.0, Loss: 0.5627565979957581, Accuracy: 71.25274658203125, Test Loss: 0.5396430492401123, Test Accuracy: 75.21367645263672
+I1127 18:02:53.972274 34112 train.py:86] epochs: 2740.0, Loss: 0.5593507289886475, Accuracy: 71.29670715332031, Test Loss: 0.5600031018257141, Test Accuracy: 67.52136993408203
+I1127 18:02:54.604781 34112 train.py:86] epochs: 2750.0, Loss: 0.5550544261932373, Accuracy: 71.72625732421875, Test Loss: 0.5541055202484131, Test Accuracy: 69.23077392578125
+I1127 18:02:55.235870 34112 train.py:86] epochs: 2760.0, Loss: 0.5573313236236572, Accuracy: 71.64835357666016, Test Loss: 0.5433717370033264, Test Accuracy: 72.64957427978516
+I1127 18:02:55.868251 34112 train.py:86] epochs: 2770.0, Loss: 0.5572819113731384, Accuracy: 72.0991439819336, Test Loss: 0.5405024290084839, Test Accuracy: 73.5042724609375
+I1127 18:02:56.495691 34112 train.py:86] epochs: 2780.0, Loss: 0.5600929260253906, Accuracy: 72.10989379882812, Test Loss: 0.5429530739784241, Test Accuracy: 72.64957427978516
+I1127 18:02:57.127557 34112 train.py:86] epochs: 2790.0, Loss: 0.5598589777946472, Accuracy: 71.71428680419922, Test Loss: 0.5425472259521484, Test Accuracy: 73.5042724609375
+I1127 18:02:57.761211 34112 train.py:86] epochs: 2800.0, Loss: 0.5623483657836914, Accuracy: 71.34066009521484, Test Loss: 0.5499691367149353, Test Accuracy: 70.0854721069336
+I1127 18:02:58.394692 34112 train.py:86] epochs: 2810.0, Loss: 0.555345356464386, Accuracy: 72.45010375976562, Test Loss: 0.5456528067588806, Test Accuracy: 71.79487609863281
+I1127 18:02:59.025128 34112 train.py:86] epochs: 2820.0, Loss: 0.5564146637916565, Accuracy: 71.45054626464844, Test Loss: 0.5381876826286316, Test Accuracy: 75.21367645263672
+I1127 18:02:59.657132 34112 train.py:86] epochs: 2830.0, Loss: 0.5578034520149231, Accuracy: 71.84615325927734, Test Loss: 0.5465506315231323, Test Accuracy: 71.79487609863281
+I1127 18:03:00.287007 34112 train.py:86] epochs: 2840.0, Loss: 0.5561460256576538, Accuracy: 71.85786437988281, Test Loss: 0.5388756394386292, Test Accuracy: 75.21367645263672
+I1127 18:03:00.918029 34112 train.py:86] epochs: 2850.0, Loss: 0.5582310557365417, Accuracy: 72.0, Test Loss: 0.5425251722335815, Test Accuracy: 72.64957427978516
+I1127 18:03:01.547442 34112 train.py:86] epochs: 2860.0, Loss: 0.558215856552124, Accuracy: 71.80220031738281, Test Loss: 0.544630229473114, Test Accuracy: 71.79487609863281
+I1127 18:03:02.177108 34112 train.py:86] epochs: 2870.0, Loss: 0.559090793132782, Accuracy: 71.83592987060547, Test Loss: 0.5355742573738098, Test Accuracy: 73.5042724609375
+I1127 18:03:02.822401 34112 train.py:86] epochs: 2880.0, Loss: 0.5561526417732239, Accuracy: 71.97801971435547, Test Loss: 0.5419961810112, Test Accuracy: 72.64957427978516
+I1127 18:03:03.507147 34112 train.py:86] epochs: 2890.0, Loss: 0.5573492646217346, Accuracy: 71.51648712158203, Test Loss: 0.5402314066886902, Test Accuracy: 72.64957427978516
+I1127 18:03:04.180883 34112 train.py:86] epochs: 2900.0, Loss: 0.5544514060020447, Accuracy: 72.36235809326172, Test Loss: 0.5458211898803711, Test Accuracy: 70.94017028808594
+I1127 18:03:04.814423 34112 train.py:86] epochs: 2910.0, Loss: 0.5596609711647034, Accuracy: 71.95604705810547, Test Loss: 0.5476435422897339, Test Accuracy: 70.0854721069336
+I1127 18:03:05.450051 34112 train.py:86] epochs: 2920.0, Loss: 0.5587136149406433, Accuracy: 71.9120864868164, Test Loss: 0.5436536073684692, Test Accuracy: 71.79487609863281
+I1127 18:03:06.085298 34112 train.py:86] epochs: 2930.0, Loss: 0.549301266670227, Accuracy: 72.34042358398438, Test Loss: 0.5364917516708374, Test Accuracy: 73.5042724609375
+I1127 18:03:06.721076 34112 train.py:86] epochs: 2940.0, Loss: 0.5624297261238098, Accuracy: 72.10989379882812, Test Loss: 0.5381260514259338, Test Accuracy: 73.5042724609375
+I1127 18:03:07.359543 34112 train.py:86] epochs: 2950.0, Loss: 0.5595685243606567, Accuracy: 71.56044006347656, Test Loss: 0.5540391206741333, Test Accuracy: 69.23077392578125
+I1127 18:03:07.988802 34112 train.py:86] epochs: 2960.0, Loss: 0.5559748411178589, Accuracy: 71.87979888916016, Test Loss: 0.5405460000038147, Test Accuracy: 72.64957427978516
+I1127 18:03:08.620598 34112 train.py:86] epochs: 2970.0, Loss: 0.5553679466247559, Accuracy: 71.6043930053711, Test Loss: 0.5390024185180664, Test Accuracy: 74.35897827148438
+I1127 18:03:09.266986 34112 train.py:86] epochs: 2980.0, Loss: 0.5574641227722168, Accuracy: 72.3956069946289, Test Loss: 0.5387765765190125, Test Accuracy: 73.5042724609375
+I1127 18:03:09.957368 34112 train.py:86] epochs: 2990.0, Loss: 0.5546084046363831, Accuracy: 72.0552749633789, Test Loss: 0.544415295124054, Test Accuracy: 72.64957427978516
+I1127 18:03:10.593402 34112 train.py:86] epochs: 3000.0, Loss: 0.5538339018821716, Accuracy: 71.71428680419922, Test Loss: 0.5431337952613831, Test Accuracy: 71.79487609863281
+I1127 18:03:11.224934 34112 train.py:86] epochs: 3010.0, Loss: 0.5594919919967651, Accuracy: 71.20879364013672, Test Loss: 0.539235532283783, Test Accuracy: 72.64957427978516
+I1127 18:03:11.856678 34112 train.py:86] epochs: 3020.0, Loss: 0.5573337078094482, Accuracy: 71.61658477783203, Test Loss: 0.5553710460662842, Test Accuracy: 69.23077392578125
+I1127 18:03:12.492593 34112 train.py:86] epochs: 3030.0, Loss: 0.5560080409049988, Accuracy: 71.84615325927734, Test Loss: 0.5401480197906494, Test Accuracy: 73.5042724609375
+I1127 18:03:13.123564 34112 train.py:86] epochs: 3040.0, Loss: 0.5561844110488892, Accuracy: 72.04395294189453, Test Loss: 0.5377206206321716, Test Accuracy: 73.5042724609375
+I1127 18:03:13.758232 34112 train.py:86] epochs: 3050.0, Loss: 0.5530793070793152, Accuracy: 71.63851928710938, Test Loss: 0.5426751971244812, Test Accuracy: 72.64957427978516
+I1127 18:03:14.389752 34112 train.py:86] epochs: 3060.0, Loss: 0.5541751980781555, Accuracy: 71.84615325927734, Test Loss: 0.5395013093948364, Test Accuracy: 73.5042724609375
+I1127 18:03:15.020960 34112 train.py:86] epochs: 3070.0, Loss: 0.5597071051597595, Accuracy: 71.64835357666016, Test Loss: 0.5378631353378296, Test Accuracy: 73.5042724609375
+I1127 18:03:15.651968 34112 train.py:86] epochs: 3080.0, Loss: 0.5566777586936951, Accuracy: 72.10989379882812, Test Loss: 0.5404337048530579, Test Accuracy: 72.64957427978516
+I1127 18:03:16.283159 34112 train.py:86] epochs: 3090.0, Loss: 0.5614166259765625, Accuracy: 71.44110870361328, Test Loss: 0.5514543652534485, Test Accuracy: 70.0854721069336
+I1127 18:03:16.916813 34112 train.py:86] epochs: 3100.0, Loss: 0.555874228477478, Accuracy: 71.73626708984375, Test Loss: 0.5452751517295837, Test Accuracy: 71.79487609863281
+I1127 18:03:17.545926 34112 train.py:86] epochs: 3110.0, Loss: 0.5527214407920837, Accuracy: 72.42816925048828, Test Loss: 0.545798659324646, Test Accuracy: 70.94017028808594
+I1127 18:03:18.176820 34112 train.py:86] epochs: 3120.0, Loss: 0.5518376231193542, Accuracy: 72.43955993652344, Test Loss: 0.5446361899375916, Test Accuracy: 71.79487609863281
+I1127 18:03:18.820488 34112 train.py:86] epochs: 3130.0, Loss: 0.5508416295051575, Accuracy: 72.13186645507812, Test Loss: 0.5480039119720459, Test Accuracy: 70.0854721069336
+I1127 18:03:19.465419 34112 train.py:86] epochs: 3140.0, Loss: 0.5573506951332092, Accuracy: 71.55078125, Test Loss: 0.5392748117446899, Test Accuracy: 73.5042724609375
+I1127 18:03:20.099325 34112 train.py:86] epochs: 3150.0, Loss: 0.5516157746315002, Accuracy: 71.71428680419922, Test Loss: 0.5412502884864807, Test Accuracy: 72.64957427978516
+I1127 18:03:20.731157 34112 train.py:86] epochs: 3160.0, Loss: 0.5533068180084229, Accuracy: 72.17582702636719, Test Loss: 0.5466833114624023, Test Accuracy: 70.94017028808594
+I1127 18:03:21.365791 34112 train.py:86] epochs: 3170.0, Loss: 0.5589094161987305, Accuracy: 71.50691223144531, Test Loss: 0.5411666035652161, Test Accuracy: 73.5042724609375
+I1127 18:03:22.005625 34112 train.py:86] epochs: 3180.0, Loss: 0.5546057224273682, Accuracy: 72.3956069946289, Test Loss: 0.546032190322876, Test Accuracy: 70.94017028808594
+I1127 18:03:22.636861 34112 train.py:86] epochs: 3190.0, Loss: 0.5501430034637451, Accuracy: 72.86685943603516, Test Loss: 0.5399727821350098, Test Accuracy: 73.5042724609375
+I1127 18:03:23.269175 34112 train.py:86] epochs: 3200.0, Loss: 0.5517351031303406, Accuracy: 71.9665298461914, Test Loss: 0.5400497913360596, Test Accuracy: 73.5042724609375
+I1127 18:03:23.902583 34112 train.py:86] epochs: 3210.0, Loss: 0.557033896446228, Accuracy: 72.0991439819336, Test Loss: 0.5382352471351624, Test Accuracy: 72.64957427978516
+I1127 18:03:24.541010 34112 train.py:86] epochs: 3220.0, Loss: 0.5546496510505676, Accuracy: 71.97801971435547, Test Loss: 0.5488176345825195, Test Accuracy: 70.0854721069336
+I1127 18:03:25.174664 34112 train.py:86] epochs: 3230.0, Loss: 0.5501168370246887, Accuracy: 72.54945373535156, Test Loss: 0.5430602431297302, Test Accuracy: 71.79487609863281
+I1127 18:03:25.807500 34112 train.py:86] epochs: 3240.0, Loss: 0.5584227442741394, Accuracy: 71.22175598144531, Test Loss: 0.5505284667015076, Test Accuracy: 70.0854721069336
+I1127 18:03:26.438045 34112 train.py:86] epochs: 3250.0, Loss: 0.555354118347168, Accuracy: 72.23075103759766, Test Loss: 0.537977933883667, Test Accuracy: 73.5042724609375
+I1127 18:03:27.065640 34112 train.py:86] epochs: 3260.0, Loss: 0.5532179474830627, Accuracy: 72.68132019042969, Test Loss: 0.5461983680725098, Test Accuracy: 70.94017028808594
+I1127 18:03:27.696671 34112 train.py:86] epochs: 3270.0, Loss: 0.5529605746269226, Accuracy: 72.4175796508789, Test Loss: 0.5420070290565491, Test Accuracy: 72.64957427978516
+I1127 18:03:28.328399 34112 train.py:86] epochs: 3280.0, Loss: 0.5532721877098083, Accuracy: 71.4945068359375, Test Loss: 0.5420476198196411, Test Accuracy: 72.64957427978516
+I1127 18:03:28.958976 34112 train.py:86] epochs: 3290.0, Loss: 0.5482245087623596, Accuracy: 73.02040100097656, Test Loss: 0.5394436120986938, Test Accuracy: 73.5042724609375
+I1127 18:03:29.590947 34112 train.py:86] epochs: 3300.0, Loss: 0.5579452514648438, Accuracy: 71.4945068359375, Test Loss: 0.5399437546730042, Test Accuracy: 72.64957427978516
+I1127 18:03:30.223739 34112 train.py:86] epochs: 3310.0, Loss: 0.552545428276062, Accuracy: 72.9011001586914, Test Loss: 0.5358290672302246, Test Accuracy: 73.5042724609375
+I1127 18:03:30.854017 34112 train.py:86] epochs: 3320.0, Loss: 0.5554642677307129, Accuracy: 72.01140594482422, Test Loss: 0.5448142290115356, Test Accuracy: 70.94017028808594
+I1127 18:03:31.485642 34112 train.py:86] epochs: 3330.0, Loss: 0.5485384464263916, Accuracy: 72.43955993652344, Test Loss: 0.5423094630241394, Test Accuracy: 72.64957427978516
+I1127 18:03:32.117908 34112 train.py:86] epochs: 3340.0, Loss: 0.5553393959999084, Accuracy: 71.53845977783203, Test Loss: 0.5508202910423279, Test Accuracy: 69.23077392578125
+I1127 18:03:32.753882 34112 train.py:86] epochs: 3350.0, Loss: 0.5576245784759521, Accuracy: 72.0879135131836, Test Loss: 0.5437677502632141, Test Accuracy: 70.94017028808594
+I1127 18:03:33.390491 34112 train.py:86] epochs: 3360.0, Loss: 0.5551079511642456, Accuracy: 72.29655456542969, Test Loss: 0.5432302951812744, Test Accuracy: 71.79487609863281
+I1127 18:03:34.023324 34112 train.py:86] epochs: 3370.0, Loss: 0.5531201362609863, Accuracy: 71.93406677246094, Test Loss: 0.541169285774231, Test Accuracy: 72.64957427978516
+I1127 18:03:34.652949 34112 train.py:86] epochs: 3380.0, Loss: 0.5547671318054199, Accuracy: 72.03334045410156, Test Loss: 0.5456005930900574, Test Accuracy: 70.94017028808594
+I1127 18:03:35.281004 34112 train.py:86] epochs: 3390.0, Loss: 0.5516921877861023, Accuracy: 72.68132019042969, Test Loss: 0.5365248918533325, Test Accuracy: 73.5042724609375
+I1127 18:03:35.908647 34112 train.py:86] epochs: 3400.0, Loss: 0.552073061466217, Accuracy: 72.20881652832031, Test Loss: 0.5395297408103943, Test Accuracy: 71.79487609863281
+I1127 18:03:36.548377 34112 train.py:86] epochs: 3410.0, Loss: 0.5531653165817261, Accuracy: 72.15384674072266, Test Loss: 0.5366365909576416, Test Accuracy: 72.64957427978516
+I1127 18:03:37.181338 34112 train.py:86] epochs: 3420.0, Loss: 0.5526933073997498, Accuracy: 71.73626708984375, Test Loss: 0.5407932996749878, Test Accuracy: 71.79487609863281
+I1127 18:03:37.815427 34112 train.py:86] epochs: 3430.0, Loss: 0.5478280186653137, Accuracy: 72.43955993652344, Test Loss: 0.5326655507087708, Test Accuracy: 72.64957427978516
+I1127 18:03:38.483774 34112 train.py:86] epochs: 3440.0, Loss: 0.5562140941619873, Accuracy: 71.57271575927734, Test Loss: 0.5383415818214417, Test Accuracy: 72.64957427978516
+I1127 18:03:39.120443 34112 train.py:86] epochs: 3450.0, Loss: 0.5525339841842651, Accuracy: 72.54945373535156, Test Loss: 0.533240020275116, Test Accuracy: 72.64957427978516
+I1127 18:03:39.754769 34112 train.py:86] epochs: 3460.0, Loss: 0.5487452149391174, Accuracy: 72.30769348144531, Test Loss: 0.5392084717750549, Test Accuracy: 72.64957427978516
+I1127 18:03:40.387819 34112 train.py:86] epochs: 3470.0, Loss: 0.5515612959861755, Accuracy: 72.82299041748047, Test Loss: 0.5462862849235535, Test Accuracy: 70.94017028808594
+I1127 18:03:41.019020 34112 train.py:86] epochs: 3480.0, Loss: 0.558161735534668, Accuracy: 71.36264038085938, Test Loss: 0.5384297370910645, Test Accuracy: 72.64957427978516
+I1127 18:03:41.650448 34112 train.py:86] epochs: 3490.0, Loss: 0.5519611239433289, Accuracy: 72.86685943603516, Test Loss: 0.5520907640457153, Test Accuracy: 69.23077392578125
+I1127 18:03:42.285770 34112 train.py:86] epochs: 3500.0, Loss: 0.55240398645401, Accuracy: 72.28571319580078, Test Loss: 0.5376985669136047, Test Accuracy: 72.64957427978516
+I1127 18:03:42.924811 34112 train.py:86] epochs: 3510.0, Loss: 0.5517739057540894, Accuracy: 72.28571319580078, Test Loss: 0.5436846017837524, Test Accuracy: 71.79487609863281
+I1127 18:03:43.597289 34112 train.py:86] epochs: 3520.0, Loss: 0.547484278678894, Accuracy: 72.66944885253906, Test Loss: 0.5392603874206543, Test Accuracy: 72.64957427978516
+I1127 18:03:44.234465 34112 train.py:86] epochs: 3530.0, Loss: 0.5516595840454102, Accuracy: 72.46154022216797, Test Loss: 0.5457251071929932, Test Accuracy: 70.94017028808594
+I1127 18:03:44.869701 34112 train.py:86] epochs: 3540.0, Loss: 0.5580740571022034, Accuracy: 72.0, Test Loss: 0.546833872795105, Test Accuracy: 70.94017028808594
+I1127 18:03:45.501282 34112 train.py:86] epochs: 3550.0, Loss: 0.5529019236564636, Accuracy: 72.26373291015625, Test Loss: 0.54190993309021, Test Accuracy: 71.79487609863281
+I1127 18:03:46.132250 34112 train.py:86] epochs: 3560.0, Loss: 0.5500847697257996, Accuracy: 72.51590728759766, Test Loss: 0.5517092943191528, Test Accuracy: 69.23077392578125
+I1127 18:03:46.777408 34112 train.py:86] epochs: 3570.0, Loss: 0.5496019124984741, Accuracy: 72.32967376708984, Test Loss: 0.5397042036056519, Test Accuracy: 71.79487609863281
+I1127 18:03:47.443767 34112 train.py:86] epochs: 3580.0, Loss: 0.5479199886322021, Accuracy: 72.10989379882812, Test Loss: 0.5381209254264832, Test Accuracy: 72.64957427978516
+I1127 18:03:48.095350 34112 train.py:86] epochs: 3590.0, Loss: 0.5483025312423706, Accuracy: 72.55977630615234, Test Loss: 0.5544837713241577, Test Accuracy: 69.23077392578125
+I1127 18:03:48.724696 34112 train.py:86] epochs: 3600.0, Loss: 0.5527801513671875, Accuracy: 71.93406677246094, Test Loss: 0.5407029986381531, Test Accuracy: 71.79487609863281
+I1127 18:03:49.355700 34112 train.py:86] epochs: 3610.0, Loss: 0.5495455861091614, Accuracy: 72.36235809326172, Test Loss: 0.5417698621749878, Test Accuracy: 71.79487609863281
+I1127 18:03:49.983876 34112 train.py:86] epochs: 3620.0, Loss: 0.5557031631469727, Accuracy: 72.28571319580078, Test Loss: 0.5440794229507446, Test Accuracy: 70.94017028808594
+I1127 18:03:50.613853 34112 train.py:86] epochs: 3630.0, Loss: 0.5517878532409668, Accuracy: 72.4175796508789, Test Loss: 0.5400899648666382, Test Accuracy: 71.79487609863281
+I1127 18:03:51.243242 34112 train.py:86] epochs: 3640.0, Loss: 0.5481013059616089, Accuracy: 72.5054931640625, Test Loss: 0.5451332926750183, Test Accuracy: 70.94017028808594
+I1127 18:03:51.886338 34112 train.py:86] epochs: 3650.0, Loss: 0.5547880530357361, Accuracy: 71.61658477783203, Test Loss: 0.5405176281929016, Test Accuracy: 70.94017028808594
+I1127 18:03:52.511065 34112 train.py:86] epochs: 3660.0, Loss: 0.5510432124137878, Accuracy: 72.15384674072266, Test Loss: 0.541347324848175, Test Accuracy: 71.79487609863281
+I1127 18:03:53.143563 34112 train.py:86] epochs: 3670.0, Loss: 0.5538743734359741, Accuracy: 72.29655456542969, Test Loss: 0.545204222202301, Test Accuracy: 70.94017028808594
+I1127 18:03:53.766273 34112 train.py:86] epochs: 3680.0, Loss: 0.5518953800201416, Accuracy: 72.46154022216797, Test Loss: 0.5444874167442322, Test Accuracy: 71.79487609863281
+I1127 18:03:54.395166 34112 train.py:86] epochs: 3690.0, Loss: 0.5513740181922913, Accuracy: 72.76923370361328, Test Loss: 0.5381407141685486, Test Accuracy: 72.64957427978516
+I1127 18:03:55.021441 34112 train.py:86] epochs: 3700.0, Loss: 0.5488786101341248, Accuracy: 72.37362670898438, Test Loss: 0.5346183180809021, Test Accuracy: 73.5042724609375
+I1127 18:03:55.651156 34112 train.py:86] epochs: 3710.0, Loss: 0.5562846660614014, Accuracy: 72.0991439819336, Test Loss: 0.5437362194061279, Test Accuracy: 71.79487609863281
+I1127 18:03:56.280201 34112 train.py:86] epochs: 3720.0, Loss: 0.5497526526451111, Accuracy: 72.5934066772461, Test Loss: 0.5364811420440674, Test Accuracy: 73.5042724609375
+I1127 18:03:56.909201 34112 train.py:86] epochs: 3730.0, Loss: 0.5495558381080627, Accuracy: 72.10989379882812, Test Loss: 0.5429101586341858, Test Accuracy: 71.79487609863281
+I1127 18:03:57.537206 34112 train.py:86] epochs: 3740.0, Loss: 0.5484393239021301, Accuracy: 72.32967376708984, Test Loss: 0.5389814972877502, Test Accuracy: 71.79487609863281
+I1127 18:03:58.168110 34112 train.py:86] epochs: 3750.0, Loss: 0.5487784743309021, Accuracy: 71.79206085205078, Test Loss: 0.5414937138557434, Test Accuracy: 71.79487609863281
+I1127 18:03:58.800580 34112 train.py:86] epochs: 3760.0, Loss: 0.5464202761650085, Accuracy: 72.93266296386719, Test Loss: 0.5374754667282104, Test Accuracy: 71.79487609863281
+I1127 18:03:59.431054 34112 train.py:86] epochs: 3770.0, Loss: 0.5515378713607788, Accuracy: 72.6271743774414, Test Loss: 0.5353953838348389, Test Accuracy: 72.64957427978516
+I1127 18:04:00.062818 34112 train.py:86] epochs: 3780.0, Loss: 0.5489169955253601, Accuracy: 72.34042358398438, Test Loss: 0.5351824760437012, Test Accuracy: 73.5042724609375
+I1127 18:04:00.695679 34112 train.py:86] epochs: 3790.0, Loss: 0.5493612289428711, Accuracy: 71.86813354492188, Test Loss: 0.53500896692276, Test Accuracy: 72.64957427978516
+I1127 18:04:01.324693 34112 train.py:86] epochs: 3800.0, Loss: 0.5502032041549683, Accuracy: 72.80105590820312, Test Loss: 0.5424052476882935, Test Accuracy: 70.94017028808594
+I1127 18:04:01.961333 34112 train.py:86] epochs: 3810.0, Loss: 0.5541402697563171, Accuracy: 72.37362670898438, Test Loss: 0.5480639934539795, Test Accuracy: 70.0854721069336
+I1127 18:04:02.618647 34112 train.py:86] epochs: 3820.0, Loss: 0.5485644936561584, Accuracy: 72.70329284667969, Test Loss: 0.542773962020874, Test Accuracy: 70.94017028808594
+I1127 18:04:03.260607 34112 train.py:86] epochs: 3830.0, Loss: 0.5506651401519775, Accuracy: 72.23075103759766, Test Loss: 0.5404142737388611, Test Accuracy: 73.5042724609375
+I1127 18:04:03.889148 34112 train.py:86] epochs: 3840.0, Loss: 0.5501406192779541, Accuracy: 72.13186645507812, Test Loss: 0.5425969362258911, Test Accuracy: 70.94017028808594
+I1127 18:04:04.521024 34112 train.py:86] epochs: 3850.0, Loss: 0.5465890765190125, Accuracy: 72.49397277832031, Test Loss: 0.5359932780265808, Test Accuracy: 71.79487609863281
+I1127 18:04:05.149386 34112 train.py:86] epochs: 3860.0, Loss: 0.548360288143158, Accuracy: 72.04395294189453, Test Loss: 0.544166088104248, Test Accuracy: 70.94017028808594
+I1127 18:04:05.778689 34112 train.py:86] epochs: 3870.0, Loss: 0.5485105514526367, Accuracy: 72.19779968261719, Test Loss: 0.5380560159683228, Test Accuracy: 71.79487609863281
+I1127 18:04:06.408485 34112 train.py:86] epochs: 3880.0, Loss: 0.5483070611953735, Accuracy: 72.5054931640625, Test Loss: 0.5348681807518005, Test Accuracy: 73.5042724609375
+I1127 18:04:07.032926 34112 train.py:86] epochs: 3890.0, Loss: 0.5522857308387756, Accuracy: 71.71428680419922, Test Loss: 0.5455748438835144, Test Accuracy: 70.0854721069336
+I1127 18:04:07.660252 34112 train.py:86] epochs: 3900.0, Loss: 0.5456897616386414, Accuracy: 72.64751434326172, Test Loss: 0.5405101776123047, Test Accuracy: 71.79487609863281
+I1127 18:04:08.289382 34112 train.py:86] epochs: 3910.0, Loss: 0.5503426790237427, Accuracy: 72.7352523803711, Test Loss: 0.544654905796051, Test Accuracy: 70.94017028808594
+I1127 18:04:08.920567 34112 train.py:86] epochs: 3920.0, Loss: 0.5482290387153625, Accuracy: 72.06593322753906, Test Loss: 0.5433472990989685, Test Accuracy: 71.79487609863281
+I1127 18:04:09.551101 34112 train.py:86] epochs: 3930.0, Loss: 0.5524559020996094, Accuracy: 71.93406677246094, Test Loss: 0.5457231402397156, Test Accuracy: 70.94017028808594
+I1127 18:04:10.182554 34112 train.py:86] epochs: 3940.0, Loss: 0.5517711043357849, Accuracy: 72.0552749633789, Test Loss: 0.5404176712036133, Test Accuracy: 71.79487609863281
+I1127 18:04:10.812868 34112 train.py:86] epochs: 3950.0, Loss: 0.5474516749382019, Accuracy: 73.09890747070312, Test Loss: 0.536996603012085, Test Accuracy: 72.64957427978516
+I1127 18:04:11.462677 34112 train.py:86] epochs: 3960.0, Loss: 0.5488685369491577, Accuracy: 72.5934066772461, Test Loss: 0.5352721214294434, Test Accuracy: 72.64957427978516
+I1127 18:04:12.096727 34112 train.py:86] epochs: 3970.0, Loss: 0.5501183867454529, Accuracy: 72.4175796508789, Test Loss: 0.5388711094856262, Test Accuracy: 73.5042724609375
+I1127 18:04:12.726627 34112 train.py:86] epochs: 3980.0, Loss: 0.5466938018798828, Accuracy: 72.36235809326172, Test Loss: 0.5431519746780396, Test Accuracy: 71.79487609863281
+I1127 18:04:13.357643 34112 train.py:86] epochs: 3990.0, Loss: 0.5523998737335205, Accuracy: 71.18681335449219, Test Loss: 0.5365424752235413, Test Accuracy: 72.64957427978516
+I1127 18:04:13.989116 34112 train.py:86] epochs: 4000.0, Loss: 0.5488367080688477, Accuracy: 72.60364532470703, Test Loss: 0.5485873818397522, Test Accuracy: 70.0854721069336
+I1127 18:04:14.625810 34112 train.py:86] epochs: 4010.0, Loss: 0.5513932704925537, Accuracy: 72.02198028564453, Test Loss: 0.545732319355011, Test Accuracy: 72.64957427978516
+I1127 18:04:15.255144 34112 train.py:86] epochs: 4020.0, Loss: 0.5519973039627075, Accuracy: 72.24176025390625, Test Loss: 0.5388941764831543, Test Accuracy: 72.64957427978516
+I1127 18:04:15.886794 34112 train.py:86] epochs: 4030.0, Loss: 0.547480583190918, Accuracy: 72.30769348144531, Test Loss: 0.5384966135025024, Test Accuracy: 72.64957427978516
+I1127 18:04:16.519701 34112 train.py:86] epochs: 4040.0, Loss: 0.5447762608528137, Accuracy: 72.95459747314453, Test Loss: 0.53713059425354, Test Accuracy: 72.64957427978516
+I1127 18:04:17.151487 34112 train.py:86] epochs: 4050.0, Loss: 0.5505921244621277, Accuracy: 72.76923370361328, Test Loss: 0.5396335124969482, Test Accuracy: 72.64957427978516
+I1127 18:04:17.793232 34112 train.py:86] epochs: 4060.0, Loss: 0.5466843843460083, Accuracy: 72.9011001586914, Test Loss: 0.5525637865066528, Test Accuracy: 70.0854721069336
+I1127 18:04:18.425164 34112 train.py:86] epochs: 4070.0, Loss: 0.5465033054351807, Accuracy: 72.81318664550781, Test Loss: 0.5366424322128296, Test Accuracy: 72.64957427978516
+I1127 18:04:19.056716 34112 train.py:86] epochs: 4080.0, Loss: 0.5495614409446716, Accuracy: 72.38429260253906, Test Loss: 0.5328397154808044, Test Accuracy: 73.5042724609375
+I1127 18:04:19.684759 34112 train.py:86] epochs: 4090.0, Loss: 0.5514346957206726, Accuracy: 72.13186645507812, Test Loss: 0.5312367081642151, Test Accuracy: 73.5042724609375
+I1127 18:04:20.311150 34112 train.py:86] epochs: 4100.0, Loss: 0.5518221855163574, Accuracy: 72.64751434326172, Test Loss: 0.541833758354187, Test Accuracy: 70.94017028808594
+I1127 18:04:20.950832 34112 train.py:86] epochs: 4110.0, Loss: 0.5517978668212891, Accuracy: 72.81318664550781, Test Loss: 0.5356721878051758, Test Accuracy: 72.64957427978516
+I1127 18:04:21.604361 34112 train.py:86] epochs: 4120.0, Loss: 0.5450571775436401, Accuracy: 72.5054931640625, Test Loss: 0.5320867896080017, Test Accuracy: 72.64957427978516
+I1127 18:04:22.229789 34112 train.py:86] epochs: 4130.0, Loss: 0.552512526512146, Accuracy: 71.79206085205078, Test Loss: 0.5360780954360962, Test Accuracy: 72.64957427978516
+I1127 18:04:22.856064 34112 train.py:86] epochs: 4140.0, Loss: 0.5526187419891357, Accuracy: 71.93406677246094, Test Loss: 0.539357602596283, Test Accuracy: 72.64957427978516
+I1127 18:04:23.483145 34112 train.py:86] epochs: 4150.0, Loss: 0.5464974045753479, Accuracy: 72.5054931640625, Test Loss: 0.5307981967926025, Test Accuracy: 72.64957427978516
+I1127 18:04:24.109131 34112 train.py:86] epochs: 4160.0, Loss: 0.547877311706543, Accuracy: 72.07720947265625, Test Loss: 0.5452179908752441, Test Accuracy: 70.94017028808594
+I1127 18:04:24.736721 34112 train.py:86] epochs: 4170.0, Loss: 0.5528202652931213, Accuracy: 72.32967376708984, Test Loss: 0.5340538620948792, Test Accuracy: 73.5042724609375
+I1127 18:04:25.366093 34112 train.py:86] epochs: 4180.0, Loss: 0.5475775003433228, Accuracy: 72.87911987304688, Test Loss: 0.5371830463409424, Test Accuracy: 72.64957427978516
+I1127 18:04:25.992341 34112 train.py:86] epochs: 4190.0, Loss: 0.5454409122467041, Accuracy: 72.35164642333984, Test Loss: 0.5376963019371033, Test Accuracy: 72.64957427978516
+I1127 18:04:26.618769 34112 train.py:86] epochs: 4200.0, Loss: 0.5472370982170105, Accuracy: 72.80105590820312, Test Loss: 0.5375326871871948, Test Accuracy: 72.64957427978516
+I1127 18:04:27.268269 34112 train.py:86] epochs: 4210.0, Loss: 0.5543374419212341, Accuracy: 71.67032623291016, Test Loss: 0.5313915014266968, Test Accuracy: 72.64957427978516
+I1127 18:04:27.899147 34112 train.py:86] epochs: 4220.0, Loss: 0.5475798845291138, Accuracy: 71.95604705810547, Test Loss: 0.5347139835357666, Test Accuracy: 72.64957427978516
+I1127 18:04:28.533513 34112 train.py:86] epochs: 4230.0, Loss: 0.5439325571060181, Accuracy: 72.29655456542969, Test Loss: 0.5475746393203735, Test Accuracy: 70.0854721069336
+I1127 18:04:29.163501 34112 train.py:86] epochs: 4240.0, Loss: 0.54548579454422, Accuracy: 72.97653198242188, Test Loss: 0.5420289039611816, Test Accuracy: 70.94017028808594
+I1127 18:04:29.788478 34112 train.py:86] epochs: 4250.0, Loss: 0.5471014380455017, Accuracy: 72.04395294189453, Test Loss: 0.5340092778205872, Test Accuracy: 73.5042724609375
+I1127 18:04:30.419691 34112 train.py:86] epochs: 4260.0, Loss: 0.5496850609779358, Accuracy: 72.3956069946289, Test Loss: 0.5369144082069397, Test Accuracy: 71.79487609863281
+I1127 18:04:31.047962 34112 train.py:86] epochs: 4270.0, Loss: 0.551657497882843, Accuracy: 72.24176025390625, Test Loss: 0.5392317771911621, Test Accuracy: 72.64957427978516
+I1127 18:04:31.674896 34112 train.py:86] epochs: 4280.0, Loss: 0.5448560118675232, Accuracy: 72.66944885253906, Test Loss: 0.5318686366081238, Test Accuracy: 73.5042724609375
+I1127 18:04:32.303462 34112 train.py:86] epochs: 4290.0, Loss: 0.5463880300521851, Accuracy: 72.04395294189453, Test Loss: 0.5341823697090149, Test Accuracy: 72.64957427978516
+I1127 18:04:32.932444 34112 train.py:86] epochs: 4300.0, Loss: 0.5496366024017334, Accuracy: 72.17582702636719, Test Loss: 0.5393261313438416, Test Accuracy: 71.79487609863281
+I1127 18:04:33.561728 34112 train.py:86] epochs: 4310.0, Loss: 0.5501872897148132, Accuracy: 72.6913833618164, Test Loss: 0.5404847264289856, Test Accuracy: 71.79487609863281
+I1127 18:04:34.193910 34112 train.py:86] epochs: 4320.0, Loss: 0.5447853803634644, Accuracy: 72.46154022216797, Test Loss: 0.544948399066925, Test Accuracy: 70.94017028808594
+I1127 18:04:34.834217 34112 train.py:86] epochs: 4330.0, Loss: 0.5492857098579407, Accuracy: 72.40623474121094, Test Loss: 0.5375072956085205, Test Accuracy: 71.79487609863281
+I1127 18:04:35.481939 34112 train.py:86] epochs: 4340.0, Loss: 0.5466651320457458, Accuracy: 72.52747344970703, Test Loss: 0.5345908403396606, Test Accuracy: 72.64957427978516
+I1127 18:04:36.114513 34112 train.py:86] epochs: 4350.0, Loss: 0.5459046363830566, Accuracy: 72.28571319580078, Test Loss: 0.5374929308891296, Test Accuracy: 71.79487609863281
+I1127 18:04:36.751025 34112 train.py:86] epochs: 4360.0, Loss: 0.5431625247001648, Accuracy: 72.96703338623047, Test Loss: 0.5512455701828003, Test Accuracy: 70.0854721069336
+I1127 18:04:37.387198 34112 train.py:86] epochs: 4370.0, Loss: 0.5482407808303833, Accuracy: 72.0552749633789, Test Loss: 0.5367168188095093, Test Accuracy: 72.64957427978516
+I1127 18:04:38.019095 34112 train.py:86] epochs: 4380.0, Loss: 0.5479356646537781, Accuracy: 72.3956069946289, Test Loss: 0.5364184975624084, Test Accuracy: 72.64957427978516
+I1127 18:04:38.651234 34112 train.py:86] epochs: 4390.0, Loss: 0.5454539060592651, Accuracy: 72.96703338623047, Test Loss: 0.5394191741943359, Test Accuracy: 72.64957427978516
+I1127 18:04:39.285589 34112 train.py:86] epochs: 4400.0, Loss: 0.5484750270843506, Accuracy: 72.64751434326172, Test Loss: 0.5331268310546875, Test Accuracy: 72.64957427978516
+I1127 18:04:39.928045 34112 train.py:86] epochs: 4410.0, Loss: 0.5477889776229858, Accuracy: 72.37362670898438, Test Loss: 0.5359029173851013, Test Accuracy: 72.64957427978516
+I1127 18:04:40.610347 34112 train.py:86] epochs: 4420.0, Loss: 0.5455508232116699, Accuracy: 72.57142639160156, Test Loss: 0.549595296382904, Test Accuracy: 70.0854721069336
+I1127 18:04:41.241333 34112 train.py:86] epochs: 4430.0, Loss: 0.5450499057769775, Accuracy: 72.63735961914062, Test Loss: 0.5375942587852478, Test Accuracy: 72.64957427978516
+I1127 18:04:41.874778 34112 train.py:86] epochs: 4440.0, Loss: 0.547782838344574, Accuracy: 72.49397277832031, Test Loss: 0.5395371317863464, Test Accuracy: 72.64957427978516
+I1127 18:04:42.505721 34112 train.py:86] epochs: 4450.0, Loss: 0.5493468046188354, Accuracy: 72.10989379882812, Test Loss: 0.5348086953163147, Test Accuracy: 72.64957427978516
+I1127 18:04:43.148947 34112 train.py:86] epochs: 4460.0, Loss: 0.5419659614562988, Accuracy: 73.27472686767578, Test Loss: 0.5322574377059937, Test Accuracy: 73.5042724609375
+I1127 18:04:43.781333 34112 train.py:86] epochs: 4470.0, Loss: 0.5473065376281738, Accuracy: 72.66944885253906, Test Loss: 0.5328599214553833, Test Accuracy: 72.64957427978516
+I1127 18:04:44.414474 34112 train.py:86] epochs: 4480.0, Loss: 0.5450639128684998, Accuracy: 72.76923370361328, Test Loss: 0.5434358716011047, Test Accuracy: 70.94017028808594
+I1127 18:04:45.047530 34112 train.py:86] epochs: 4490.0, Loss: 0.5487895607948303, Accuracy: 72.31848907470703, Test Loss: 0.5362340211868286, Test Accuracy: 71.79487609863281
+I1127 18:04:45.676562 34112 train.py:86] epochs: 4500.0, Loss: 0.5444858074188232, Accuracy: 72.79120635986328, Test Loss: 0.5338471531867981, Test Accuracy: 72.64957427978516
+I1127 18:04:46.322599 34112 train.py:86] epochs: 4510.0, Loss: 0.5490253567695618, Accuracy: 72.42816925048828, Test Loss: 0.5381023287773132, Test Accuracy: 72.64957427978516
+I1127 18:04:46.955377 34112 train.py:86] epochs: 4520.0, Loss: 0.5480790138244629, Accuracy: 72.3188705444336, Test Loss: 0.5360814929008484, Test Accuracy: 71.79487609863281
+I1127 18:04:47.588367 34112 train.py:86] epochs: 4530.0, Loss: 0.5481466054916382, Accuracy: 72.36235809326172, Test Loss: 0.5395340323448181, Test Accuracy: 71.79487609863281
+I1127 18:04:48.219889 34112 train.py:86] epochs: 4540.0, Loss: 0.5484797954559326, Accuracy: 72.48351287841797, Test Loss: 0.5344211459159851, Test Accuracy: 72.64957427978516
+I1127 18:04:48.848434 34112 train.py:86] epochs: 4550.0, Loss: 0.5483220219612122, Accuracy: 72.04395294189453, Test Loss: 0.5450940728187561, Test Accuracy: 70.0854721069336
+I1127 18:04:49.484037 34112 train.py:86] epochs: 4560.0, Loss: 0.5467081069946289, Accuracy: 73.0862045288086, Test Loss: 0.5430759191513062, Test Accuracy: 70.0854721069336
+I1127 18:04:50.116597 34112 train.py:86] epochs: 4570.0, Loss: 0.5421741604804993, Accuracy: 72.32967376708984, Test Loss: 0.5363434553146362, Test Accuracy: 71.79487609863281
+I1127 18:04:50.749818 34112 train.py:86] epochs: 4580.0, Loss: 0.5505902767181396, Accuracy: 73.05494689941406, Test Loss: 0.534939169883728, Test Accuracy: 72.64957427978516
+I1127 18:04:51.391836 34112 train.py:86] epochs: 4590.0, Loss: 0.5439568161964417, Accuracy: 72.60364532470703, Test Loss: 0.5403954982757568, Test Accuracy: 71.79487609863281
+I1127 18:04:52.038027 34112 train.py:86] epochs: 4600.0, Loss: 0.5475784540176392, Accuracy: 72.35164642333984, Test Loss: 0.5317695736885071, Test Accuracy: 72.64957427978516
+I1127 18:04:52.702387 34112 train.py:86] epochs: 4610.0, Loss: 0.5457584857940674, Accuracy: 72.40623474121094, Test Loss: 0.5336897373199463, Test Accuracy: 72.64957427978516
+I1127 18:04:53.352536 34112 train.py:86] epochs: 4620.0, Loss: 0.5441234111785889, Accuracy: 72.06593322753906, Test Loss: 0.5411332249641418, Test Accuracy: 71.79487609863281
+I1127 18:04:53.992374 34112 train.py:86] epochs: 4630.0, Loss: 0.5474444627761841, Accuracy: 72.76923370361328, Test Loss: 0.5355536937713623, Test Accuracy: 72.64957427978516
+I1127 18:04:54.626328 34112 train.py:86] epochs: 4640.0, Loss: 0.5482300519943237, Accuracy: 72.76923370361328, Test Loss: 0.5330643653869629, Test Accuracy: 72.64957427978516
+I1127 18:04:55.255922 34112 train.py:86] epochs: 4650.0, Loss: 0.5478835105895996, Accuracy: 72.91072845458984, Test Loss: 0.5404607057571411, Test Accuracy: 72.64957427978516
+I1127 18:04:55.888414 34112 train.py:86] epochs: 4660.0, Loss: 0.5488163828849792, Accuracy: 72.57142639160156, Test Loss: 0.5458463430404663, Test Accuracy: 70.0854721069336
+I1127 18:04:56.539134 34112 train.py:86] epochs: 4670.0, Loss: 0.5432759523391724, Accuracy: 72.97653198242188, Test Loss: 0.5478847026824951, Test Accuracy: 70.0854721069336
+I1127 18:04:57.202164 34112 train.py:86] epochs: 4680.0, Loss: 0.5473119020462036, Accuracy: 72.76923370361328, Test Loss: 0.5401352047920227, Test Accuracy: 71.79487609863281
+I1127 18:04:57.834455 34112 train.py:86] epochs: 4690.0, Loss: 0.5460059642791748, Accuracy: 72.5054931640625, Test Loss: 0.5383440852165222, Test Accuracy: 71.79487609863281
+I1127 18:04:58.468136 34112 train.py:86] epochs: 4700.0, Loss: 0.5413223505020142, Accuracy: 72.62557983398438, Test Loss: 0.5429080724716187, Test Accuracy: 70.94017028808594
+I1127 18:04:59.097063 34112 train.py:86] epochs: 4710.0, Loss: 0.5452730655670166, Accuracy: 72.48351287841797, Test Loss: 0.5430562496185303, Test Accuracy: 70.94017028808594
+I1127 18:04:59.730072 34112 train.py:86] epochs: 4720.0, Loss: 0.5529563426971436, Accuracy: 72.14301300048828, Test Loss: 0.5458393096923828, Test Accuracy: 70.0854721069336
+I1127 18:05:00.366990 34112 train.py:86] epochs: 4730.0, Loss: 0.5453633069992065, Accuracy: 72.54945373535156, Test Loss: 0.5445040464401245, Test Accuracy: 70.94017028808594
+I1127 18:05:00.995007 34112 train.py:86] epochs: 4740.0, Loss: 0.5471651554107666, Accuracy: 72.989013671875, Test Loss: 0.539129376411438, Test Accuracy: 72.64957427978516
+I1127 18:05:01.624549 34112 train.py:86] epochs: 4750.0, Loss: 0.5457131266593933, Accuracy: 72.02198028564453, Test Loss: 0.5370786786079407, Test Accuracy: 73.5042724609375
+I1127 18:05:02.251998 34112 train.py:86] epochs: 4760.0, Loss: 0.5450767874717712, Accuracy: 72.64751434326172, Test Loss: 0.5454293489456177, Test Accuracy: 70.94017028808594
+I1127 18:05:02.882593 34112 train.py:86] epochs: 4770.0, Loss: 0.5461631417274475, Accuracy: 72.32967376708984, Test Loss: 0.5387208461761475, Test Accuracy: 72.64957427978516
+I1127 18:05:03.515535 34112 train.py:86] epochs: 4780.0, Loss: 0.5455995202064514, Accuracy: 72.9011001586914, Test Loss: 0.5368409156799316, Test Accuracy: 72.64957427978516
+I1127 18:05:04.147969 34112 train.py:86] epochs: 4790.0, Loss: 0.5430094003677368, Accuracy: 72.99846649169922, Test Loss: 0.5393185019493103, Test Accuracy: 72.64957427978516
+I1127 18:05:04.780620 34112 train.py:86] epochs: 4800.0, Loss: 0.5479078888893127, Accuracy: 72.0, Test Loss: 0.5380711555480957, Test Accuracy: 72.64957427978516
+I1127 18:05:05.409640 34112 train.py:86] epochs: 4810.0, Loss: 0.5454041957855225, Accuracy: 72.68132019042969, Test Loss: 0.5469063520431519, Test Accuracy: 70.0854721069336
+I1127 18:05:06.038743 34112 train.py:86] epochs: 4820.0, Loss: 0.5414773225784302, Accuracy: 73.18681335449219, Test Loss: 0.5385125279426575, Test Accuracy: 72.64957427978516
+I1127 18:05:06.670369 34112 train.py:86] epochs: 4830.0, Loss: 0.5483137369155884, Accuracy: 72.7352523803711, Test Loss: 0.5337718725204468, Test Accuracy: 72.64957427978516
+I1127 18:05:07.317181 34112 train.py:86] epochs: 4840.0, Loss: 0.546440601348877, Accuracy: 72.47203826904297, Test Loss: 0.5359942317008972, Test Accuracy: 72.64957427978516
+I1127 18:05:07.949411 34112 train.py:86] epochs: 4850.0, Loss: 0.5439167022705078, Accuracy: 72.63735961914062, Test Loss: 0.5340530276298523, Test Accuracy: 72.64957427978516
+I1127 18:05:08.579442 34112 train.py:86] epochs: 4860.0, Loss: 0.5435342192649841, Accuracy: 72.70329284667969, Test Loss: 0.5378327369689941, Test Accuracy: 72.64957427978516
+I1127 18:05:09.220203 34112 train.py:86] epochs: 4870.0, Loss: 0.5427715182304382, Accuracy: 72.7352523803711, Test Loss: 0.5351535081863403, Test Accuracy: 72.64957427978516
+I1127 18:05:09.862293 34112 train.py:86] epochs: 4880.0, Loss: 0.544857919216156, Accuracy: 72.74725341796875, Test Loss: 0.5338149070739746, Test Accuracy: 72.64957427978516
+I1127 18:05:10.499726 34112 train.py:86] epochs: 4890.0, Loss: 0.5443093180656433, Accuracy: 72.4175796508789, Test Loss: 0.5367211699485779, Test Accuracy: 72.64957427978516
+I1127 18:05:11.133221 34112 train.py:86] epochs: 4900.0, Loss: 0.5455412268638611, Accuracy: 72.79120635986328, Test Loss: 0.5350306034088135, Test Accuracy: 72.64957427978516
+I1127 18:05:11.764491 34112 train.py:86] epochs: 4910.0, Loss: 0.5426479578018188, Accuracy: 72.12107849121094, Test Loss: 0.5294181704521179, Test Accuracy: 71.79487609863281
+I1127 18:05:12.426952 34112 train.py:86] epochs: 4920.0, Loss: 0.5386661887168884, Accuracy: 72.96703338623047, Test Loss: 0.5377123951911926, Test Accuracy: 71.79487609863281
+I1127 18:05:13.079492 34112 train.py:86] epochs: 4930.0, Loss: 0.5453493595123291, Accuracy: 72.27462005615234, Test Loss: 0.5296332836151123, Test Accuracy: 72.64957427978516
+I1127 18:05:13.711187 34112 train.py:86] epochs: 4940.0, Loss: 0.5507854223251343, Accuracy: 71.80220031738281, Test Loss: 0.5331444144248962, Test Accuracy: 72.64957427978516
+I1127 18:05:14.343014 34112 train.py:86] epochs: 4950.0, Loss: 0.5461378693580627, Accuracy: 72.43955993652344, Test Loss: 0.5322391390800476, Test Accuracy: 72.64957427978516
+I1127 18:05:14.973058 34112 train.py:86] epochs: 4960.0, Loss: 0.5468607544898987, Accuracy: 72.24176025390625, Test Loss: 0.5298922657966614, Test Accuracy: 72.64957427978516
+I1127 18:05:15.640301 34112 train.py:86] epochs: 4970.0, Loss: 0.5484234690666199, Accuracy: 72.34042358398438, Test Loss: 0.5372123718261719, Test Accuracy: 72.64957427978516
+I1127 18:05:16.285172 34112 train.py:86] epochs: 4980.0, Loss: 0.5429824590682983, Accuracy: 72.65933990478516, Test Loss: 0.5380988121032715, Test Accuracy: 72.64957427978516
+I1127 18:05:16.913548 34112 train.py:86] epochs: 4990.0, Loss: 0.5440375208854675, Accuracy: 72.81318664550781, Test Loss: 0.5570741891860962, Test Accuracy: 70.94017028808594
+I1127 18:05:17.542487 34112 train.py:86] epochs: 5000.0, Loss: 0.5500988960266113, Accuracy: 71.89010620117188, Test Loss: 0.539557933807373, Test Accuracy: 72.64957427978516
+I1127 18:05:18.172739 34112 train.py:86] epochs: 5010.0, Loss: 0.5445563197135925, Accuracy: 72.91072845458984, Test Loss: 0.5425814390182495, Test Accuracy: 70.94017028808594
+I1127 18:05:18.798698 34112 train.py:86] epochs: 5020.0, Loss: 0.5453730225563049, Accuracy: 73.18681335449219, Test Loss: 0.53155916929245, Test Accuracy: 71.79487609863281
+I1127 18:05:19.427193 34112 train.py:86] epochs: 5030.0, Loss: 0.5456133484840393, Accuracy: 73.010986328125, Test Loss: 0.5356104373931885, Test Accuracy: 73.5042724609375
+I1127 18:05:20.059429 34112 train.py:86] epochs: 5040.0, Loss: 0.5422976613044739, Accuracy: 72.93266296386719, Test Loss: 0.5359680652618408, Test Accuracy: 72.64957427978516
+I1127 18:05:20.690962 34112 train.py:86] epochs: 5050.0, Loss: 0.5440282821655273, Accuracy: 72.19779968261719, Test Loss: 0.5315849781036377, Test Accuracy: 72.64957427978516
+I1127 18:05:21.320326 34112 train.py:86] epochs: 5060.0, Loss: 0.5490679740905762, Accuracy: 72.47203826904297, Test Loss: 0.5331041812896729, Test Accuracy: 72.64957427978516
+I1127 18:05:21.961987 34112 train.py:86] epochs: 5070.0, Loss: 0.5402250289916992, Accuracy: 73.47252655029297, Test Loss: 0.5319387316703796, Test Accuracy: 72.64957427978516
+I1127 18:05:22.589661 34112 train.py:86] epochs: 5080.0, Loss: 0.5441348552703857, Accuracy: 73.07691955566406, Test Loss: 0.5358253717422485, Test Accuracy: 72.64957427978516
+I1127 18:05:23.230682 34112 train.py:86] epochs: 5090.0, Loss: 0.5409108400344849, Accuracy: 73.28361511230469, Test Loss: 0.5426541566848755, Test Accuracy: 72.64957427978516
+I1127 18:05:23.858273 34112 train.py:86] epochs: 5100.0, Loss: 0.5390388369560242, Accuracy: 72.96703338623047, Test Loss: 0.5349456071853638, Test Accuracy: 72.64957427978516
+I1127 18:05:24.487504 34112 train.py:86] epochs: 5110.0, Loss: 0.5427048802375793, Accuracy: 73.09890747070312, Test Loss: 0.5377147793769836, Test Accuracy: 72.64957427978516
+I1127 18:05:25.116842 34112 train.py:86] epochs: 5120.0, Loss: 0.5446505546569824, Accuracy: 72.252685546875, Test Loss: 0.5366246700286865, Test Accuracy: 72.64957427978516
+I1127 18:05:25.745761 34112 train.py:86] epochs: 5130.0, Loss: 0.54087895154953, Accuracy: 72.79120635986328, Test Loss: 0.5302438735961914, Test Accuracy: 71.79487609863281
+I1127 18:05:26.376072 34112 train.py:86] epochs: 5140.0, Loss: 0.5419725775718689, Accuracy: 72.989013671875, Test Loss: 0.5386024713516235, Test Accuracy: 72.64957427978516
+I1127 18:05:27.034745 34112 train.py:86] epochs: 5150.0, Loss: 0.543829083442688, Accuracy: 73.02040100097656, Test Loss: 0.5352784991264343, Test Accuracy: 73.5042724609375
+I1127 18:05:27.708050 34112 train.py:86] epochs: 5160.0, Loss: 0.543770968914032, Accuracy: 72.63735961914062, Test Loss: 0.5363713502883911, Test Accuracy: 72.64957427978516
+I1127 18:05:28.341078 34112 train.py:86] epochs: 5170.0, Loss: 0.543399453163147, Accuracy: 73.21781158447266, Test Loss: 0.5305806398391724, Test Accuracy: 73.5042724609375
+I1127 18:05:28.975567 34112 train.py:86] epochs: 5180.0, Loss: 0.5458806753158569, Accuracy: 72.60514831542969, Test Loss: 0.5277099013328552, Test Accuracy: 73.5042724609375
+I1127 18:05:29.609861 34112 train.py:86] epochs: 5190.0, Loss: 0.54346764087677, Accuracy: 72.23075103759766, Test Loss: 0.5381187796592712, Test Accuracy: 72.64957427978516
+I1127 18:05:30.267107 34112 train.py:86] epochs: 5200.0, Loss: 0.5379435420036316, Accuracy: 72.989013671875, Test Loss: 0.5405339598655701, Test Accuracy: 72.64957427978516
+I1127 18:05:30.909094 34112 train.py:86] epochs: 5210.0, Loss: 0.5425330996513367, Accuracy: 72.989013671875, Test Loss: 0.5331676602363586, Test Accuracy: 72.64957427978516
+I1127 18:05:31.543003 34112 train.py:86] epochs: 5220.0, Loss: 0.5378411412239075, Accuracy: 72.99846649169922, Test Loss: 0.5451323986053467, Test Accuracy: 71.79487609863281
+I1127 18:05:32.174813 34112 train.py:86] epochs: 5230.0, Loss: 0.5414823293685913, Accuracy: 72.34042358398438, Test Loss: 0.5280911326408386, Test Accuracy: 72.64957427978516
+I1127 18:05:32.801985 34112 train.py:86] epochs: 5240.0, Loss: 0.5475450754165649, Accuracy: 71.78022003173828, Test Loss: 0.549874484539032, Test Accuracy: 71.79487609863281
+I1127 18:05:33.433974 34112 train.py:86] epochs: 5250.0, Loss: 0.5378904342651367, Accuracy: 73.14285278320312, Test Loss: 0.5337104797363281, Test Accuracy: 72.64957427978516
+I1127 18:05:34.064725 34112 train.py:86] epochs: 5260.0, Loss: 0.542720377445221, Accuracy: 73.19587707519531, Test Loss: 0.5314898490905762, Test Accuracy: 72.64957427978516
+I1127 18:05:34.695693 34112 train.py:86] epochs: 5270.0, Loss: 0.549071192741394, Accuracy: 72.28571319580078, Test Loss: 0.5331535935401917, Test Accuracy: 72.64957427978516
+I1127 18:05:35.324973 34112 train.py:86] epochs: 5280.0, Loss: 0.5407232642173767, Accuracy: 72.96703338623047, Test Loss: 0.5345129370689392, Test Accuracy: 72.64957427978516
+I1127 18:05:35.957055 34112 train.py:86] epochs: 5290.0, Loss: 0.5373271703720093, Accuracy: 73.26168060302734, Test Loss: 0.5348333716392517, Test Accuracy: 72.64957427978516
+I1127 18:05:36.584362 34112 train.py:86] epochs: 5300.0, Loss: 0.5424423813819885, Accuracy: 72.48351287841797, Test Loss: 0.536480724811554, Test Accuracy: 72.64957427978516
+I1127 18:05:37.215011 34112 train.py:86] epochs: 5310.0, Loss: 0.5464478135108948, Accuracy: 72.68132019042969, Test Loss: 0.537142276763916, Test Accuracy: 72.64957427978516
+I1127 18:05:37.843386 34112 train.py:86] epochs: 5320.0, Loss: 0.5400385856628418, Accuracy: 72.96703338623047, Test Loss: 0.5332111120223999, Test Accuracy: 72.64957427978516
+I1127 18:05:38.471563 34112 train.py:86] epochs: 5330.0, Loss: 0.5384072065353394, Accuracy: 73.37135314941406, Test Loss: 0.5279091596603394, Test Accuracy: 72.64957427978516
+I1127 18:05:39.099565 34112 train.py:86] epochs: 5340.0, Loss: 0.5431897044181824, Accuracy: 73.05494689941406, Test Loss: 0.5314808487892151, Test Accuracy: 72.64957427978516
+I1127 18:05:39.726002 34112 train.py:86] epochs: 5350.0, Loss: 0.5419778823852539, Accuracy: 72.989013671875, Test Loss: 0.5305013656616211, Test Accuracy: 71.79487609863281
+I1127 18:05:40.354526 34112 train.py:86] epochs: 5360.0, Loss: 0.5394110679626465, Accuracy: 72.85713958740234, Test Loss: 0.5324288606643677, Test Accuracy: 72.64957427978516
+I1127 18:05:41.003611 34112 train.py:86] epochs: 5370.0, Loss: 0.5446940660476685, Accuracy: 72.49397277832031, Test Loss: 0.5346435904502869, Test Accuracy: 72.64957427978516
+I1127 18:05:41.670445 34112 train.py:86] epochs: 5380.0, Loss: 0.5422219038009644, Accuracy: 72.68132019042969, Test Loss: 0.5315266847610474, Test Accuracy: 72.64957427978516
+I1127 18:05:42.302074 34112 train.py:86] epochs: 5390.0, Loss: 0.5411101579666138, Accuracy: 72.85713958740234, Test Loss: 0.5289597511291504, Test Accuracy: 72.64957427978516
+I1127 18:05:42.931393 34112 train.py:86] epochs: 5400.0, Loss: 0.5437729358673096, Accuracy: 73.28361511230469, Test Loss: 0.5359092950820923, Test Accuracy: 72.64957427978516
+I1127 18:05:43.564603 34112 train.py:86] epochs: 5410.0, Loss: 0.5451450943946838, Accuracy: 72.58171081542969, Test Loss: 0.5373175144195557, Test Accuracy: 72.64957427978516
+I1127 18:05:44.197883 34112 train.py:86] epochs: 5420.0, Loss: 0.5430641770362854, Accuracy: 72.74725341796875, Test Loss: 0.5328797101974487, Test Accuracy: 71.79487609863281
+I1127 18:05:44.828386 34112 train.py:86] epochs: 5430.0, Loss: 0.5402243733406067, Accuracy: 72.68132019042969, Test Loss: 0.531326949596405, Test Accuracy: 72.64957427978516
+I1127 18:05:45.461610 34112 train.py:86] epochs: 5440.0, Loss: 0.5445222854614258, Accuracy: 72.54945373535156, Test Loss: 0.5277901291847229, Test Accuracy: 72.64957427978516
+I1127 18:05:46.094451 34112 train.py:86] epochs: 5450.0, Loss: 0.538520336151123, Accuracy: 73.03296661376953, Test Loss: 0.5290341377258301, Test Accuracy: 72.64957427978516
+I1127 18:05:46.727889 34112 train.py:86] epochs: 5460.0, Loss: 0.5485937595367432, Accuracy: 72.0991439819336, Test Loss: 0.5338730812072754, Test Accuracy: 72.64957427978516
+I1127 18:05:47.362166 34112 train.py:86] epochs: 5470.0, Loss: 0.5408585071563721, Accuracy: 72.74725341796875, Test Loss: 0.5324575304985046, Test Accuracy: 72.64957427978516
+I1127 18:05:48.027925 34112 train.py:86] epochs: 5480.0, Loss: 0.5375657677650452, Accuracy: 72.82299041748047, Test Loss: 0.5347973704338074, Test Accuracy: 72.64957427978516
+I1127 18:05:48.659519 34112 train.py:86] epochs: 5490.0, Loss: 0.5395774841308594, Accuracy: 72.68132019042969, Test Loss: 0.5363657474517822, Test Accuracy: 73.5042724609375
+I1127 18:05:49.294844 34112 train.py:86] epochs: 5500.0, Loss: 0.5415295958518982, Accuracy: 73.29669952392578, Test Loss: 0.5318694114685059, Test Accuracy: 72.64957427978516
+I1127 18:05:49.926554 34112 train.py:86] epochs: 5510.0, Loss: 0.5450342893600464, Accuracy: 72.61538696289062, Test Loss: 0.5391685366630554, Test Accuracy: 72.64957427978516
+I1127 18:05:50.556370 34112 train.py:86] epochs: 5520.0, Loss: 0.5422378778457642, Accuracy: 72.64751434326172, Test Loss: 0.5417726039886475, Test Accuracy: 71.79487609863281
+I1127 18:05:51.184834 34112 train.py:86] epochs: 5530.0, Loss: 0.540153980255127, Accuracy: 72.46154022216797, Test Loss: 0.5322442054748535, Test Accuracy: 72.64957427978516
+I1127 18:05:51.825258 34112 train.py:86] epochs: 5540.0, Loss: 0.5419593453407288, Accuracy: 72.5934066772461, Test Loss: 0.539686918258667, Test Accuracy: 72.64957427978516
+I1127 18:05:52.457285 34112 train.py:86] epochs: 5550.0, Loss: 0.5401514172554016, Accuracy: 73.0423355102539, Test Loss: 0.5324428081512451, Test Accuracy: 72.64957427978516
+I1127 18:05:53.086509 34112 train.py:86] epochs: 5560.0, Loss: 0.5435467958450317, Accuracy: 72.72527313232422, Test Loss: 0.5417646765708923, Test Accuracy: 70.94017028808594
+I1127 18:05:53.714850 34112 train.py:86] epochs: 5570.0, Loss: 0.5400805473327637, Accuracy: 73.16483306884766, Test Loss: 0.5454279184341431, Test Accuracy: 70.0854721069336
+I1127 18:05:54.351597 34112 train.py:86] epochs: 5580.0, Loss: 0.5409470200538635, Accuracy: 72.86685943603516, Test Loss: 0.532246470451355, Test Accuracy: 72.64957427978516
+I1127 18:05:54.982371 34112 train.py:86] epochs: 5590.0, Loss: 0.5429461598396301, Accuracy: 72.76923370361328, Test Loss: 0.5293936729431152, Test Accuracy: 71.79487609863281
+I1127 18:05:55.635021 34112 train.py:86] epochs: 5600.0, Loss: 0.544166624546051, Accuracy: 72.96703338623047, Test Loss: 0.5355720520019531, Test Accuracy: 72.64957427978516
+I1127 18:05:56.314934 34112 train.py:86] epochs: 5610.0, Loss: 0.5433153510093689, Accuracy: 72.23075103759766, Test Loss: 0.5349761247634888, Test Accuracy: 72.64957427978516
+I1127 18:05:56.989466 34112 train.py:86] epochs: 5620.0, Loss: 0.5436335206031799, Accuracy: 73.17394256591797, Test Loss: 0.5308660268783569, Test Accuracy: 72.64957427978516
+I1127 18:05:57.667085 34112 train.py:86] epochs: 5630.0, Loss: 0.5353839993476868, Accuracy: 73.2878189086914, Test Loss: 0.5326796770095825, Test Accuracy: 72.64957427978516
+I1127 18:05:58.306421 34112 train.py:86] epochs: 5640.0, Loss: 0.5423147678375244, Accuracy: 72.8887939453125, Test Loss: 0.5372480750083923, Test Accuracy: 73.5042724609375
+I1127 18:05:58.939479 34112 train.py:86] epochs: 5650.0, Loss: 0.5390596985816956, Accuracy: 72.74725341796875, Test Loss: 0.5371426939964294, Test Accuracy: 72.64957427978516
+I1127 18:05:59.570976 34112 train.py:86] epochs: 5660.0, Loss: 0.5421728491783142, Accuracy: 72.58171081542969, Test Loss: 0.537266731262207, Test Accuracy: 72.64957427978516
+I1127 18:06:00.202489 34112 train.py:86] epochs: 5670.0, Loss: 0.5429880023002625, Accuracy: 72.68132019042969, Test Loss: 0.5322603583335876, Test Accuracy: 72.64957427978516
+I1127 18:06:00.834268 34112 train.py:86] epochs: 5680.0, Loss: 0.5362600088119507, Accuracy: 72.87911987304688, Test Loss: 0.5298081040382385, Test Accuracy: 71.79487609863281
+I1127 18:06:01.468331 34112 train.py:86] epochs: 5690.0, Loss: 0.5437036156654358, Accuracy: 72.7352523803711, Test Loss: 0.5338559746742249, Test Accuracy: 72.64957427978516
+I1127 18:06:02.100734 34112 train.py:86] epochs: 5700.0, Loss: 0.5332435369491577, Accuracy: 73.14285278320312, Test Loss: 0.529416561126709, Test Accuracy: 71.79487609863281
+I1127 18:06:02.764402 34112 train.py:86] epochs: 5710.0, Loss: 0.5394805669784546, Accuracy: 72.81318664550781, Test Loss: 0.5285143256187439, Test Accuracy: 71.79487609863281
+I1127 18:06:03.438102 34112 train.py:86] epochs: 5720.0, Loss: 0.5380991101264954, Accuracy: 73.29669952392578, Test Loss: 0.5370994210243225, Test Accuracy: 72.64957427978516
+I1127 18:06:04.131686 34112 train.py:86] epochs: 5730.0, Loss: 0.5396042466163635, Accuracy: 72.86685943603516, Test Loss: 0.5317585468292236, Test Accuracy: 72.64957427978516
+I1127 18:06:04.816412 34112 train.py:86] epochs: 5740.0, Loss: 0.5433632731437683, Accuracy: 72.5934066772461, Test Loss: 0.5300898551940918, Test Accuracy: 71.79487609863281
+I1127 18:06:05.489811 34112 train.py:86] epochs: 5750.0, Loss: 0.5373576879501343, Accuracy: 73.54682922363281, Test Loss: 0.5384212136268616, Test Accuracy: 72.64957427978516
+I1127 18:06:06.161136 34112 train.py:86] epochs: 5760.0, Loss: 0.5368143916130066, Accuracy: 73.36264038085938, Test Loss: 0.5335261225700378, Test Accuracy: 72.64957427978516
+I1127 18:06:06.834512 34112 train.py:86] epochs: 5770.0, Loss: 0.5372554659843445, Accuracy: 73.12088012695312, Test Loss: 0.5358713865280151, Test Accuracy: 72.64957427978516
+I1127 18:06:07.520475 34112 train.py:86] epochs: 5780.0, Loss: 0.5381547808647156, Accuracy: 72.99846649169922, Test Loss: 0.5340876579284668, Test Accuracy: 72.64957427978516
+I1127 18:06:08.164288 34112 train.py:86] epochs: 5790.0, Loss: 0.5382547378540039, Accuracy: 73.5824203491211, Test Loss: 0.5305538773536682, Test Accuracy: 71.79487609863281
+I1127 18:06:08.790668 34112 train.py:86] epochs: 5800.0, Loss: 0.5360207557678223, Accuracy: 72.96703338623047, Test Loss: 0.5317928791046143, Test Accuracy: 72.64957427978516
+I1127 18:06:09.422214 34112 train.py:86] epochs: 5810.0, Loss: 0.5420398116111755, Accuracy: 72.95459747314453, Test Loss: 0.5328058004379272, Test Accuracy: 72.64957427978516
+I1127 18:06:10.051874 34112 train.py:86] epochs: 5820.0, Loss: 0.5393193960189819, Accuracy: 72.989013671875, Test Loss: 0.5297373533248901, Test Accuracy: 71.79487609863281
+I1127 18:06:10.683815 34112 train.py:86] epochs: 5830.0, Loss: 0.5387164950370789, Accuracy: 73.23076629638672, Test Loss: 0.5340908765792847, Test Accuracy: 72.64957427978516
+I1127 18:06:11.314237 34112 train.py:86] epochs: 5840.0, Loss: 0.5430789589881897, Accuracy: 72.8887939453125, Test Loss: 0.5313660502433777, Test Accuracy: 72.64957427978516
+I1127 18:06:11.937725 34112 train.py:86] epochs: 5850.0, Loss: 0.5362337231636047, Accuracy: 73.56044006347656, Test Loss: 0.5321725010871887, Test Accuracy: 72.64957427978516
+I1127 18:06:12.567645 34112 train.py:86] epochs: 5860.0, Loss: 0.5332605838775635, Accuracy: 73.15200805664062, Test Loss: 0.5285082459449768, Test Accuracy: 71.79487609863281
+I1127 18:06:13.198832 34112 train.py:86] epochs: 5870.0, Loss: 0.5373864769935608, Accuracy: 72.9574966430664, Test Loss: 0.5399662256240845, Test Accuracy: 72.64957427978516
+I1127 18:06:13.825702 34112 train.py:86] epochs: 5880.0, Loss: 0.5343806147575378, Accuracy: 73.34941864013672, Test Loss: 0.5304960012435913, Test Accuracy: 72.64957427978516
+I1127 18:06:14.453902 34112 train.py:86] epochs: 5890.0, Loss: 0.5368214845657349, Accuracy: 72.81318664550781, Test Loss: 0.5380021333694458, Test Accuracy: 73.5042724609375
+I1127 18:06:15.082821 34112 train.py:86] epochs: 5900.0, Loss: 0.5389618873596191, Accuracy: 73.29669952392578, Test Loss: 0.5272553563117981, Test Accuracy: 72.64957427978516
+I1127 18:06:15.712061 34112 train.py:86] epochs: 5910.0, Loss: 0.533503532409668, Accuracy: 73.41522216796875, Test Loss: 0.5271210074424744, Test Accuracy: 71.79487609863281
+I1127 18:06:16.354639 34112 train.py:86] epochs: 5920.0, Loss: 0.5349554419517517, Accuracy: 73.5824203491211, Test Loss: 0.5284766554832458, Test Accuracy: 71.79487609863281
+I1127 18:06:16.988332 34112 train.py:86] epochs: 5930.0, Loss: 0.5410385727882385, Accuracy: 72.71331787109375, Test Loss: 0.5311446785926819, Test Accuracy: 72.64957427978516
+I1127 18:06:17.613318 34112 train.py:86] epochs: 5940.0, Loss: 0.533203661441803, Accuracy: 73.14285278320312, Test Loss: 0.5314926505088806, Test Accuracy: 72.64957427978516
+I1127 18:06:18.239173 34112 train.py:86] epochs: 5950.0, Loss: 0.5442140102386475, Accuracy: 72.57142639160156, Test Loss: 0.5288206934928894, Test Accuracy: 71.79487609863281
+I1127 18:06:18.868298 34112 train.py:86] epochs: 5960.0, Loss: 0.5347534418106079, Accuracy: 73.4371566772461, Test Loss: 0.5347740650177002, Test Accuracy: 72.64957427978516
+I1127 18:06:19.496190 34112 train.py:86] epochs: 5970.0, Loss: 0.5383065342903137, Accuracy: 73.4945068359375, Test Loss: 0.5281910300254822, Test Accuracy: 71.79487609863281
+I1127 18:06:20.134229 34112 train.py:86] epochs: 5980.0, Loss: 0.5402226448059082, Accuracy: 72.989013671875, Test Loss: 0.5328858494758606, Test Accuracy: 72.64957427978516
+I1127 18:06:20.763819 34112 train.py:86] epochs: 5990.0, Loss: 0.5384714603424072, Accuracy: 72.7352523803711, Test Loss: 0.5265337228775024, Test Accuracy: 71.79487609863281
+I1127 18:06:21.397010 34112 train.py:86] epochs: 6000.0, Loss: 0.5381159782409668, Accuracy: 73.07691955566406, Test Loss: 0.5428210496902466, Test Accuracy: 73.5042724609375
+I1127 18:06:22.036325 34112 train.py:86] epochs: 6010.0, Loss: 0.5351341962814331, Accuracy: 74.06593322753906, Test Loss: 0.526299238204956, Test Accuracy: 71.79487609863281
+I1127 18:06:22.667600 34112 train.py:86] epochs: 6020.0, Loss: 0.5417783260345459, Accuracy: 72.537841796875, Test Loss: 0.5276316404342651, Test Accuracy: 71.79487609863281
+I1127 18:06:23.303856 34112 train.py:86] epochs: 6030.0, Loss: 0.5432342290878296, Accuracy: 72.79120635986328, Test Loss: 0.5328084230422974, Test Accuracy: 72.64957427978516
+I1127 18:06:23.934690 34112 train.py:86] epochs: 6040.0, Loss: 0.5362860560417175, Accuracy: 73.18681335449219, Test Loss: 0.5331991910934448, Test Accuracy: 72.64957427978516
+I1127 18:06:24.583541 34112 train.py:86] epochs: 6050.0, Loss: 0.5371987819671631, Accuracy: 73.41522216796875, Test Loss: 0.5270743370056152, Test Accuracy: 72.64957427978516
+I1127 18:06:25.231544 34112 train.py:86] epochs: 6060.0, Loss: 0.5364851355552673, Accuracy: 73.16483306884766, Test Loss: 0.5299040675163269, Test Accuracy: 72.64957427978516
+I1127 18:06:25.861190 34112 train.py:86] epochs: 6070.0, Loss: 0.535203218460083, Accuracy: 72.81318664550781, Test Loss: 0.5268644690513611, Test Accuracy: 72.64957427978516
+I1127 18:06:26.493425 34112 train.py:86] epochs: 6080.0, Loss: 0.5373942852020264, Accuracy: 73.05494689941406, Test Loss: 0.531991183757782, Test Accuracy: 72.64957427978516
+I1127 18:06:27.124927 34112 train.py:86] epochs: 6090.0, Loss: 0.5402423143386841, Accuracy: 73.06427001953125, Test Loss: 0.5278416275978088, Test Accuracy: 71.79487609863281
+I1127 18:06:27.755310 34112 train.py:86] epochs: 6100.0, Loss: 0.5372681617736816, Accuracy: 73.63456726074219, Test Loss: 0.5316845178604126, Test Accuracy: 72.64957427978516
+I1127 18:06:28.413334 34112 train.py:86] epochs: 6110.0, Loss: 0.5348027348518372, Accuracy: 73.36264038085938, Test Loss: 0.5413771867752075, Test Accuracy: 71.79487609863281
+I1127 18:06:29.097022 34112 train.py:86] epochs: 6120.0, Loss: 0.5345744490623474, Accuracy: 73.20879364013672, Test Loss: 0.5373358726501465, Test Accuracy: 73.5042724609375
+I1127 18:06:29.748308 34112 train.py:86] epochs: 6130.0, Loss: 0.5379366278648376, Accuracy: 72.49397277832031, Test Loss: 0.5318138599395752, Test Accuracy: 72.64957427978516
+I1127 18:06:30.380014 34112 train.py:86] epochs: 6140.0, Loss: 0.5365428328514099, Accuracy: 73.14285278320312, Test Loss: 0.5259619355201721, Test Accuracy: 71.79487609863281
+I1127 18:06:31.006760 34112 train.py:86] epochs: 6150.0, Loss: 0.5363897681236267, Accuracy: 73.25274658203125, Test Loss: 0.52707439661026, Test Accuracy: 72.64957427978516
+I1127 18:06:31.635121 34112 train.py:86] epochs: 6160.0, Loss: 0.5405829548835754, Accuracy: 73.26168060302734, Test Loss: 0.53324955701828, Test Accuracy: 73.5042724609375
+I1127 18:06:32.261632 34112 train.py:86] epochs: 6170.0, Loss: 0.5358315706253052, Accuracy: 72.989013671875, Test Loss: 0.530207633972168, Test Accuracy: 72.64957427978516
+I1127 18:06:32.888152 34112 train.py:86] epochs: 6180.0, Loss: 0.5360352396965027, Accuracy: 73.34066009521484, Test Loss: 0.5321202874183655, Test Accuracy: 72.64957427978516
+I1127 18:06:33.516563 34112 train.py:86] epochs: 6190.0, Loss: 0.5373222231864929, Accuracy: 72.6913833618164, Test Loss: 0.5266710519790649, Test Accuracy: 72.64957427978516
+I1127 18:06:34.143686 34112 train.py:86] epochs: 6200.0, Loss: 0.5370177030563354, Accuracy: 73.27472686767578, Test Loss: 0.5293021202087402, Test Accuracy: 72.64957427978516
+I1127 18:06:34.774653 34112 train.py:86] epochs: 6210.0, Loss: 0.5424941778182983, Accuracy: 72.74725341796875, Test Loss: 0.5291060209274292, Test Accuracy: 72.64957427978516
+I1127 18:06:35.401696 34112 train.py:86] epochs: 6220.0, Loss: 0.5305371284484863, Accuracy: 73.4945068359375, Test Loss: 0.5272238254547119, Test Accuracy: 71.79487609863281
+I1127 18:06:36.029474 34112 train.py:86] epochs: 6230.0, Loss: 0.5368887186050415, Accuracy: 72.989013671875, Test Loss: 0.5322625637054443, Test Accuracy: 72.64957427978516
+I1127 18:06:36.660061 34112 train.py:86] epochs: 6240.0, Loss: 0.5374873876571655, Accuracy: 72.84492492675781, Test Loss: 0.5313624143600464, Test Accuracy: 72.64957427978516
+I1127 18:06:37.289929 34112 train.py:86] epochs: 6250.0, Loss: 0.5313997268676758, Accuracy: 73.4945068359375, Test Loss: 0.5279816389083862, Test Accuracy: 71.79487609863281
+I1127 18:06:37.920467 34112 train.py:86] epochs: 6260.0, Loss: 0.5394548177719116, Accuracy: 73.18681335449219, Test Loss: 0.5279259085655212, Test Accuracy: 71.79487609863281
+I1127 18:06:38.556073 34112 train.py:86] epochs: 6270.0, Loss: 0.534884512424469, Accuracy: 73.32748413085938, Test Loss: 0.529747486114502, Test Accuracy: 72.64957427978516
+I1127 18:06:39.196396 34112 train.py:86] epochs: 6280.0, Loss: 0.5327790379524231, Accuracy: 73.53846740722656, Test Loss: 0.5388475656509399, Test Accuracy: 72.64957427978516
+I1127 18:06:39.867946 34112 train.py:86] epochs: 6290.0, Loss: 0.5349293947219849, Accuracy: 73.75824737548828, Test Loss: 0.5338013768196106, Test Accuracy: 73.5042724609375
+I1127 18:06:40.502271 34112 train.py:86] epochs: 6300.0, Loss: 0.5367757081985474, Accuracy: 72.95459747314453, Test Loss: 0.5329893827438354, Test Accuracy: 73.5042724609375
+I1127 18:06:41.132221 34112 train.py:86] epochs: 6310.0, Loss: 0.5357949137687683, Accuracy: 73.69230651855469, Test Loss: 0.529626190662384, Test Accuracy: 71.79487609863281
+I1127 18:06:41.764443 34112 train.py:86] epochs: 6320.0, Loss: 0.5388179421424866, Accuracy: 73.02040100097656, Test Loss: 0.5338994264602661, Test Accuracy: 72.64957427978516
+I1127 18:06:42.400008 34112 train.py:86] epochs: 6330.0, Loss: 0.531171441078186, Accuracy: 73.5824203491211, Test Loss: 0.5268864631652832, Test Accuracy: 71.79487609863281
+I1127 18:06:43.080988 34112 train.py:86] epochs: 6340.0, Loss: 0.5339064002037048, Accuracy: 73.62637329101562, Test Loss: 0.5251375436782837, Test Accuracy: 72.64957427978516
+I1127 18:06:43.754267 34112 train.py:86] epochs: 6350.0, Loss: 0.5393416881561279, Accuracy: 73.010986328125, Test Loss: 0.5254420638084412, Test Accuracy: 72.64957427978516
+I1127 18:06:44.385513 34112 train.py:86] epochs: 6360.0, Loss: 0.539767861366272, Accuracy: 72.64751434326172, Test Loss: 0.5282008647918701, Test Accuracy: 72.64957427978516
+I1127 18:06:45.017207 34112 train.py:86] epochs: 6370.0, Loss: 0.5288294553756714, Accuracy: 73.42857360839844, Test Loss: 0.5306569337844849, Test Accuracy: 72.64957427978516
+I1127 18:06:45.648954 34112 train.py:86] epochs: 6380.0, Loss: 0.5375822186470032, Accuracy: 72.97653198242188, Test Loss: 0.5254791975021362, Test Accuracy: 72.64957427978516
+I1127 18:06:46.295164 34112 train.py:86] epochs: 6390.0, Loss: 0.5360041260719299, Accuracy: 72.85713958740234, Test Loss: 0.531587541103363, Test Accuracy: 72.64957427978516
+I1127 18:06:46.929658 34112 train.py:86] epochs: 6400.0, Loss: 0.5378473997116089, Accuracy: 72.54945373535156, Test Loss: 0.5268946886062622, Test Accuracy: 71.79487609863281
+I1127 18:06:47.559907 34112 train.py:86] epochs: 6410.0, Loss: 0.5315003991127014, Accuracy: 74.00745391845703, Test Loss: 0.5279343724250793, Test Accuracy: 72.64957427978516
+I1127 18:06:48.188765 34112 train.py:86] epochs: 6420.0, Loss: 0.5379317998886108, Accuracy: 73.16483306884766, Test Loss: 0.5280982255935669, Test Accuracy: 71.79487609863281
+I1127 18:06:48.819694 34112 train.py:86] epochs: 6430.0, Loss: 0.5372015833854675, Accuracy: 73.56876373291016, Test Loss: 0.5253108739852905, Test Accuracy: 71.79487609863281
+I1127 18:06:49.452090 34112 train.py:86] epochs: 6440.0, Loss: 0.540108859539032, Accuracy: 72.83516693115234, Test Loss: 0.5298826098442078, Test Accuracy: 72.64957427978516
+I1127 18:06:50.081260 34112 train.py:86] epochs: 6450.0, Loss: 0.5331279635429382, Accuracy: 72.74725341796875, Test Loss: 0.5266464352607727, Test Accuracy: 71.79487609863281
+I1127 18:06:50.711070 34112 train.py:86] epochs: 6460.0, Loss: 0.535174548625946, Accuracy: 72.72527313232422, Test Loss: 0.5248807072639465, Test Accuracy: 72.64957427978516
+I1127 18:06:51.342319 34112 train.py:86] epochs: 6470.0, Loss: 0.5357486009597778, Accuracy: 72.85713958740234, Test Loss: 0.5285987257957458, Test Accuracy: 72.64957427978516
+I1127 18:06:52.021349 34112 train.py:86] epochs: 6480.0, Loss: 0.5377092957496643, Accuracy: 73.06427001953125, Test Loss: 0.526739239692688, Test Accuracy: 71.79487609863281
+I1127 18:06:52.657671 34112 train.py:86] epochs: 6490.0, Loss: 0.5343428254127502, Accuracy: 73.62637329101562, Test Loss: 0.5502650141716003, Test Accuracy: 70.94017028808594
+I1127 18:06:53.287469 34112 train.py:86] epochs: 6500.0, Loss: 0.529011070728302, Accuracy: 73.6043930053711, Test Loss: 0.5314942002296448, Test Accuracy: 72.64957427978516
+I1127 18:06:53.920012 34112 train.py:86] epochs: 6510.0, Loss: 0.5322091579437256, Accuracy: 73.02040100097656, Test Loss: 0.5300475358963013, Test Accuracy: 72.64957427978516
+I1127 18:06:54.551326 34112 train.py:86] epochs: 6520.0, Loss: 0.5363730192184448, Accuracy: 73.71428680419922, Test Loss: 0.525221586227417, Test Accuracy: 71.79487609863281
+I1127 18:06:55.183220 34112 train.py:86] epochs: 6530.0, Loss: 0.5300164818763733, Accuracy: 73.3932876586914, Test Loss: 0.5238203406333923, Test Accuracy: 72.64957427978516
+I1127 18:06:55.816981 34112 train.py:86] epochs: 6540.0, Loss: 0.5404239296913147, Accuracy: 72.76923370361328, Test Loss: 0.5297605395317078, Test Accuracy: 71.79487609863281
+I1127 18:06:56.449600 34112 train.py:86] epochs: 6550.0, Loss: 0.5327643156051636, Accuracy: 72.94505310058594, Test Loss: 0.5341161489486694, Test Accuracy: 72.64957427978516
+I1127 18:06:57.082612 34112 train.py:86] epochs: 6560.0, Loss: 0.5318816304206848, Accuracy: 73.50296020507812, Test Loss: 0.5278887152671814, Test Accuracy: 71.79487609863281
+I1127 18:06:57.714875 34112 train.py:86] epochs: 6570.0, Loss: 0.5346388220787048, Accuracy: 73.23076629638672, Test Loss: 0.5313668847084045, Test Accuracy: 72.64957427978516
+I1127 18:06:58.345210 34112 train.py:86] epochs: 6580.0, Loss: 0.5302503705024719, Accuracy: 73.64835357666016, Test Loss: 0.5270437002182007, Test Accuracy: 70.94017028808594
+I1127 18:06:58.977479 34112 train.py:86] epochs: 6590.0, Loss: 0.5300976634025574, Accuracy: 73.42857360839844, Test Loss: 0.5254727602005005, Test Accuracy: 72.64957427978516
+I1127 18:06:59.609976 34112 train.py:86] epochs: 6600.0, Loss: 0.5340847969055176, Accuracy: 72.99846649169922, Test Loss: 0.5355214476585388, Test Accuracy: 73.5042724609375
+I1127 18:07:00.252216 34112 train.py:86] epochs: 6610.0, Loss: 0.5329697728157043, Accuracy: 73.30554962158203, Test Loss: 0.5268203020095825, Test Accuracy: 71.79487609863281
+I1127 18:07:00.885212 34112 train.py:86] epochs: 6620.0, Loss: 0.5278690457344055, Accuracy: 73.89010620117188, Test Loss: 0.5358600616455078, Test Accuracy: 73.5042724609375
+I1127 18:07:01.518140 34112 train.py:86] epochs: 6630.0, Loss: 0.5329012870788574, Accuracy: 73.07691955566406, Test Loss: 0.5260471105575562, Test Accuracy: 71.79487609863281
+I1127 18:07:02.148856 34112 train.py:86] epochs: 6640.0, Loss: 0.5294301509857178, Accuracy: 73.93406677246094, Test Loss: 0.530565083026886, Test Accuracy: 72.64957427978516
+I1127 18:07:02.777261 34112 train.py:86] epochs: 6650.0, Loss: 0.5338267087936401, Accuracy: 73.25274658203125, Test Loss: 0.5274191498756409, Test Accuracy: 72.64957427978516
+I1127 18:07:03.407926 34112 train.py:86] epochs: 6660.0, Loss: 0.5325034260749817, Accuracy: 73.56876373291016, Test Loss: 0.5306799411773682, Test Accuracy: 71.79487609863281
+I1127 18:07:04.038856 34112 train.py:86] epochs: 6670.0, Loss: 0.5336878299713135, Accuracy: 73.4065933227539, Test Loss: 0.5295074582099915, Test Accuracy: 71.79487609863281
+I1127 18:07:04.669533 34112 train.py:86] epochs: 6680.0, Loss: 0.5320051908493042, Accuracy: 73.4065933227539, Test Loss: 0.5250595211982727, Test Accuracy: 72.64957427978516
+I1127 18:07:05.304051 34112 train.py:86] epochs: 6690.0, Loss: 0.5303243398666382, Accuracy: 73.81004333496094, Test Loss: 0.5303043723106384, Test Accuracy: 72.64957427978516
+I1127 18:07:05.938185 34112 train.py:86] epochs: 6700.0, Loss: 0.5339535474777222, Accuracy: 73.41522216796875, Test Loss: 0.5312085151672363, Test Accuracy: 71.79487609863281
+I1127 18:07:06.566092 34112 train.py:86] epochs: 6710.0, Loss: 0.528250515460968, Accuracy: 73.31868743896484, Test Loss: 0.5379124283790588, Test Accuracy: 72.64957427978516
+I1127 18:07:07.195791 34112 train.py:86] epochs: 6720.0, Loss: 0.5325929522514343, Accuracy: 73.14285278320312, Test Loss: 0.5297998189926147, Test Accuracy: 72.64957427978516
+I1127 18:07:07.828059 34112 train.py:86] epochs: 6730.0, Loss: 0.5316383242607117, Accuracy: 73.32748413085938, Test Loss: 0.5282527208328247, Test Accuracy: 70.94017028808594
+I1127 18:07:08.458640 34112 train.py:86] epochs: 6740.0, Loss: 0.5308800339698792, Accuracy: 73.86813354492188, Test Loss: 0.5423299074172974, Test Accuracy: 70.94017028808594
+I1127 18:07:09.088314 34112 train.py:86] epochs: 6750.0, Loss: 0.5311789512634277, Accuracy: 73.71428680419922, Test Loss: 0.5274450182914734, Test Accuracy: 71.79487609863281
+I1127 18:07:09.716323 34112 train.py:86] epochs: 6760.0, Loss: 0.5362727642059326, Accuracy: 72.64751434326172, Test Loss: 0.5256194472312927, Test Accuracy: 71.79487609863281
+I1127 18:07:10.347074 34112 train.py:86] epochs: 6770.0, Loss: 0.5355541706085205, Accuracy: 73.34066009521484, Test Loss: 0.531489908695221, Test Accuracy: 72.64957427978516
+I1127 18:07:10.976526 34112 train.py:86] epochs: 6780.0, Loss: 0.5263391137123108, Accuracy: 73.4065933227539, Test Loss: 0.5260577201843262, Test Accuracy: 70.94017028808594
+I1127 18:07:11.607327 34112 train.py:86] epochs: 6790.0, Loss: 0.5301059484481812, Accuracy: 73.4065933227539, Test Loss: 0.5307213664054871, Test Accuracy: 72.64957427978516
+I1127 18:07:12.235035 34112 train.py:86] epochs: 6800.0, Loss: 0.5343568921089172, Accuracy: 73.26168060302734, Test Loss: 0.5274920463562012, Test Accuracy: 71.79487609863281
+I1127 18:07:12.867934 34112 train.py:86] epochs: 6810.0, Loss: 0.5287189483642578, Accuracy: 74.24176025390625, Test Loss: 0.5306715965270996, Test Accuracy: 72.64957427978516
+I1127 18:07:13.497975 34112 train.py:86] epochs: 6820.0, Loss: 0.5279112458229065, Accuracy: 73.4945068359375, Test Loss: 0.5304041504859924, Test Accuracy: 72.64957427978516
+I1127 18:07:14.129025 34112 train.py:86] epochs: 6830.0, Loss: 0.5317782759666443, Accuracy: 73.65650177001953, Test Loss: 0.5414709448814392, Test Accuracy: 72.64957427978516
+I1127 18:07:14.758746 34112 train.py:86] epochs: 6840.0, Loss: 0.5322623252868652, Accuracy: 73.4065933227539, Test Loss: 0.5331733226776123, Test Accuracy: 73.5042724609375
+I1127 18:07:15.385940 34112 train.py:86] epochs: 6850.0, Loss: 0.5353428721427917, Accuracy: 73.27472686767578, Test Loss: 0.5308910012245178, Test Accuracy: 72.64957427978516
+I1127 18:07:16.017719 34112 train.py:86] epochs: 6860.0, Loss: 0.5326027274131775, Accuracy: 73.23076629638672, Test Loss: 0.5283113718032837, Test Accuracy: 70.94017028808594
+I1127 18:07:16.648454 34112 train.py:86] epochs: 6870.0, Loss: 0.5366680026054382, Accuracy: 73.13007354736328, Test Loss: 0.5310976505279541, Test Accuracy: 71.79487609863281
+I1127 18:07:17.320468 34112 train.py:86] epochs: 6880.0, Loss: 0.5331594347953796, Accuracy: 73.70037078857422, Test Loss: 0.5267417430877686, Test Accuracy: 71.79487609863281
+I1127 18:07:17.955549 34112 train.py:86] epochs: 6890.0, Loss: 0.5241809487342834, Accuracy: 73.81633758544922, Test Loss: 0.5269995331764221, Test Accuracy: 71.79487609863281
+I1127 18:07:18.591139 34112 train.py:86] epochs: 6900.0, Loss: 0.5308352708816528, Accuracy: 74.33647155761719, Test Loss: 0.5310352444648743, Test Accuracy: 72.64957427978516
+I1127 18:07:19.221491 34112 train.py:86] epochs: 6910.0, Loss: 0.5293381214141846, Accuracy: 73.36264038085938, Test Loss: 0.5302649736404419, Test Accuracy: 71.79487609863281
+I1127 18:07:19.855225 34112 train.py:86] epochs: 6920.0, Loss: 0.5304834246635437, Accuracy: 73.0423355102539, Test Loss: 0.5290413498878479, Test Accuracy: 72.64957427978516
+I1127 18:07:20.486562 34112 train.py:86] epochs: 6930.0, Loss: 0.5288835167884827, Accuracy: 74.02198028564453, Test Loss: 0.5291643142700195, Test Accuracy: 72.64957427978516
+I1127 18:07:21.117801 34112 train.py:86] epochs: 6940.0, Loss: 0.5267935991287231, Accuracy: 74.0879135131836, Test Loss: 0.5282681584358215, Test Accuracy: 70.94017028808594
+I1127 18:07:21.763968 34112 train.py:86] epochs: 6950.0, Loss: 0.5415067076683044, Accuracy: 73.41522216796875, Test Loss: 0.5325468182563782, Test Accuracy: 72.64957427978516
+I1127 18:07:22.393850 34112 train.py:86] epochs: 6960.0, Loss: 0.5328761339187622, Accuracy: 73.36264038085938, Test Loss: 0.531132698059082, Test Accuracy: 72.64957427978516
+I1127 18:07:23.023871 34112 train.py:86] epochs: 6970.0, Loss: 0.5277315974235535, Accuracy: 73.67032623291016, Test Loss: 0.5325160622596741, Test Accuracy: 72.64957427978516
+I1127 18:07:23.655610 34112 train.py:86] epochs: 6980.0, Loss: 0.5303989052772522, Accuracy: 73.28361511230469, Test Loss: 0.5414289236068726, Test Accuracy: 71.79487609863281
+I1127 18:07:24.285061 34112 train.py:86] epochs: 6990.0, Loss: 0.5316299200057983, Accuracy: 73.05494689941406, Test Loss: 0.5303852558135986, Test Accuracy: 72.64957427978516
+I1127 18:07:24.935164 34112 train.py:86] epochs: 7000.0, Loss: 0.5305994153022766, Accuracy: 73.941650390625, Test Loss: 0.528694212436676, Test Accuracy: 71.79487609863281
+I1127 18:07:25.612442 34112 train.py:86] epochs: 7010.0, Loss: 0.5270030498504639, Accuracy: 73.62637329101562, Test Loss: 0.530032753944397, Test Accuracy: 71.79487609863281
+I1127 18:07:26.290660 34112 train.py:86] epochs: 7020.0, Loss: 0.5289204120635986, Accuracy: 73.93406677246094, Test Loss: 0.526677668094635, Test Accuracy: 71.79487609863281
+I1127 18:07:26.972501 34112 train.py:86] epochs: 7030.0, Loss: 0.5322733521461487, Accuracy: 73.26168060302734, Test Loss: 0.5451823472976685, Test Accuracy: 71.79487609863281
+I1127 18:07:27.669509 34112 train.py:86] epochs: 7040.0, Loss: 0.5294643044471741, Accuracy: 73.97048950195312, Test Loss: 0.5256549715995789, Test Accuracy: 72.64957427978516
+I1127 18:07:28.313270 34112 train.py:86] epochs: 7050.0, Loss: 0.5282995104789734, Accuracy: 73.67843627929688, Test Loss: 0.529390811920166, Test Accuracy: 71.79487609863281
+I1127 18:07:28.942673 34112 train.py:86] epochs: 7060.0, Loss: 0.5320256352424622, Accuracy: 74.02198028564453, Test Loss: 0.5324292182922363, Test Accuracy: 72.64957427978516
+I1127 18:07:29.573959 34112 train.py:86] epochs: 7070.0, Loss: 0.5244876146316528, Accuracy: 74.0951919555664, Test Loss: 0.5364621877670288, Test Accuracy: 73.5042724609375
+I1127 18:07:30.200236 34112 train.py:86] epochs: 7080.0, Loss: 0.5350186824798584, Accuracy: 73.69230651855469, Test Loss: 0.5286085605621338, Test Accuracy: 70.94017028808594
+I1127 18:07:30.864055 34112 train.py:86] epochs: 7090.0, Loss: 0.5281930565834045, Accuracy: 73.47252655029297, Test Loss: 0.5285903215408325, Test Accuracy: 71.79487609863281
+I1127 18:07:31.495847 34112 train.py:86] epochs: 7100.0, Loss: 0.5281001329421997, Accuracy: 73.7442398071289, Test Loss: 0.5277349948883057, Test Accuracy: 72.64957427978516
+I1127 18:07:32.126451 34112 train.py:86] epochs: 7110.0, Loss: 0.5297697186470032, Accuracy: 73.9120864868164, Test Loss: 0.5279582142829895, Test Accuracy: 70.94017028808594
+I1127 18:07:32.759983 34112 train.py:86] epochs: 7120.0, Loss: 0.5306869149208069, Accuracy: 73.70037078857422, Test Loss: 0.5304020643234253, Test Accuracy: 72.64957427978516
+I1127 18:07:33.393441 34112 train.py:86] epochs: 7130.0, Loss: 0.5211602449417114, Accuracy: 74.10262298583984, Test Loss: 0.5268127918243408, Test Accuracy: 71.79487609863281
+I1127 18:07:34.022696 34112 train.py:86] epochs: 7140.0, Loss: 0.5316911339759827, Accuracy: 73.15200805664062, Test Loss: 0.5321226119995117, Test Accuracy: 72.64957427978516
+I1127 18:07:34.656665 34112 train.py:86] epochs: 7150.0, Loss: 0.5307229161262512, Accuracy: 73.23076629638672, Test Loss: 0.5298369526863098, Test Accuracy: 70.94017028808594
+I1127 18:07:35.289803 34112 train.py:86] epochs: 7160.0, Loss: 0.5231990814208984, Accuracy: 74.20486450195312, Test Loss: 0.5279656052589417, Test Accuracy: 71.79487609863281
+I1127 18:07:35.920446 34112 train.py:86] epochs: 7170.0, Loss: 0.5289878845214844, Accuracy: 73.86813354492188, Test Loss: 0.5256264805793762, Test Accuracy: 71.79487609863281
+I1127 18:07:36.553648 34112 train.py:86] epochs: 7180.0, Loss: 0.5260671377182007, Accuracy: 73.82417297363281, Test Loss: 0.5324535369873047, Test Accuracy: 73.5042724609375
+I1127 18:07:37.185204 34112 train.py:86] epochs: 7190.0, Loss: 0.5259226560592651, Accuracy: 73.7442398071289, Test Loss: 0.525494396686554, Test Accuracy: 71.79487609863281
+I1127 18:07:37.811324 34112 train.py:86] epochs: 7200.0, Loss: 0.5273413062095642, Accuracy: 74.0879135131836, Test Loss: 0.5303384065628052, Test Accuracy: 72.64957427978516
+I1127 18:07:38.441639 34112 train.py:86] epochs: 7210.0, Loss: 0.5265629291534424, Accuracy: 73.5164794921875, Test Loss: 0.5253953337669373, Test Accuracy: 71.79487609863281
+I1127 18:07:39.071758 34112 train.py:86] epochs: 7220.0, Loss: 0.530497133731842, Accuracy: 73.48102569580078, Test Loss: 0.5307856202125549, Test Accuracy: 72.64957427978516
+I1127 18:07:39.700486 34112 train.py:86] epochs: 7230.0, Loss: 0.5289467573165894, Accuracy: 73.97802734375, Test Loss: 0.5272476077079773, Test Accuracy: 71.79487609863281
+I1127 18:07:40.335273 34112 train.py:86] epochs: 7240.0, Loss: 0.5302520394325256, Accuracy: 74.04395294189453, Test Loss: 0.5277847051620483, Test Accuracy: 71.79487609863281
+I1127 18:07:40.967319 34112 train.py:86] epochs: 7250.0, Loss: 0.5305593609809875, Accuracy: 73.71428680419922, Test Loss: 0.5320419073104858, Test Accuracy: 72.64957427978516
+I1127 18:07:41.597649 34112 train.py:86] epochs: 7260.0, Loss: 0.5222815871238708, Accuracy: 74.2926025390625, Test Loss: 0.5281886458396912, Test Accuracy: 70.94017028808594
+I1127 18:07:42.226350 34112 train.py:86] epochs: 7270.0, Loss: 0.5257573127746582, Accuracy: 73.32748413085938, Test Loss: 0.5251404643058777, Test Accuracy: 71.79487609863281
+I1127 18:07:42.856898 34112 train.py:86] epochs: 7280.0, Loss: 0.5337510704994202, Accuracy: 73.4945068359375, Test Loss: 0.5266478061676025, Test Accuracy: 71.79487609863281
+I1127 18:07:43.486347 34112 train.py:86] epochs: 7290.0, Loss: 0.5269593000411987, Accuracy: 73.38461303710938, Test Loss: 0.5299612283706665, Test Accuracy: 72.64957427978516
+I1127 18:07:44.116895 34112 train.py:86] epochs: 7300.0, Loss: 0.5299362540245056, Accuracy: 73.941650390625, Test Loss: 0.5282729268074036, Test Accuracy: 71.79487609863281
+I1127 18:07:44.784844 34112 train.py:86] epochs: 7310.0, Loss: 0.5233777165412903, Accuracy: 73.75027465820312, Test Loss: 0.5310301184654236, Test Accuracy: 72.64957427978516
+I1127 18:07:45.469430 34112 train.py:86] epochs: 7320.0, Loss: 0.52978515625, Accuracy: 73.17394256591797, Test Loss: 0.5335360765457153, Test Accuracy: 73.5042724609375
+I1127 18:07:46.132359 34112 train.py:86] epochs: 7330.0, Loss: 0.5286473035812378, Accuracy: 73.941650390625, Test Loss: 0.5351995825767517, Test Accuracy: 73.5042724609375
+I1127 18:07:46.765939 34112 train.py:86] epochs: 7340.0, Loss: 0.5277771949768066, Accuracy: 73.66219329833984, Test Loss: 0.5354651212692261, Test Accuracy: 72.64957427978516
+I1127 18:07:47.394775 34112 train.py:86] epochs: 7350.0, Loss: 0.5249506831169128, Accuracy: 74.49002075195312, Test Loss: 0.5293458700180054, Test Accuracy: 70.94017028808594
+I1127 18:07:48.025697 34112 train.py:86] epochs: 7360.0, Loss: 0.5272364616394043, Accuracy: 73.91971588134766, Test Loss: 0.5285165905952454, Test Accuracy: 71.79487609863281
+I1127 18:07:48.659236 34112 train.py:86] epochs: 7370.0, Loss: 0.5260167717933655, Accuracy: 74.0, Test Loss: 0.5268722772598267, Test Accuracy: 71.79487609863281
+I1127 18:07:49.288137 34112 train.py:86] epochs: 7380.0, Loss: 0.5256043672561646, Accuracy: 73.64835357666016, Test Loss: 0.5304478406906128, Test Accuracy: 70.94017028808594
+I1127 18:07:49.921062 34112 train.py:86] epochs: 7390.0, Loss: 0.5237597823143005, Accuracy: 73.4945068359375, Test Loss: 0.5309195518493652, Test Accuracy: 71.79487609863281
+I1127 18:07:50.558171 34112 train.py:86] epochs: 7400.0, Loss: 0.5214428901672363, Accuracy: 74.11712646484375, Test Loss: 0.5359398126602173, Test Accuracy: 74.35897827148438
+I1127 18:07:51.187062 34112 train.py:86] epochs: 7410.0, Loss: 0.5326247215270996, Accuracy: 73.78022003173828, Test Loss: 0.5286717414855957, Test Accuracy: 71.79487609863281
+I1127 18:07:51.823819 34112 train.py:86] epochs: 7420.0, Loss: 0.5223039984703064, Accuracy: 73.75824737548828, Test Loss: 0.528535783290863, Test Accuracy: 71.79487609863281
+I1127 18:07:52.456162 34112 train.py:86] epochs: 7430.0, Loss: 0.5278179049491882, Accuracy: 73.89778137207031, Test Loss: 0.5324822068214417, Test Accuracy: 73.5042724609375
+I1127 18:07:53.087452 34112 train.py:86] epochs: 7440.0, Loss: 0.529008686542511, Accuracy: 73.67032623291016, Test Loss: 0.5282714366912842, Test Accuracy: 70.94017028808594
+I1127 18:07:53.730264 34112 train.py:86] epochs: 7450.0, Loss: 0.5250928401947021, Accuracy: 74.21977996826172, Test Loss: 0.5300887227058411, Test Accuracy: 72.64957427978516
+I1127 18:07:54.381345 34112 train.py:86] epochs: 7460.0, Loss: 0.5309474468231201, Accuracy: 73.4945068359375, Test Loss: 0.5301454663276672, Test Accuracy: 70.94017028808594
+I1127 18:07:55.017163 34112 train.py:86] epochs: 7470.0, Loss: 0.5236048698425293, Accuracy: 74.11712646484375, Test Loss: 0.5281668305397034, Test Accuracy: 71.79487609863281
+I1127 18:07:55.648896 34112 train.py:86] epochs: 7480.0, Loss: 0.5269471406936646, Accuracy: 73.86813354492188, Test Loss: 0.5321987867355347, Test Accuracy: 73.5042724609375
+I1127 18:07:56.276210 34112 train.py:86] epochs: 7490.0, Loss: 0.5238558053970337, Accuracy: 74.00745391845703, Test Loss: 0.531796395778656, Test Accuracy: 71.79487609863281
+I1127 18:07:56.904316 34112 train.py:86] epochs: 7500.0, Loss: 0.5265792608261108, Accuracy: 74.06593322753906, Test Loss: 0.5299226641654968, Test Accuracy: 70.94017028808594
+I1127 18:07:57.548479 34112 train.py:86] epochs: 7510.0, Loss: 0.5239360332489014, Accuracy: 73.56876373291016, Test Loss: 0.5291227102279663, Test Accuracy: 70.94017028808594
+I1127 18:07:58.177836 34112 train.py:86] epochs: 7520.0, Loss: 0.526938796043396, Accuracy: 73.6043930053711, Test Loss: 0.5307371020317078, Test Accuracy: 72.64957427978516
+I1127 18:07:58.805218 34112 train.py:86] epochs: 7530.0, Loss: 0.5206855535507202, Accuracy: 73.97802734375, Test Loss: 0.5282056927680969, Test Accuracy: 71.79487609863281
+I1127 18:07:59.435401 34112 train.py:86] epochs: 7540.0, Loss: 0.5308051109313965, Accuracy: 73.5906982421875, Test Loss: 0.5303648710250854, Test Accuracy: 70.94017028808594
+I1127 18:08:00.066435 34112 train.py:86] epochs: 7550.0, Loss: 0.5198765993118286, Accuracy: 73.97802734375, Test Loss: 0.5285190939903259, Test Accuracy: 71.79487609863281
+I1127 18:08:00.719388 34112 train.py:86] epochs: 7560.0, Loss: 0.5244796872138977, Accuracy: 74.26373291015625, Test Loss: 0.5331568717956543, Test Accuracy: 71.79487609863281
+I1127 18:08:01.363131 34112 train.py:86] epochs: 7570.0, Loss: 0.5241745114326477, Accuracy: 74.02938842773438, Test Loss: 0.5303604602813721, Test Accuracy: 70.94017028808594
+I1127 18:08:01.995548 34112 train.py:86] epochs: 7580.0, Loss: 0.5275786519050598, Accuracy: 74.1098861694336, Test Loss: 0.5319366455078125, Test Accuracy: 71.79487609863281
+I1127 18:08:02.627466 34112 train.py:86] epochs: 7590.0, Loss: 0.526969313621521, Accuracy: 73.29669952392578, Test Loss: 0.5336810350418091, Test Accuracy: 73.5042724609375
+I1127 18:08:03.256614 34112 train.py:86] epochs: 7600.0, Loss: 0.5248984098434448, Accuracy: 74.24176025390625, Test Loss: 0.5304489135742188, Test Accuracy: 70.94017028808594
+I1127 18:08:03.885477 34112 train.py:86] epochs: 7610.0, Loss: 0.526833713054657, Accuracy: 73.41522216796875, Test Loss: 0.5365957617759705, Test Accuracy: 73.5042724609375
+I1127 18:08:04.517955 34112 train.py:86] epochs: 7620.0, Loss: 0.5267196297645569, Accuracy: 73.97802734375, Test Loss: 0.5350834131240845, Test Accuracy: 73.5042724609375
+I1127 18:08:05.146177 34112 train.py:86] epochs: 7630.0, Loss: 0.5264613032341003, Accuracy: 73.70037078857422, Test Loss: 0.530683159828186, Test Accuracy: 70.94017028808594
+I1127 18:08:05.784797 34112 train.py:86] epochs: 7640.0, Loss: 0.5222591161727905, Accuracy: 74.49900817871094, Test Loss: 0.529369056224823, Test Accuracy: 70.94017028808594
+I1127 18:08:06.414700 34112 train.py:86] epochs: 7650.0, Loss: 0.5236219763755798, Accuracy: 73.941650390625, Test Loss: 0.5309497714042664, Test Accuracy: 71.79487609863281
+I1127 18:08:07.044828 34112 train.py:86] epochs: 7660.0, Loss: 0.5259398221969604, Accuracy: 73.64835357666016, Test Loss: 0.530163586139679, Test Accuracy: 71.79487609863281
+I1127 18:08:07.676953 34112 train.py:86] epochs: 7670.0, Loss: 0.5248979330062866, Accuracy: 73.54682922363281, Test Loss: 0.5335459113121033, Test Accuracy: 73.5042724609375
+I1127 18:08:08.317964 34112 train.py:86] epochs: 7680.0, Loss: 0.5236408114433289, Accuracy: 73.95603942871094, Test Loss: 0.5302308201789856, Test Accuracy: 71.79487609863281
+I1127 18:08:08.950177 34112 train.py:86] epochs: 7690.0, Loss: 0.5246739387512207, Accuracy: 74.26373291015625, Test Loss: 0.5285224318504333, Test Accuracy: 71.79487609863281
+I1127 18:08:09.586281 34112 train.py:86] epochs: 7700.0, Loss: 0.5185327529907227, Accuracy: 74.04395294189453, Test Loss: 0.5268007516860962, Test Accuracy: 71.79487609863281
+I1127 18:08:10.217467 34112 train.py:86] epochs: 7710.0, Loss: 0.5275824666023254, Accuracy: 73.65650177001953, Test Loss: 0.5284436941146851, Test Accuracy: 71.79487609863281
+I1127 18:08:10.853911 34112 train.py:86] epochs: 7720.0, Loss: 0.5271182060241699, Accuracy: 73.7881088256836, Test Loss: 0.5320540070533752, Test Accuracy: 71.79487609863281
+I1127 18:08:11.487381 34112 train.py:86] epochs: 7730.0, Loss: 0.5223532915115356, Accuracy: 74.61538696289062, Test Loss: 0.5333811044692993, Test Accuracy: 72.64957427978516
+I1127 18:08:12.120122 34112 train.py:86] epochs: 7740.0, Loss: 0.5234917402267456, Accuracy: 74.06593322753906, Test Loss: 0.5308890342712402, Test Accuracy: 71.79487609863281
+I1127 18:08:12.753129 34112 train.py:86] epochs: 7750.0, Loss: 0.5240536332130432, Accuracy: 74.0, Test Loss: 0.5318541526794434, Test Accuracy: 73.5042724609375
+I1127 18:08:13.383403 34112 train.py:86] epochs: 7760.0, Loss: 0.5279321074485779, Accuracy: 73.73625946044922, Test Loss: 0.538955807685852, Test Accuracy: 73.5042724609375
+I1127 18:08:14.014605 34112 train.py:86] epochs: 7770.0, Loss: 0.5276339054107666, Accuracy: 73.65650177001953, Test Loss: 0.5287336111068726, Test Accuracy: 71.79487609863281
+I1127 18:08:14.644454 34112 train.py:86] epochs: 7780.0, Loss: 0.521372377872467, Accuracy: 74.27066802978516, Test Loss: 0.5270852446556091, Test Accuracy: 71.79487609863281
+I1127 18:08:15.273421 34112 train.py:86] epochs: 7790.0, Loss: 0.5240557789802551, Accuracy: 73.69230651855469, Test Loss: 0.529862642288208, Test Accuracy: 70.94017028808594
+I1127 18:08:15.902198 34112 train.py:86] epochs: 7800.0, Loss: 0.5216140151023865, Accuracy: 74.0879135131836, Test Loss: 0.5350983142852783, Test Accuracy: 71.79487609863281
+I1127 18:08:16.532695 34112 train.py:86] epochs: 7810.0, Loss: 0.5229655504226685, Accuracy: 73.89010620117188, Test Loss: 0.52931147813797, Test Accuracy: 71.79487609863281
+I1127 18:08:17.163290 34112 train.py:86] epochs: 7820.0, Loss: 0.524670422077179, Accuracy: 73.54682922363281, Test Loss: 0.5321353673934937, Test Accuracy: 71.79487609863281
+I1127 18:08:17.795233 34112 train.py:86] epochs: 7830.0, Loss: 0.5264055728912354, Accuracy: 74.0, Test Loss: 0.5290462970733643, Test Accuracy: 71.79487609863281
+I1127 18:08:18.440180 34112 train.py:86] epochs: 7840.0, Loss: 0.5255528688430786, Accuracy: 74.13186645507812, Test Loss: 0.5322800278663635, Test Accuracy: 70.94017028808594
+I1127 18:08:19.080230 34112 train.py:86] epochs: 7850.0, Loss: 0.5254477858543396, Accuracy: 73.7442398071289, Test Loss: 0.5274675488471985, Test Accuracy: 70.94017028808594
+I1127 18:08:19.712005 34112 train.py:86] epochs: 7860.0, Loss: 0.5211048722267151, Accuracy: 74.65933990478516, Test Loss: 0.5351839065551758, Test Accuracy: 72.64957427978516
+I1127 18:08:20.343842 34112 train.py:86] epochs: 7870.0, Loss: 0.5242392420768738, Accuracy: 74.06593322753906, Test Loss: 0.5300590991973877, Test Accuracy: 71.79487609863281
+I1127 18:08:20.973795 34112 train.py:86] epochs: 7880.0, Loss: 0.5243508815765381, Accuracy: 73.85391235351562, Test Loss: 0.5271062254905701, Test Accuracy: 71.79487609863281
+I1127 18:08:21.617255 34112 train.py:86] epochs: 7890.0, Loss: 0.5234302282333374, Accuracy: 74.13186645507812, Test Loss: 0.5278356671333313, Test Accuracy: 71.79487609863281
+I1127 18:08:22.260001 34112 train.py:86] epochs: 7900.0, Loss: 0.5251899361610413, Accuracy: 73.56044006347656, Test Loss: 0.5285428762435913, Test Accuracy: 71.79487609863281
+I1127 18:08:22.919498 34112 train.py:86] epochs: 7910.0, Loss: 0.5170273780822754, Accuracy: 74.97257995605469, Test Loss: 0.5359236598014832, Test Accuracy: 73.5042724609375
+I1127 18:08:23.551233 34112 train.py:86] epochs: 7920.0, Loss: 0.5272362232208252, Accuracy: 74.1098861694336, Test Loss: 0.5263998508453369, Test Accuracy: 70.94017028808594
+I1127 18:08:24.182438 34112 train.py:86] epochs: 7930.0, Loss: 0.5237402319908142, Accuracy: 73.75824737548828, Test Loss: 0.5292686820030212, Test Accuracy: 70.94017028808594
+I1127 18:08:24.808477 34112 train.py:86] epochs: 7940.0, Loss: 0.5265070199966431, Accuracy: 74.05132293701172, Test Loss: 0.5314774513244629, Test Accuracy: 70.94017028808594
+I1127 18:08:25.441584 34112 train.py:86] epochs: 7950.0, Loss: 0.5181888937950134, Accuracy: 74.13186645507812, Test Loss: 0.5321558713912964, Test Accuracy: 71.79487609863281
+I1127 18:08:26.076596 34112 train.py:86] epochs: 7960.0, Loss: 0.5208935737609863, Accuracy: 74.19780731201172, Test Loss: 0.5305602550506592, Test Accuracy: 71.79487609863281
+I1127 18:08:26.709440 34112 train.py:86] epochs: 7970.0, Loss: 0.5222907066345215, Accuracy: 73.98551940917969, Test Loss: 0.5364899635314941, Test Accuracy: 72.64957427978516
+I1127 18:08:27.339530 34112 train.py:86] epochs: 7980.0, Loss: 0.5182719826698303, Accuracy: 74.72527313232422, Test Loss: 0.5300310850143433, Test Accuracy: 71.79487609863281
+I1127 18:08:27.966862 34112 train.py:86] epochs: 7990.0, Loss: 0.5223619937896729, Accuracy: 74.0879135131836, Test Loss: 0.5289403200149536, Test Accuracy: 71.79487609863281
+I1127 18:08:28.600669 34112 train.py:86] epochs: 8000.0, Loss: 0.5243578553199768, Accuracy: 73.83197784423828, Test Loss: 0.5286961793899536, Test Accuracy: 72.64957427978516
+I1127 18:08:29.227914 34112 train.py:86] epochs: 8010.0, Loss: 0.5248541235923767, Accuracy: 74.28571319580078, Test Loss: 0.5272790193557739, Test Accuracy: 70.94017028808594
+I1127 18:08:29.900569 34112 train.py:86] epochs: 8020.0, Loss: 0.5215417146682739, Accuracy: 74.0879135131836, Test Loss: 0.5282912850379944, Test Accuracy: 70.94017028808594
+I1127 18:08:30.574616 34112 train.py:86] epochs: 8030.0, Loss: 0.5216172933578491, Accuracy: 74.43955993652344, Test Loss: 0.5307698845863342, Test Accuracy: 70.94017028808594
+I1127 18:08:31.211841 34112 train.py:86] epochs: 8040.0, Loss: 0.5209733843803406, Accuracy: 74.7751693725586, Test Loss: 0.5313943028450012, Test Accuracy: 70.94017028808594
+I1127 18:08:31.844588 34112 train.py:86] epochs: 8050.0, Loss: 0.5239591002464294, Accuracy: 73.18681335449219, Test Loss: 0.5311294198036194, Test Accuracy: 71.79487609863281
+I1127 18:08:32.473477 34112 train.py:86] epochs: 8060.0, Loss: 0.5226616263389587, Accuracy: 74.59969329833984, Test Loss: 0.5269814133644104, Test Accuracy: 71.79487609863281
+I1127 18:08:33.101847 34112 train.py:86] epochs: 8070.0, Loss: 0.5247965455055237, Accuracy: 73.93406677246094, Test Loss: 0.5295505523681641, Test Accuracy: 70.94017028808594
+I1127 18:08:33.732260 34112 train.py:86] epochs: 8080.0, Loss: 0.5249974727630615, Accuracy: 73.84615325927734, Test Loss: 0.5402597188949585, Test Accuracy: 73.5042724609375
+I1127 18:08:34.361829 34112 train.py:86] epochs: 8090.0, Loss: 0.5225263237953186, Accuracy: 73.96358489990234, Test Loss: 0.5294191241264343, Test Accuracy: 70.94017028808594
+I1127 18:08:34.990901 34112 train.py:86] epochs: 8100.0, Loss: 0.525206446647644, Accuracy: 73.97802734375, Test Loss: 0.5312209725379944, Test Accuracy: 70.94017028808594
+I1127 18:08:35.627877 34112 train.py:86] epochs: 8110.0, Loss: 0.5238510370254517, Accuracy: 73.6043930053711, Test Loss: 0.5300776362419128, Test Accuracy: 71.79487609863281
+I1127 18:08:36.283629 34112 train.py:86] epochs: 8120.0, Loss: 0.5249716639518738, Accuracy: 73.97802734375, Test Loss: 0.5265548825263977, Test Accuracy: 71.79487609863281
+I1127 18:08:36.911553 34112 train.py:86] epochs: 8130.0, Loss: 0.5184767246246338, Accuracy: 74.38034057617188, Test Loss: 0.5303611755371094, Test Accuracy: 71.79487609863281
+I1127 18:08:37.543345 34112 train.py:86] epochs: 8140.0, Loss: 0.5203146934509277, Accuracy: 73.97802734375, Test Loss: 0.5259454250335693, Test Accuracy: 70.94017028808594
+I1127 18:08:38.176436 34112 train.py:86] epochs: 8150.0, Loss: 0.5172588229179382, Accuracy: 74.15384674072266, Test Loss: 0.5278813242912292, Test Accuracy: 71.79487609863281
+I1127 18:08:38.810463 34112 train.py:86] epochs: 8160.0, Loss: 0.5190557837486267, Accuracy: 74.40227508544922, Test Loss: 0.5272032618522644, Test Accuracy: 71.79487609863281
+I1127 18:08:39.440017 34112 train.py:86] epochs: 8170.0, Loss: 0.5163241624832153, Accuracy: 74.35165405273438, Test Loss: 0.5298851728439331, Test Accuracy: 70.94017028808594
+I1127 18:08:40.068508 34112 train.py:86] epochs: 8180.0, Loss: 0.5188923478126526, Accuracy: 73.84615325927734, Test Loss: 0.5270926356315613, Test Accuracy: 71.79487609863281
+I1127 18:08:40.699322 34112 train.py:86] epochs: 8190.0, Loss: 0.5208175182342529, Accuracy: 73.98551940917969, Test Loss: 0.5298417210578918, Test Accuracy: 70.94017028808594
+I1127 18:08:41.357105 34112 train.py:86] epochs: 8200.0, Loss: 0.5203023552894592, Accuracy: 74.32966613769531, Test Loss: 0.531359076499939, Test Accuracy: 70.94017028808594
+I1127 18:08:41.987466 34112 train.py:86] epochs: 8210.0, Loss: 0.5201209187507629, Accuracy: 74.0951919555664, Test Loss: 0.531388521194458, Test Accuracy: 71.79487609863281
+I1127 18:08:42.620644 34112 train.py:86] epochs: 8220.0, Loss: 0.517849862575531, Accuracy: 74.48351287841797, Test Loss: 0.5299878716468811, Test Accuracy: 70.94017028808594
+I1127 18:08:43.254719 34112 train.py:86] epochs: 8230.0, Loss: 0.5192334055900574, Accuracy: 73.9120864868164, Test Loss: 0.5284032821655273, Test Accuracy: 71.79487609863281
+I1127 18:08:43.888930 34112 train.py:86] epochs: 8240.0, Loss: 0.522732675075531, Accuracy: 73.96358489990234, Test Loss: 0.5285219550132751, Test Accuracy: 71.79487609863281
+I1127 18:08:44.520989 34112 train.py:86] epochs: 8250.0, Loss: 0.5185588002204895, Accuracy: 74.1098861694336, Test Loss: 0.5292465090751648, Test Accuracy: 71.79487609863281
+I1127 18:08:45.157496 34112 train.py:86] epochs: 8260.0, Loss: 0.5219822525978088, Accuracy: 74.26373291015625, Test Loss: 0.5301197171211243, Test Accuracy: 70.94017028808594
+I1127 18:08:45.790990 34112 train.py:86] epochs: 8270.0, Loss: 0.5212157964706421, Accuracy: 74.04395294189453, Test Loss: 0.5284972786903381, Test Accuracy: 71.79487609863281
+I1127 18:08:46.421379 34112 train.py:86] epochs: 8280.0, Loss: 0.5209054946899414, Accuracy: 74.1390609741211, Test Loss: 0.531685471534729, Test Accuracy: 70.94017028808594
+I1127 18:08:47.057619 34112 train.py:86] epochs: 8290.0, Loss: 0.5194901823997498, Accuracy: 74.21977996826172, Test Loss: 0.5301609039306641, Test Accuracy: 71.79487609863281
+I1127 18:08:47.693335 34112 train.py:86] epochs: 8300.0, Loss: 0.5188330411911011, Accuracy: 74.7751693725586, Test Loss: 0.5304008722305298, Test Accuracy: 71.79487609863281
+I1127 18:08:48.361616 34112 train.py:86] epochs: 8310.0, Loss: 0.5173924565315247, Accuracy: 74.37362670898438, Test Loss: 0.5298528671264648, Test Accuracy: 70.94017028808594
+I1127 18:08:49.031157 34112 train.py:86] epochs: 8320.0, Loss: 0.5194632411003113, Accuracy: 73.95603942871094, Test Loss: 0.5278668403625488, Test Accuracy: 71.79487609863281
+I1127 18:08:49.663434 34112 train.py:86] epochs: 8330.0, Loss: 0.5160498023033142, Accuracy: 75.0822525024414, Test Loss: 0.5334309935569763, Test Accuracy: 72.64957427978516
+I1127 18:08:50.293727 34112 train.py:86] epochs: 8340.0, Loss: 0.5212454199790955, Accuracy: 73.73625946044922, Test Loss: 0.5311099886894226, Test Accuracy: 71.79487609863281
+I1127 18:08:50.926097 34112 train.py:86] epochs: 8350.0, Loss: 0.5163147449493408, Accuracy: 74.1098861694336, Test Loss: 0.5275077223777771, Test Accuracy: 71.79487609863281
+I1127 18:08:51.605658 34112 train.py:86] epochs: 8360.0, Loss: 0.5241869688034058, Accuracy: 74.31453704833984, Test Loss: 0.5300924777984619, Test Accuracy: 71.79487609863281
+I1127 18:08:52.297235 34112 train.py:86] epochs: 8370.0, Loss: 0.5201930999755859, Accuracy: 74.35165405273438, Test Loss: 0.529787003993988, Test Accuracy: 70.94017028808594
+I1127 18:08:52.993831 34112 train.py:86] epochs: 8380.0, Loss: 0.5168647766113281, Accuracy: 74.00745391845703, Test Loss: 0.5270033478736877, Test Accuracy: 71.79487609863281
+I1127 18:08:53.667605 34112 train.py:86] epochs: 8390.0, Loss: 0.5203155279159546, Accuracy: 73.69230651855469, Test Loss: 0.5289857983589172, Test Accuracy: 71.79487609863281
+I1127 18:08:54.368626 34112 train.py:86] epochs: 8400.0, Loss: 0.518445611000061, Accuracy: 74.43955993652344, Test Loss: 0.5296764969825745, Test Accuracy: 70.94017028808594
+I1127 18:08:55.051960 34112 train.py:86] epochs: 8410.0, Loss: 0.5210566520690918, Accuracy: 73.62637329101562, Test Loss: 0.5288773775100708, Test Accuracy: 70.94017028808594
+I1127 18:08:55.805936 34112 train.py:86] epochs: 8420.0, Loss: 0.5139925479888916, Accuracy: 74.81318664550781, Test Loss: 0.5278632044792175, Test Accuracy: 72.64957427978516
+I1127 18:08:56.499227 34112 train.py:86] epochs: 8430.0, Loss: 0.5169552564620972, Accuracy: 74.20486450195312, Test Loss: 0.5278323292732239, Test Accuracy: 70.94017028808594
+I1127 18:08:57.184222 34112 train.py:86] epochs: 8440.0, Loss: 0.5183859467506409, Accuracy: 74.24873352050781, Test Loss: 0.5292955040931702, Test Accuracy: 70.94017028808594
+I1127 18:08:57.865460 34112 train.py:86] epochs: 8450.0, Loss: 0.5172686576843262, Accuracy: 74.65316009521484, Test Loss: 0.5285577774047852, Test Accuracy: 71.79487609863281
+I1127 18:08:58.510855 34112 train.py:86] epochs: 8460.0, Loss: 0.5185052156448364, Accuracy: 74.38034057617188, Test Loss: 0.5289449691772461, Test Accuracy: 71.79487609863281
+I1127 18:08:59.170534 34112 train.py:86] epochs: 8470.0, Loss: 0.5193390250205994, Accuracy: 74.00745391845703, Test Loss: 0.5360656976699829, Test Accuracy: 72.64957427978516
+I1127 18:08:59.846905 34112 train.py:86] epochs: 8480.0, Loss: 0.5160161256790161, Accuracy: 74.19780731201172, Test Loss: 0.5350741744041443, Test Accuracy: 71.79487609863281
+I1127 18:09:00.530934 34112 train.py:86] epochs: 8490.0, Loss: 0.516072154045105, Accuracy: 74.79121398925781, Test Loss: 0.5316170454025269, Test Accuracy: 70.94017028808594
+I1127 18:09:01.212653 34112 train.py:86] epochs: 8500.0, Loss: 0.5205934047698975, Accuracy: 74.21977996826172, Test Loss: 0.5297063589096069, Test Accuracy: 70.94017028808594
+I1127 18:09:01.879796 34112 train.py:86] epochs: 8510.0, Loss: 0.5140308141708374, Accuracy: 74.54944610595703, Test Loss: 0.5274346470832825, Test Accuracy: 70.94017028808594
+I1127 18:09:02.559036 34112 train.py:86] epochs: 8520.0, Loss: 0.5139499306678772, Accuracy: 74.81903839111328, Test Loss: 0.5283735990524292, Test Accuracy: 71.79487609863281
+I1127 18:09:03.242321 34112 train.py:86] epochs: 8530.0, Loss: 0.5163493156433105, Accuracy: 74.15384674072266, Test Loss: 0.5272430777549744, Test Accuracy: 71.79487609863281
+I1127 18:09:03.931527 34112 train.py:86] epochs: 8540.0, Loss: 0.5218492150306702, Accuracy: 73.76617431640625, Test Loss: 0.5346835255622864, Test Accuracy: 70.94017028808594
+I1127 18:09:04.613255 34112 train.py:86] epochs: 8550.0, Loss: 0.5164265036582947, Accuracy: 74.17581939697266, Test Loss: 0.5297555327415466, Test Accuracy: 71.79487609863281
+I1127 18:09:05.285430 34112 train.py:86] epochs: 8560.0, Loss: 0.5136895775794983, Accuracy: 74.76922607421875, Test Loss: 0.5269927978515625, Test Accuracy: 71.79487609863281
+I1127 18:09:05.958381 34112 train.py:86] epochs: 8570.0, Loss: 0.5196241140365601, Accuracy: 74.46154022216797, Test Loss: 0.5358989238739014, Test Accuracy: 70.94017028808594
+I1127 18:09:06.640553 34112 train.py:86] epochs: 8580.0, Loss: 0.5154973268508911, Accuracy: 74.62162780761719, Test Loss: 0.5298488140106201, Test Accuracy: 70.94017028808594
+I1127 18:09:07.321593 34112 train.py:86] epochs: 8590.0, Loss: 0.5119370818138123, Accuracy: 74.42420959472656, Test Loss: 0.5279295444488525, Test Accuracy: 70.94017028808594
+I1127 18:09:07.988970 34112 train.py:86] epochs: 8600.0, Loss: 0.512893557548523, Accuracy: 74.32966613769531, Test Loss: 0.529118537902832, Test Accuracy: 70.94017028808594
+I1127 18:09:08.665860 34112 train.py:86] epochs: 8610.0, Loss: 0.512869119644165, Accuracy: 74.85714721679688, Test Loss: 0.5363273620605469, Test Accuracy: 72.64957427978516
+I1127 18:09:09.431298 34112 train.py:86] epochs: 8620.0, Loss: 0.5198339819908142, Accuracy: 74.52747344970703, Test Loss: 0.5290424823760986, Test Accuracy: 71.79487609863281
+I1127 18:09:10.076502 34112 train.py:86] epochs: 8630.0, Loss: 0.5198341608047485, Accuracy: 74.84097290039062, Test Loss: 0.5306953191757202, Test Accuracy: 71.79487609863281
+I1127 18:09:10.719423 34112 train.py:86] epochs: 8640.0, Loss: 0.517554759979248, Accuracy: 74.0879135131836, Test Loss: 0.5335570573806763, Test Accuracy: 70.94017028808594
+I1127 18:09:11.376363 34112 train.py:86] epochs: 8650.0, Loss: 0.514969527721405, Accuracy: 74.83516693115234, Test Loss: 0.5295025110244751, Test Accuracy: 70.94017028808594
+I1127 18:09:12.038000 34112 train.py:86] epochs: 8660.0, Loss: 0.5206741094589233, Accuracy: 74.00745391845703, Test Loss: 0.5325831174850464, Test Accuracy: 71.79487609863281
+I1127 18:09:12.708509 34112 train.py:86] epochs: 8670.0, Loss: 0.5119940042495728, Accuracy: 75.05494689941406, Test Loss: 0.52665776014328, Test Accuracy: 71.79487609863281
+I1127 18:09:13.379063 34112 train.py:86] epochs: 8680.0, Loss: 0.5172980427742004, Accuracy: 74.28571319580078, Test Loss: 0.5283755660057068, Test Accuracy: 70.94017028808594
+I1127 18:09:14.034908 34112 train.py:86] epochs: 8690.0, Loss: 0.5182008147239685, Accuracy: 74.2926025390625, Test Loss: 0.5301034450531006, Test Accuracy: 70.94017028808594
+I1127 18:09:14.688524 34112 train.py:86] epochs: 8700.0, Loss: 0.5109961628913879, Accuracy: 74.46154022216797, Test Loss: 0.5297328233718872, Test Accuracy: 70.94017028808594
+I1127 18:09:15.332196 34112 train.py:86] epochs: 8710.0, Loss: 0.5128384232521057, Accuracy: 74.32966613769531, Test Loss: 0.5340445637702942, Test Accuracy: 72.64957427978516
+I1127 18:09:15.973665 34112 train.py:86] epochs: 8720.0, Loss: 0.5198330879211426, Accuracy: 74.70936584472656, Test Loss: 0.536764919757843, Test Accuracy: 73.5042724609375
+I1127 18:09:16.602823 34112 train.py:86] epochs: 8730.0, Loss: 0.5211426019668579, Accuracy: 74.39559936523438, Test Loss: 0.5349693894386292, Test Accuracy: 71.79487609863281
+I1127 18:09:17.248018 34112 train.py:86] epochs: 8740.0, Loss: 0.5161401629447937, Accuracy: 74.35165405273438, Test Loss: 0.5301772952079773, Test Accuracy: 70.94017028808594
+I1127 18:09:17.898465 34112 train.py:86] epochs: 8750.0, Loss: 0.5158900022506714, Accuracy: 74.2926025390625, Test Loss: 0.5287637710571289, Test Accuracy: 71.79487609863281
+I1127 18:09:18.523166 34112 train.py:86] epochs: 8760.0, Loss: 0.5174141526222229, Accuracy: 74.30769348144531, Test Loss: 0.5297779440879822, Test Accuracy: 71.79487609863281
+I1127 18:09:19.168599 34112 train.py:86] epochs: 8770.0, Loss: 0.5174627304077148, Accuracy: 74.27066802978516, Test Loss: 0.5313496589660645, Test Accuracy: 70.94017028808594
+I1127 18:09:19.812050 34112 train.py:86] epochs: 8780.0, Loss: 0.5169773697853088, Accuracy: 74.25677490234375, Test Loss: 0.5270472764968872, Test Accuracy: 70.94017028808594
+I1127 18:09:20.473299 34112 train.py:86] epochs: 8790.0, Loss: 0.518807590007782, Accuracy: 74.38034057617188, Test Loss: 0.5280746221542358, Test Accuracy: 71.79487609863281
+I1127 18:09:21.100669 34112 train.py:86] epochs: 8800.0, Loss: 0.5155067443847656, Accuracy: 74.24176025390625, Test Loss: 0.5359421968460083, Test Accuracy: 72.64957427978516
+I1127 18:09:21.834005 34112 train.py:86] epochs: 8810.0, Loss: 0.5160040259361267, Accuracy: 74.55582427978516, Test Loss: 0.5262916684150696, Test Accuracy: 72.64957427978516
+I1127 18:09:22.485561 34112 train.py:86] epochs: 8820.0, Loss: 0.5123907923698425, Accuracy: 74.48351287841797, Test Loss: 0.5300254821777344, Test Accuracy: 70.94017028808594
+I1127 18:09:23.158829 34112 train.py:86] epochs: 8830.0, Loss: 0.5105044841766357, Accuracy: 74.1098861694336, Test Loss: 0.5287271738052368, Test Accuracy: 71.79487609863281
+I1127 18:09:23.940312 34112 train.py:86] epochs: 8840.0, Loss: 0.5230463147163391, Accuracy: 74.11712646484375, Test Loss: 0.5305327773094177, Test Accuracy: 71.79487609863281
+I1127 18:09:24.607834 34112 train.py:86] epochs: 8850.0, Loss: 0.5192655324935913, Accuracy: 74.26373291015625, Test Loss: 0.5333574414253235, Test Accuracy: 72.64957427978516
+I1127 18:09:25.250466 34112 train.py:86] epochs: 8860.0, Loss: 0.5164863467216492, Accuracy: 74.76922607421875, Test Loss: 0.5282673239707947, Test Accuracy: 70.94017028808594
+I1127 18:09:25.891010 34112 train.py:86] epochs: 8870.0, Loss: 0.5137717127799988, Accuracy: 74.7751693725586, Test Loss: 0.5314251780509949, Test Accuracy: 70.94017028808594
+I1127 18:09:26.565864 34112 train.py:86] epochs: 8880.0, Loss: 0.5112312436103821, Accuracy: 74.48351287841797, Test Loss: 0.527241051197052, Test Accuracy: 71.79487609863281
+I1127 18:09:27.224566 34112 train.py:86] epochs: 8890.0, Loss: 0.5144810676574707, Accuracy: 74.40227508544922, Test Loss: 0.5310139656066895, Test Accuracy: 70.94017028808594
+I1127 18:09:27.873241 34112 train.py:86] epochs: 8900.0, Loss: 0.5105841755867004, Accuracy: 74.87337493896484, Test Loss: 0.5291049480438232, Test Accuracy: 71.79487609863281
+I1127 18:09:28.522946 34112 train.py:86] epochs: 8910.0, Loss: 0.5161706805229187, Accuracy: 74.33647155761719, Test Loss: 0.5302674174308777, Test Accuracy: 71.79487609863281
+I1127 18:09:29.216013 34112 train.py:86] epochs: 8920.0, Loss: 0.5135029554367065, Accuracy: 74.32966613769531, Test Loss: 0.530589759349823, Test Accuracy: 71.79487609863281
+I1127 18:09:29.852289 34112 train.py:86] epochs: 8930.0, Loss: 0.511960506439209, Accuracy: 74.18292999267578, Test Loss: 0.5276015996932983, Test Accuracy: 71.79487609863281
+I1127 18:09:30.507411 34112 train.py:86] epochs: 8940.0, Loss: 0.5162193775177002, Accuracy: 74.26373291015625, Test Loss: 0.5275100469589233, Test Accuracy: 70.94017028808594
+I1127 18:09:31.151338 34112 train.py:86] epochs: 8950.0, Loss: 0.5144907236099243, Accuracy: 74.28571319580078, Test Loss: 0.5280135869979858, Test Accuracy: 70.94017028808594
+I1127 18:09:31.799076 34112 train.py:86] epochs: 8960.0, Loss: 0.5163120627403259, Accuracy: 74.2926025390625, Test Loss: 0.5285152196884155, Test Accuracy: 71.79487609863281
+I1127 18:09:32.433692 34112 train.py:86] epochs: 8970.0, Loss: 0.5119482278823853, Accuracy: 74.43955993652344, Test Loss: 0.5267035365104675, Test Accuracy: 70.94017028808594
+I1127 18:09:33.079360 34112 train.py:86] epochs: 8980.0, Loss: 0.5149485468864441, Accuracy: 74.48351287841797, Test Loss: 0.525819718837738, Test Accuracy: 72.64957427978516
+I1127 18:09:33.715324 34112 train.py:86] epochs: 8990.0, Loss: 0.5180966258049011, Accuracy: 74.18292999267578, Test Loss: 0.5296686887741089, Test Accuracy: 71.79487609863281
+I1127 18:09:34.366633 34112 train.py:86] epochs: 9000.0, Loss: 0.5101009607315063, Accuracy: 75.14285278320312, Test Loss: 0.5287340879440308, Test Accuracy: 71.79487609863281
+I1127 18:09:35.003288 34112 train.py:86] epochs: 9010.0, Loss: 0.5170766115188599, Accuracy: 74.06593322753906, Test Loss: 0.5292280912399292, Test Accuracy: 70.94017028808594
+I1127 18:09:35.655365 34112 train.py:86] epochs: 9020.0, Loss: 0.5113304853439331, Accuracy: 74.88484191894531, Test Loss: 0.5303971767425537, Test Accuracy: 71.79487609863281
+I1127 18:09:36.320084 34112 train.py:86] epochs: 9030.0, Loss: 0.5145875811576843, Accuracy: 74.39559936523438, Test Loss: 0.5277948975563049, Test Accuracy: 70.94017028808594
+I1127 18:09:37.009281 34112 train.py:86] epochs: 9040.0, Loss: 0.5128635168075562, Accuracy: 74.43955993652344, Test Loss: 0.529093861579895, Test Accuracy: 71.79487609863281
+I1127 18:09:37.663103 34112 train.py:86] epochs: 9050.0, Loss: 0.5114649534225464, Accuracy: 75.10418701171875, Test Loss: 0.5332648158073425, Test Accuracy: 72.64957427978516
+I1127 18:09:38.313389 34112 train.py:86] epochs: 9060.0, Loss: 0.5168426632881165, Accuracy: 74.5714340209961, Test Loss: 0.5316672921180725, Test Accuracy: 71.79487609863281
+I1127 18:09:39.040487 34112 train.py:86] epochs: 9070.0, Loss: 0.5132824182510376, Accuracy: 74.11712646484375, Test Loss: 0.5295588970184326, Test Accuracy: 71.79487609863281
+I1127 18:09:39.682030 34112 train.py:86] epochs: 9080.0, Loss: 0.5160919427871704, Accuracy: 74.83516693115234, Test Loss: 0.5314193367958069, Test Accuracy: 70.94017028808594
+I1127 18:09:40.329207 34112 train.py:86] epochs: 9090.0, Loss: 0.5167220234870911, Accuracy: 74.43955993652344, Test Loss: 0.5289447903633118, Test Accuracy: 71.79487609863281
+I1127 18:09:41.006458 34112 train.py:86] epochs: 9100.0, Loss: 0.5113561153411865, Accuracy: 74.61538696289062, Test Loss: 0.5302417874336243, Test Accuracy: 70.94017028808594
+I1127 18:09:41.732771 34112 train.py:86] epochs: 9110.0, Loss: 0.5113719701766968, Accuracy: 75.16999053955078, Test Loss: 0.5284304022789001, Test Accuracy: 71.79487609863281
+I1127 18:09:42.363265 34112 train.py:86] epochs: 9120.0, Loss: 0.5138717293739319, Accuracy: 74.46154022216797, Test Loss: 0.5307440757751465, Test Accuracy: 70.94017028808594
+I1127 18:09:43.006182 34112 train.py:86] epochs: 9130.0, Loss: 0.5160959959030151, Accuracy: 74.61538696289062, Test Loss: 0.5281504392623901, Test Accuracy: 72.64957427978516
+I1127 18:09:43.629871 34112 train.py:86] epochs: 9140.0, Loss: 0.5144953727722168, Accuracy: 74.11712646484375, Test Loss: 0.5277462005615234, Test Accuracy: 71.79487609863281
+I1127 18:09:44.263682 34112 train.py:86] epochs: 9150.0, Loss: 0.5155854225158691, Accuracy: 74.32966613769531, Test Loss: 0.5311886072158813, Test Accuracy: 70.94017028808594
+I1127 18:09:44.890120 34112 train.py:86] epochs: 9160.0, Loss: 0.5163927674293518, Accuracy: 74.99451446533203, Test Loss: 0.5324092507362366, Test Accuracy: 71.79487609863281
+I1127 18:09:45.522988 34112 train.py:86] epochs: 9170.0, Loss: 0.5127028822898865, Accuracy: 74.54944610595703, Test Loss: 0.528618335723877, Test Accuracy: 70.94017028808594
+I1127 18:09:46.153286 34112 train.py:86] epochs: 9180.0, Loss: 0.5119073987007141, Accuracy: 74.28571319580078, Test Loss: 0.5335062146186829, Test Accuracy: 71.79487609863281
+I1127 18:09:46.815387 34112 train.py:86] epochs: 9190.0, Loss: 0.5130755305290222, Accuracy: 74.51195526123047, Test Loss: 0.5356544852256775, Test Accuracy: 70.94017028808594
+I1127 18:09:47.482539 34112 train.py:86] epochs: 9200.0, Loss: 0.5117743611335754, Accuracy: 74.79121398925781, Test Loss: 0.5306350588798523, Test Accuracy: 71.79487609863281
+I1127 18:09:48.110584 34112 train.py:86] epochs: 9210.0, Loss: 0.5117688179016113, Accuracy: 74.63736724853516, Test Loss: 0.5351682901382446, Test Accuracy: 70.94017028808594
+I1127 18:09:48.743173 34112 train.py:86] epochs: 9220.0, Loss: 0.5141330361366272, Accuracy: 74.35165405273438, Test Loss: 0.5316635370254517, Test Accuracy: 70.94017028808594
+I1127 18:09:49.387973 34112 train.py:86] epochs: 9230.0, Loss: 0.5135498642921448, Accuracy: 74.1390609741211, Test Loss: 0.5337051153182983, Test Accuracy: 72.64957427978516

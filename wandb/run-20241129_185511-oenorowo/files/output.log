@@ -1,0 +1,168 @@
+I1129 18:55:11.688852  6924 datasets.py:22] Preparing dataset idrid...
+Found 588 files belonging to 2 classes.
+no of batches is 29
+Found 103 files belonging to 2 classes.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1129 18:55:12.132386  6924 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.140657  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.150082  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1129 18:55:12.156787  6924 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1129 18:55:12.239711  6924 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1129 18:55:12.276392  6924 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.283994  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.293035  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1129 18:55:12.299465  6924 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1129 18:55:12.315620  6924 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.323725  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.331790  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1129 18:55:12.338834  6924 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1129 18:55:12.396102  6924 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1129 18:55:12.417187  6924 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.425444  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.433631  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1129 18:55:12.440808  6924 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1129 18:55:12.494693  6924 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.503031  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.511224  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+W1129 18:55:12.517421  6924 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+W1129 18:55:12.529496  6924 pfor.py:1082] Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1129 18:55:12.537499  6924 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+W1129 18:55:12.559761  6924 pfor.py:1082] Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1129 18:55:12.608931  6924 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.618206  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.628699  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1129 18:55:12.637202  6924 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1129 18:55:12.839267  6924 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1129 18:55:12.874901  6924 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.883847  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.893457  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1129 18:55:12.901427  6924 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1129 18:55:12.923334  6924 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.933297  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:12.943342  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1129 18:55:12.952363  6924 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1129 18:55:13.006788  6924 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1129 18:55:13.030256  6924 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:13.041048  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:13.051309  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1129 18:55:13.059739  6924 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1129 18:55:13.113986  6924 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:13.123410  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1129 18:55:13.136511  6924 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+W1129 18:55:13.145421  6924 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+W1129 18:55:13.161564  6924 pfor.py:1082] Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1129 18:55:13.171924  6924 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+W1129 18:55:13.197767  6924 pfor.py:1082] Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+WARNING:tensorflow:`input_shape` is undefined or non-square, or `rows` is not in [128, 160, 192, 224]. Weights for input shape (224, 224) will be loaded as the default.
+W1129 18:55:13.719229  6924 mobilenet.py:241] `input_shape` is undefined or non-square, or `rows` is not in [128, 160, 192, 224]. Weights for input shape (224, 224) will be loaded as the default.
+(None, 256, 256, 3)
+(None, 8, 8, 512)
+Restoring from checkpoint_1: F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-29T18-52-28-297054_mobilenet_like\ckpts\ckpt-2
+Restoring from checkpoint_2: F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-29T18-52-28-298053_vgg_like\ckpts\ckpt-2
+Restoring from checkpoint_3: F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-29T18-52-28-298053_inception_v2\ckpts\ckpt-2
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8BBB50700> and <keras.layers.pooling.max_pooling2d.MaxPooling2D object at 0x000001A8BCBC0DC0>).
+W1129 18:55:17.304822  6924 restore.py:84] Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8BBB50700> and <keras.layers.pooling.max_pooling2d.MaxPooling2D object at 0x000001A8BCBC0DC0>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.core.dense.Dense object at 0x000001A8BBB515D0> and <keras.layers.pooling.max_pooling2d.MaxPooling2D object at 0x000001A8BBB53520>).
+W1129 18:55:17.305419  6924 restore.py:84] Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.core.dense.Dense object at 0x000001A8BBB515D0> and <keras.layers.pooling.max_pooling2d.MaxPooling2D object at 0x000001A8BBB53520>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.core.dense.Dense object at 0x000001A8C58C8520> and <keras.layers.pooling.global_average_pooling2d.GlobalAveragePooling2D object at 0x000001A8BBB53790>).
+W1129 18:55:17.305921  6924 restore.py:84] Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.core.dense.Dense object at 0x000001A8C58C8520> and <keras.layers.pooling.global_average_pooling2d.GlobalAveragePooling2D object at 0x000001A8BBB53790>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8C5769420> and <keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8BCC7BDF0>).
+W1129 18:55:17.309047  6924 restore.py:84] Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8C5769420> and <keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8BCC7BDF0>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8BCC7BDF0> and <keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8BCC7BF10>).
+W1129 18:55:17.309272  6924 restore.py:84] Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8BCC7BDF0> and <keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8BCC7BF10>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8BCC7BF10> and <keras.layers.pooling.max_pooling2d.MaxPooling2D object at 0x000001A8C58016F0>).
+W1129 18:55:17.309272  6924 restore.py:84] Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8BCC7BF10> and <keras.layers.pooling.max_pooling2d.MaxPooling2D object at 0x000001A8C58016F0>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8BCC797B0> and <keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8C576BCD0>).
+W1129 18:55:17.309775  6924 restore.py:84] Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8BCC797B0> and <keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8C576BCD0>).
+WARNING:tensorflow:Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8C576BCD0> and <keras.layers.pooling.max_pooling2d.MaxPooling2D object at 0x000001A8C5893850>).
+W1129 18:55:17.310288  6924 restore.py:84] Inconsistent references when loading the checkpoint into this object graph. For example, in the saved checkpoint object, `model.layer.weight` and `model.layer_copy.weight` reference the same variable, while in the current object these are two different variables. The referenced variables are:(<keras.layers.convolutional.conv2d.Conv2D object at 0x000001A8C576BCD0> and <keras.layers.pooling.max_pooling2d.MaxPooling2D object at 0x000001A8C5893850>).
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\tensorflow\python\training\saving\saveable_object_util.py", line 132, in restore
+    assigned_variable = resource_variable_ops.shape_safe_assign_variable_handle(
+  File "E:\anaconda\lib\site-packages\tensorflow\python\ops\resource_variable_ops.py", line 308, in shape_safe_assign_variable_handle
+    shape.assert_is_compatible_with(value_tensor.shape)
+  File "E:\anaconda\lib\site-packages\tensorflow\python\framework\tensor_shape.py", line 1307, in assert_is_compatible_with
+    raise ValueError("Shapes %s and %s are incompatible" % (self, other))
+ValueError: Shapes (3, 3, 3, 64) and (3, 3, 3, 32) are incompatible
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\main.py", line 145, in <module>
+    app.run(main)
+  File "E:\anaconda\lib\site-packages\absl\app.py", line 308, in run
+    _run_main(main, args)
+  File "E:\anaconda\lib\site-packages\absl\app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\main.py", line 136, in main
+    checkpoint_2.restore(latest_checkpoint_3)
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\checkpoint.py", line 2563, in restore
+    status = self.read(save_path, options=options)
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\checkpoint.py", line 2441, in read
+    result = self._saver.restore(save_path=save_path, options=options)
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\checkpoint.py", line 1495, in restore
+    checkpoint=checkpoint, proto_id=0).restore(self._graph_view.root)
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\restore.py", line 55, in restore
+    restore_ops = self._restore_descendants()
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\restore.py", line 458, in _restore_descendants
+    current_position.checkpoint.restore_saveables(tensor_saveables,
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\checkpoint.py", line 354, in restore_saveables
+    registered_savers).restore(self.save_path_tensor, self.options)
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\functional_saver.py", line 403, in restore
+    restore_ops = restore_fn()
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\functional_saver.py", line 385, in restore_fn
+    restore_ops.update(saver.restore(file_prefix, options))
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\functional_saver.py", line 111, in restore
+    restore_ops[saveable.name] = saveable.restore(
+  File "E:\anaconda\lib\site-packages\tensorflow\python\training\saving\saveable_object_util.py", line 135, in restore
+    raise ValueError(
+ValueError: Received incompatible tensor with shape (3, 3, 3, 32) when attempting to restore variable with shape (3, 3, 3, 64) and name model/layer_with_weights-0/layer_with_weights-0/kernel/.ATTRIBUTES/VARIABLE_VALUE.

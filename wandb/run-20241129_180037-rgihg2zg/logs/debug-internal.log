@@ -1,0 +1,16 @@
+{"time":"2024-11-29T18:00:37.5858304+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-29T18:00:37.5858304+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241129_180037-rgihg2zg\\logs\\debug-core.log"}
+{"time":"2024-11-29T18:00:37.710341+01:00","level":"INFO","msg":"created new stream","id":"rgihg2zg"}
+{"time":"2024-11-29T18:00:37.710341+01:00","level":"INFO","msg":"stream: started","id":"rgihg2zg"}
+{"time":"2024-11-29T18:00:37.710341+01:00","level":"INFO","msg":"sender: started","stream_id":"rgihg2zg"}
+{"time":"2024-11-29T18:00:37.710341+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"rgihg2zg"}}
+{"time":"2024-11-29T18:00:37.710341+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"rgihg2zg"}}
+{"time":"2024-11-29T18:00:38.0053695+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-29T18:00:44.8716133+01:00","level":"INFO","msg":"stream: closing","id":"rgihg2zg"}
+{"time":"2024-11-29T18:00:44.8716133+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-29T18:00:44.8721179+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-29T18:00:45.6905884+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-29T18:00:45.880784+01:00","level":"INFO","msg":"sender: closed","stream_id":"rgihg2zg"}
+{"time":"2024-11-29T18:00:45.880784+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"rgihg2zg"}}
+{"time":"2024-11-29T18:00:45.880784+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"rgihg2zg"}}
+{"time":"2024-11-29T18:00:45.880784+01:00","level":"INFO","msg":"stream: closed","id":"rgihg2zg"}

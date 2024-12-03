@@ -1,0 +1,16 @@
+{"time":"2024-12-01T14:12:13.205362+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T14:12:13.205362+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_141213-rl1muuzf\\logs\\debug-core.log"}
+{"time":"2024-12-01T14:12:13.3311969+01:00","level":"INFO","msg":"created new stream","id":"rl1muuzf"}
+{"time":"2024-12-01T14:12:13.3311969+01:00","level":"INFO","msg":"stream: started","id":"rl1muuzf"}
+{"time":"2024-12-01T14:12:13.3311969+01:00","level":"INFO","msg":"sender: started","stream_id":"rl1muuzf"}
+{"time":"2024-12-01T14:12:13.3311969+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"rl1muuzf"}}
+{"time":"2024-12-01T14:12:13.3311969+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"rl1muuzf"}}
+{"time":"2024-12-01T14:12:13.5818323+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T14:12:36.6984425+01:00","level":"INFO","msg":"stream: closing","id":"rl1muuzf"}
+{"time":"2024-12-01T14:12:36.6984425+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T14:12:36.698945+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T14:12:37.3915834+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T14:12:37.5902141+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"rl1muuzf"}}
+{"time":"2024-12-01T14:12:37.5902141+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"rl1muuzf"}}
+{"time":"2024-12-01T14:12:37.5902141+01:00","level":"INFO","msg":"sender: closed","stream_id":"rl1muuzf"}
+{"time":"2024-12-01T14:12:37.5902141+01:00","level":"INFO","msg":"stream: closed","id":"rl1muuzf"}

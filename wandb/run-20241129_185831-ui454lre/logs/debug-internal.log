@@ -1,0 +1,16 @@
+{"time":"2024-11-29T18:58:31.4478391+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-29T18:58:31.4478391+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241129_185831-ui454lre\\logs\\debug-core.log"}
+{"time":"2024-11-29T18:58:31.573068+01:00","level":"INFO","msg":"created new stream","id":"ui454lre"}
+{"time":"2024-11-29T18:58:31.573068+01:00","level":"INFO","msg":"stream: started","id":"ui454lre"}
+{"time":"2024-11-29T18:58:31.573068+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ui454lre"}}
+{"time":"2024-11-29T18:58:31.573068+01:00","level":"INFO","msg":"sender: started","stream_id":"ui454lre"}
+{"time":"2024-11-29T18:58:31.573068+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ui454lre"}}
+{"time":"2024-11-29T18:58:31.8169787+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-29T18:58:55.7178051+01:00","level":"INFO","msg":"stream: closing","id":"ui454lre"}
+{"time":"2024-11-29T18:58:55.7178051+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-29T18:58:55.7185281+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-29T18:58:56.4024158+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-29T18:58:56.6219426+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ui454lre"}}
+{"time":"2024-11-29T18:58:56.6219426+01:00","level":"INFO","msg":"sender: closed","stream_id":"ui454lre"}
+{"time":"2024-11-29T18:58:56.6219426+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ui454lre"}}
+{"time":"2024-11-29T18:58:56.6219426+01:00","level":"INFO","msg":"stream: closed","id":"ui454lre"}

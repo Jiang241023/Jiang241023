@@ -1,0 +1,17 @@
+{"time":"2024-11-29T19:13:39.7986626+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-29T19:13:39.7986626+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241129_191339-lchqbm95\\logs\\debug-core.log"}
+{"time":"2024-11-29T19:13:39.9240412+01:00","level":"INFO","msg":"created new stream","id":"lchqbm95"}
+{"time":"2024-11-29T19:13:39.9240412+01:00","level":"INFO","msg":"stream: started","id":"lchqbm95"}
+{"time":"2024-11-29T19:13:39.9240412+01:00","level":"INFO","msg":"sender: started","stream_id":"lchqbm95"}
+{"time":"2024-11-29T19:13:39.9240412+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"lchqbm95"}}
+{"time":"2024-11-29T19:13:39.9240412+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"lchqbm95"}}
+{"time":"2024-11-29T19:13:40.1420752+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-29T19:13:40.31385+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-29T19:13:40.31385+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-29T19:13:41.3179482+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.4299666}],"total_operations":1}}
+{"time":"2024-11-29T19:13:41.4166783+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-29T19:13:42.6398043+01:00","level":"INFO","msg":"stream: closing","id":"lchqbm95"}
+{"time":"2024-11-29T19:13:42.6398043+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"lchqbm95"}}
+{"time":"2024-11-29T19:13:42.6398043+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"lchqbm95"}}
+{"time":"2024-11-29T19:13:42.6398043+01:00","level":"INFO","msg":"sender: closed","stream_id":"lchqbm95"}
+{"time":"2024-11-29T19:13:42.6398043+01:00","level":"INFO","msg":"stream: closed","id":"lchqbm95"}

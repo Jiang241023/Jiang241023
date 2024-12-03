@@ -1,0 +1,121 @@
+Found 588 files belonging to 2 classes.
+no of batches is 29
+Found 103 files belonging to 2 classes.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+(None, 256, 256, 3)
+(None, 8, 8, 512)
+Model: "vgg_like"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ input_2 (InputLayer)        [(None, 256, 256, 3)]     0
+
+ vgg16 (Functional)          (None, 8, 8, 512)         14714688
+
+ conv2d (Conv2D)             (None, 8, 8, 112)         516208
+
+ max_pooling2d (MaxPooling2D  (None, 4, 4, 112)        0
+ )
+
+ conv2d_1 (Conv2D)           (None, 4, 4, 112)         113008
+
+ max_pooling2d_1 (MaxPooling  (None, 2, 2, 112)        0
+ 2D)
+
+ global_average_pooling2d (G  (None, 112)              0
+ lobalAveragePooling2D)
+
+ dense (Dense)               (None, 47)                5311
+
+ leaky_re_lu (LeakyReLU)     (None, 47)                0
+
+ dropout (Dropout)           (None, 47)                0
+
+ dense_1 (Dense)             (None, 1)                 48
+
+=================================================================
+Total params: 15,349,263
+Trainable params: 634,575
+Non-trainable params: 14,714,688
+_________________________________________________________________
+Number of batches in validation dataset: 8
+Validation batch shape: (16, 256, 256, 3), Label shape: (16,)
+Traceback (most recent call last):
+  File "F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\wandb_sweep.py", line 50, in train_func
+    for _ in trainer.train():
+  File "F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\train.py", line 116, in train
+    self.checkpoint_manager.save()
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\checkpoint_management.py", line 817, in save
+    save_path = self._checkpoint.write(prefix)
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\checkpoint.py", line 2237, in write
+    return self._write(file_prefix, options)
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\checkpoint.py", line 2256, in _write
+    output = self._saver.save(
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\checkpoint.py", line 1351, in save
+    save_path, new_feed_additions = self._save_cached_when_graph_building(
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\checkpoint.py", line 1296, in _save_cached_when_graph_building
+    return _run_save()
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\checkpoint.py", line 1239, in _run_save
+    save_op = saver.save(file_prefix, options=options)
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\functional_saver.py", line 362, in save
+    return save_fn()
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\functional_saver.py", line 336, in save_fn
+    sharded_saves.append(saver.save(shard_prefix, options))
+  File "E:\anaconda\lib\site-packages\tensorflow\python\checkpoint\functional_saver.py", line 79, in save
+    return io_ops.save_v2(file_prefix, tensor_names, tensor_slices, tensors)
+  File "E:\anaconda\lib\site-packages\tensorflow\python\ops\gen_io_ops.py", line 1722, in save_v2
+    return save_v2_eager_fallback(
+  File "E:\anaconda\lib\site-packages\tensorflow\python\ops\gen_io_ops.py", line 1743, in save_v2_eager_fallback
+    _result = _execute.execute(b"SaveV2", 0, inputs=_inputs_flat, attrs=_attrs,
+  File "E:\anaconda\lib\site-packages\tensorflow\python\eager\execute.py", line 54, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 442: invalid continuation byte

@@ -16,11 +16,11 @@ def preprocess(image, label, img_height = 256, img_width = 256):
     return image, label
 
 augmentation_layer = tf.keras.Sequential([
-        tf.keras.layers.RandomRotation(factor=0.03),  # Approximately ±10 degrees,
-        tf.keras.layers.RandomZoom(height_factor=0.1, width_factor=0.1),  # small zoom
+        tf.keras.layers.RandomRotation(factor=0.2),  # Approximately ±10 degrees,
+        tf.keras.layers.RandomZoom(height_factor=0.2, width_factor=0.2), # small zoom
         tf.keras.layers.RandomBrightness(0.1),
         tf.keras.layers.RandomContrast(0.1),
-        tf.keras.layers.RandomFlip("horizontal_and_vertical"),  # Random contrast adjustment up to ±10%
+        tf.keras.layers.RandomFlip("horizontal_and_vertical")
     ])
 
 def augment(image, label):

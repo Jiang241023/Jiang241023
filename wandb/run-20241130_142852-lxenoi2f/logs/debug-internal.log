@@ -1,0 +1,17 @@
+{"time":"2024-11-30T14:28:52.2446909+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T14:28:52.2446909+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_142852-lxenoi2f\\logs\\debug-core.log"}
+{"time":"2024-11-30T14:28:52.3704443+01:00","level":"INFO","msg":"created new stream","id":"lxenoi2f"}
+{"time":"2024-11-30T14:28:52.3704443+01:00","level":"INFO","msg":"stream: started","id":"lxenoi2f"}
+{"time":"2024-11-30T14:28:52.3704443+01:00","level":"INFO","msg":"sender: started","stream_id":"lxenoi2f"}
+{"time":"2024-11-30T14:28:52.3704443+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"lxenoi2f"}}
+{"time":"2024-11-30T14:28:52.3704443+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"lxenoi2f"}}
+{"time":"2024-11-30T14:28:52.6399521+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T14:29:14.5054738+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T14:29:14.5054738+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T14:29:15.1853979+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T14:29:15.4155408+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-11-30T14:29:16.4241643+01:00","level":"INFO","msg":"stream: closing","id":"lxenoi2f"}
+{"time":"2024-11-30T14:29:16.4241643+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"lxenoi2f"}}
+{"time":"2024-11-30T14:29:16.4241643+01:00","level":"INFO","msg":"sender: closed","stream_id":"lxenoi2f"}
+{"time":"2024-11-30T14:29:16.4241643+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"lxenoi2f"}}
+{"time":"2024-11-30T14:29:16.4241643+01:00","level":"INFO","msg":"stream: closed","id":"lxenoi2f"}

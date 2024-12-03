@@ -1,0 +1,14 @@
+wandb_version: 1
+
+Trainer.total_epochs:
+  value: 10
+model_type:
+  value: mobilenet_like
+vgg_like.base_filters:
+  value: 121
+vgg_like.dense_units:
+  value: 49
+vgg_like.dropout_rate:
+  value: 0.7917140526150604
+vgg_like.n_blocks:
+  value: 8

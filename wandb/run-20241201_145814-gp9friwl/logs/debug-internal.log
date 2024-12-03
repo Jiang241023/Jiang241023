@@ -1,0 +1,17 @@
+{"time":"2024-12-01T14:58:14.0438341+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T14:58:14.0438341+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_145814-gp9friwl\\logs\\debug-core.log"}
+{"time":"2024-12-01T14:58:14.1689031+01:00","level":"INFO","msg":"created new stream","id":"gp9friwl"}
+{"time":"2024-12-01T14:58:14.1690815+01:00","level":"INFO","msg":"stream: started","id":"gp9friwl"}
+{"time":"2024-12-01T14:58:14.1690815+01:00","level":"INFO","msg":"sender: started","stream_id":"gp9friwl"}
+{"time":"2024-12-01T14:58:14.1690815+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"gp9friwl"}}
+{"time":"2024-12-01T14:58:14.1690815+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"gp9friwl"}}
+{"time":"2024-12-01T14:58:14.3738317+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T14:58:25.4536895+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T14:58:25.454073+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T14:58:26.1730783+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T14:58:26.4544581+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary, console logs","runtime_seconds":0.2812309}],"total_operations":1}}
+{"time":"2024-12-01T14:58:27.4742701+01:00","level":"INFO","msg":"stream: closing","id":"gp9friwl"}
+{"time":"2024-12-01T14:58:27.4742701+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"gp9friwl"}}
+{"time":"2024-12-01T14:58:27.4742701+01:00","level":"INFO","msg":"sender: closed","stream_id":"gp9friwl"}
+{"time":"2024-12-01T14:58:27.4742701+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"gp9friwl"}}
+{"time":"2024-12-01T14:58:27.4742701+01:00","level":"INFO","msg":"stream: closed","id":"gp9friwl"}

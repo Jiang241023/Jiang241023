@@ -1,0 +1,11 @@
+{"time":"2024-11-27T18:56:16.9496596+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-27T18:56:16.9496596+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241127_185616-909gm033\\logs\\debug-core.log"}
+{"time":"2024-11-27T18:56:17.0752985+01:00","level":"INFO","msg":"created new stream","id":"909gm033"}
+{"time":"2024-11-27T18:56:17.0752985+01:00","level":"INFO","msg":"stream: started","id":"909gm033"}
+{"time":"2024-11-27T18:56:17.0752985+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"909gm033"}}
+{"time":"2024-11-27T18:56:17.0752985+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"909gm033"}}
+{"time":"2024-11-27T18:56:17.0752985+01:00","level":"INFO","msg":"sender: started","stream_id":"909gm033"}
+{"time":"2024-11-27T18:56:17.38007+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-27T18:56:37.384918+01:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 13388"}
+{"time":"2024-11-28T05:45:37.6368782+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/diabetic-retinopathy-detection/909gm033/file_stream\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2024-11-29T02:36:37.6370767+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/diabetic-retinopathy-detection/909gm033/file_stream\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}

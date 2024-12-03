@@ -1,0 +1,16 @@
+{"time":"2024-11-27T20:12:50.5937734+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-27T20:12:50.5937734+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241127_201250-tdh8x5wc\\logs\\debug-core.log"}
+{"time":"2024-11-27T20:12:50.7196622+01:00","level":"INFO","msg":"created new stream","id":"tdh8x5wc"}
+{"time":"2024-11-27T20:12:50.7196622+01:00","level":"INFO","msg":"stream: started","id":"tdh8x5wc"}
+{"time":"2024-11-27T20:12:50.7196622+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"tdh8x5wc"}}
+{"time":"2024-11-27T20:12:50.720205+01:00","level":"INFO","msg":"sender: started","stream_id":"tdh8x5wc"}
+{"time":"2024-11-27T20:12:50.7196622+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"tdh8x5wc"}}
+{"time":"2024-11-27T20:12:51.0853447+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-27T20:13:02.0648166+01:00","level":"INFO","msg":"stream: closing","id":"tdh8x5wc"}
+{"time":"2024-11-27T20:13:02.0648166+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-27T20:13:02.0648166+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-27T20:13:02.8220732+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-27T20:13:03.0308824+01:00","level":"INFO","msg":"sender: closed","stream_id":"tdh8x5wc"}
+{"time":"2024-11-27T20:13:03.0308824+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"tdh8x5wc"}}
+{"time":"2024-11-27T20:13:03.0308824+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"tdh8x5wc"}}
+{"time":"2024-11-27T20:13:03.0308824+01:00","level":"INFO","msg":"stream: closed","id":"tdh8x5wc"}

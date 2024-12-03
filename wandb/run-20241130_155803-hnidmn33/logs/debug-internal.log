@@ -1,0 +1,17 @@
+{"time":"2024-11-30T15:58:03.4034978+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T15:58:03.4034978+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_155803-hnidmn33\\logs\\debug-core.log"}
+{"time":"2024-11-30T15:58:03.5297666+01:00","level":"INFO","msg":"created new stream","id":"hnidmn33"}
+{"time":"2024-11-30T15:58:03.5297666+01:00","level":"INFO","msg":"stream: started","id":"hnidmn33"}
+{"time":"2024-11-30T15:58:03.5297666+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"hnidmn33"}}
+{"time":"2024-11-30T15:58:03.5297666+01:00","level":"INFO","msg":"sender: started","stream_id":"hnidmn33"}
+{"time":"2024-11-30T15:58:03.5297666+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"hnidmn33"}}
+{"time":"2024-11-30T15:58:03.8510264+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T15:58:24.8129111+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T15:58:24.8129111+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T15:58:25.8242032+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6506872,"progress":"4.9KB/4.9KB"}],"total_operations":1}}
+{"time":"2024-11-30T15:58:25.8934927+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T15:58:27.1260078+01:00","level":"INFO","msg":"stream: closing","id":"hnidmn33"}
+{"time":"2024-11-30T15:58:27.1260078+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"hnidmn33"}}
+{"time":"2024-11-30T15:58:27.1260078+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"hnidmn33"}}
+{"time":"2024-11-30T15:58:27.1260078+01:00","level":"INFO","msg":"sender: closed","stream_id":"hnidmn33"}
+{"time":"2024-11-30T15:58:27.1260078+01:00","level":"INFO","msg":"stream: closed","id":"hnidmn33"}

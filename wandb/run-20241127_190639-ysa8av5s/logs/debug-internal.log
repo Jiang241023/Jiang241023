@@ -1,0 +1,16 @@
+{"time":"2024-11-27T19:06:39.3227231+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-27T19:06:39.3227231+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241127_190639-ysa8av5s\\logs\\debug-core.log"}
+{"time":"2024-11-27T19:06:39.4488546+01:00","level":"INFO","msg":"created new stream","id":"ysa8av5s"}
+{"time":"2024-11-27T19:06:39.4488546+01:00","level":"INFO","msg":"stream: started","id":"ysa8av5s"}
+{"time":"2024-11-27T19:06:39.4488546+01:00","level":"INFO","msg":"sender: started","stream_id":"ysa8av5s"}
+{"time":"2024-11-27T19:06:39.4493822+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ysa8av5s"}}
+{"time":"2024-11-27T19:06:39.4488546+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ysa8av5s"}}
+{"time":"2024-11-27T19:06:39.7543062+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-27T19:06:42.6705515+01:00","level":"INFO","msg":"stream: closing","id":"ysa8av5s"}
+{"time":"2024-11-27T19:06:42.6705515+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-27T19:06:42.6710544+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-27T19:06:43.5502846+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-27T19:06:43.7396117+01:00","level":"INFO","msg":"sender: closed","stream_id":"ysa8av5s"}
+{"time":"2024-11-27T19:06:43.7396117+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ysa8av5s"}}
+{"time":"2024-11-27T19:06:43.7396117+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ysa8av5s"}}
+{"time":"2024-11-27T19:06:43.7396117+01:00","level":"INFO","msg":"stream: closed","id":"ysa8av5s"}

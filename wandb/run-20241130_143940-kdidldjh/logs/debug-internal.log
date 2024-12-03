@@ -1,0 +1,17 @@
+{"time":"2024-11-30T14:39:40.4906618+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T14:39:40.4906618+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_143940-kdidldjh\\logs\\debug-core.log"}
+{"time":"2024-11-30T14:39:40.6163642+01:00","level":"INFO","msg":"created new stream","id":"kdidldjh"}
+{"time":"2024-11-30T14:39:40.6163642+01:00","level":"INFO","msg":"stream: started","id":"kdidldjh"}
+{"time":"2024-11-30T14:39:40.6163642+01:00","level":"INFO","msg":"sender: started","stream_id":"kdidldjh"}
+{"time":"2024-11-30T14:39:40.6163642+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"kdidldjh"}}
+{"time":"2024-11-30T14:39:40.6163642+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"kdidldjh"}}
+{"time":"2024-11-30T14:39:40.8474386+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T14:40:02.4875811+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T14:40:02.4875811+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T14:40:03.5011436+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6502345,"progress":"4.4KB/4.4KB"}],"total_operations":1}}
+{"time":"2024-11-30T14:40:03.5307645+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T14:40:04.7555894+01:00","level":"INFO","msg":"stream: closing","id":"kdidldjh"}
+{"time":"2024-11-30T14:40:04.7555894+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"kdidldjh"}}
+{"time":"2024-11-30T14:40:04.7555894+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"kdidldjh"}}
+{"time":"2024-11-30T14:40:04.7555894+01:00","level":"INFO","msg":"sender: closed","stream_id":"kdidldjh"}
+{"time":"2024-11-30T14:40:04.7561167+01:00","level":"INFO","msg":"stream: closed","id":"kdidldjh"}

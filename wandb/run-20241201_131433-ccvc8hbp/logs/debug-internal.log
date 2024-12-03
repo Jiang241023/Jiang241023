@@ -1,0 +1,17 @@
+{"time":"2024-12-01T13:14:33.2791255+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T13:14:33.2791255+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_131433-ccvc8hbp\\logs\\debug-core.log"}
+{"time":"2024-12-01T13:14:33.4044516+01:00","level":"INFO","msg":"created new stream","id":"ccvc8hbp"}
+{"time":"2024-12-01T13:14:33.4044516+01:00","level":"INFO","msg":"stream: started","id":"ccvc8hbp"}
+{"time":"2024-12-01T13:14:33.4044516+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ccvc8hbp"}}
+{"time":"2024-12-01T13:14:33.4044516+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ccvc8hbp"}}
+{"time":"2024-12-01T13:14:33.4044516+01:00","level":"INFO","msg":"sender: started","stream_id":"ccvc8hbp"}
+{"time":"2024-12-01T13:14:33.6146701+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T13:14:54.286257+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T13:14:54.2867757+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T13:14:55.2855687+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T13:14:55.3016647+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary, console logs","runtime_seconds":0.016096}],"total_operations":1}}
+{"time":"2024-12-01T13:14:56.5120402+01:00","level":"INFO","msg":"stream: closing","id":"ccvc8hbp"}
+{"time":"2024-12-01T13:14:56.5120402+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ccvc8hbp"}}
+{"time":"2024-12-01T13:14:56.5120402+01:00","level":"INFO","msg":"sender: closed","stream_id":"ccvc8hbp"}
+{"time":"2024-12-01T13:14:56.5120402+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ccvc8hbp"}}
+{"time":"2024-12-01T13:14:56.5120402+01:00","level":"INFO","msg":"stream: closed","id":"ccvc8hbp"}

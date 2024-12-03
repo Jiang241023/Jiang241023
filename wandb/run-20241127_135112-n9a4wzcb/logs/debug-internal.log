@@ -1,0 +1,11 @@
+{"time":"2024-11-27T13:51:12.2218661+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-27T13:51:12.2218661+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241127_135112-n9a4wzcb\\logs\\debug-core.log"}
+{"time":"2024-11-27T13:51:12.346731+01:00","level":"INFO","msg":"created new stream","id":"n9a4wzcb"}
+{"time":"2024-11-27T13:51:12.346731+01:00","level":"INFO","msg":"stream: started","id":"n9a4wzcb"}
+{"time":"2024-11-27T13:51:12.346731+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"n9a4wzcb"}}
+{"time":"2024-11-27T13:51:12.346731+01:00","level":"INFO","msg":"sender: started","stream_id":"n9a4wzcb"}
+{"time":"2024-11-27T13:51:12.346731+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"n9a4wzcb"}}
+{"time":"2024-11-27T13:51:12.64227+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-27T17:10:19.777602+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/diabetic-retinopathy-detection/n9a4wzcb/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-27T17:10:22.0561894+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/diabetic-retinopathy-detection/n9a4wzcb/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-27T17:10:26.9019106+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/diabetic-retinopathy-detection/n9a4wzcb/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}

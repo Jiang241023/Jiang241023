@@ -1,0 +1,16 @@
+2024-12-03 14:21:27,634 INFO    MainThread:39648 [wandb_setup.py:_flush():79] Current SDK version is 0.18.6
+2024-12-03 14:21:27,634 INFO    MainThread:39648 [wandb_setup.py:_flush():79] Configure stats pid to 39648
+2024-12-03 14:21:27,634 INFO    MainThread:39648 [wandb_setup.py:_flush():79] Loading settings from C:\Users\14037\.config\wandb\settings
+2024-12-03 14:21:27,634 INFO    MainThread:39648 [wandb_setup.py:_flush():79] Loading settings from F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\wandb\settings
+2024-12-03 14:21:27,634 INFO    MainThread:39648 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-12-03 14:21:27,634 INFO    MainThread:39648 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\main.py', 'program': 'F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\main.py'}
+2024-12-03 14:21:27,635 INFO    MainThread:39648 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-03 14:21:27,635 INFO    MainThread:39648 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-03 14:21:27,635 INFO    MainThread:39648 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-12-03 14:21:27,635 INFO    MainThread:39648 [wandb_init.py:_log_setup():533] Logging user logs to F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\wandb\run-20241203_142127-9o7e24dd\logs\debug.log
+2024-12-03 14:21:27,635 INFO    MainThread:39648 [wandb_init.py:_log_setup():534] Logging internal logs to F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\wandb\run-20241203_142127-9o7e24dd\logs\debug-internal.log
+2024-12-03 14:21:27,635 INFO    MainThread:39648 [wandb_init.py:init():619] calling init triggers
+2024-12-03 14:21:27,635 INFO    MainThread:39648 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'architectures/base_filters': 52, 'architectures/n_blocks': 3, 'architectures/dense_units': 231, 'architectures/dropout_rate': 0.2250767833808686, 'vgg_block/kernel_size': (3, 3), 'mobilenet_block/strides': 1, 'Trainer/total_epochs': 10, 'Trainer/learning_rate': 0.0001, 'datasets/name': 'idrid', 'datasets/data_dir': 'F:\\IDRID_dataset\\images_augmented\\images_augmented\\train', 'datasets/test_data_dir': 'F:\\IDRID_dataset\\images_augmented\\images_augmented\\test\\binary', 'datasets/batch_size': 16, 'preprocess/img_height': 256, 'preprocess/img_width': 256, 'datasets/caching': True}
+2024-12-03 14:21:27,635 INFO    MainThread:39648 [wandb_init.py:init():664] wandb.init() called when a run is still active
+2024-12-03 14:21:52,557 WARNING MsgRouterThr:39648 [router.py:message_loop():75] message_loop has been closed

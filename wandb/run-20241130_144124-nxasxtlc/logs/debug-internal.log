@@ -1,0 +1,17 @@
+{"time":"2024-11-30T14:41:24.2949017+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T14:41:24.2949017+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_144124-nxasxtlc\\logs\\debug-core.log"}
+{"time":"2024-11-30T14:41:24.4208875+01:00","level":"INFO","msg":"created new stream","id":"nxasxtlc"}
+{"time":"2024-11-30T14:41:24.4208875+01:00","level":"INFO","msg":"stream: started","id":"nxasxtlc"}
+{"time":"2024-11-30T14:41:24.4214316+01:00","level":"INFO","msg":"sender: started","stream_id":"nxasxtlc"}
+{"time":"2024-11-30T14:41:24.4214316+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"nxasxtlc"}}
+{"time":"2024-11-30T14:41:24.4214316+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"nxasxtlc"}}
+{"time":"2024-11-30T14:41:24.7210437+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T14:41:46.0951394+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T14:41:46.0951394+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T14:41:46.8567018+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T14:41:47.0554213+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-11-30T14:41:48.0715314+01:00","level":"INFO","msg":"stream: closing","id":"nxasxtlc"}
+{"time":"2024-11-30T14:41:48.0715314+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"nxasxtlc"}}
+{"time":"2024-11-30T14:41:48.0715314+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"nxasxtlc"}}
+{"time":"2024-11-30T14:41:48.0715314+01:00","level":"INFO","msg":"sender: closed","stream_id":"nxasxtlc"}
+{"time":"2024-11-30T14:41:48.0715314+01:00","level":"INFO","msg":"stream: closed","id":"nxasxtlc"}

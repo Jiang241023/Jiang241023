@@ -1,0 +1,17 @@
+{"time":"2024-11-30T14:06:08.2993672+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T14:06:08.2993672+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_140608-ncv5ksck\\logs\\debug-core.log"}
+{"time":"2024-11-30T14:06:08.4252316+01:00","level":"INFO","msg":"created new stream","id":"ncv5ksck"}
+{"time":"2024-11-30T14:06:08.4252316+01:00","level":"INFO","msg":"stream: started","id":"ncv5ksck"}
+{"time":"2024-11-30T14:06:08.4252316+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ncv5ksck"}}
+{"time":"2024-11-30T14:06:08.4252316+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ncv5ksck"}}
+{"time":"2024-11-30T14:06:08.4252316+01:00","level":"INFO","msg":"sender: started","stream_id":"ncv5ksck"}
+{"time":"2024-11-30T14:06:08.8436664+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T14:06:21.4973653+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T14:06:21.4973653+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T14:06:22.1691395+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T14:06:22.3587999+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-11-30T14:06:23.3720323+01:00","level":"INFO","msg":"stream: closing","id":"ncv5ksck"}
+{"time":"2024-11-30T14:06:23.3720323+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ncv5ksck"}}
+{"time":"2024-11-30T14:06:23.3720323+01:00","level":"INFO","msg":"sender: closed","stream_id":"ncv5ksck"}
+{"time":"2024-11-30T14:06:23.3720323+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ncv5ksck"}}
+{"time":"2024-11-30T14:06:23.3720323+01:00","level":"INFO","msg":"stream: closed","id":"ncv5ksck"}

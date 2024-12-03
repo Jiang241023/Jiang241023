@@ -1,22 +1,44 @@
 # Architectures
-vgg_like.base_filters = 8
-vgg_like.n_blocks = 3
-vgg_like.dense_units = 32
-vgg_like.dropout_rate = 0.5
+#mobilenet_like.base_filters = 81
+#mobilenet_like.n_blocks = 5
+#mobilenet_like.dense_units = 65
+#mobilenet_like.dropout_rate =  0.1619613221243074
 
-mobilenet_like.base_filters = 128
-mobilenet_like.n_blocks = 5
-mobilenet_like.dense_units = 32
-mobilenet_like.dropout_rate = 0.5
+mobilenet_like.base_filters = 63
+mobilenet_like.n_blocks = 7
+mobilenet_like.dense_units = 150
+mobilenet_like.dropout_rate =  0.38026722341156816
+
+#vgg_like.base_filters = 25
+#vgg_like.n_blocks = 2
+#vgg_like.dense_units = 19
+#vgg_like.dropout_rate = 0.3164042287842991
+
+vgg_like.base_filters = 83
+vgg_like.n_blocks = 3
+vgg_like.dense_units = 113
+vgg_like.dropout_rate = 0.21791097881864296
+
+#inception_v2_like.base_filters = 25
+#inception_v2_like.n_blocks = 3
+#inception_v2_like.dense_units = 38
+#inception_v2_like.dropout_rate = 0.31787335350858814
+
+inception_v2_like.base_filters = 52
+inception_v2_like.n_blocks = 3
+inception_v2_like.dense_units = 231
+inception_v2_like.dropout_rate = 0.2250767833808686
+
+
 
 # Layers
-vgg_block.kernel_size = (3, 3)
-mobilenet_block.strides = 1
+layers.vgg_block.kernel_size = (3, 3)
+layers.mobilenet_block.strides = 1
 
 # Training
-Trainer.total_steps = 3700
-Trainer.log_interval = 370
-Trainer.ckpt_interval = 370
+Trainer.total_epochs = 10
+#Trainer.log_interval = 37
+#Trainer.ckpt_interval = 37
 Trainer.learning_rate = 1e-4
 
 # Input pipeline
@@ -26,7 +48,8 @@ load.test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\b
 load.batch_size = 16
 preprocess.img_height = 256
 preprocess.img_width = 256
-prepare.batch_size = 16
+#prepare.batch_size = 16
 prepare.caching = True
 
-
+#Grad_cam
+grad_cam_visualization.img_path =  r'F:\IDRID_dataset\images_augmented\images_augmented\train\class_1\IDRiD_001_aug_0.jpg'

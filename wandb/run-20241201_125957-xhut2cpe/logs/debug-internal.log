@@ -1,0 +1,17 @@
+{"time":"2024-12-01T12:59:57.5926639+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T12:59:57.5926639+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_125957-xhut2cpe\\logs\\debug-core.log"}
+{"time":"2024-12-01T12:59:57.7191619+01:00","level":"INFO","msg":"created new stream","id":"xhut2cpe"}
+{"time":"2024-12-01T12:59:57.7191619+01:00","level":"INFO","msg":"stream: started","id":"xhut2cpe"}
+{"time":"2024-12-01T12:59:57.7191619+01:00","level":"INFO","msg":"sender: started","stream_id":"xhut2cpe"}
+{"time":"2024-12-01T12:59:57.7191619+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"xhut2cpe"}}
+{"time":"2024-12-01T12:59:57.7191619+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"xhut2cpe"}}
+{"time":"2024-12-01T12:59:57.9154981+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T13:00:06.3525162+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T13:00:06.3525162+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T13:00:07.0859418+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T13:00:07.2765365+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-12-01T13:00:08.2845868+01:00","level":"INFO","msg":"stream: closing","id":"xhut2cpe"}
+{"time":"2024-12-01T13:00:08.2845868+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"xhut2cpe"}}
+{"time":"2024-12-01T13:00:08.2845868+01:00","level":"INFO","msg":"sender: closed","stream_id":"xhut2cpe"}
+{"time":"2024-12-01T13:00:08.2845868+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"xhut2cpe"}}
+{"time":"2024-12-01T13:00:08.2845868+01:00","level":"INFO","msg":"stream: closed","id":"xhut2cpe"}

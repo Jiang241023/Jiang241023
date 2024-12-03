@@ -11,14 +11,13 @@ import numpy as np
 
 
 #
-data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\train"
-test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
+#test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
 # print(f"Checking data directory: {data_dir}")
 # for root, dirs, files in os.walk(data_dir):
 #     for file in files:
 #         print(f"Found file: {os.path.join(root, file)}")
 @gin.configurable
-def load(name, batch_size = 16, data_dir = data_dir  , test_data_dir = test_data_dir  , caching=True):
+def load(batch_size, name, data_dir, test_data_dir, caching=True):
     if name == "idrid":
         logging.info(f"Preparing dataset {name}...")
 
@@ -27,13 +26,6 @@ def load(name, batch_size = 16, data_dir = data_dir  , test_data_dir = test_data
             data_dir,
             batch_size=batch_size,
             label_mode='int') # use 'int' for integer label , for classification
-        # for image, label in full_ds.take(1):
-        #     # 转换为 NumPy 格式
-        #     image_np = image.numpy()
-        #     # 设置 NumPy 打印选项
-        #     np.set_printoptions(precision=3, suppress=True, threshold=np.inf)  # precision 控制小数位数，threshold 控制打印所有值
-        #     print(f"Image: {image_np}")
-        #     print(f"label : {label}")
 
         # Calculate the number of examples for shuffle buffer size
         num_examples = sum(1 for _ in full_ds.unbatch())
@@ -52,6 +44,8 @@ def load(name, batch_size = 16, data_dir = data_dir  , test_data_dir = test_data
                 "label": {"num_classes": num_classes, "dtype": tf.int64}
             }
         }
+        num_batches = int(len(full_ds) * 0.8)
+        print(f"no of batches is {num_batches}")
 
         # Split into training and validation sets
         total_samples = sum(1 for _ in full_ds.unbatch())
@@ -62,11 +56,10 @@ def load(name, batch_size = 16, data_dir = data_dir  , test_data_dir = test_data
         ds_train = full_ds.unbatch().take(train_size)
         ds_val = full_ds.unbatch().skip(train_size)
 
+
         # allow the data to be processed in chunks during training and validation
-        ds_train = ds_train.batch(batch_size = batch_size, drop_remainder=True)
-        ds_val = ds_val.batch(batch_size = batch_size, drop_remainder=True)
-
-
+        ds_train = ds_train.batch(batch_size = batch_size)
+        ds_val = ds_val.batch(batch_size = batch_size)
 
         ds_test= None
         if test_data_dir:
@@ -75,7 +68,7 @@ def load(name, batch_size = 16, data_dir = data_dir  , test_data_dir = test_data
             )
 
         # Prepare and return the training and validation datasets
-        return prepare(ds_train, ds_val, ds_test=ds_test, ds_info=ds_info, batch_size=batch_size, caching=caching)
+        return prepare(ds_train, ds_val, num_batches, ds_test=ds_test, ds_info=ds_info, caching=caching)
 
 
     elif name == "eyepacs":
@@ -115,7 +108,7 @@ def load(name, batch_size = 16, data_dir = data_dir  , test_data_dir = test_data
 
 
 @gin.configurable
-def prepare(ds_train, ds_val, batch_size = 1, ds_test = None, ds_info=None, caching=True):
+def prepare(ds_train, ds_val, num_batches, ds_test = None, ds_info=None, caching=True):
 
     """Prepare datasets with preprocessing, augmentation, batching, caching, and prefetching"""
     # Prepare training dataset
@@ -151,7 +144,7 @@ def prepare(ds_train, ds_val, batch_size = 1, ds_test = None, ds_info=None, cach
         ds_test = ds_test.prefetch(tf.data.AUTOTUNE)
 
 
-    return ds_train, ds_val, ds_test, ds_info
+    return ds_train, ds_val, ds_test, ds_info , num_batches
 
 
 

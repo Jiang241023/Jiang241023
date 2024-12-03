@@ -1,0 +1,258 @@
+Found 588 files belonging to 2 classes.
+no of batches is 29
+Found 103 files belonging to 2 classes.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+WARNING:tensorflow:`input_shape` is undefined or non-square, or `rows` is not in [128, 160, 192, 224]. Weights for input shape (224, 224) will be loaded as the default.
+(None, 256, 256, 3)
+(None, 8, 8, 512)
+----------------------------------------------------------------------------------------
+Starting training mobilenet_like
+Model: "mobilenet_like"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ input_2 (InputLayer)        [(None, 256, 256, 3)]     0
+
+ mobilenet_1.00_224 (Functio  (None, 8, 8, 1024)       3228864
+ nal)
+
+ depthwise_conv2d (Depthwise  (None, 8, 8, 1024)       9216
+ Conv2D)
+
+ batch_normalization (BatchN  (None, 8, 8, 1024)       4096
+ ormalization)
+
+ re_lu (ReLU)                (None, 8, 8, 1024)        0
+
+ conv2d (Conv2D)             (None, 8, 8, 4)           4096
+
+ batch_normalization_1 (Batc  (None, 8, 8, 4)          16
+ hNormalization)
+
+ re_lu_1 (ReLU)              (None, 8, 8, 4)           0
+
+ global_average_pooling2d (G  (None, 4)                0
+ lobalAveragePooling2D)
+
+ dense (Dense)               (None, 256)               1280
+
+ dropout (Dropout)           (None, 256)               0
+
+ dense_1 (Dense)             (None, 1)                 257
+
+=================================================================
+Total params: 3,247,825
+Trainable params: 16,905
+Non-trainable params: 3,230,920
+_________________________________________________________________
+Number of batches in validation dataset: 8
+Validation batch shape: (16, 256, 256, 3), Label shape: (16,)
+input_2 True
+mobilenet_1.00_224 False
+depthwise_conv2d True
+batch_normalization True
+re_lu True
+conv2d True
+batch_normalization_1 True
+re_lu_1 True
+global_average_pooling2d True
+dense True
+dropout True
+dense_1 True
+Training checkpoint path for mobilenet_like: F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-30T14-55-13-609334_mobilenet_like\ckpts
+Training completed for mobilenet_like
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+Starting training vgg_like
+Model: "vgg_like"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ input_4 (InputLayer)        [(None, 256, 256, 3)]     0
+
+ vgg16 (Functional)          (None, 8, 8, 512)         14714688
+
+ conv2d_5 (Conv2D)           (None, 8, 8, 108)         497772
+
+ max_pooling2d_4 (MaxPooling  (None, 4, 4, 108)        0
+ 2D)
+
+ conv2d_6 (Conv2D)           (None, 4, 4, 108)         105084
+
+ max_pooling2d_5 (MaxPooling  (None, 2, 2, 108)        0
+ 2D)
+
+ global_average_pooling2d_1   (None, 108)              0
+ (GlobalAveragePooling2D)
+
+ dense_2 (Dense)             (None, 17)                1853
+
+ leaky_re_lu (LeakyReLU)     (None, 17)                0
+
+ dropout_1 (Dropout)         (None, 17)                0
+
+ dense_3 (Dense)             (None, 1)                 18
+
+=================================================================
+Total params: 15,319,415
+Trainable params: 604,727
+Non-trainable params: 14,714,688
+_________________________________________________________________
+Number of batches in validation dataset: 8
+Validation batch shape: (16, 256, 256, 3), Label shape: (16,)
+input_4 True
+vgg16 False
+conv2d_5 True
+max_pooling2d_4 True
+conv2d_6 True
+max_pooling2d_5 True
+global_average_pooling2d_1 True
+dense_2 True
+leaky_re_lu True
+dropout_1 True
+dense_3 True
+Training checkpoint path for vgg_like: F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-30T14-55-13-609836_vgg_like\ckpts
+Training completed for vgg_like
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+Starting training inception_v2_like
+Model: "inception_v2_like"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to
+==================================================================================================
+ input_6 (InputLayer)           [(None, 256, 256, 3  0           []
+                                )]
+
+ inception_resnet_v2 (Functiona  (None, 6, 6, 1536)  54336736    ['input_6[0][0]']
+ l)
+
+ conv2d_220 (Conv2D)            (None, 6, 6, 5)      7680        ['inception_resnet_v2[0][0]']
+
+ batch_normalization_215 (Batch  (None, 6, 6, 5)     20          ['conv2d_220[0][0]']
+ Normalization)
+
+ re_lu_12 (ReLU)                (None, 6, 6, 5)      0           ['batch_normalization_215[0][0]']
+
+ conv2d_218 (Conv2D)            (None, 6, 6, 5)      7680        ['inception_resnet_v2[0][0]']
+
+ conv2d_221 (Conv2D)            (None, 6, 6, 5)      75          ['re_lu_12[0][0]']
+
+ batch_normalization_213 (Batch  (None, 6, 6, 5)     20          ['conv2d_218[0][0]']
+ Normalization)
+
+ batch_normalization_216 (Batch  (None, 6, 6, 5)     20          ['conv2d_221[0][0]']
+ Normalization)
+
+ re_lu_10 (ReLU)                (None, 6, 6, 5)      0           ['batch_normalization_213[0][0]']
+
+ re_lu_13 (ReLU)                (None, 6, 6, 5)      0           ['batch_normalization_216[0][0]']
+
+ max_pooling2d_11 (MaxPooling2D  (None, 6, 6, 1536)  0           ['inception_resnet_v2[0][0]']
+ )
+
+ conv2d_217 (Conv2D)            (None, 6, 6, 5)      7680        ['inception_resnet_v2[0][0]']
+
+ conv2d_219 (Conv2D)            (None, 6, 6, 5)      225         ['re_lu_10[0][0]']
+
+ conv2d_222 (Conv2D)            (None, 6, 6, 5)      75          ['re_lu_13[0][0]']
+
+ conv2d_223 (Conv2D)            (None, 6, 6, 5)      7680        ['max_pooling2d_11[0][0]']
+
+ batch_normalization_212 (Batch  (None, 6, 6, 5)     20          ['conv2d_217[0][0]']
+ Normalization)
+
+ batch_normalization_214 (Batch  (None, 6, 6, 5)     20          ['conv2d_219[0][0]']
+ Normalization)
+
+ batch_normalization_217 (Batch  (None, 6, 6, 5)     20          ['conv2d_222[0][0]']
+ Normalization)
+
+ batch_normalization_218 (Batch  (None, 6, 6, 5)     20          ['conv2d_223[0][0]']
+ Normalization)
+
+ re_lu_9 (ReLU)                 (None, 6, 6, 5)      0           ['batch_normalization_212[0][0]']
+
+ re_lu_11 (ReLU)                (None, 6, 6, 5)      0           ['batch_normalization_214[0][0]']
+
+ re_lu_14 (ReLU)                (None, 6, 6, 5)      0           ['batch_normalization_217[0][0]']
+
+ re_lu_15 (ReLU)                (None, 6, 6, 5)      0           ['batch_normalization_218[0][0]']
+
+ concatenate_1 (Concatenate)    (None, 6, 6, 20)     0           ['re_lu_9[0][0]',
+                                                                  're_lu_11[0][0]',
+                                                                  're_lu_14[0][0]',
+                                                                  're_lu_15[0][0]']
+
+ global_average_pooling2d_2 (Gl  (None, 20)          0           ['concatenate_1[0][0]']
+ obalAveragePooling2D)
+
+ dense_4 (Dense)                (None, 256)          5376        ['global_average_pooling2d_2[0][0
+                                                                 ]']
+
+ dropout_2 (Dropout)            (None, 256)          0           ['dense_4[0][0]']
+
+ dense_5 (Dense)                (None, 1)            257         ['dropout_2[0][0]']
+
+==================================================================================================
+Total params: 54,373,604
+Trainable params: 36,798
+Non-trainable params: 54,336,806
+__________________________________________________________________________________________________
+Number of batches in validation dataset: 8
+Validation batch shape: (16, 256, 256, 3), Label shape: (16,)
+input_6 True
+inception_resnet_v2 False
+conv2d_220 True
+batch_normalization_215 True
+re_lu_12 True
+conv2d_218 True
+conv2d_221 True
+batch_normalization_213 True
+batch_normalization_216 True
+re_lu_10 True
+re_lu_13 True
+max_pooling2d_11 True
+conv2d_217 True
+conv2d_219 True
+conv2d_222 True
+conv2d_223 True
+batch_normalization_212 True
+batch_normalization_214 True
+batch_normalization_217 True
+batch_normalization_218 True
+re_lu_9 True
+re_lu_11 True
+re_lu_14 True
+re_lu_15 True
+concatenate_1 True
+global_average_pooling2d_2 True
+dense_4 True
+dropout_2 True
+dense_5 True
+Training checkpoint path for inception_v2_like: F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-11-30T14-55-13-610839_inception_v2\ckpts
+Training completed for inception_v2_like
+----------------------------------------------------------------------------------------

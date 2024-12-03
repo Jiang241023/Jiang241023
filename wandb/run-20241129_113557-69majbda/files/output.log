@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\wandb_sweep.py", line 34, in train_func
+    data_dir = load.data_dir,  # Set the train data directory
+AttributeError: 'function' object has no attribute 'data_dir'

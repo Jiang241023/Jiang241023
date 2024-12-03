@@ -1,0 +1,17 @@
+{"time":"2024-11-30T14:39:14.6091586+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T14:39:14.6091586+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_143914-15cfl818\\logs\\debug-core.log"}
+{"time":"2024-11-30T14:39:14.7358487+01:00","level":"INFO","msg":"created new stream","id":"15cfl818"}
+{"time":"2024-11-30T14:39:14.7358487+01:00","level":"INFO","msg":"stream: started","id":"15cfl818"}
+{"time":"2024-11-30T14:39:14.7358487+01:00","level":"INFO","msg":"sender: started","stream_id":"15cfl818"}
+{"time":"2024-11-30T14:39:14.7358487+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"15cfl818"}}
+{"time":"2024-11-30T14:39:14.7358487+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"15cfl818"}}
+{"time":"2024-11-30T14:39:14.9654067+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T14:39:36.1424861+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T14:39:36.1427528+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T14:39:37.143119+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6638142,"progress":"4.4KB/4.4KB"}],"total_operations":1}}
+{"time":"2024-11-30T14:39:37.1602405+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T14:39:38.3813819+01:00","level":"INFO","msg":"stream: closing","id":"15cfl818"}
+{"time":"2024-11-30T14:39:38.3813819+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"15cfl818"}}
+{"time":"2024-11-30T14:39:38.3813819+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"15cfl818"}}
+{"time":"2024-11-30T14:39:38.3813819+01:00","level":"INFO","msg":"sender: closed","stream_id":"15cfl818"}
+{"time":"2024-11-30T14:39:38.3813819+01:00","level":"INFO","msg":"stream: closed","id":"15cfl818"}

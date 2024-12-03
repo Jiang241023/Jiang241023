@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\wandb_sweep.py", line 30, in train_func
+    utils_params.save_config(run_paths['path_gin'], gin.config_str())
+  File "F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\utils\utils_params.py", line 43, in save_config
+    with open(path_gin, 'w') as f_config:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\dl lab\\dl-lab-24w-team04-feature\\experiments\\run_2024-11-29T19-09-28-952760_Trainer.total_epochs=30vgg_likevgg_like.base_filters=69vgg_likevgg_like.dense_units=32vgg_likevgg_like.dropout_rate=0.5946652018888108vgg_likevgg_like.n_blocks=6\\config_operative.gin'

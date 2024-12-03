@@ -1,0 +1,17 @@
+{"time":"2024-11-29T11:44:06.5806806+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-29T11:44:06.5806806+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241129_114406-s9u476ut\\logs\\debug-core.log"}
+{"time":"2024-11-29T11:44:06.7104027+01:00","level":"INFO","msg":"created new stream","id":"s9u476ut"}
+{"time":"2024-11-29T11:44:06.7104027+01:00","level":"INFO","msg":"stream: started","id":"s9u476ut"}
+{"time":"2024-11-29T11:44:06.7104027+01:00","level":"INFO","msg":"sender: started","stream_id":"s9u476ut"}
+{"time":"2024-11-29T11:44:06.7104027+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"s9u476ut"}}
+{"time":"2024-11-29T11:44:06.7104027+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"s9u476ut"}}
+{"time":"2024-11-29T11:44:06.9157752+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-29T11:44:07.1017892+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-29T11:44:07.1017892+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-29T11:44:08.1030553+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.2529694},{"desc":"uploading config.yaml","runtime_seconds":0.064296,"progress":"694B/694B"},{"desc":"uploading output.log","runtime_seconds":0.064296,"progress":"1.7KB/1.7KB"}],"total_operations":3}}
+{"time":"2024-11-29T11:44:08.3701028+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-29T11:44:09.576135+01:00","level":"INFO","msg":"stream: closing","id":"s9u476ut"}
+{"time":"2024-11-29T11:44:09.576135+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"s9u476ut"}}
+{"time":"2024-11-29T11:44:09.576135+01:00","level":"INFO","msg":"sender: closed","stream_id":"s9u476ut"}
+{"time":"2024-11-29T11:44:09.576135+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"s9u476ut"}}
+{"time":"2024-11-29T11:44:09.576135+01:00","level":"INFO","msg":"stream: closed","id":"s9u476ut"}

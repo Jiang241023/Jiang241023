@@ -1,0 +1,16 @@
+{"time":"2024-11-27T19:12:25.3182487+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-27T19:12:25.3182487+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241127_191225-al541zod\\logs\\debug-core.log"}
+{"time":"2024-11-27T19:12:25.4446694+01:00","level":"INFO","msg":"created new stream","id":"al541zod"}
+{"time":"2024-11-27T19:12:25.4446694+01:00","level":"INFO","msg":"stream: started","id":"al541zod"}
+{"time":"2024-11-27T19:12:25.4446694+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"al541zod"}}
+{"time":"2024-11-27T19:12:25.4446694+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"al541zod"}}
+{"time":"2024-11-27T19:12:25.4446694+01:00","level":"INFO","msg":"sender: started","stream_id":"al541zod"}
+{"time":"2024-11-27T19:12:25.6975033+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-27T19:12:30.5456093+01:00","level":"INFO","msg":"stream: closing","id":"al541zod"}
+{"time":"2024-11-27T19:12:30.5456093+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-27T19:12:30.5456093+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-27T19:12:31.214042+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-27T19:12:31.4229445+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"al541zod"}}
+{"time":"2024-11-27T19:12:31.4229445+01:00","level":"INFO","msg":"sender: closed","stream_id":"al541zod"}
+{"time":"2024-11-27T19:12:31.4229445+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"al541zod"}}
+{"time":"2024-11-27T19:12:31.4229445+01:00","level":"INFO","msg":"stream: closed","id":"al541zod"}

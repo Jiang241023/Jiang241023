@@ -1,0 +1,16 @@
+{"time":"2024-11-27T20:06:28.3190176+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-27T20:06:28.319538+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241127_200628-g43qazej\\logs\\debug-core.log"}
+{"time":"2024-11-27T20:06:28.4467137+01:00","level":"INFO","msg":"created new stream","id":"g43qazej"}
+{"time":"2024-11-27T20:06:28.4467137+01:00","level":"INFO","msg":"stream: started","id":"g43qazej"}
+{"time":"2024-11-27T20:06:28.4467137+01:00","level":"INFO","msg":"sender: started","stream_id":"g43qazej"}
+{"time":"2024-11-27T20:06:28.4467137+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"g43qazej"}}
+{"time":"2024-11-27T20:06:28.4467137+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"g43qazej"}}
+{"time":"2024-11-27T20:06:28.7104151+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-27T20:06:31.4363486+01:00","level":"INFO","msg":"stream: closing","id":"g43qazej"}
+{"time":"2024-11-27T20:06:31.4363486+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-27T20:06:31.4363486+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-27T20:06:32.1159578+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-27T20:06:32.3261451+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"g43qazej"}}
+{"time":"2024-11-27T20:06:32.3261451+01:00","level":"INFO","msg":"sender: closed","stream_id":"g43qazej"}
+{"time":"2024-11-27T20:06:32.3261451+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"g43qazej"}}
+{"time":"2024-11-27T20:06:32.3261451+01:00","level":"INFO","msg":"stream: closed","id":"g43qazej"}

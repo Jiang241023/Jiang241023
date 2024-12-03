@@ -1,0 +1,17 @@
+{"time":"2024-11-30T14:37:31.034209+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T14:37:31.034209+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_143731-1mgtnb1z\\logs\\debug-core.log"}
+{"time":"2024-11-30T14:37:31.1599027+01:00","level":"INFO","msg":"created new stream","id":"1mgtnb1z"}
+{"time":"2024-11-30T14:37:31.1599027+01:00","level":"INFO","msg":"stream: started","id":"1mgtnb1z"}
+{"time":"2024-11-30T14:37:31.1599027+01:00","level":"INFO","msg":"sender: started","stream_id":"1mgtnb1z"}
+{"time":"2024-11-30T14:37:31.1599027+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"1mgtnb1z"}}
+{"time":"2024-11-30T14:37:31.1599027+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"1mgtnb1z"}}
+{"time":"2024-11-30T14:37:31.3913392+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T14:37:52.7510137+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T14:37:52.7510137+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T14:37:53.4161018+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T14:37:53.6463541+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-11-30T14:37:54.6615833+01:00","level":"INFO","msg":"stream: closing","id":"1mgtnb1z"}
+{"time":"2024-11-30T14:37:54.6615833+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"1mgtnb1z"}}
+{"time":"2024-11-30T14:37:54.6615833+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"1mgtnb1z"}}
+{"time":"2024-11-30T14:37:54.6615833+01:00","level":"INFO","msg":"sender: closed","stream_id":"1mgtnb1z"}
+{"time":"2024-11-30T14:37:54.6615833+01:00","level":"INFO","msg":"stream: closed","id":"1mgtnb1z"}

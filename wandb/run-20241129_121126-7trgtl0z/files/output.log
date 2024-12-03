@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\wandb_sweep.py", line 29, in train_func
+    gin.parse_config_files_and_bindings([r'F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\configs\config.gin'], bindings)
+  File "E:\anaconda\lib\site-packages\gin\config.py", line 2497, in parse_config_files_and_bindings
+    includes_and_imports = parse_config_file(config_file, skip_unknown)
+  File "E:\anaconda\lib\site-packages\gin\config.py", line 2450, in parse_config_file
+    includes, imports = parse_config(f, skip_unknown=skip_unknown)
+  File "E:\anaconda\lib\site-packages\gin\config.py", line 2330, in parse_config
+    with utils.try_with_location(location):
+  File "E:\anaconda\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "E:\anaconda\lib\site-packages\gin\utils.py", line 60, in try_with_location
+    augment_exception_message_and_reraise(exception, _format_location(location))
+  File "E:\anaconda\lib\site-packages\gin\utils.py", line 41, in augment_exception_message_and_reraise
+    raise proxy.with_traceback(exception.__traceback__) from None
+  File "E:\anaconda\lib\site-packages\gin\utils.py", line 56, in try_with_location
+    yield
+  File "E:\anaconda\lib\site-packages\gin\config.py", line 2331, in parse_config
+    bind_parameter((scope, selector, arg_name), value)
+  File "E:\anaconda\lib\site-packages\gin\config.py", line 1051, in bind_parameter
+    pbk = ParsedBindingKey.parse(binding_key)
+  File "E:\anaconda\lib\site-packages\gin\config.py", line 908, in parse
+    configurable_ = _parse_context().get_configurable(selector)
+  File "E:\anaconda\lib\site-packages\gin\config.py", line 324, in get_configurable
+    return _REGISTRY.get_match(selector)
+  File "E:\anaconda\lib\site-packages\gin\selector_map.py", line 183, in get_match
+    raise KeyError(err_str.format(partial_selector, matching_selectors))
+KeyError: "Ambiguous selector 'vgg_block', matches ['layers.vgg_block', 'models.layers.vgg_block']."
+  In file "F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\configs\config.gin", line 13
+    vgg_block.kernel_size = (3, 3)

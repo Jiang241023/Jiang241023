@@ -1,0 +1,17 @@
+{"time":"2024-12-01T10:36:46.0481188+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T10:36:46.0481188+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_103646-h7hp67g7\\logs\\debug-core.log"}
+{"time":"2024-12-01T10:36:46.1735938+01:00","level":"INFO","msg":"created new stream","id":"h7hp67g7"}
+{"time":"2024-12-01T10:36:46.1735938+01:00","level":"INFO","msg":"stream: started","id":"h7hp67g7"}
+{"time":"2024-12-01T10:36:46.1735938+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"h7hp67g7"}}
+{"time":"2024-12-01T10:36:46.1735938+01:00","level":"INFO","msg":"sender: started","stream_id":"h7hp67g7"}
+{"time":"2024-12-01T10:36:46.1735938+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"h7hp67g7"}}
+{"time":"2024-12-01T10:36:46.4007385+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T10:37:08.177937+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T10:37:08.177937+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T10:37:08.8700086+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T10:37:09.071679+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-12-01T10:37:10.0918867+01:00","level":"INFO","msg":"stream: closing","id":"h7hp67g7"}
+{"time":"2024-12-01T10:37:10.0918867+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"h7hp67g7"}}
+{"time":"2024-12-01T10:37:10.0918867+01:00","level":"INFO","msg":"sender: closed","stream_id":"h7hp67g7"}
+{"time":"2024-12-01T10:37:10.0918867+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"h7hp67g7"}}
+{"time":"2024-12-01T10:37:10.0918867+01:00","level":"INFO","msg":"stream: closed","id":"h7hp67g7"}
