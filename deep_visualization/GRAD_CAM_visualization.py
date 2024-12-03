@@ -1,61 +1,13 @@
-from tensorflow.keras.models import load_model
 import gin
+from tensorflow.keras.models import load_model
 import numpy as np
 import tensorflow as tf
 import cv2
 import matplotlib.pyplot as plt
-import os
-from input_pipeline import datasets
-from models.architectures import mobilenet_like
-from train import Trainer
-
-# Deep visualization
-# data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\train"
-# test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
-# batch_size = 16
 
 
 @gin.configurable
-def grad_cam_visualization(name, batch_size, data_dir, test_data_dir, base_filters, n_blocks, dense_units, dropout_rate, checkpoint_path, img_path):
-    # Load ds_train
-    ds_train, _, _, ds_info, _ = datasets.load(name=name, batch_size=batch_size, data_dir=data_dir,
-                                               test_data_dir=test_data_dir)
-
-    # Load the saved model
-    model, base_model = mobilenet_like(input_shape=ds_info["features"]["image"]["shape"],
-                                           n_classes=ds_info["features"]["label"]["num_classes"],
-                                           base_filters=base_filters,
-                                           n_blocks=n_blocks,
-                                           dense_units=dense_units,
-                                           dropout_rate=dropout_rate
-                                           )
-    checkpoint_path = checkpoint_path
-    checkpoint = tf.train.Checkpoint(model=model)
-    latest_checkpoint = tf.train.latest_checkpoint(checkpoint_path)
-    if latest_checkpoint:
-        print(f"Restoring from checkpoint_1: {latest_checkpoint}")
-        checkpoint.restore(latest_checkpoint)
-    else:
-        print("No checkpoint found. Starting from scratch.")
-
-    model_loaded = model
-
-    #print("Checking model layers:")
-    for layer in model_loaded.layers:
-        # print(f"Layer name: {layer.name}, Layer type: {type(layer)}")
-        print(layer.name)
-
-    last_conv_layer = None
-
-    for images, labels in ds_train.take(1):
-        dummy_img = images[0:1]
-        break
-    _ = model_loaded(dummy_img)
-
-    for images, labels in ds_train.take(1):
-        dummy_img = images[0:1]
-        break
-    _ = model_loaded(dummy_img)
+def grad_cam_visualization(model, img_path):
 
     def find_target_layer(model):
         for layer in reversed(model.layers):
@@ -63,7 +15,7 @@ def grad_cam_visualization(name, batch_size, data_dir, test_data_dir, base_filte
             if isinstance(layer, tf.keras.layers.Conv2D):
                 return layer.name
 
-    last_conv_layer_name = find_target_layer(model_loaded)
+    last_conv_layer_name = find_target_layer(model)
 
     if last_conv_layer_name:
         print(f"The last conv layer name is {last_conv_layer_name}")
@@ -71,7 +23,7 @@ def grad_cam_visualization(name, batch_size, data_dir, test_data_dir, base_filte
         print(f"No Convolutional Layers found in the model")
 
     # Function to generate Grad-CAM
-    def grad_cam(model, img_path, ds_train, last_conv_layer_name, target_class_idx=None):
+    def grad_cam(model, img_path, last_conv_layer_name):
 
         # Load and preprocess the image
         image = cv2.imread(img_path)  # Load image in BGR format
@@ -88,7 +40,6 @@ def grad_cam_visualization(name, batch_size, data_dir, test_data_dir, base_filte
 
         # Predict using the model
         predictions = model(img_array, training=False)
-        predictions = tf.sigmoid(predictions[:, 0])
         print("Predicted class:", 1 if predictions[0] > 0.5 else 0)
 
         # Initialize a model for Grad-CAM
@@ -165,16 +116,12 @@ def grad_cam_visualization(name, batch_size, data_dir, test_data_dir, base_filte
         plt.tight_layout()
         plt.show()
 
-    # Load and preprocess a image
-    img_path = img_path
 
     # Generate Grad-CAM heatmap
-    heatmap = grad_cam(model_loaded, img_path, ds_train, last_conv_layer_name)
+    heatmap = grad_cam(model, img_path, last_conv_layer_name)
 
     # Visualize the result
     display_grad_cam(heatmap, img_path)
 
 
-if __name__ == '__main__':
-    gin.parse_config_files_and_bindings([r'F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\configs\config.gin'], [])
-    grad_cam_visualization()
+

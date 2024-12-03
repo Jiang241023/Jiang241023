@@ -3,9 +3,10 @@ from keras.utils.version_utils import training
 from metrics import ConfusionMatrix
 import logging
 import numpy as np
+import wandb
 
 
-def evaluate(model_1, model_2, model_3, ds_test):
+def evaluate(model_1, model_2, model_3, ds_test, ensemble = True):
 
     metrics = ConfusionMatrix()
     accuracy_list = []
@@ -33,7 +34,10 @@ def evaluate(model_1, model_2, model_3, ds_test):
 
         # final_predictions
         votes = predictions_1 + predictions_2 + predictions_3  # Count votes (0, 1, or 2, or 3)
-        final_predictions = tf.cast(votes > 1, tf.int32)
+        if ensemble:
+            final_predictions = tf.cast(votes > 1, tf.int32)
+        else:
+            final_predictions = predictions_2
 
         # Update accuracy
         matches = tf.cast(final_predictions == labels, tf.float32)
@@ -47,6 +51,10 @@ def evaluate(model_1, model_2, model_3, ds_test):
     #print(f"Batch {idx}: TP={tp}, FP={fp}, TN={tn}, FN={fn}")
     # Calculate metrics
     accuracy = sum(accuracy_list) / len(accuracy_list)
+
+    # Log the test accuracy to WandB
+    wandb.log({'Test_accuracy': accuracy})
+
     total_samples = tp + fp + tn + fn
     #print(f"Total samples accounted for: {total_samples}")
 
@@ -65,14 +73,14 @@ def evaluate(model_1, model_2, model_3, ds_test):
     f1_score = 2 * (precision * sensitivity) / (precision + sensitivity) if (precision + sensitivity) > 0 else 0.0
 
     # Logging and printing results
-    logging.info(f"Accuracy: {accuracy:.2%}")
+    logging.info(f"Test_accuracy: {accuracy:.2%}")
     logging.info(f"Confusion Matrix: TP={tp}, FP={fp}, TN={tn}, FN={fn}")
     logging.info(f"Sensitivity (Recall): {sensitivity:.2%}")
     logging.info(f"Specificity: {specificity:.2%}")
     logging.info(f"Precision: {precision:.2%}")
     logging.info(f"F1-Score: {f1_score:.2%}")
 
-    print(f"Accuracy is: {accuracy:.2%}")
+    print(f"Test_accuracy is: {accuracy:.2%}")
     print(f"Sensitivity (Recall): {sensitivity:.2%}")
     print(f"Specificity: {specificity:.2%}")
     print(f"Precision: {precision:.2%}")
@@ -80,7 +88,7 @@ def evaluate(model_1, model_2, model_3, ds_test):
     print(f"Confusion Matrix: TP={tp}, FP={fp}, TN={tn}, FN={fn}")
 
     return {
-        "accuracy": accuracy,
+        "Test_accuracy": accuracy,
         "sensitivity": sensitivity,
         "specificity": specificity,
         "precision": precision,
