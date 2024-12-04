@@ -5,19 +5,15 @@ mobilenet_like.n_blocks = 7
 mobilenet_like.dense_units = 150
 mobilenet_like.dropout_rate =  0.38026722341156816
 
-
 vgg_like.base_filters = 83
 vgg_like.n_blocks = 3
 vgg_like.dense_units = 113
 vgg_like.dropout_rate = 0.21791097881864296
 
-
 inception_v2_like.base_filters = 52
 inception_v2_like.n_blocks = 3
 inception_v2_like.dense_units = 231
 inception_v2_like.dropout_rate = 0.2250767833808686
-
-
 
 # Layers
 layers.vgg_block.kernel_size = (3, 3)
