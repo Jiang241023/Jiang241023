@@ -1,0 +1,54 @@
+# Macros:
+# ==============================================================================
+model_type = 'inception_v2_like'
+
+# Parameters for inception_v2_like:
+# ==============================================================================
+inception_v2_like.base_filters = 52
+inception_v2_like.dense_units = 231
+inception_v2_like.dropout_rate = 0.2250767833808686
+inception_v2_like.n_blocks = 3
+
+# Parameters for load:
+# ==============================================================================
+load.batch_size = 16
+load.data_dir = 'F:\\IDRID_dataset\\images_augmented\\images_augmented\\train'
+load.name = 'idrid'
+load.test_data_dir = \
+    'F:\\IDRID_dataset\\images_augmented\\images_augmented\\test\\binary'
+
+# Parameters for mobilenet_block:
+# ==============================================================================
+mobilenet_block.strides = 1
+
+# Parameters for mobilenet_like:
+# ==============================================================================
+mobilenet_like.base_filters = 63
+mobilenet_like.dense_units = 150
+mobilenet_like.dropout_rate = 0.38026722341156816
+mobilenet_like.n_blocks = 7
+
+# Parameters for prepare:
+# ==============================================================================
+prepare.caching = True
+
+# Parameters for preprocess:
+# ==============================================================================
+preprocess.img_height = 256
+preprocess.img_width = 256
+
+# Parameters for Trainer:
+# ==============================================================================
+Trainer.learning_rate = 0.0001
+Trainer.total_epochs = 10
+
+# Parameters for vgg_block:
+# ==============================================================================
+vgg_block.kernel_size = (3, 3)
+
+# Parameters for vgg_like:
+# ==============================================================================
+vgg_like.base_filters = 17
+vgg_like.dense_units = 113
+vgg_like.dropout_rate = 0.7056341524039621
+vgg_like.n_blocks = 5

@@ -1,0 +1,401 @@
+I1201 09:25:27.258090 13996 datasets.py:22] Preparing dataset idrid...
+Found 588 files belonging to 2 classes.
+no of batches is 29
+Found 103 files belonging to 2 classes.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1201 09:25:27.704406 13996 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:27.712935 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:27.721570 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1201 09:25:27.729236 13996 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1201 09:25:27.809984 13996 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1201 09:25:27.843641 13996 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:27.851486 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:27.859775 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1201 09:25:27.866520 13996 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1201 09:25:27.882765 13996 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:27.890370 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:27.898689 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1201 09:25:27.905874 13996 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1201 09:25:27.959554 13996 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1201 09:25:27.980663 13996 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:27.988491 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:27.997397 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1201 09:25:28.004595 13996 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1201 09:25:28.058253 13996 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:28.065994 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:28.074212 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+W1201 09:25:28.080535 13996 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+W1201 09:25:28.093246 13996 pfor.py:1082] Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1201 09:25:28.101561 13996 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+W1201 09:25:28.122856 13996 pfor.py:1082] Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1201 09:25:28.168671 13996 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:28.177987 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:28.188576 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1201 09:25:28.197741 13996 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1201 09:25:28.391068 13996 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1201 09:25:28.426275 13996 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:28.435120 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:28.445369 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1201 09:25:28.454487 13996 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1201 09:25:28.473551 13996 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:28.482450 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:28.491631 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1201 09:25:28.500260 13996 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+W1201 09:25:28.554380 13996 pfor.py:1082] Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1201 09:25:28.574399 13996 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:28.583957 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:28.594578 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1201 09:25:28.603175 13996 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+W1201 09:25:28.658552 13996 pfor.py:1082] Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:28.668155 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+W1201 09:25:28.678483 13996 pfor.py:1082] Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+W1201 09:25:28.687505 13996 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformFullIntV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+W1201 09:25:28.704105 13996 pfor.py:1082] Using a while_loop for converting StatelessRandomGetKeyCounter cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+W1201 09:25:28.714861 13996 pfor.py:1082] Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+W1201 09:25:28.739281 13996 pfor.py:1082] Using a while_loop for converting AdjustContrastv2 cause Input "contrast_factor" of op 'AdjustContrastv2' expected to be loop invariant.
+WARNING:tensorflow:`input_shape` is undefined or non-square, or `rows` is not in [128, 160, 192, 224]. Weights for input shape (224, 224) will be loaded as the default.
+W1201 09:25:29.340579 13996 mobilenet.py:241] `input_shape` is undefined or non-square, or `rows` is not in [128, 160, 192, 224]. Weights for input shape (224, 224) will be loaded as the default.
+(None, 256, 256, 3)
+(None, 8, 8, 512)
+----------------------------------------------------------------------------------------
+Starting training mobilenet_like
+Model: "mobilenet_like"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ input_2 (InputLayer)        [(None, 256, 256, 3)]     0
+
+ mobilenet_1.00_224 (Functio  (None, 8, 8, 1024)       3228864
+ nal)
+
+ depthwise_conv2d_1 (Depthwi  (None, 8, 8, 1024)       9216
+ seConv2D)
+
+ batch_normalization_2 (Batc  (None, 8, 8, 1024)       4096
+ hNormalization)
+
+ re_lu_2 (ReLU)              (None, 8, 8, 1024)        0
+
+ conv2d_1 (Conv2D)           (None, 8, 8, 119)         121856
+
+ batch_normalization_3 (Batc  (None, 8, 8, 119)        476
+ hNormalization)
+
+ re_lu_3 (ReLU)              (None, 8, 8, 119)         0
+
+ global_average_pooling2d (G  (None, 119)              0
+ lobalAveragePooling2D)
+
+ dense (Dense)               (None, 60)                7200
+
+ dropout (Dropout)           (None, 60)                0
+
+ dense_1 (Dense)             (None, 1)                 61
+
+=================================================================
+Total params: 3,371,769
+Trainable params: 140,619
+Non-trainable params: 3,231,150
+_________________________________________________________________
+Number of batches in validation dataset: 8
+Validation batch shape: (16, 256, 256, 3), Label shape: (16,)
+input_2 True
+mobilenet_1.00_224 False
+depthwise_conv2d_1 True
+batch_normalization_2 True
+re_lu_2 True
+conv2d_1 True
+batch_normalization_3 True
+re_lu_3 True
+global_average_pooling2d True
+dense True
+dropout True
+dense_1 True
+I1201 09:25:38.128925 13996 train.py:86] epochs: 1.0, Loss: 0.7220450639724731, Accuracy: 55.38461685180664, Test Loss: 0.6890736818313599, Test Accuracy: 46.153846740722656
+I1201 09:25:38.299987 13996 train.py:86] epochs: 2.0, Loss: 0.6221202611923218, Accuracy: 65.93406677246094, Test Loss: 0.6825364232063293, Test Accuracy: 46.153846740722656
+I1201 09:25:38.468509 13996 train.py:86] epochs: 3.0, Loss: 0.5746864676475525, Accuracy: 69.01099395751953, Test Loss: 0.6740815043449402, Test Accuracy: 47.008548736572266
+I1201 09:25:38.636700 13996 train.py:86] epochs: 4.0, Loss: 0.5586500763893127, Accuracy: 71.64835357666016, Test Loss: 0.6623998880386353, Test Accuracy: 60.68376159667969
+I1201 09:25:38.807043 13996 train.py:86] epochs: 5.0, Loss: 0.5265117883682251, Accuracy: 74.06593322753906, Test Loss: 0.6471527814865112, Test Accuracy: 70.0854721069336
+I1201 09:25:38.975033 13996 train.py:86] epochs: 6.0, Loss: 0.48403921723365784, Accuracy: 78.46154022216797, Test Loss: 0.630403995513916, Test Accuracy: 76.06837463378906
+I1201 09:25:39.144761 13996 train.py:86] epochs: 7.0, Loss: 0.45049870014190674, Accuracy: 80.65933990478516, Test Loss: 0.6117571592330933, Test Accuracy: 76.92308044433594
+I1201 09:25:39.317075 13996 train.py:86] epochs: 8.0, Loss: 0.41947418451309204, Accuracy: 81.97801971435547, Test Loss: 0.5898576974868774, Test Accuracy: 80.34188079833984
+I1201 09:25:39.501023 13996 train.py:86] epochs: 9.0, Loss: 0.4424651563167572, Accuracy: 81.0988998413086, Test Loss: 0.564619243144989, Test Accuracy: 83.76068115234375
+I1201 09:25:39.674384 13996 train.py:86] epochs: 10.0, Loss: 0.37995076179504395, Accuracy: 85.4945068359375, Test Loss: 0.5358480215072632, Test Accuracy: 82.9059829711914
+I1201 09:25:39.676305 13996 train.py:113] Finished training after 10.0 epochs.
+I1201 09:25:39.972217 13996 train.py:86] epochs: 1.0, Loss: 0.3617566227912903, Accuracy: 85.4945068359375, Test Loss: 0.5071670413017273, Test Accuracy: 82.9059829711914
+I1201 09:25:40.140507 13996 train.py:86] epochs: 2.0, Loss: 0.36922332644462585, Accuracy: 86.37362670898438, Test Loss: 0.4791868031024933, Test Accuracy: 82.05128479003906
+I1201 09:25:40.321280 13996 train.py:86] epochs: 3.0, Loss: 0.352107435464859, Accuracy: 85.56034851074219, Test Loss: 0.452658474445343, Test Accuracy: 82.05128479003906
+I1201 09:25:40.525155 13996 train.py:86] epochs: 4.0, Loss: 0.3312848210334778, Accuracy: 87.25274658203125, Test Loss: 0.42895689606666565, Test Accuracy: 82.05128479003906
+I1201 09:25:40.695319 13996 train.py:86] epochs: 5.0, Loss: 0.333586722612381, Accuracy: 87.66815948486328, Test Loss: 0.410261869430542, Test Accuracy: 82.05128479003906
+I1201 09:25:40.864775 13996 train.py:86] epochs: 6.0, Loss: 0.28558632731437683, Accuracy: 90.54945373535156, Test Loss: 0.3964656591415405, Test Accuracy: 82.05128479003906
+I1201 09:25:41.032791 13996 train.py:86] epochs: 7.0, Loss: 0.3128758370876312, Accuracy: 88.79120635986328, Test Loss: 0.38867998123168945, Test Accuracy: 81.19657897949219
+I1201 09:25:41.201133 13996 train.py:86] epochs: 8.0, Loss: 0.28783512115478516, Accuracy: 90.54945373535156, Test Loss: 0.3771079182624817, Test Accuracy: 81.19657897949219
+I1201 09:25:41.370953 13996 train.py:86] epochs: 9.0, Loss: 0.2770001292228699, Accuracy: 90.10989379882812, Test Loss: 0.365585595369339, Test Accuracy: 81.19657897949219
+I1201 09:25:41.540394 13996 train.py:86] epochs: 10.0, Loss: 0.25088274478912354, Accuracy: 93.62637329101562, Test Loss: 0.35928425192832947, Test Accuracy: 81.19657897949219
+I1201 09:25:41.542767 13996 train.py:113] Finished training after 10.0 epochs.
+Training checkpoint path for mobilenet_like: F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-12-01T09-25-26-597840_mobilenet_like\ckpts
+Training completed for mobilenet_like
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+Starting training vgg_like
+Model: "vgg_like"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ input_4 (InputLayer)        [(None, 256, 256, 3)]     0
+
+ vgg16 (Functional)          (None, 8, 8, 512)         14714688
+
+ conv2d_4 (Conv2D)           (None, 8, 8, 25)          115225
+
+ max_pooling2d_2 (MaxPooling  (None, 4, 4, 25)         0
+ 2D)
+
+ conv2d_5 (Conv2D)           (None, 4, 4, 25)          5650
+
+ max_pooling2d_3 (MaxPooling  (None, 2, 2, 25)         0
+ 2D)
+
+ global_average_pooling2d_1   (None, 25)               0
+ (GlobalAveragePooling2D)
+
+ dense_2 (Dense)             (None, 19)                494
+
+ leaky_re_lu (LeakyReLU)     (None, 19)                0
+
+ dropout_1 (Dropout)         (None, 19)                0
+
+ dense_3 (Dense)             (None, 1)                 20
+
+=================================================================
+Total params: 14,836,077
+Trainable params: 121,389
+Non-trainable params: 14,714,688
+_________________________________________________________________
+Number of batches in validation dataset: 8
+Validation batch shape: (16, 256, 256, 3), Label shape: (16,)
+input_4 True
+vgg16 False
+conv2d_4 True
+max_pooling2d_2 True
+conv2d_5 True
+max_pooling2d_3 True
+global_average_pooling2d_1 True
+dense_2 True
+leaky_re_lu True
+dropout_1 True
+dense_3 True
+I1201 09:25:45.215415 13996 train.py:86] epochs: 1.0, Loss: 0.6715365052223206, Accuracy: 60.4395637512207, Test Loss: 0.6385401487350464, Test Accuracy: 74.35897827148438
+I1201 09:25:46.067625 13996 train.py:86] epochs: 2.0, Loss: 0.6004688143730164, Accuracy: 77.14286041259766, Test Loss: 0.5752496719360352, Test Accuracy: 76.06837463378906
+I1201 09:25:46.905802 13996 train.py:86] epochs: 3.0, Loss: 0.5348654985427856, Accuracy: 78.9011001586914, Test Loss: 0.5120457410812378, Test Accuracy: 76.92308044433594
+I1201 09:25:47.768158 13996 train.py:86] epochs: 4.0, Loss: 0.48183995485305786, Accuracy: 80.43955993652344, Test Loss: 0.4845162332057953, Test Accuracy: 75.21367645263672
+I1201 09:25:48.645740 13996 train.py:86] epochs: 5.0, Loss: 0.4474104642868042, Accuracy: 81.97801971435547, Test Loss: 0.48470398783683777, Test Accuracy: 74.35897827148438
+I1201 09:25:49.534396 13996 train.py:86] epochs: 6.0, Loss: 0.40410032868385315, Accuracy: 83.51648712158203, Test Loss: 0.46831047534942627, Test Accuracy: 75.21367645263672
+I1201 09:25:50.420730 13996 train.py:86] epochs: 7.0, Loss: 0.402554452419281, Accuracy: 82.19779968261719, Test Loss: 0.40176790952682495, Test Accuracy: 83.76068115234375
+I1201 09:25:51.299852 13996 train.py:86] epochs: 8.0, Loss: 0.3558191955089569, Accuracy: 83.95604705810547, Test Loss: 0.3960149884223938, Test Accuracy: 79.4871826171875
+I1201 09:25:52.196074 13996 train.py:86] epochs: 9.0, Loss: 0.3544478714466095, Accuracy: 85.4945068359375, Test Loss: 0.37983182072639465, Test Accuracy: 80.34188079833984
+I1201 09:25:53.091695 13996 train.py:86] epochs: 10.0, Loss: 0.33637991547584534, Accuracy: 87.25274658203125, Test Loss: 0.3617793321609497, Test Accuracy: 84.61538696289062
+I1201 09:25:53.093923 13996 train.py:113] Finished training after 10.0 epochs.
+I1201 09:25:54.132088 13996 train.py:86] epochs: 1.0, Loss: 0.3121614158153534, Accuracy: 88.13186645507812, Test Loss: 0.3624831438064575, Test Accuracy: 83.76068115234375
+I1201 09:25:54.995644 13996 train.py:86] epochs: 2.0, Loss: 0.2972850799560547, Accuracy: 88.79120635986328, Test Loss: 0.33544737100601196, Test Accuracy: 85.47008514404297
+I1201 09:25:55.848445 13996 train.py:86] epochs: 3.0, Loss: 0.26158076524734497, Accuracy: 90.54945373535156, Test Loss: 0.3208363354206085, Test Accuracy: 85.47008514404297
+I1201 09:25:56.702372 13996 train.py:86] epochs: 4.0, Loss: 0.2749474048614502, Accuracy: 90.08621215820312, Test Loss: 0.3121286630630493, Test Accuracy: 83.76068115234375
+I1201 09:25:57.580693 13996 train.py:86] epochs: 5.0, Loss: 0.24928738176822662, Accuracy: 91.03138732910156, Test Loss: 0.32490241527557373, Test Accuracy: 85.47008514404297
+I1201 09:25:58.431356 13996 train.py:86] epochs: 6.0, Loss: 0.24741172790527344, Accuracy: 92.74725341796875, Test Loss: 0.3160156309604645, Test Accuracy: 85.47008514404297
+I1201 09:25:59.281428 13996 train.py:86] epochs: 7.0, Loss: 0.24028337001800537, Accuracy: 92.24137878417969, Test Loss: 0.3011651635169983, Test Accuracy: 88.8888931274414
+I1201 09:26:00.110034 13996 train.py:86] epochs: 8.0, Loss: 0.21427077054977417, Accuracy: 94.39461517333984, Test Loss: 0.3580949008464813, Test Accuracy: 85.47008514404297
+I1201 09:26:00.965925 13996 train.py:86] epochs: 9.0, Loss: 0.20261132717132568, Accuracy: 94.72527313232422, Test Loss: 0.29186370968818665, Test Accuracy: 87.17948913574219
+I1201 09:26:01.819701 13996 train.py:86] epochs: 10.0, Loss: 0.1775117814540863, Accuracy: 96.04395294189453, Test Loss: 0.28212276101112366, Test Accuracy: 87.17948913574219
+I1201 09:26:01.821446 13996 train.py:113] Finished training after 10.0 epochs.
+Training checkpoint path for vgg_like: F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-12-01T09-25-26-598841_vgg_like\ckpts
+Training completed for vgg_like
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+Starting training inception_v2_like
+Model: "inception_v2_like"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to
+==================================================================================================
+ input_6 (InputLayer)           [(None, 256, 256, 3  0           []
+                                )]
+
+ inception_resnet_v2 (Functiona  (None, 6, 6, 1536)  54336736    ['input_6[0][0]']
+ l)
+
+ conv2d_226 (Conv2D)            (None, 6, 6, 25)     38400       ['inception_resnet_v2[0][0]']
+
+ batch_normalization_224 (Batch  (None, 6, 6, 25)    100         ['conv2d_226[0][0]']
+ Normalization)
+
+ re_lu_21 (ReLU)                (None, 6, 6, 25)     0           ['batch_normalization_224[0][0]']
+
+ conv2d_224 (Conv2D)            (None, 6, 6, 25)     38400       ['inception_resnet_v2[0][0]']
+
+ conv2d_227 (Conv2D)            (None, 6, 6, 25)     1875        ['re_lu_21[0][0]']
+
+ batch_normalization_222 (Batch  (None, 6, 6, 25)    100         ['conv2d_224[0][0]']
+ Normalization)
+
+ batch_normalization_225 (Batch  (None, 6, 6, 25)    100         ['conv2d_227[0][0]']
+ Normalization)
+
+ re_lu_19 (ReLU)                (None, 6, 6, 25)     0           ['batch_normalization_222[0][0]']
+
+ re_lu_22 (ReLU)                (None, 6, 6, 25)     0           ['batch_normalization_225[0][0]']
+
+ max_pooling2d_10 (MaxPooling2D  (None, 6, 6, 1536)  0           ['inception_resnet_v2[0][0]']
+ )
+
+ conv2d_223 (Conv2D)            (None, 6, 6, 25)     38400       ['inception_resnet_v2[0][0]']
+
+ conv2d_225 (Conv2D)            (None, 6, 6, 25)     5625        ['re_lu_19[0][0]']
+
+ conv2d_228 (Conv2D)            (None, 6, 6, 25)     1875        ['re_lu_22[0][0]']
+
+ conv2d_229 (Conv2D)            (None, 6, 6, 25)     38400       ['max_pooling2d_10[0][0]']
+
+ batch_normalization_221 (Batch  (None, 6, 6, 25)    100         ['conv2d_223[0][0]']
+ Normalization)
+
+ batch_normalization_223 (Batch  (None, 6, 6, 25)    100         ['conv2d_225[0][0]']
+ Normalization)
+
+ batch_normalization_226 (Batch  (None, 6, 6, 25)    100         ['conv2d_228[0][0]']
+ Normalization)
+
+ batch_normalization_227 (Batch  (None, 6, 6, 25)    100         ['conv2d_229[0][0]']
+ Normalization)
+
+ re_lu_18 (ReLU)                (None, 6, 6, 25)     0           ['batch_normalization_221[0][0]']
+
+ re_lu_20 (ReLU)                (None, 6, 6, 25)     0           ['batch_normalization_223[0][0]']
+
+ re_lu_23 (ReLU)                (None, 6, 6, 25)     0           ['batch_normalization_226[0][0]']
+
+ re_lu_24 (ReLU)                (None, 6, 6, 25)     0           ['batch_normalization_227[0][0]']
+
+ concatenate_2 (Concatenate)    (None, 6, 6, 100)    0           ['re_lu_18[0][0]',
+                                                                  're_lu_20[0][0]',
+                                                                  're_lu_23[0][0]',
+                                                                  're_lu_24[0][0]']
+
+ global_average_pooling2d_2 (Gl  (None, 100)         0           ['concatenate_2[0][0]']
+ obalAveragePooling2D)
+
+ dense_4 (Dense)                (None, 38)           3838        ['global_average_pooling2d_2[0][0
+                                                                 ]']
+
+ dropout_2 (Dropout)            (None, 38)           0           ['dense_4[0][0]']
+
+ dense_5 (Dense)                (None, 1)            39          ['dropout_2[0][0]']
+
+==================================================================================================
+Total params: 54,504,288
+Trainable params: 167,202
+Non-trainable params: 54,337,086
+__________________________________________________________________________________________________
+Number of batches in validation dataset: 8
+Validation batch shape: (16, 256, 256, 3), Label shape: (16,)
+input_6 True
+inception_resnet_v2 False
+conv2d_226 True
+batch_normalization_224 True
+re_lu_21 True
+conv2d_224 True
+conv2d_227 True
+batch_normalization_222 True
+batch_normalization_225 True
+re_lu_19 True
+re_lu_22 True
+max_pooling2d_10 True
+conv2d_223 True
+conv2d_225 True
+conv2d_228 True
+conv2d_229 True
+batch_normalization_221 True
+batch_normalization_223 True
+batch_normalization_226 True
+batch_normalization_227 True
+re_lu_18 True
+re_lu_20 True
+re_lu_23 True
+re_lu_24 True
+concatenate_2 True
+global_average_pooling2d_2 True
+dense_4 True
+dropout_2 True
+dense_5 True
+I1201 09:26:12.410273 13996 train.py:86] epochs: 1.0, Loss: 0.7165312170982361, Accuracy: 54.28571701049805, Test Loss: 0.5435238480567932, Test Accuracy: 75.21367645263672
+I1201 09:26:13.417702 13996 train.py:86] epochs: 2.0, Loss: 0.5766964554786682, Accuracy: 69.8901138305664, Test Loss: 0.4961682856082916, Test Accuracy: 76.92308044433594
+I1201 09:26:14.436065 13996 train.py:86] epochs: 3.0, Loss: 0.5061819553375244, Accuracy: 76.70330047607422, Test Loss: 0.4693918228149414, Test Accuracy: 76.92308044433594
+I1201 09:26:15.474895 13996 train.py:86] epochs: 4.0, Loss: 0.4569605588912964, Accuracy: 79.95689392089844, Test Loss: 0.4720187187194824, Test Accuracy: 79.4871826171875
+I1201 09:26:16.458837 13996 train.py:86] epochs: 5.0, Loss: 0.43530675768852234, Accuracy: 83.18385314941406, Test Loss: 0.4655224680900574, Test Accuracy: 77.77777862548828
+I1201 09:26:17.477513 13996 train.py:86] epochs: 6.0, Loss: 0.3999219536781311, Accuracy: 83.73626708984375, Test Loss: 0.47273263335227966, Test Accuracy: 76.92308044433594
+I1201 09:26:18.474452 13996 train.py:86] epochs: 7.0, Loss: 0.3554620146751404, Accuracy: 86.15384674072266, Test Loss: 0.4448094367980957, Test Accuracy: 78.63247680664062
+I1201 09:26:19.471270 13996 train.py:86] epochs: 8.0, Loss: 0.34605467319488525, Accuracy: 88.35164642333984, Test Loss: 0.42489805817604065, Test Accuracy: 79.4871826171875
+I1201 09:26:20.478583 13996 train.py:86] epochs: 9.0, Loss: 0.33203360438346863, Accuracy: 90.32967376708984, Test Loss: 0.4406619071960449, Test Accuracy: 76.06837463378906
+I1201 09:26:21.507811 13996 train.py:86] epochs: 10.0, Loss: 0.30807754397392273, Accuracy: 90.32967376708984, Test Loss: 0.3779357671737671, Test Accuracy: 83.76068115234375
+I1201 09:26:21.509942 13996 train.py:113] Finished training after 10.0 epochs.
+I1201 09:26:23.247397 13996 train.py:86] epochs: 1.0, Loss: 0.27173128724098206, Accuracy: 91.42857360839844, Test Loss: 0.3765227794647217, Test Accuracy: 81.19657897949219
+I1201 09:26:24.262849 13996 train.py:86] epochs: 2.0, Loss: 0.26556193828582764, Accuracy: 92.0879135131836, Test Loss: 0.34046438336372375, Test Accuracy: 86.32478332519531
+I1201 09:26:25.258568 13996 train.py:86] epochs: 3.0, Loss: 0.2510143220424652, Accuracy: 92.74725341796875, Test Loss: 0.36537638306617737, Test Accuracy: 82.05128479003906
+I1201 09:26:26.254652 13996 train.py:86] epochs: 4.0, Loss: 0.2194085717201233, Accuracy: 93.84615325927734, Test Loss: 0.3496079444885254, Test Accuracy: 82.9059829711914
+I1201 09:26:27.250896 13996 train.py:86] epochs: 5.0, Loss: 0.21202702820301056, Accuracy: 94.5054931640625, Test Loss: 0.3461398780345917, Test Accuracy: 82.9059829711914
+I1201 09:26:28.257331 13996 train.py:86] epochs: 6.0, Loss: 0.1907799392938614, Accuracy: 95.47413635253906, Test Loss: 0.31553906202316284, Test Accuracy: 85.47008514404297
+I1201 09:26:29.242430 13996 train.py:86] epochs: 7.0, Loss: 0.19555196166038513, Accuracy: 94.61883544921875, Test Loss: 0.393261194229126, Test Accuracy: 79.4871826171875
+I1201 09:26:30.248042 13996 train.py:86] epochs: 8.0, Loss: 0.18137189745903015, Accuracy: 95.04310607910156, Test Loss: 0.29576486349105835, Test Accuracy: 87.17948913574219
+I1201 09:26:31.234151 13996 train.py:86] epochs: 9.0, Loss: 0.16024444997310638, Accuracy: 96.63677215576172, Test Loss: 0.32590892910957336, Test Accuracy: 81.19657897949219
+I1201 09:26:32.228377 13996 train.py:86] epochs: 10.0, Loss: 0.1503564566373825, Accuracy: 96.04395294189453, Test Loss: 0.3215809166431427, Test Accuracy: 81.19657897949219
+I1201 09:26:32.231204 13996 train.py:113] Finished training after 10.0 epochs.
+Training checkpoint path for inception_v2_like: F:\dl lab\dl-lab-24w-team04-feature\experiments\run_2024-12-01T09-25-26-599898_inception_v2_like\ckpts
+Training completed for inception_v2_like
+----------------------------------------------------------------------------------------

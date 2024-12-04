@@ -1,0 +1,56 @@
+2024-12-03 20:57:31,561 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Current SDK version is 0.18.6
+2024-12-03 20:57:31,561 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Configure stats pid to 23640
+2024-12-03 20:57:31,561 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Loading settings from C:\Users\14037\.config\wandb\settings
+2024-12-03 20:57:31,561 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Loading settings from F:\DL_lab\Jiang241023\wandb\settings
+2024-12-03 20:57:31,561 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-12-03 20:57:31,561 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'F:\\DL_lab\\Jiang241023\\main.py', 'program': 'F:\\DL_lab\\Jiang241023\\main.py'}
+2024-12-03 20:57:31,562 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-03 20:57:31,562 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-03 20:57:31,562 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-12-03 20:57:31,562 INFO    MainThread:23640 [wandb_init.py:_log_setup():533] Logging user logs to F:\DL_lab\Jiang241023\wandb\run-20241203_205731-dc756nj1\logs\debug.log
+2024-12-03 20:57:31,562 INFO    MainThread:23640 [wandb_init.py:_log_setup():534] Logging internal logs to F:\DL_lab\Jiang241023\wandb\run-20241203_205731-dc756nj1\logs\debug-internal.log
+2024-12-03 20:57:31,562 INFO    MainThread:23640 [wandb_init.py:init():619] calling init triggers
+2024-12-03 20:57:31,562 INFO    MainThread:23640 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'architectures/base_filters': 52, 'architectures/n_blocks': 3, 'architectures/dense_units': 231, 'architectures/dropout_rate': 0.2250767833808686, 'vgg_block/kernel_size': (3, 3), 'mobilenet_block/strides': 1, 'Trainer/total_epochs': 10, 'Trainer/learning_rate': 0.0001, 'datasets/name': 'idrid', 'datasets/data_dir': 'F:\\IDRID_dataset\\images_augmented\\images_augmented\\train', 'datasets/test_data_dir': 'F:\\IDRID_dataset\\images_augmented\\images_augmented\\test\\binary', 'datasets/batch_size': 16, 'preprocess/img_height': 256, 'preprocess/img_width': 256, 'datasets/caching': True, 'grad_cam_visualization/img_path': 'F:\\IDRID_dataset\\images_augmented\\images_augmented\\train\\class_1\\IDRiD_001_aug_0.jpg'}
+2024-12-03 20:57:31,562 INFO    MainThread:23640 [wandb_init.py:init():669] starting backend
+2024-12-03 20:57:31,562 INFO    MainThread:23640 [wandb_init.py:init():673] sending inform_init request
+2024-12-03 20:57:31,564 INFO    MainThread:23640 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-12-03 20:57:31,565 INFO    MainThread:23640 [wandb_init.py:init():686] backend started and connected
+2024-12-03 20:57:31,568 INFO    MainThread:23640 [wandb_init.py:init():781] updated telemetry
+2024-12-03 20:57:31,786 INFO    MainThread:23640 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-12-03 20:57:32,092 INFO    MainThread:23640 [wandb_init.py:init():867] starting run threads in backend
+2024-12-03 20:57:32,297 INFO    MainThread:23640 [wandb_run.py:_console_start():2451] atexit reg
+2024-12-03 20:57:32,297 INFO    MainThread:23640 [wandb_run.py:_redirect():2299] redirect: wrap_raw
+2024-12-03 20:57:32,298 INFO    MainThread:23640 [wandb_run.py:_redirect():2364] Wrapping output streams.
+2024-12-03 20:57:32,298 INFO    MainThread:23640 [wandb_run.py:_redirect():2389] Redirects installed.
+2024-12-03 20:57:32,300 INFO    MainThread:23640 [wandb_init.py:init():911] run started, returning control to user process
+2024-12-03 20:57:32,304 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Current SDK version is 0.18.6
+2024-12-03 20:57:32,304 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Configure stats pid to 23640
+2024-12-03 20:57:32,304 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Loading settings from C:\Users\14037\.config\wandb\settings
+2024-12-03 20:57:32,304 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Loading settings from F:\DL_lab\Jiang241023\wandb\settings
+2024-12-03 20:57:32,304 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-12-03 20:57:32,304 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'F:\\DL_lab\\Jiang241023\\main.py', 'program': 'F:\\DL_lab\\Jiang241023\\main.py'}
+2024-12-03 20:57:32,304 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-03 20:57:32,304 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-03 20:57:32,304 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-12-03 20:57:32,304 INFO    MainThread:23640 [wandb_init.py:_log_setup():533] Logging user logs to F:\DL_lab\Jiang241023\wandb\run-20241203_205732-rb6h4p73\logs\debug.log
+2024-12-03 20:57:32,305 INFO    MainThread:23640 [wandb_init.py:_log_setup():534] Logging internal logs to F:\DL_lab\Jiang241023\wandb\run-20241203_205732-rb6h4p73\logs\debug-internal.log
+2024-12-03 20:57:32,305 INFO    MainThread:23640 [wandb_init.py:init():619] calling init triggers
+2024-12-03 20:57:32,305 INFO    MainThread:23640 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'architectures/base_filters': 52, 'architectures/n_blocks': 3, 'architectures/dense_units': 231, 'architectures/dropout_rate': 0.2250767833808686, 'vgg_block/kernel_size': (3, 3), 'mobilenet_block/strides': 1, 'Trainer/total_epochs': 10, 'Trainer/learning_rate': 0.0001, 'datasets/name': 'idrid', 'datasets/data_dir': 'F:\\IDRID_dataset\\images_augmented\\images_augmented\\train', 'datasets/test_data_dir': 'F:\\IDRID_dataset\\images_augmented\\images_augmented\\test\\binary', 'datasets/batch_size': 16, 'preprocess/img_height': 256, 'preprocess/img_width': 256, 'datasets/caching': True, 'grad_cam_visualization/img_path': 'F:\\IDRID_dataset\\images_augmented\\images_augmented\\train\\class_1\\IDRiD_001_aug_0.jpg'}
+2024-12-03 20:57:32,305 INFO    MainThread:23640 [wandb_init.py:init():664] wandb.init() called when a run is still active
+2024-12-03 20:57:32,310 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Current SDK version is 0.18.6
+2024-12-03 20:57:32,310 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Configure stats pid to 23640
+2024-12-03 20:57:32,310 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Loading settings from C:\Users\14037\.config\wandb\settings
+2024-12-03 20:57:32,310 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Loading settings from F:\DL_lab\Jiang241023\wandb\settings
+2024-12-03 20:57:32,310 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-12-03 20:57:32,310 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'F:\\DL_lab\\Jiang241023\\main.py', 'program': 'F:\\DL_lab\\Jiang241023\\main.py'}
+2024-12-03 20:57:32,310 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-03 20:57:32,310 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-03 20:57:32,310 INFO    MainThread:23640 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-12-03 20:57:32,310 INFO    MainThread:23640 [wandb_init.py:_log_setup():533] Logging user logs to F:\DL_lab\Jiang241023\wandb\run-20241203_205732-uwh933hw\logs\debug.log
+2024-12-03 20:57:32,310 INFO    MainThread:23640 [wandb_init.py:_log_setup():534] Logging internal logs to F:\DL_lab\Jiang241023\wandb\run-20241203_205732-uwh933hw\logs\debug-internal.log
+2024-12-03 20:57:32,310 INFO    MainThread:23640 [wandb_init.py:init():619] calling init triggers
+2024-12-03 20:57:32,310 INFO    MainThread:23640 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'architectures/base_filters': 52, 'architectures/n_blocks': 3, 'architectures/dense_units': 231, 'architectures/dropout_rate': 0.2250767833808686, 'vgg_block/kernel_size': (3, 3), 'mobilenet_block/strides': 1, 'Trainer/total_epochs': 10, 'Trainer/learning_rate': 0.0001, 'datasets/name': 'idrid', 'datasets/data_dir': 'F:\\IDRID_dataset\\images_augmented\\images_augmented\\train', 'datasets/test_data_dir': 'F:\\IDRID_dataset\\images_augmented\\images_augmented\\test\\binary', 'datasets/batch_size': 16, 'preprocess/img_height': 256, 'preprocess/img_width': 256, 'datasets/caching': True, 'grad_cam_visualization/img_path': 'F:\\IDRID_dataset\\images_augmented\\images_augmented\\train\\class_1\\IDRiD_001_aug_0.jpg'}
+2024-12-03 20:57:32,311 INFO    MainThread:23640 [wandb_init.py:init():664] wandb.init() called when a run is still active

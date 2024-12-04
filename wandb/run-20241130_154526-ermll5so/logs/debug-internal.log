@@ -1,0 +1,17 @@
+{"time":"2024-11-30T15:45:26.1953753+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T15:45:26.1953753+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_154526-ermll5so\\logs\\debug-core.log"}
+{"time":"2024-11-30T15:45:26.3210855+01:00","level":"INFO","msg":"created new stream","id":"ermll5so"}
+{"time":"2024-11-30T15:45:26.3210855+01:00","level":"INFO","msg":"stream: started","id":"ermll5so"}
+{"time":"2024-11-30T15:45:26.3210855+01:00","level":"INFO","msg":"sender: started","stream_id":"ermll5so"}
+{"time":"2024-11-30T15:45:26.3210855+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ermll5so"}}
+{"time":"2024-11-30T15:45:26.3210855+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ermll5so"}}
+{"time":"2024-11-30T15:45:26.5388103+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T15:45:34.9195995+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T15:45:34.9195995+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T15:45:35.6671926+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T15:45:35.8858515+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-11-30T15:45:36.9047558+01:00","level":"INFO","msg":"stream: closing","id":"ermll5so"}
+{"time":"2024-11-30T15:45:36.9047558+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ermll5so"}}
+{"time":"2024-11-30T15:45:36.9047558+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ermll5so"}}
+{"time":"2024-11-30T15:45:36.9047558+01:00","level":"INFO","msg":"sender: closed","stream_id":"ermll5so"}
+{"time":"2024-11-30T15:45:36.9047558+01:00","level":"INFO","msg":"stream: closed","id":"ermll5so"}

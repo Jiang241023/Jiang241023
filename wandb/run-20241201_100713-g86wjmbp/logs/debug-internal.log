@@ -1,0 +1,17 @@
+{"time":"2024-12-01T10:07:13.4147488+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T10:07:13.4147488+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_100713-g86wjmbp\\logs\\debug-core.log"}
+{"time":"2024-12-01T10:07:13.5407176+01:00","level":"INFO","msg":"created new stream","id":"g86wjmbp"}
+{"time":"2024-12-01T10:07:13.5407176+01:00","level":"INFO","msg":"stream: started","id":"g86wjmbp"}
+{"time":"2024-12-01T10:07:13.5407176+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"g86wjmbp"}}
+{"time":"2024-12-01T10:07:13.5407176+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"g86wjmbp"}}
+{"time":"2024-12-01T10:07:13.5407176+01:00","level":"INFO","msg":"sender: started","stream_id":"g86wjmbp"}
+{"time":"2024-12-01T10:07:13.7491199+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T10:07:21.7719907+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T10:07:21.7724936+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T10:07:22.7782725+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.598963,"progress":"733B/733B"}],"total_operations":1}}
+{"time":"2024-12-01T10:07:22.8401883+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T10:07:24.0338294+01:00","level":"INFO","msg":"stream: closing","id":"g86wjmbp"}
+{"time":"2024-12-01T10:07:24.0338294+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"g86wjmbp"}}
+{"time":"2024-12-01T10:07:24.0338294+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"g86wjmbp"}}
+{"time":"2024-12-01T10:07:24.0338294+01:00","level":"INFO","msg":"sender: closed","stream_id":"g86wjmbp"}
+{"time":"2024-12-01T10:07:24.0338294+01:00","level":"INFO","msg":"stream: closed","id":"g86wjmbp"}

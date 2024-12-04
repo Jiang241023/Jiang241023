@@ -1,0 +1,17 @@
+{"time":"2024-12-01T15:24:38.3270636+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T15:24:38.3270636+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_152438-hoib5whe\\logs\\debug-core.log"}
+{"time":"2024-12-01T15:24:38.4519546+01:00","level":"INFO","msg":"created new stream","id":"hoib5whe"}
+{"time":"2024-12-01T15:24:38.4519546+01:00","level":"INFO","msg":"stream: started","id":"hoib5whe"}
+{"time":"2024-12-01T15:24:38.4519546+01:00","level":"INFO","msg":"sender: started","stream_id":"hoib5whe"}
+{"time":"2024-12-01T15:24:38.4519546+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"hoib5whe"}}
+{"time":"2024-12-01T15:24:38.4519546+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"hoib5whe"}}
+{"time":"2024-12-01T15:24:38.6778021+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T15:25:03.7740191+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T15:25:03.7740191+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T15:25:04.5274526+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T15:25:04.7388986+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-12-01T15:25:05.7502627+01:00","level":"INFO","msg":"stream: closing","id":"hoib5whe"}
+{"time":"2024-12-01T15:25:05.7502627+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"hoib5whe"}}
+{"time":"2024-12-01T15:25:05.7502627+01:00","level":"INFO","msg":"sender: closed","stream_id":"hoib5whe"}
+{"time":"2024-12-01T15:25:05.7502627+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"hoib5whe"}}
+{"time":"2024-12-01T15:25:05.7502627+01:00","level":"INFO","msg":"stream: closed","id":"hoib5whe"}

@@ -1,0 +1,16 @@
+{"time":"2024-12-03T15:12:38.930486+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-03T15:12:38.930486+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241203_151238-9glrx13o\\logs\\debug-core.log"}
+{"time":"2024-12-03T15:12:39.0562567+01:00","level":"INFO","msg":"created new stream","id":"9glrx13o"}
+{"time":"2024-12-03T15:12:39.0562567+01:00","level":"INFO","msg":"stream: started","id":"9glrx13o"}
+{"time":"2024-12-03T15:12:39.0562567+01:00","level":"INFO","msg":"sender: started","stream_id":"9glrx13o"}
+{"time":"2024-12-03T15:12:39.0562567+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"9glrx13o"}}
+{"time":"2024-12-03T15:12:39.0562567+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"9glrx13o"}}
+{"time":"2024-12-03T15:12:39.3277147+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-03T15:13:29.8556478+01:00","level":"INFO","msg":"stream: closing","id":"9glrx13o"}
+{"time":"2024-12-03T15:13:29.8556478+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-03T15:13:29.8556478+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-03T15:13:30.5943521+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-03T15:13:30.7944435+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"9glrx13o"}}
+{"time":"2024-12-03T15:13:30.7944435+01:00","level":"INFO","msg":"sender: closed","stream_id":"9glrx13o"}
+{"time":"2024-12-03T15:13:30.7944435+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"9glrx13o"}}
+{"time":"2024-12-03T15:13:30.7944435+01:00","level":"INFO","msg":"stream: closed","id":"9glrx13o"}

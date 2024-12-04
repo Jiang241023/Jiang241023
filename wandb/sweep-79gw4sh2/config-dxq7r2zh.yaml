@@ -1,0 +1,12 @@
+wandb_version: 1
+
+Trainer.total_epochs:
+  value: 30
+vgg_like.base_filters:
+  value: 9
+vgg_like.dense_units:
+  value: 110
+vgg_like.dropout_rate:
+  value: 0.8879369273595736
+vgg_like.n_blocks:
+  value: 6

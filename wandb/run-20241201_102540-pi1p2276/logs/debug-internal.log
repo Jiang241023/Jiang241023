@@ -1,0 +1,18 @@
+{"time":"2024-12-01T10:25:40.3364134+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T10:25:40.3364134+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_102540-pi1p2276\\logs\\debug-core.log"}
+{"time":"2024-12-01T10:25:40.4622439+01:00","level":"INFO","msg":"created new stream","id":"pi1p2276"}
+{"time":"2024-12-01T10:25:40.4622439+01:00","level":"INFO","msg":"stream: started","id":"pi1p2276"}
+{"time":"2024-12-01T10:25:40.4622439+01:00","level":"INFO","msg":"sender: started","stream_id":"pi1p2276"}
+{"time":"2024-12-01T10:25:40.4622439+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"pi1p2276"}}
+{"time":"2024-12-01T10:25:40.4622439+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"pi1p2276"}}
+{"time":"2024-12-01T10:25:50.4881209+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": EOF"}
+{"time":"2024-12-01T10:25:52.9931712+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T10:26:14.8676412+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T10:26:14.8676412+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T10:26:15.8689304+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6184711,"progress":"4.9KB/4.9KB"}],"total_operations":1}}
+{"time":"2024-12-01T10:26:15.9991087+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T10:26:17.1898502+01:00","level":"INFO","msg":"stream: closing","id":"pi1p2276"}
+{"time":"2024-12-01T10:26:17.1898502+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"pi1p2276"}}
+{"time":"2024-12-01T10:26:17.1898502+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"pi1p2276"}}
+{"time":"2024-12-01T10:26:17.1898502+01:00","level":"INFO","msg":"sender: closed","stream_id":"pi1p2276"}
+{"time":"2024-12-01T10:26:17.1898502+01:00","level":"INFO","msg":"stream: closed","id":"pi1p2276"}

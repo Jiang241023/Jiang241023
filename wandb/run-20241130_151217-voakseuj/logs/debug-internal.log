@@ -1,0 +1,17 @@
+{"time":"2024-11-30T15:12:17.4416761+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T15:12:17.4416761+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_151217-voakseuj\\logs\\debug-core.log"}
+{"time":"2024-11-30T15:12:17.5673603+01:00","level":"INFO","msg":"created new stream","id":"voakseuj"}
+{"time":"2024-11-30T15:12:17.5673603+01:00","level":"INFO","msg":"stream: started","id":"voakseuj"}
+{"time":"2024-11-30T15:12:17.5673603+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"voakseuj"}}
+{"time":"2024-11-30T15:12:17.5673603+01:00","level":"INFO","msg":"sender: started","stream_id":"voakseuj"}
+{"time":"2024-11-30T15:12:17.5673603+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"voakseuj"}}
+{"time":"2024-11-30T15:12:17.7733813+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T15:12:17.9352549+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T15:12:17.9357718+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T15:12:18.9373089+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.4766096}],"total_operations":1}}
+{"time":"2024-11-30T15:12:18.9900523+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T15:12:20.2459191+01:00","level":"INFO","msg":"stream: closing","id":"voakseuj"}
+{"time":"2024-11-30T15:12:20.2459191+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"voakseuj"}}
+{"time":"2024-11-30T15:12:20.2459191+01:00","level":"INFO","msg":"sender: closed","stream_id":"voakseuj"}
+{"time":"2024-11-30T15:12:20.2459191+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"voakseuj"}}
+{"time":"2024-11-30T15:12:20.2459191+01:00","level":"INFO","msg":"stream: closed","id":"voakseuj"}

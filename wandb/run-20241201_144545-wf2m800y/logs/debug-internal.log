@@ -1,0 +1,17 @@
+{"time":"2024-12-01T14:45:45.2489851+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T14:45:45.2489851+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_144545-wf2m800y\\logs\\debug-core.log"}
+{"time":"2024-12-01T14:45:45.3787367+01:00","level":"INFO","msg":"created new stream","id":"wf2m800y"}
+{"time":"2024-12-01T14:45:45.3787367+01:00","level":"INFO","msg":"stream: started","id":"wf2m800y"}
+{"time":"2024-12-01T14:45:45.3787367+01:00","level":"INFO","msg":"sender: started","stream_id":"wf2m800y"}
+{"time":"2024-12-01T14:45:45.3787367+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"wf2m800y"}}
+{"time":"2024-12-01T14:45:45.3787367+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"wf2m800y"}}
+{"time":"2024-12-01T14:45:45.7025336+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T14:45:56.2851631+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T14:45:56.2854588+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T14:45:56.9638677+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T14:45:57.1914062+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-12-01T14:45:58.1981169+01:00","level":"INFO","msg":"stream: closing","id":"wf2m800y"}
+{"time":"2024-12-01T14:45:58.1981169+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"wf2m800y"}}
+{"time":"2024-12-01T14:45:58.1981169+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"wf2m800y"}}
+{"time":"2024-12-01T14:45:58.1981169+01:00","level":"INFO","msg":"sender: closed","stream_id":"wf2m800y"}
+{"time":"2024-12-01T14:45:58.1981169+01:00","level":"INFO","msg":"stream: closed","id":"wf2m800y"}

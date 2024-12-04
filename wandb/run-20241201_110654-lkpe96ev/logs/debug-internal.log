@@ -1,0 +1,17 @@
+{"time":"2024-12-01T11:06:54.9149095+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T11:06:54.9149095+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_110654-lkpe96ev\\logs\\debug-core.log"}
+{"time":"2024-12-01T11:06:55.0394634+01:00","level":"INFO","msg":"created new stream","id":"lkpe96ev"}
+{"time":"2024-12-01T11:06:55.0394634+01:00","level":"INFO","msg":"stream: started","id":"lkpe96ev"}
+{"time":"2024-12-01T11:06:55.0394634+01:00","level":"INFO","msg":"sender: started","stream_id":"lkpe96ev"}
+{"time":"2024-12-01T11:06:55.0394634+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"lkpe96ev"}}
+{"time":"2024-12-01T11:06:55.0394634+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"lkpe96ev"}}
+{"time":"2024-12-01T11:06:55.2326221+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T11:07:31.4383915+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T11:07:31.4383915+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T11:07:32.2804449+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T11:07:32.4465948+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary, console logs","runtime_seconds":0.1660623}],"total_operations":1}}
+{"time":"2024-12-01T11:07:33.498914+01:00","level":"INFO","msg":"stream: closing","id":"lkpe96ev"}
+{"time":"2024-12-01T11:07:33.498914+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"lkpe96ev"}}
+{"time":"2024-12-01T11:07:33.498914+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"lkpe96ev"}}
+{"time":"2024-12-01T11:07:33.498914+01:00","level":"INFO","msg":"sender: closed","stream_id":"lkpe96ev"}
+{"time":"2024-12-01T11:07:33.499062+01:00","level":"INFO","msg":"stream: closed","id":"lkpe96ev"}

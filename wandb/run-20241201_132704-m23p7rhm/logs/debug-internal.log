@@ -1,0 +1,17 @@
+{"time":"2024-12-01T13:27:04.443125+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T13:27:04.443125+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_132704-m23p7rhm\\logs\\debug-core.log"}
+{"time":"2024-12-01T13:27:04.5690444+01:00","level":"INFO","msg":"created new stream","id":"m23p7rhm"}
+{"time":"2024-12-01T13:27:04.5690444+01:00","level":"INFO","msg":"stream: started","id":"m23p7rhm"}
+{"time":"2024-12-01T13:27:04.5690444+01:00","level":"INFO","msg":"sender: started","stream_id":"m23p7rhm"}
+{"time":"2024-12-01T13:27:04.5690444+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"m23p7rhm"}}
+{"time":"2024-12-01T13:27:04.5690444+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"m23p7rhm"}}
+{"time":"2024-12-01T13:27:04.7666131+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T13:27:25.4358763+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T13:27:25.4358763+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T13:27:26.1130919+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T13:27:26.3131195+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-12-01T13:27:27.33651+01:00","level":"INFO","msg":"stream: closing","id":"m23p7rhm"}
+{"time":"2024-12-01T13:27:27.33651+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"m23p7rhm"}}
+{"time":"2024-12-01T13:27:27.33651+01:00","level":"INFO","msg":"sender: closed","stream_id":"m23p7rhm"}
+{"time":"2024-12-01T13:27:27.33651+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"m23p7rhm"}}
+{"time":"2024-12-01T13:27:27.33651+01:00","level":"INFO","msg":"stream: closed","id":"m23p7rhm"}

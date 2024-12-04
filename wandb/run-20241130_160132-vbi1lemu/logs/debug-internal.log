@@ -1,0 +1,17 @@
+{"time":"2024-11-30T16:01:32.1433877+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T16:01:32.1433877+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_160132-vbi1lemu\\logs\\debug-core.log"}
+{"time":"2024-11-30T16:01:32.2681061+01:00","level":"INFO","msg":"created new stream","id":"vbi1lemu"}
+{"time":"2024-11-30T16:01:32.2681061+01:00","level":"INFO","msg":"stream: started","id":"vbi1lemu"}
+{"time":"2024-11-30T16:01:32.2681061+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"vbi1lemu"}}
+{"time":"2024-11-30T16:01:32.2681061+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"vbi1lemu"}}
+{"time":"2024-11-30T16:01:32.2681061+01:00","level":"INFO","msg":"sender: started","stream_id":"vbi1lemu"}
+{"time":"2024-11-30T16:01:32.5476508+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T16:01:53.8316328+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T16:01:53.8321369+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T16:01:54.5330071+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T16:01:54.7631309+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-11-30T16:01:55.779503+01:00","level":"INFO","msg":"stream: closing","id":"vbi1lemu"}
+{"time":"2024-11-30T16:01:55.779503+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"vbi1lemu"}}
+{"time":"2024-11-30T16:01:55.779503+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"vbi1lemu"}}
+{"time":"2024-11-30T16:01:55.779503+01:00","level":"INFO","msg":"sender: closed","stream_id":"vbi1lemu"}
+{"time":"2024-11-30T16:01:55.779503+01:00","level":"INFO","msg":"stream: closed","id":"vbi1lemu"}

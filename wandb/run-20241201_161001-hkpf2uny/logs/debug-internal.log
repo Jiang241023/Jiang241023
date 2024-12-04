@@ -1,0 +1,17 @@
+{"time":"2024-12-01T16:10:01.1759323+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T16:10:01.1759323+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_161001-hkpf2uny\\logs\\debug-core.log"}
+{"time":"2024-12-01T16:10:01.3015263+01:00","level":"INFO","msg":"created new stream","id":"hkpf2uny"}
+{"time":"2024-12-01T16:10:01.3015263+01:00","level":"INFO","msg":"stream: started","id":"hkpf2uny"}
+{"time":"2024-12-01T16:10:01.3015263+01:00","level":"INFO","msg":"sender: started","stream_id":"hkpf2uny"}
+{"time":"2024-12-01T16:10:01.3015263+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"hkpf2uny"}}
+{"time":"2024-12-01T16:10:01.3015263+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"hkpf2uny"}}
+{"time":"2024-12-01T16:10:01.5521943+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T16:10:52.6523482+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T16:10:52.6523482+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T16:10:53.4784155+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T16:10:53.653742+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary, console logs","runtime_seconds":0.1752648}],"total_operations":1}}
+{"time":"2024-12-01T16:10:54.6963628+01:00","level":"INFO","msg":"stream: closing","id":"hkpf2uny"}
+{"time":"2024-12-01T16:10:54.6963628+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"hkpf2uny"}}
+{"time":"2024-12-01T16:10:54.6963628+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"hkpf2uny"}}
+{"time":"2024-12-01T16:10:54.6963628+01:00","level":"INFO","msg":"sender: closed","stream_id":"hkpf2uny"}
+{"time":"2024-12-01T16:10:54.6963628+01:00","level":"INFO","msg":"stream: closed","id":"hkpf2uny"}

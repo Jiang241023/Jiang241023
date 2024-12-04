@@ -1,0 +1,17 @@
+{"time":"2024-12-01T16:02:26.4368362+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T16:02:26.4368362+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_160226-6dcn38ss\\logs\\debug-core.log"}
+{"time":"2024-12-01T16:02:26.562145+01:00","level":"INFO","msg":"created new stream","id":"6dcn38ss"}
+{"time":"2024-12-01T16:02:26.562145+01:00","level":"INFO","msg":"stream: started","id":"6dcn38ss"}
+{"time":"2024-12-01T16:02:26.562145+01:00","level":"INFO","msg":"sender: started","stream_id":"6dcn38ss"}
+{"time":"2024-12-01T16:02:26.562145+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"6dcn38ss"}}
+{"time":"2024-12-01T16:02:26.562145+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"6dcn38ss"}}
+{"time":"2024-12-01T16:02:26.7952334+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T16:03:18.8260807+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T16:03:18.8260807+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T16:03:19.836961+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.6873842},{"desc":"uploading config.yaml","runtime_seconds":0.4979326,"progress":"771B/771B"}],"total_operations":2}}
+{"time":"2024-12-01T16:03:20.0002723+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T16:03:21.241833+01:00","level":"INFO","msg":"stream: closing","id":"6dcn38ss"}
+{"time":"2024-12-01T16:03:21.241833+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"6dcn38ss"}}
+{"time":"2024-12-01T16:03:21.241833+01:00","level":"INFO","msg":"sender: closed","stream_id":"6dcn38ss"}
+{"time":"2024-12-01T16:03:21.241833+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"6dcn38ss"}}
+{"time":"2024-12-01T16:03:21.241833+01:00","level":"INFO","msg":"stream: closed","id":"6dcn38ss"}

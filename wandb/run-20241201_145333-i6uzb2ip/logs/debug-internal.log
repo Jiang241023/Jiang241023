@@ -1,0 +1,17 @@
+{"time":"2024-12-01T14:53:33.0342508+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T14:53:33.0342508+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_145333-i6uzb2ip\\logs\\debug-core.log"}
+{"time":"2024-12-01T14:53:33.1599102+01:00","level":"INFO","msg":"created new stream","id":"i6uzb2ip"}
+{"time":"2024-12-01T14:53:33.1599102+01:00","level":"INFO","msg":"stream: started","id":"i6uzb2ip"}
+{"time":"2024-12-01T14:53:33.1599102+01:00","level":"INFO","msg":"sender: started","stream_id":"i6uzb2ip"}
+{"time":"2024-12-01T14:53:33.1599102+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"i6uzb2ip"}}
+{"time":"2024-12-01T14:53:33.1599102+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"i6uzb2ip"}}
+{"time":"2024-12-01T14:53:33.3813616+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T14:53:43.8535045+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T14:53:43.8535045+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T14:53:44.4976078+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T14:53:44.8465626+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-12-01T14:53:45.8561377+01:00","level":"INFO","msg":"stream: closing","id":"i6uzb2ip"}
+{"time":"2024-12-01T14:53:45.8561377+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"i6uzb2ip"}}
+{"time":"2024-12-01T14:53:45.8561377+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"i6uzb2ip"}}
+{"time":"2024-12-01T14:53:45.8561377+01:00","level":"INFO","msg":"sender: closed","stream_id":"i6uzb2ip"}
+{"time":"2024-12-01T14:53:45.8561377+01:00","level":"INFO","msg":"stream: closed","id":"i6uzb2ip"}

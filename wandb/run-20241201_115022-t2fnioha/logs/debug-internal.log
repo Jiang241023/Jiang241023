@@ -1,0 +1,17 @@
+{"time":"2024-12-01T11:50:22.7384873+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T11:50:22.7384873+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_115022-t2fnioha\\logs\\debug-core.log"}
+{"time":"2024-12-01T11:50:22.863402+01:00","level":"INFO","msg":"created new stream","id":"t2fnioha"}
+{"time":"2024-12-01T11:50:22.863402+01:00","level":"INFO","msg":"stream: started","id":"t2fnioha"}
+{"time":"2024-12-01T11:50:22.863402+01:00","level":"INFO","msg":"sender: started","stream_id":"t2fnioha"}
+{"time":"2024-12-01T11:50:22.863402+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"t2fnioha"}}
+{"time":"2024-12-01T11:50:22.863402+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"t2fnioha"}}
+{"time":"2024-12-01T11:50:23.0946509+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T11:50:30.9899828+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T11:50:30.9904853+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T11:50:31.6786417+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T11:50:31.8787457+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-12-01T11:50:32.8968184+01:00","level":"INFO","msg":"stream: closing","id":"t2fnioha"}
+{"time":"2024-12-01T11:50:32.8968184+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"t2fnioha"}}
+{"time":"2024-12-01T11:50:32.8968184+01:00","level":"INFO","msg":"sender: closed","stream_id":"t2fnioha"}
+{"time":"2024-12-01T11:50:32.8968184+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"t2fnioha"}}
+{"time":"2024-12-01T11:50:32.8968184+01:00","level":"INFO","msg":"stream: closed","id":"t2fnioha"}

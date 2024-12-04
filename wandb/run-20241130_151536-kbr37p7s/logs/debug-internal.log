@@ -1,0 +1,17 @@
+{"time":"2024-11-30T15:15:36.6283715+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T15:15:36.6283715+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_151536-kbr37p7s\\logs\\debug-core.log"}
+{"time":"2024-11-30T15:15:36.7536632+01:00","level":"INFO","msg":"created new stream","id":"kbr37p7s"}
+{"time":"2024-11-30T15:15:36.7536632+01:00","level":"INFO","msg":"stream: started","id":"kbr37p7s"}
+{"time":"2024-11-30T15:15:36.7536632+01:00","level":"INFO","msg":"sender: started","stream_id":"kbr37p7s"}
+{"time":"2024-11-30T15:15:36.7536632+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"kbr37p7s"}}
+{"time":"2024-11-30T15:15:36.7536632+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"kbr37p7s"}}
+{"time":"2024-11-30T15:15:36.9545536+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T15:15:37.1257253+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T15:15:37.1262287+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T15:15:38.1305204+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.4415456}],"total_operations":1}}
+{"time":"2024-11-30T15:15:38.1886422+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T15:15:39.4035891+01:00","level":"INFO","msg":"stream: closing","id":"kbr37p7s"}
+{"time":"2024-11-30T15:15:39.4035891+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"kbr37p7s"}}
+{"time":"2024-11-30T15:15:39.4035891+01:00","level":"INFO","msg":"sender: closed","stream_id":"kbr37p7s"}
+{"time":"2024-11-30T15:15:39.4035891+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"kbr37p7s"}}
+{"time":"2024-11-30T15:15:39.4035891+01:00","level":"INFO","msg":"stream: closed","id":"kbr37p7s"}
