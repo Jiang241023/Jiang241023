@@ -53,7 +53,7 @@ def evaluate(model_1, model_2, model_3, ds_test, ensemble = True):
     accuracy = sum(accuracy_list) / len(accuracy_list)
 
     # Log the test accuracy to WandB
-    wandb.log({'Test_accuracy': accuracy})
+    wandb.log({'Evaluation_accuracy': accuracy})
 
     total_samples = tp + fp + tn + fn
     #print(f"Total samples accounted for: {total_samples}")
