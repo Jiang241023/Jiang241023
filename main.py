@@ -12,7 +12,7 @@ from GRAD_CAM_visualization import grad_cam_visualization
 
 
 FLAGS = flags.FLAGS
-flags.DEFINE_boolean('train', False, 'Specify whether to train or evaluate a model.')
+flags.DEFINE_boolean('train', True, 'Specify whether to train or evaluate a model.')
 
 def train_model(model, base_model, ds_train, ds_val, num_batches, ds_info, run_paths, path_model_id):
     print('-' * 88)
@@ -44,7 +44,7 @@ def main(argv):
     utils_misc.set_loggers(run_paths_3['path_logs_train'], logging.INFO)
 
     # gin-config
-    gin.parse_config_files_and_bindings([r'F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\configs\config.gin'], [])
+    gin.parse_config_files_and_bindings([r'F:\DL_lab\Jiang241023\configs\config.gin'], [])
     #print(gin.config_str())
     utils_params.save_config(run_paths_1['path_gin'], gin.config_str())
     utils_params.save_config(run_paths_2['path_gin'], gin.config_str())
@@ -106,11 +106,10 @@ def main(argv):
 
 
     else:
-        checkpoint_path_1 = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\mobilenet_like_2\ckpts'
-        checkpoint_path_2 = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\vgg_like_3\ckpts'
-        checkpoint_path_3 = r'F:\dl lab\dl-lab-24w-team04-feature\experiments\inception_v2_like_2\ckpts'
+        checkpoint_path_1 = r'F:\DL_lab\experiments\mobilenet_like_2\ckpts'
+        checkpoint_path_2 = r'F:\DL_lab\experiments\vgg_like_4\ckpts'
+        checkpoint_path_3 = r'F:\DL_lab\experiments\inception_v2_like_2\ckpts'
 
-        # Model_1
         checkpoint_1 = tf.train.Checkpoint(model = model_1)
         latest_checkpoint_1 = tf.train.latest_checkpoint(checkpoint_path_1)
         if latest_checkpoint_1:
@@ -137,9 +136,9 @@ def main(argv):
         else:
             print("No checkpoint found. Starting from scratch.")
 
-        evaluate(model_1 = model_1, model_2 = model_2, model_3 = model_3, ds_test = ds_test , ensemble=False)
+        evaluate(model_1 = model_1, model_2 = model_2, model_3 = model_3, ds_test = ds_test , ensemble=True)
 
-        grad_cam_visualization(model = model_2)
+        grad_cam_visualization(model = model_3)
 
 
 if __name__ == "__main__":

@@ -36,7 +36,7 @@ layers.vgg_block.kernel_size = (3, 3)
 layers.mobilenet_block.strides = 1
 
 # Training
-Trainer.total_epochs = 10
+Trainer.total_epochs = 8
 #Trainer.log_interval = 37
 #Trainer.ckpt_interval = 37
 Trainer.learning_rate = 1e-4

@@ -67,7 +67,7 @@ def train_func():
         utils_misc.set_loggers(run_paths['path_logs_train'], logging.INFO)
 
         # gin-config
-        gin.parse_config_files_and_bindings([r'F:\dl lab\dl-lab-24w-team04-feature\Jiang241023\configs\config.gin'], bindings)
+        gin.parse_config_files_and_bindings([r'F:\DL_lab\Jiang241023\configs\config.gin'], bindings)
         utils_params.save_config(run_paths['path_gin'], gin.config_str())
 
         # setup pipeline
@@ -117,7 +117,7 @@ for model in model_types:
             },
             'parameters': {
                 'Trainer.total_epochs': {
-                    'values': [10]
+                    'values': [8]
                 },
                 'model_type':{
                     'values': [model]
@@ -161,7 +161,7 @@ for model in model_types:
             },
             'parameters': {
                 'Trainer.total_epochs': {
-                    'values': [10]
+                    'values': [8]
                 },
                 'model_type':{
                     'values': [model]
@@ -205,7 +205,7 @@ for model in model_types:
             },
             'parameters': {
                 'Trainer.total_epochs': {
-                    'values': [10]
+                    'values': [8]
                 },
                 'model_type':{
                     'values': [model]
