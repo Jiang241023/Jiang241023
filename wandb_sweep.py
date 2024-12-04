@@ -100,10 +100,10 @@ def train_func():
         print(f"Evaluating {model_type} on the test dataset...")
 
         accuracy = evaluate(model, ds_test)
-        print(f"Test accuracy for {model_type}: {accuracy}")
+        print(f"Evaluation accuracy for {model_type}: {accuracy}")
 
         # Log the test accuracy to WandB
-        wandb.log({'test_accuracy': accuracy})
+        wandb.log({'evaluation_accuracy': accuracy})
 
 model_types = ['mobilenet_like', 'vgg_like', 'inception_v2_like']
 for model in model_types:
@@ -117,7 +117,7 @@ for model in model_types:
             },
             'parameters': {
                 'Trainer.total_epochs': {
-                    'values': [8]
+                    'values': [10]
                 },
                 'model_type':{
                     'values': [model]
@@ -131,8 +131,8 @@ for model in model_types:
                 'mobilenet_like.n_blocks': {
                     'distribution': 'q_uniform',
                     'q': 1,
-                    'min': 2,
-                    'max': 8
+                    'min': 1,
+                    'max': 2
                 },
                 'mobilenet_like.dense_units': {
                     'distribution': 'q_log_uniform',
@@ -161,7 +161,7 @@ for model in model_types:
             },
             'parameters': {
                 'Trainer.total_epochs': {
-                    'values': [8]
+                    'values': [10]
                 },
                 'model_type':{
                     'values': [model]
@@ -169,14 +169,14 @@ for model in model_types:
                 'vgg_like.base_filters': {
                     'distribution': 'q_log_uniform',
                     'q': 1,
-                    'min': math.log(8), # -> ln8 = 2.0794
-                    'max': math.log(128) # -> ln128 = 4.852
+                    'min': math.log(8),
+                    'max': math.log(128)
                 },
                 'vgg_like.n_blocks': {
                     'distribution': 'q_uniform',
                     'q': 1,
-                    'min': 2,
-                    'max': 8
+                    'min': 1,
+                    'max': 1
                 },
                 'vgg_like.dense_units': {
                     'distribution': 'q_log_uniform',
@@ -205,7 +205,7 @@ for model in model_types:
             },
             'parameters': {
                 'Trainer.total_epochs': {
-                    'values': [8]
+                    'values': [10]
                 },
                 'model_type':{
                     'values': [model]
@@ -213,14 +213,14 @@ for model in model_types:
                 'inception_v2_like.base_filters': {
                     'distribution': 'q_log_uniform',
                     'q': 1,
-                    'min': math.log(8), # -> ln8 = 2.0794
-                    'max': math.log(128) # -> ln128 = 4.852
+                    'min': math.log(8),
+                    'max': math.log(128)
                 },
                 'inception_v2_like.n_blocks': {
                     'distribution': 'q_uniform',
                     'q': 1,
-                    'min': 2,
-                    'max': 8
+                    'min': 1,
+                    'max': 2
                 },
                 'inception_v2_like.dense_units': {
                     'distribution': 'q_log_uniform',

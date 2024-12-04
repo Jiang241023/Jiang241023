@@ -110,6 +110,10 @@ def main(argv):
         checkpoint_path_2 = r'F:\DL_lab\experiments\vgg_like_4\ckpts'
         checkpoint_path_3 = r'F:\DL_lab\experiments\inception_v2_like_2\ckpts'
 
+        checkpoint_path_1 = r'F:\DL_lab\experiments\run_2024-12-04T18-42-08-029716_mobilenet_like\ckpts'
+        checkpoint_path_2 = r'F:\DL_lab\experiments\run_2024-12-04T18-42-08-030715_vgg_like\ckpts'
+        checkpoint_path_3 = r'F:\DL_lab\experiments\run_2024-12-04T18-42-08-030715_inception_v2_like\ckpts'
+
 
         checkpoint_1 = tf.train.Checkpoint(model = model_1)
         latest_checkpoint_1 = tf.train.latest_checkpoint(checkpoint_path_1)
