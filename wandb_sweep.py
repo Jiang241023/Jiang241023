@@ -142,8 +142,8 @@ for model in model_types:
                 },
                 'mobilenet_like.dropout_rate': {
                     'distribution': 'uniform',
-                    'min': 0.1,
-                    'max': 0.9
+                    'min': 0.2,
+                    'max': 0.6
                 }
             }
         }
@@ -186,8 +186,8 @@ for model in model_types:
                 },
                 'vgg_like.dropout_rate': {
                     'distribution': 'uniform',
-                    'min': 0.1,
-                    'max': 0.9
+                    'min': 0.2,
+                    'max': 0.6
                 }
             }
         }
@@ -230,8 +230,8 @@ for model in model_types:
                 },
                 'inception_v2_like.dropout_rate': {
                     'distribution': 'uniform',
-                    'min': 0.1,
-                    'max': 0.9
+                    'min': 0.2,
+                    'max': 0.6
                 }
             }
         }
