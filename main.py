@@ -12,7 +12,7 @@ from GRAD_CAM_visualization import grad_cam_visualization
 
 
 FLAGS = flags.FLAGS
-flags.DEFINE_boolean('train', True, 'Specify whether to train or evaluate a model.')
+flags.DEFINE_boolean('train', False, 'Specify whether to train or evaluate a model.')
 
 def train_model(model, base_model, ds_train, ds_val, num_batches, ds_info, run_paths, path_model_id):
     print('-' * 88)
@@ -110,6 +110,7 @@ def main(argv):
         checkpoint_path_2 = r'F:\DL_lab\experiments\vgg_like_4\ckpts'
         checkpoint_path_3 = r'F:\DL_lab\experiments\inception_v2_like_2\ckpts'
 
+
         checkpoint_1 = tf.train.Checkpoint(model = model_1)
         latest_checkpoint_1 = tf.train.latest_checkpoint(checkpoint_path_1)
         if latest_checkpoint_1:
@@ -136,9 +137,9 @@ def main(argv):
         else:
             print("No checkpoint found. Starting from scratch.")
 
-        evaluate(model_1 = model_1, model_2 = model_2, model_3 = model_3, ds_test = ds_test , ensemble=True)
+        evaluate(model_1 = model_1, model_2 = model_2, model_3 = model_3, ds_test = ds_test , ensemble=False)
 
-        grad_cam_visualization(model = model_3)
+        grad_cam_visualization(model = model_2)
 
 
 if __name__ == "__main__":
