@@ -7,3 +7,6 @@
 {"time":"2024-12-03T20:57:31.6936471+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"dc756nj1"}}
 {"time":"2024-12-03T20:57:32.0976973+01:00","level":"INFO","msg":"Starting system monitor"}
 {"time":"2024-12-03T20:57:52.1046518+01:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 23640"}
+{"time":"2024-12-04T07:49:18.5913611+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/diabetic-retinopathy-detection/dc756nj1/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-12-04T07:49:20.7262115+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/diabetic-retinopathy-detection/dc756nj1/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-12-04T09:15:38.2856686+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/diabetic-retinopathy-detection/dc756nj1/file_stream\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
