@@ -1,0 +1,17 @@
+{"time":"2024-11-30T15:51:57.0191506+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T15:51:57.0191506+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_155157-deg904lz\\logs\\debug-core.log"}
+{"time":"2024-11-30T15:51:57.1456312+01:00","level":"INFO","msg":"created new stream","id":"deg904lz"}
+{"time":"2024-11-30T15:51:57.1456312+01:00","level":"INFO","msg":"stream: started","id":"deg904lz"}
+{"time":"2024-11-30T15:51:57.1456312+01:00","level":"INFO","msg":"sender: started","stream_id":"deg904lz"}
+{"time":"2024-11-30T15:51:57.1456312+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"deg904lz"}}
+{"time":"2024-11-30T15:51:57.1456312+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"deg904lz"}}
+{"time":"2024-11-30T15:51:57.3648219+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T15:52:05.8560797+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T15:52:05.8565832+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T15:52:06.8610673+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.623172,"progress":"5.2KB/5.2KB"}],"total_operations":1}}
+{"time":"2024-11-30T15:52:06.9179222+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T15:52:08.1384232+01:00","level":"INFO","msg":"stream: closing","id":"deg904lz"}
+{"time":"2024-11-30T15:52:08.1384232+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"deg904lz"}}
+{"time":"2024-11-30T15:52:08.1384232+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"deg904lz"}}
+{"time":"2024-11-30T15:52:08.1384232+01:00","level":"INFO","msg":"sender: closed","stream_id":"deg904lz"}
+{"time":"2024-11-30T15:52:08.1384232+01:00","level":"INFO","msg":"stream: closed","id":"deg904lz"}

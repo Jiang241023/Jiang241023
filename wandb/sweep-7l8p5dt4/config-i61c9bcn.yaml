@@ -1,0 +1,14 @@
+wandb_version: 1
+
+Trainer.total_epochs:
+  value: 10
+mobilenet_like.base_filters:
+  value: 12
+mobilenet_like.dense_units:
+  value: 48
+mobilenet_like.dropout_rate:
+  value: 0.87403891944209
+mobilenet_like.n_blocks:
+  value: 6
+model_type:
+  value: mobilenet_like

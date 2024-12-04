@@ -1,0 +1,17 @@
+{"time":"2024-12-01T14:46:32.2036577+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T14:46:32.2036577+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_144632-u0yfa5h4\\logs\\debug-core.log"}
+{"time":"2024-12-01T14:46:32.3291734+01:00","level":"INFO","msg":"created new stream","id":"u0yfa5h4"}
+{"time":"2024-12-01T14:46:32.3291734+01:00","level":"INFO","msg":"stream: started","id":"u0yfa5h4"}
+{"time":"2024-12-01T14:46:32.3291734+01:00","level":"INFO","msg":"sender: started","stream_id":"u0yfa5h4"}
+{"time":"2024-12-01T14:46:32.3291734+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"u0yfa5h4"}}
+{"time":"2024-12-01T14:46:32.3291734+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"u0yfa5h4"}}
+{"time":"2024-12-01T14:46:32.5590641+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T14:46:42.4684912+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T14:46:42.4684912+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T14:46:43.4739578+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.6695142,"progress":"756B/756B"}],"total_operations":1}}
+{"time":"2024-12-01T14:46:43.5031148+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T14:46:44.7152084+01:00","level":"INFO","msg":"stream: closing","id":"u0yfa5h4"}
+{"time":"2024-12-01T14:46:44.7152084+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"u0yfa5h4"}}
+{"time":"2024-12-01T14:46:44.7152084+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"u0yfa5h4"}}
+{"time":"2024-12-01T14:46:44.7152084+01:00","level":"INFO","msg":"sender: closed","stream_id":"u0yfa5h4"}
+{"time":"2024-12-01T14:46:44.7152084+01:00","level":"INFO","msg":"stream: closed","id":"u0yfa5h4"}

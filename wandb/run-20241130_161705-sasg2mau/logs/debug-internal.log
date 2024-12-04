@@ -1,0 +1,17 @@
+{"time":"2024-11-30T16:17:05.8688783+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T16:17:05.8688783+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_161705-sasg2mau\\logs\\debug-core.log"}
+{"time":"2024-11-30T16:17:05.994119+01:00","level":"INFO","msg":"created new stream","id":"sasg2mau"}
+{"time":"2024-11-30T16:17:05.994119+01:00","level":"INFO","msg":"stream: started","id":"sasg2mau"}
+{"time":"2024-11-30T16:17:05.994656+01:00","level":"INFO","msg":"sender: started","stream_id":"sasg2mau"}
+{"time":"2024-11-30T16:17:05.994119+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"sasg2mau"}}
+{"time":"2024-11-30T16:17:05.994656+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"sasg2mau"}}
+{"time":"2024-11-30T16:17:06.2359551+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T16:17:27.301721+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T16:17:27.3022364+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T16:17:27.9403431+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T16:17:28.1906399+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-11-30T16:17:29.207705+01:00","level":"INFO","msg":"stream: closing","id":"sasg2mau"}
+{"time":"2024-11-30T16:17:29.207705+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"sasg2mau"}}
+{"time":"2024-11-30T16:17:29.207705+01:00","level":"INFO","msg":"sender: closed","stream_id":"sasg2mau"}
+{"time":"2024-11-30T16:17:29.207705+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"sasg2mau"}}
+{"time":"2024-11-30T16:17:29.207705+01:00","level":"INFO","msg":"stream: closed","id":"sasg2mau"}

@@ -1,0 +1,17 @@
+{"time":"2024-11-30T15:44:58.8508589+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T15:44:58.8508589+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_154458-hzge6lzc\\logs\\debug-core.log"}
+{"time":"2024-11-30T15:44:58.9778795+01:00","level":"INFO","msg":"created new stream","id":"hzge6lzc"}
+{"time":"2024-11-30T15:44:58.9778795+01:00","level":"INFO","msg":"stream: started","id":"hzge6lzc"}
+{"time":"2024-11-30T15:44:58.9778795+01:00","level":"INFO","msg":"sender: started","stream_id":"hzge6lzc"}
+{"time":"2024-11-30T15:44:58.9778795+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"hzge6lzc"}}
+{"time":"2024-11-30T15:44:58.9778795+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"hzge6lzc"}}
+{"time":"2024-11-30T15:44:59.1772318+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T15:45:07.3566489+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T15:45:07.3571526+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T15:45:08.0920176+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T15:45:08.3157122+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-11-30T15:45:09.332665+01:00","level":"INFO","msg":"stream: closing","id":"hzge6lzc"}
+{"time":"2024-11-30T15:45:09.332665+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"hzge6lzc"}}
+{"time":"2024-11-30T15:45:09.332665+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"hzge6lzc"}}
+{"time":"2024-11-30T15:45:09.332665+01:00","level":"INFO","msg":"sender: closed","stream_id":"hzge6lzc"}
+{"time":"2024-11-30T15:45:09.332665+01:00","level":"INFO","msg":"stream: closed","id":"hzge6lzc"}

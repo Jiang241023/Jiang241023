@@ -1,0 +1,17 @@
+{"time":"2024-11-30T16:30:30.0415667+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T16:30:30.0415667+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_163030-beigdy61\\logs\\debug-core.log"}
+{"time":"2024-11-30T16:30:30.1670779+01:00","level":"INFO","msg":"created new stream","id":"beigdy61"}
+{"time":"2024-11-30T16:30:30.1670779+01:00","level":"INFO","msg":"stream: started","id":"beigdy61"}
+{"time":"2024-11-30T16:30:30.1670779+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"beigdy61"}}
+{"time":"2024-11-30T16:30:30.1670779+01:00","level":"INFO","msg":"sender: started","stream_id":"beigdy61"}
+{"time":"2024-11-30T16:30:30.1670779+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"beigdy61"}}
+{"time":"2024-11-30T16:30:30.396827+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T16:30:51.7321109+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T16:30:51.7321109+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T16:30:52.3924747+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T16:30:52.6124806+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-11-30T16:30:53.6312776+01:00","level":"INFO","msg":"stream: closing","id":"beigdy61"}
+{"time":"2024-11-30T16:30:53.6312776+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"beigdy61"}}
+{"time":"2024-11-30T16:30:53.6312776+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"beigdy61"}}
+{"time":"2024-11-30T16:30:53.6312776+01:00","level":"INFO","msg":"sender: closed","stream_id":"beigdy61"}
+{"time":"2024-11-30T16:30:53.6312776+01:00","level":"INFO","msg":"stream: closed","id":"beigdy61"}

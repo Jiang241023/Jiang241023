@@ -1,0 +1,17 @@
+{"time":"2024-12-01T13:10:39.8504376+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T13:10:39.8504376+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_131039-hs880pzn\\logs\\debug-core.log"}
+{"time":"2024-12-01T13:10:39.9746475+01:00","level":"INFO","msg":"created new stream","id":"hs880pzn"}
+{"time":"2024-12-01T13:10:39.9746475+01:00","level":"INFO","msg":"stream: started","id":"hs880pzn"}
+{"time":"2024-12-01T13:10:39.9746475+01:00","level":"INFO","msg":"sender: started","stream_id":"hs880pzn"}
+{"time":"2024-12-01T13:10:39.9746475+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"hs880pzn"}}
+{"time":"2024-12-01T13:10:39.9746475+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"hs880pzn"}}
+{"time":"2024-12-01T13:10:40.1863288+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T13:11:01.2817636+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T13:11:01.2817636+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T13:11:01.9152477+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T13:11:02.1131312+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-12-01T13:11:03.131294+01:00","level":"INFO","msg":"stream: closing","id":"hs880pzn"}
+{"time":"2024-12-01T13:11:03.131294+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"hs880pzn"}}
+{"time":"2024-12-01T13:11:03.131294+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"hs880pzn"}}
+{"time":"2024-12-01T13:11:03.131294+01:00","level":"INFO","msg":"sender: closed","stream_id":"hs880pzn"}
+{"time":"2024-12-01T13:11:03.131294+01:00","level":"INFO","msg":"stream: closed","id":"hs880pzn"}

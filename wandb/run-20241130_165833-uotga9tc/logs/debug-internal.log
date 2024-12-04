@@ -1,0 +1,17 @@
+{"time":"2024-11-30T16:58:33.2983572+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-30T16:58:33.2983572+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241130_165833-uotga9tc\\logs\\debug-core.log"}
+{"time":"2024-11-30T16:58:33.423568+01:00","level":"INFO","msg":"created new stream","id":"uotga9tc"}
+{"time":"2024-11-30T16:58:33.423568+01:00","level":"INFO","msg":"stream: started","id":"uotga9tc"}
+{"time":"2024-11-30T16:58:33.423568+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"uotga9tc"}}
+{"time":"2024-11-30T16:58:33.423568+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"uotga9tc"}}
+{"time":"2024-11-30T16:58:33.423568+01:00","level":"INFO","msg":"sender: started","stream_id":"uotga9tc"}
+{"time":"2024-11-30T16:58:33.6460678+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T16:59:10.1259976+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T16:59:10.1259976+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T16:59:11.0005661+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T16:59:11.1464434+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary, console logs","runtime_seconds":0.1458773}],"total_operations":1}}
+{"time":"2024-11-30T16:59:12.2126199+01:00","level":"INFO","msg":"stream: closing","id":"uotga9tc"}
+{"time":"2024-11-30T16:59:12.2126199+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"uotga9tc"}}
+{"time":"2024-11-30T16:59:12.2126199+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"uotga9tc"}}
+{"time":"2024-11-30T16:59:12.2126199+01:00","level":"INFO","msg":"sender: closed","stream_id":"uotga9tc"}
+{"time":"2024-11-30T16:59:12.2126199+01:00","level":"INFO","msg":"stream: closed","id":"uotga9tc"}

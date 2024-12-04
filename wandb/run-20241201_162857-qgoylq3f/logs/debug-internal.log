@@ -1,0 +1,17 @@
+{"time":"2024-12-01T16:28:57.6633448+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T16:28:57.6633448+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_162857-qgoylq3f\\logs\\debug-core.log"}
+{"time":"2024-12-01T16:28:57.7893492+01:00","level":"INFO","msg":"created new stream","id":"qgoylq3f"}
+{"time":"2024-12-01T16:28:57.7893492+01:00","level":"INFO","msg":"stream: started","id":"qgoylq3f"}
+{"time":"2024-12-01T16:28:57.7893492+01:00","level":"INFO","msg":"sender: started","stream_id":"qgoylq3f"}
+{"time":"2024-12-01T16:28:57.7893492+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"qgoylq3f"}}
+{"time":"2024-12-01T16:28:57.7893492+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"qgoylq3f"}}
+{"time":"2024-12-01T16:28:58.0225336+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T16:29:49.1423552+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T16:29:49.1423552+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T16:29:50.1533555+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.5178568,"progress":"772B/772B"},{"desc":"uploading output.log","runtime_seconds":0.5178568,"progress":"7.9KB/7.9KB"}],"total_operations":2}}
+{"time":"2024-12-01T16:29:50.3244004+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T16:29:51.5423052+01:00","level":"INFO","msg":"stream: closing","id":"qgoylq3f"}
+{"time":"2024-12-01T16:29:51.5423052+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"qgoylq3f"}}
+{"time":"2024-12-01T16:29:51.5423052+01:00","level":"INFO","msg":"sender: closed","stream_id":"qgoylq3f"}
+{"time":"2024-12-01T16:29:51.5423052+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"qgoylq3f"}}
+{"time":"2024-12-01T16:29:51.5423052+01:00","level":"INFO","msg":"stream: closed","id":"qgoylq3f"}

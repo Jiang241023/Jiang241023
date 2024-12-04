@@ -1,0 +1,17 @@
+{"time":"2024-12-01T10:00:43.6715811+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T10:00:43.6715811+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_100043-ceh5aqll\\logs\\debug-core.log"}
+{"time":"2024-12-01T10:00:43.797395+01:00","level":"INFO","msg":"created new stream","id":"ceh5aqll"}
+{"time":"2024-12-01T10:00:43.797395+01:00","level":"INFO","msg":"stream: started","id":"ceh5aqll"}
+{"time":"2024-12-01T10:00:43.797395+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ceh5aqll"}}
+{"time":"2024-12-01T10:00:43.797395+01:00","level":"INFO","msg":"sender: started","stream_id":"ceh5aqll"}
+{"time":"2024-12-01T10:00:43.797395+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ceh5aqll"}}
+{"time":"2024-12-01T10:00:44.0137341+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T10:00:44.1812251+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T10:00:44.1818432+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T10:00:45.136107+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T10:00:45.1840414+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary, console logs","runtime_seconds":0.0479344}],"total_operations":1}}
+{"time":"2024-12-01T10:00:46.3687256+01:00","level":"INFO","msg":"stream: closing","id":"ceh5aqll"}
+{"time":"2024-12-01T10:00:46.3687256+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ceh5aqll"}}
+{"time":"2024-12-01T10:00:46.3687256+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ceh5aqll"}}
+{"time":"2024-12-01T10:00:46.3687256+01:00","level":"INFO","msg":"sender: closed","stream_id":"ceh5aqll"}
+{"time":"2024-12-01T10:00:46.3687256+01:00","level":"INFO","msg":"stream: closed","id":"ceh5aqll"}

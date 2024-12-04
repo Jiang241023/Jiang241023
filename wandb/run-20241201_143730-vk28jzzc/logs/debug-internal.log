@@ -1,0 +1,14 @@
+{"time":"2024-12-01T14:37:30.0247404+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T14:37:30.0247404+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_143730-vk28jzzc\\logs\\debug-core.log"}
+{"time":"2024-12-01T14:37:30.1488386+01:00","level":"INFO","msg":"created new stream","id":"vk28jzzc"}
+{"time":"2024-12-01T14:37:30.1488386+01:00","level":"INFO","msg":"stream: started","id":"vk28jzzc"}
+{"time":"2024-12-01T14:37:30.1488386+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"vk28jzzc"}}
+{"time":"2024-12-01T14:37:30.1488386+01:00","level":"INFO","msg":"sender: started","stream_id":"vk28jzzc"}
+{"time":"2024-12-01T14:37:30.1488386+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"vk28jzzc"}}
+{"time":"2024-12-01T14:37:30.3585116+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-02T09:27:03.7501145+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/uncategorized/vk28jzzc/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-12-02T09:27:06.1267555+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/uncategorized/vk28jzzc/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-12-03T09:14:20.5682469+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/uncategorized/vk28jzzc/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-12-03T09:14:22.9262316+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/uncategorized/vk28jzzc/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-12-03T10:15:38.547597+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/uncategorized/vk28jzzc/file_stream\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2024-12-03T17:15:39.1216322+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/jiangyueyang2023de-university-of-stuttgart/uncategorized/vk28jzzc/file_stream\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}

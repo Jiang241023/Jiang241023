@@ -1,0 +1,17 @@
+{"time":"2024-12-01T14:52:14.9480871+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T14:52:14.9480871+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_145214-3dcoodrm\\logs\\debug-core.log"}
+{"time":"2024-12-01T14:52:15.0733841+01:00","level":"INFO","msg":"created new stream","id":"3dcoodrm"}
+{"time":"2024-12-01T14:52:15.0733841+01:00","level":"INFO","msg":"stream: started","id":"3dcoodrm"}
+{"time":"2024-12-01T14:52:15.0733841+01:00","level":"INFO","msg":"sender: started","stream_id":"3dcoodrm"}
+{"time":"2024-12-01T14:52:15.0733841+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"3dcoodrm"}}
+{"time":"2024-12-01T14:52:15.0733841+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"3dcoodrm"}}
+{"time":"2024-12-01T14:52:15.3141543+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T14:52:25.958443+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T14:52:25.958443+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T14:52:26.6668877+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T14:52:26.9333984+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-12-01T14:52:27.9452128+01:00","level":"INFO","msg":"stream: closing","id":"3dcoodrm"}
+{"time":"2024-12-01T14:52:27.9452128+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"3dcoodrm"}}
+{"time":"2024-12-01T14:52:27.9452128+01:00","level":"INFO","msg":"sender: closed","stream_id":"3dcoodrm"}
+{"time":"2024-12-01T14:52:27.9452128+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"3dcoodrm"}}
+{"time":"2024-12-01T14:52:27.946649+01:00","level":"INFO","msg":"stream: closed","id":"3dcoodrm"}

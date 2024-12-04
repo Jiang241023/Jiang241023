@@ -1,0 +1,17 @@
+{"time":"2024-12-01T13:08:06.9126852+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T13:08:06.9126852+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_130806-rk1avim1\\logs\\debug-core.log"}
+{"time":"2024-12-01T13:08:07.0383093+01:00","level":"INFO","msg":"created new stream","id":"rk1avim1"}
+{"time":"2024-12-01T13:08:07.0388122+01:00","level":"INFO","msg":"stream: started","id":"rk1avim1"}
+{"time":"2024-12-01T13:08:07.0388122+01:00","level":"INFO","msg":"sender: started","stream_id":"rk1avim1"}
+{"time":"2024-12-01T13:08:07.0388122+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"rk1avim1"}}
+{"time":"2024-12-01T13:08:07.0388122+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"rk1avim1"}}
+{"time":"2024-12-01T13:08:07.2392144+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T13:08:15.5187116+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T13:08:15.5187116+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T13:08:16.2433566+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T13:08:16.4730754+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-12-01T13:08:17.4907597+01:00","level":"INFO","msg":"stream: closing","id":"rk1avim1"}
+{"time":"2024-12-01T13:08:17.4907597+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"rk1avim1"}}
+{"time":"2024-12-01T13:08:17.4907597+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"rk1avim1"}}
+{"time":"2024-12-01T13:08:17.4907597+01:00","level":"INFO","msg":"sender: closed","stream_id":"rk1avim1"}
+{"time":"2024-12-01T13:08:17.4907597+01:00","level":"INFO","msg":"stream: closed","id":"rk1avim1"}

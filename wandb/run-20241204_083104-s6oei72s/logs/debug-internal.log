@@ -1,0 +1,9 @@
+{"time":"2024-12-04T08:31:04.4432334+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-04T08:31:04.4432334+01:00","level":"INFO","msg":"created symlink","path":"F:\\DL_lab\\Jiang241023\\wandb\\run-20241204_083104-s6oei72s\\logs\\debug-core.log"}
+{"time":"2024-12-04T08:31:04.570534+01:00","level":"INFO","msg":"created new stream","id":"s6oei72s"}
+{"time":"2024-12-04T08:31:04.5710616+01:00","level":"INFO","msg":"stream: started","id":"s6oei72s"}
+{"time":"2024-12-04T08:31:04.5710616+01:00","level":"INFO","msg":"sender: started","stream_id":"s6oei72s"}
+{"time":"2024-12-04T08:31:04.5710616+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"s6oei72s"}}
+{"time":"2024-12-04T08:31:04.5710616+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"s6oei72s"}}
+{"time":"2024-12-04T08:31:04.9408498+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-04T08:31:24.9472202+01:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 53008"}

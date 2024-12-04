@@ -1,0 +1,17 @@
+{"time":"2024-12-01T13:26:12.6766135+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T13:26:12.6766135+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_132612-xsfz9a61\\logs\\debug-core.log"}
+{"time":"2024-12-01T13:26:12.803061+01:00","level":"INFO","msg":"created new stream","id":"xsfz9a61"}
+{"time":"2024-12-01T13:26:12.803061+01:00","level":"INFO","msg":"stream: started","id":"xsfz9a61"}
+{"time":"2024-12-01T13:26:12.803061+01:00","level":"INFO","msg":"sender: started","stream_id":"xsfz9a61"}
+{"time":"2024-12-01T13:26:12.803061+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"xsfz9a61"}}
+{"time":"2024-12-01T13:26:12.803061+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"xsfz9a61"}}
+{"time":"2024-12-01T13:26:13.0324006+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T13:26:33.8042307+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T13:26:33.8042307+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T13:26:34.4593628+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T13:26:34.8160289+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary, console logs","runtime_seconds":0.3566099}],"total_operations":1}}
+{"time":"2024-12-01T13:26:35.8434089+01:00","level":"INFO","msg":"stream: closing","id":"xsfz9a61"}
+{"time":"2024-12-01T13:26:35.8434089+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"xsfz9a61"}}
+{"time":"2024-12-01T13:26:35.8434089+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"xsfz9a61"}}
+{"time":"2024-12-01T13:26:35.8434089+01:00","level":"INFO","msg":"sender: closed","stream_id":"xsfz9a61"}
+{"time":"2024-12-01T13:26:35.8434089+01:00","level":"INFO","msg":"stream: closed","id":"xsfz9a61"}

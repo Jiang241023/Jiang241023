@@ -1,0 +1,17 @@
+{"time":"2024-12-01T14:47:03.2721821+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T14:47:03.2721821+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_144703-xe61imsx\\logs\\debug-core.log"}
+{"time":"2024-12-01T14:47:03.4402379+01:00","level":"INFO","msg":"created new stream","id":"xe61imsx"}
+{"time":"2024-12-01T14:47:03.4402379+01:00","level":"INFO","msg":"stream: started","id":"xe61imsx"}
+{"time":"2024-12-01T14:47:03.4402379+01:00","level":"INFO","msg":"sender: started","stream_id":"xe61imsx"}
+{"time":"2024-12-01T14:47:03.4402379+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"xe61imsx"}}
+{"time":"2024-12-01T14:47:03.4402379+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"xe61imsx"}}
+{"time":"2024-12-01T14:47:03.6374407+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T14:47:13.8379868+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T14:47:13.8379868+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T14:47:14.5854113+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T14:47:14.8052422+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-12-01T14:47:15.8132389+01:00","level":"INFO","msg":"stream: closing","id":"xe61imsx"}
+{"time":"2024-12-01T14:47:15.8132389+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"xe61imsx"}}
+{"time":"2024-12-01T14:47:15.8132389+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"xe61imsx"}}
+{"time":"2024-12-01T14:47:15.8132389+01:00","level":"INFO","msg":"sender: closed","stream_id":"xe61imsx"}
+{"time":"2024-12-01T14:47:15.8132389+01:00","level":"INFO","msg":"stream: closed","id":"xe61imsx"}

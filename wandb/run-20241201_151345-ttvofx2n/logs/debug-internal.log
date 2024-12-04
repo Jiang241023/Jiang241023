@@ -1,0 +1,17 @@
+{"time":"2024-12-01T15:13:45.7445546+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-01T15:13:45.7445546+01:00","level":"INFO","msg":"created symlink","path":"F:\\dl lab\\dl-lab-24w-team04-feature\\Jiang241023\\wandb\\run-20241201_151345-ttvofx2n\\logs\\debug-core.log"}
+{"time":"2024-12-01T15:13:45.8709789+01:00","level":"INFO","msg":"created new stream","id":"ttvofx2n"}
+{"time":"2024-12-01T15:13:45.8709789+01:00","level":"INFO","msg":"stream: started","id":"ttvofx2n"}
+{"time":"2024-12-01T15:13:45.8709789+01:00","level":"INFO","msg":"sender: started","stream_id":"ttvofx2n"}
+{"time":"2024-12-01T15:13:45.8709789+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ttvofx2n"}}
+{"time":"2024-12-01T15:13:45.8709789+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ttvofx2n"}}
+{"time":"2024-12-01T15:13:46.0878959+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T15:14:08.847331+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T15:14:08.847331+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T15:14:09.5135092+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T15:14:09.7065519+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-12-01T15:14:10.7242697+01:00","level":"INFO","msg":"stream: closing","id":"ttvofx2n"}
+{"time":"2024-12-01T15:14:10.7242697+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ttvofx2n"}}
+{"time":"2024-12-01T15:14:10.7242697+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ttvofx2n"}}
+{"time":"2024-12-01T15:14:10.7242697+01:00","level":"INFO","msg":"sender: closed","stream_id":"ttvofx2n"}
+{"time":"2024-12-01T15:14:10.7242697+01:00","level":"INFO","msg":"stream: closed","id":"ttvofx2n"}

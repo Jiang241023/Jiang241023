@@ -1,0 +1,16 @@
+{"time":"2024-12-04T08:35:51.0280923+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-04T08:35:51.0280923+01:00","level":"INFO","msg":"created symlink","path":"F:\\DL_lab\\Jiang241023\\wandb\\run-20241204_083551-zeeaem0c\\logs\\debug-core.log"}
+{"time":"2024-12-04T08:35:51.1578627+01:00","level":"INFO","msg":"created new stream","id":"zeeaem0c"}
+{"time":"2024-12-04T08:35:51.1578627+01:00","level":"INFO","msg":"stream: started","id":"zeeaem0c"}
+{"time":"2024-12-04T08:35:51.1578627+01:00","level":"INFO","msg":"sender: started","stream_id":"zeeaem0c"}
+{"time":"2024-12-04T08:35:51.1578627+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"zeeaem0c"}}
+{"time":"2024-12-04T08:35:51.1578627+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"zeeaem0c"}}
+{"time":"2024-12-04T08:35:51.5718613+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-04T08:36:53.2433004+01:00","level":"INFO","msg":"stream: closing","id":"zeeaem0c"}
+{"time":"2024-12-04T08:36:53.2433004+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-04T08:36:53.2441861+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-04T08:36:53.9494574+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-04T08:36:54.1404316+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"zeeaem0c"}}
+{"time":"2024-12-04T08:36:54.1404316+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"zeeaem0c"}}
+{"time":"2024-12-04T08:36:54.1404316+01:00","level":"INFO","msg":"sender: closed","stream_id":"zeeaem0c"}
+{"time":"2024-12-04T08:36:54.1404316+01:00","level":"INFO","msg":"stream: closed","id":"zeeaem0c"}
