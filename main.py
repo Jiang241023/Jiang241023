@@ -9,12 +9,22 @@ from utils import utils_params, utils_misc
 from models.architectures import mobilenet_like, vgg_like, inception_v2_like
 import tensorflow as tf
 from GRAD_CAM_visualization import grad_cam_visualization
+import random
+import numpy as np
+import os
 
+def random_seed(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    tf.random.set_seed(seed)
+    #os.environ['TF_DETERMINISTIC_OPS'] = '1'
+random_seed(50)
 
 FLAGS = flags.FLAGS
-flags.DEFINE_boolean('train', False, 'Specify whether to train or evaluate a model.')
+flags.DEFINE_boolean('train', True,'Specify whether to train or evaluate a model.')
 
-def train_model(model, base_model, ds_train, ds_val, num_batches, ds_info, run_paths, path_model_id):
+@gin.configurable
+def train_model(model, base_model, ds_train, ds_val, num_batches, unfrz_layer, ds_info, run_paths, path_model_id):
     print('-' * 88)
     print(f'Starting training {path_model_id}')
     model.summary()
@@ -23,7 +33,7 @@ def train_model(model, base_model, ds_train, ds_val, num_batches, ds_info, run_p
         print(layer.name, layer.trainable)
     for _ in trainer.train():
         continue
-    for layer in base_model.layers[-10:]:
+    for layer in base_model.layers[-unfrz_layer:]:
         layer.trainable = True
     for _ in trainer.train():
         continue
@@ -34,7 +44,7 @@ def train_model(model, base_model, ds_train, ds_val, num_batches, ds_info, run_p
 def main(argv):
 
     # generate folder structures
-    run_paths_1 = utils_params.gen_run_folder(path_model_id = 'mobilenet_like')
+    run_paths_1 = utils_params.gen_run_folder(path_model_id = 'mobilenet_like1')
     run_paths_2 = utils_params.gen_run_folder(path_model_id = 'vgg_like')
     run_paths_3 = utils_params.gen_run_folder(path_model_id = 'inception_v2_like')
 
@@ -75,14 +85,14 @@ def main(argv):
     if FLAGS.train:
 
         # Model_1
-        train_model(model = model_1,
-                    base_model = base_model_1,
-                    ds_train = ds_train,
-                    ds_val = ds_val,
-                    num_batches = num_batches,
-                    ds_info = ds_info,
-                    run_paths = run_paths_1,
-                    path_model_id = 'mobilenet_like')
+        # #train_model(model = model_1,
+        #             base_model = base_model_1,
+        #             ds_train = ds_train,
+        #             ds_val = ds_val,
+        #             num_batches = num_batches,
+        #             ds_info = ds_info,
+        #             run_paths = run_paths_1,
+        #             path_model_id = 'mobilenet_like')
 
         # Model_2
         train_model(model = model_2,
@@ -95,25 +105,26 @@ def main(argv):
                     path_model_id = 'vgg_like')
 
         # Model_3
-        train_model(model = model_3,
-                    base_model = base_model_3,
-                    ds_train = ds_train,
-                    ds_val = ds_val,
-                    num_batches = num_batches,
-                    ds_info = ds_info,
-                    run_paths = run_paths_3,
-                    path_model_id = 'inception_v2_like')
+       # # train_model(model = model_3,
+       #              base_model = base_model_3,
+       #              ds_train = ds_train,
+       #              ds_val = ds_val,
+       #              num_batches = num_batches,
+       #              ds_info = ds_info,
+       #              run_paths = run_paths_3,
+       #              path_model_id = 'inception_v2_like')
 
-
+        evaluate(model_1=model_1, model_2=model_2, model_3=model_3, ds_test=ds_test, ensemble=False)
     else:
-        checkpoint_path_1 = r'F:\DL_lab\experiments\mobilenet_like_2\ckpts'
-        checkpoint_path_2 = r'F:\DL_lab\experiments\vgg_like_4\ckpts'
-        checkpoint_path_3 = r'F:\DL_lab\experiments\inception_v2_like_2\ckpts'
+        #checkpoint_path_1 = r'F:\DL_lab\experiments\mobilenet_like_5\ckpts'
+        #checkpoint_path_2 = r'F:\DL_lab\experiments\vgg_like_5\ckpts'
+        #checkpoint_path_3 = r'F:\DL_lab\experiments\inception_v2_like_3\ckpts'
 
-        checkpoint_path_1 = r'F:\DL_lab\experiments\run_2024-12-04T18-42-08-029716_mobilenet_like\ckpts'
-        checkpoint_path_2 = r'F:\DL_lab\experiments\run_2024-12-04T18-42-08-030715_vgg_like\ckpts'
-        checkpoint_path_3 = r'F:\DL_lab\experiments\run_2024-12-04T18-42-08-030715_inception_v2_like\ckpts'
+        #checkpoint_path_2 = r'F:\DL_lab\experiments\run_2024-12-04T20-04-07-323513_vgg_like\ckpts'
 
+        checkpoint_path_1 = r'F:\DL_lab\experiments\mobilenet_like_5\ckpts'
+        checkpoint_path_2 = r'F:\DL_lab\experiments\run_2024-12-05T16-44-42-082392_vgg_like\ckpts'
+        checkpoint_path_3 = r'F:\DL_lab\experiments\run_2024-12-05T15-37-27-739830_inception_v2_like\ckpts'
 
         checkpoint_1 = tf.train.Checkpoint(model = model_1)
         latest_checkpoint_1 = tf.train.latest_checkpoint(checkpoint_path_1)

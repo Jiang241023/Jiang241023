@@ -5,7 +5,7 @@ from layers import vgg_block, mobilenet_block, InceptionResNetV2_block
 from tensorflow.keras.regularizers import l2
 
 @gin.configurable
-def vgg_like(n_classes, base_filters, n_blocks, dense_units, input_shape = (256, 256, 3), dropout_rate = 0.5):
+def vgg_like(n_classes, base_filters, n_blocks, dense_units, dropout_rate, input_shape = (256, 256, 3) ):
     """Defines a VGG-like architecture.
 
     Parameters:
