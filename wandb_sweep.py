@@ -40,9 +40,6 @@ def evaluate(model, ds_test):
         batch_accuracy = tf.reduce_mean(tf.cast(predictions == labels, tf.float32))
         accuracy_list.append(batch_accuracy.numpy())
 
-        # Update metrics (optional)
-        metrics.update_state(labels, predictions)
-
     # Calculate overall accuracy
     accuracy = sum(accuracy_list) / len(accuracy_list)
     return accuracy

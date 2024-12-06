@@ -36,14 +36,14 @@ def evaluate(model_1, model_2, model_3, ds_test, ensemble ):
             # final_predictions
             votes = predictions_1 + predictions_2 + predictions_3  # Count votes (0, 1, or 2, or 3)
 
-            print(f"prediction after ensembling")
+            #print(f"prediction after ensembling")
             final_predictions = tf.cast(votes > 1, tf.int32)
         else:
             # Model_2
             predictions_2 = model_2(images, training=False)
             predictions_2 = tf.cast(predictions_2 > threshold, tf.int32)
 
-            print(f"prediction using Model 2")
+            #print(f"prediction using Model 2")
             final_predictions = predictions_2
 
         # Update accuracy
