@@ -6,7 +6,7 @@ import numpy as np
 import wandb
 
 
-def evaluate(model_1, model_2, model_3, ds_test, ensemble = True):
+def evaluate(model_1, model_2, model_3, ds_test, ensemble ):
 
     metrics = ConfusionMatrix()
     accuracy_list = []
@@ -20,23 +20,30 @@ def evaluate(model_1, model_2, model_3, ds_test, ensemble = True):
 
         threshold = 0.5
 
-        # Model_1
-        predictions_1 = model_1(images, training = False)
-        predictions_1 = tf.cast(predictions_1 > threshold, tf.int32)
+        if ensemble == True:
+            # Model_1
+            predictions_1 = model_1(images, training = False)
+            predictions_1 = tf.cast(predictions_1 > threshold, tf.int32)
 
-        # Model_2
-        predictions_2 = model_2(images, training = False)
-        predictions_2 = tf.cast(predictions_2 > threshold, tf.int32)
+            # Model_2
+            predictions_2 = model_2(images, training=False)
+            predictions_2 = tf.cast(predictions_2 > threshold, tf.int32)
 
-        # Model_3
-        predictions_3 = model_3(images, training = False)
-        predictions_3 = tf.cast(predictions_3 > threshold, tf.int32)
+            # Model_3
+            predictions_3 = model_3(images, training=False)
+            predictions_3 = tf.cast(predictions_3 > threshold, tf.int32)
 
-        # final_predictions
-        votes = predictions_1 + predictions_2 + predictions_3  # Count votes (0, 1, or 2, or 3)
-        if ensemble:
+            # final_predictions
+            votes = predictions_1 + predictions_2 + predictions_3  # Count votes (0, 1, or 2, or 3)
+
+            #print(f"prediction after ensembling")
             final_predictions = tf.cast(votes > 1, tf.int32)
         else:
+            # Model_2
+            predictions_2 = model_2(images, training=False)
+            predictions_2 = tf.cast(predictions_2 > threshold, tf.int32)
+
+            #print(f"prediction using Model 2")
             final_predictions = predictions_2
 
         # Update accuracy
@@ -53,7 +60,7 @@ def evaluate(model_1, model_2, model_3, ds_test, ensemble = True):
     accuracy = sum(accuracy_list) / len(accuracy_list)
 
     # Log the test accuracy to WandB
-    wandb.log({'Test_accuracy': accuracy})
+    wandb.log({'Evaluation_accuracy': accuracy})
 
     total_samples = tp + fp + tn + fn
     #print(f"Total samples accounted for: {total_samples}")
@@ -80,7 +87,7 @@ def evaluate(model_1, model_2, model_3, ds_test, ensemble = True):
     logging.info(f"Precision: {precision:.2%}")
     logging.info(f"F1-Score: {f1_score:.2%}")
 
-    print(f"Test_accuracy is: {accuracy:.2%}")
+    print(f"Evaluation_accuracy is: {accuracy:.2%}")
     print(f"Sensitivity (Recall): {sensitivity:.2%}")
     print(f"Specificity: {specificity:.2%}")
     print(f"Precision: {precision:.2%}")
@@ -88,7 +95,7 @@ def evaluate(model_1, model_2, model_3, ds_test, ensemble = True):
     print(f"Confusion Matrix: TP={tp}, FP={fp}, TN={tn}, FN={fn}")
 
     return {
-        "Test_accuracy": accuracy,
+        "Evaluation_accuracy": accuracy,
         "sensitivity": sensitivity,
         "specificity": specificity,
         "precision": precision,

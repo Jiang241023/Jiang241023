@@ -1,19 +1,23 @@
 # Architectures
+mobilenet_like.base_filters = 21
+mobilenet_like.n_blocks = 2
+mobilenet_like.dense_units = 243
+mobilenet_like.dropout_rate =  0.4983837360281846
 
-mobilenet_like.base_filters = 63
-mobilenet_like.n_blocks = 7
-mobilenet_like.dense_units = 150
-mobilenet_like.dropout_rate =  0.38026722341156816
+#vgg_like.base_filters = 115
+#vgg_like.n_blocks = 1
+#vgg_like.dense_units = 20
+#vgg_like.dropout_rate = 0.4338533294659501
 
-vgg_like.base_filters = 83
-vgg_like.n_blocks = 3
-vgg_like.dense_units = 113
-vgg_like.dropout_rate = 0.21791097881864296
+vgg_like.base_filters = 14
+vgg_like.n_blocks = 1
+vgg_like.dense_units = 70
+vgg_like.dropout_rate = 0.2372860650923091
 
-inception_v2_like.base_filters = 52
-inception_v2_like.n_blocks = 3
-inception_v2_like.dense_units = 231
-inception_v2_like.dropout_rate = 0.2250767833808686
+inception_v2_like.base_filters = 92
+inception_v2_like.n_blocks = 1
+inception_v2_like.dense_units = 52
+inception_v2_like.dropout_rate = 0.5411492756224314
 
 # Layers
 layers.vgg_block.kernel_size = (3, 3)
@@ -34,6 +38,8 @@ preprocess.img_height = 256
 preprocess.img_width = 256
 #prepare.batch_size = 16
 prepare.caching = True
+
+train_model.unfrz_layer = 9
 
 # Grad_cam
 grad_cam_visualization.img_path =  r'F:\IDRID_dataset\images_augmented\images_augmented\train\class_1\IDRiD_001_aug_0.jpg'

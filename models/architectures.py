@@ -5,7 +5,7 @@ from layers import vgg_block, mobilenet_block, InceptionResNetV2_block
 from tensorflow.keras.regularizers import l2
 
 @gin.configurable
-def vgg_like(n_classes, base_filters, n_blocks, dense_units, input_shape = (256, 256, 3), dropout_rate = 0.5):
+def vgg_like(n_classes, base_filters, n_blocks, dense_units, dropout_rate, input_shape = (256, 256, 3) ):
     """Defines a VGG-like architecture.
 
     Parameters:
@@ -27,10 +27,10 @@ def vgg_like(n_classes, base_filters, n_blocks, dense_units, input_shape = (256,
 
     inputs = tf.keras.Input(shape = input_shape)
     print(inputs.shape) # -> (None, 256, 256, 3)
-    inputs_2 = base_model(inputs)
-    print(inputs_2.shape) # -> (None, 8, 8, 512)
+    out = base_model(inputs)
+    print(f"vgg output shape:{out.shape}") # -> (None, 8, 8, 512)
     for i in range(n_blocks):
-        out = vgg_block(inputs_2, base_filters, kernel_size=(3,3))
+        out = vgg_block(out, base_filters, kernel_size=(3, 3))
     out = tf.keras.layers.GlobalAveragePooling2D()(out)
     out = tf.keras.layers.Dense(dense_units, kernel_regularizer=l2(1e-4))(out)
     out = tf.keras.layers.LeakyReLU(alpha = 0.01)(out)
@@ -46,9 +46,10 @@ def mobilenet_like(n_classes, base_filters, n_blocks, dense_units, input_shape =
 
     assert n_blocks > 0, 'Number of blocks has to be at least 1.'
     inputs = tf.keras.Input(shape = input_shape)
-    inputs_2 = base_model(inputs)
+    out = base_model(inputs)
+    print(f"MobileNet output shape:{out.shape}")
     for i in range(n_blocks):
-        out = mobilenet_block(inputs_2, filters = base_filters, strides = 1)
+        out = mobilenet_block(out, filters =  base_filters * 2 ** (i+1), strides = 1)
     out = tf.keras.layers.GlobalAveragePooling2D()(out)
     out = tf.keras.layers.Dense(dense_units, activation=tf.nn.relu)(out)
     out = tf.keras.layers.Dropout(dropout_rate)(out)
@@ -66,9 +67,10 @@ def inception_v2_like(n_classes, base_filters, n_blocks, dense_units, input_shap
 
     assert n_blocks > 0, 'Number of blocks has to be at least 1.'
     inputs = tf.keras.Input(shape = input_shape)
-    inputs_2 = base_model(inputs)
+    out = base_model(inputs)
+    print(f"InceptionResNetV2 output shape:{out.shape}")
     for i in range(n_blocks):
-        out = InceptionResNetV2_block(inputs_2, filters = base_filters)
+        out = InceptionResNetV2_block(out, filters =  base_filters * 2 ** (i+1))
     out = tf.keras.layers.GlobalAveragePooling2D()(out)
     out = tf.keras.layers.Dense(dense_units, activation=tf.nn.relu)(out)
     out = tf.keras.layers.Dropout(dropout_rate)(out)

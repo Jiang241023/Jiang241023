@@ -40,9 +40,6 @@ def evaluate(model, ds_test):
         batch_accuracy = tf.reduce_mean(tf.cast(predictions == labels, tf.float32))
         accuracy_list.append(batch_accuracy.numpy())
 
-        # Update metrics (optional)
-        metrics.update_state(labels, predictions)
-
     # Calculate overall accuracy
     accuracy = sum(accuracy_list) / len(accuracy_list)
     return accuracy
@@ -100,12 +97,13 @@ def train_func():
         print(f"Evaluating {model_type} on the test dataset...")
 
         accuracy = evaluate(model, ds_test)
-        print(f"Test accuracy for {model_type}: {accuracy}")
+        print(f"Evaluation accuracy for {model_type}: {accuracy}")
 
         # Log the test accuracy to WandB
-        wandb.log({'test_accuracy': accuracy})
+        wandb.log({'evaluation_accuracy': accuracy})
 
-model_types = ['mobilenet_like', 'vgg_like', 'inception_v2_like']
+#model_types = ['mobilenet_like', 'vgg_like', 'inception_v2_like']
+model_types = ['vgg_like', 'inception_v2_like']
 for model in model_types:
     if model == 'mobilenet_like':
         sweep_config = {
@@ -117,7 +115,7 @@ for model in model_types:
             },
             'parameters': {
                 'Trainer.total_epochs': {
-                    'values': [8]
+                    'values': [10]
                 },
                 'model_type':{
                     'values': [model]
@@ -131,8 +129,8 @@ for model in model_types:
                 'mobilenet_like.n_blocks': {
                     'distribution': 'q_uniform',
                     'q': 1,
-                    'min': 2,
-                    'max': 8
+                    'min': 1,
+                    'max': 2
                 },
                 'mobilenet_like.dense_units': {
                     'distribution': 'q_log_uniform',
@@ -142,8 +140,8 @@ for model in model_types:
                 },
                 'mobilenet_like.dropout_rate': {
                     'distribution': 'uniform',
-                    'min': 0.1,
-                    'max': 0.9
+                    'min': 0.2,
+                    'max': 0.6
                 }
             }
         }
@@ -161,7 +159,7 @@ for model in model_types:
             },
             'parameters': {
                 'Trainer.total_epochs': {
-                    'values': [8]
+                    'values': [10]
                 },
                 'model_type':{
                     'values': [model]
@@ -169,14 +167,11 @@ for model in model_types:
                 'vgg_like.base_filters': {
                     'distribution': 'q_log_uniform',
                     'q': 1,
-                    'min': math.log(8), # -> ln8 = 2.0794
-                    'max': math.log(128) # -> ln128 = 4.852
+                    'min': math.log(8),
+                    'max': math.log(128)
                 },
                 'vgg_like.n_blocks': {
-                    'distribution': 'q_uniform',
-                    'q': 1,
-                    'min': 2,
-                    'max': 8
+                    'values': [1]
                 },
                 'vgg_like.dense_units': {
                     'distribution': 'q_log_uniform',
@@ -186,8 +181,8 @@ for model in model_types:
                 },
                 'vgg_like.dropout_rate': {
                     'distribution': 'uniform',
-                    'min': 0.1,
-                    'max': 0.9
+                    'min': 0.2,
+                    'max': 0.6
                 }
             }
         }
@@ -205,7 +200,7 @@ for model in model_types:
             },
             'parameters': {
                 'Trainer.total_epochs': {
-                    'values': [8]
+                    'values': [10]
                 },
                 'model_type':{
                     'values': [model]
@@ -213,14 +208,14 @@ for model in model_types:
                 'inception_v2_like.base_filters': {
                     'distribution': 'q_log_uniform',
                     'q': 1,
-                    'min': math.log(8), # -> ln8 = 2.0794
-                    'max': math.log(128) # -> ln128 = 4.852
+                    'min': math.log(8),
+                    'max': math.log(128)
                 },
                 'inception_v2_like.n_blocks': {
                     'distribution': 'q_uniform',
                     'q': 1,
-                    'min': 2,
-                    'max': 8
+                    'min': 1,
+                    'max': 2
                 },
                 'inception_v2_like.dense_units': {
                     'distribution': 'q_log_uniform',
@@ -230,8 +225,8 @@ for model in model_types:
                 },
                 'inception_v2_like.dropout_rate': {
                     'distribution': 'uniform',
-                    'min': 0.1,
-                    'max': 0.9
+                    'min': 0.2,
+                    'max': 0.6
                 }
             }
         }
