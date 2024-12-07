@@ -3,11 +3,9 @@ import csv
 from PIL import Image
 from tqdm import tqdm
 
-
-resized_folder = r'F:\IDRID_dataset\images_revized\test'
-final_folder = r'F:\IDRID_dataset\images_revized\test\binary'
-csv_file_path = r'F:\IDRID_dataset\labels\test.csv'
-
+resized_folder = '/home/RUS_CIP/st186731/revized_images/test'
+final_folder = '/home/RUS_CIP/st186731/revized_images/test/binary'
+csv_file_path = '/home/data/IDRID_dataset/labels/test.csv'
 
 if not os.path.exists(final_folder):
     os.makedirs(final_folder)

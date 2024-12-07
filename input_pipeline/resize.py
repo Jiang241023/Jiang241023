@@ -7,8 +7,8 @@ import os
 import cv2
 
 
-sample_data_path = r"F:\学校\课程文件\dl lab\idrid\IDRID_dataset\images\test"
-output_folder = r"F:\学校\课程文件\dl lab\idrid\IDRID_dataset\images_revized\test"
+sample_data_path = "/home/data/IDRID_dataset/images/train"
+output_folder = "/home/RUS_CIP/st186731/revized_images/train"
 
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
