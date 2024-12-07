@@ -9,7 +9,9 @@ from models.architectures import mobilenet_like, vgg_like, inception_v2_like
 from train import Trainer
 from utils import utils_params, utils_misc
 
-def train_model(model, base_model, ds_train, ds_val, num_batches, ds_info, run_paths, path_model_id):
+unfrz_layer = 9
+
+def train_model(model, base_model, ds_train, ds_val, num_batches, unfrz_layer, ds_info, run_paths, path_model_id):
     print('-' * 88)
     print(f'Starting training {path_model_id}')
     model.summary()
@@ -18,7 +20,7 @@ def train_model(model, base_model, ds_train, ds_val, num_batches, ds_info, run_p
         print(layer.name, layer.trainable)
     for _ in trainer.train():
         continue
-    for layer in base_model.layers[-10:]:
+    for layer in base_model.layers[-unfrz_layer:]:
         layer.trainable = True
     for _ in trainer.train():
         continue
@@ -89,6 +91,7 @@ def train_func():
                     ds_train = ds_train,
                     ds_val = ds_val,
                     num_batches = num_batches,
+                    unfrz_layer = unfrz_layer,
                     ds_info = ds_info,
                     run_paths = run_paths,
                     path_model_id = model_type)
