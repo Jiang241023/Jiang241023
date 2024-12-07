@@ -27,7 +27,7 @@ def train_model(model, base_model, ds_train, ds_val, num_batches, ds_info, run_p
     print('-' * 88)
 
 def evaluate(model, ds_test):
-    metrics = tf.keras.metrics.Accuracy()  # Replace ConfusionMatrix with tf.keras.metrics.Accuracy if needed
+
     accuracy_list = []
 
     for idx, (images, labels) in enumerate(ds_test):
@@ -64,7 +64,7 @@ def train_func():
         utils_misc.set_loggers(run_paths['path_logs_train'], logging.INFO)
 
         # gin-config
-        gin.parse_config_files_and_bindings([r'F:\DL_lab\Jiang241023\configs\config.gin'], bindings)
+        gin.parse_config_files_and_bindings(['/home/RUS_CIP/st186731/dl-lab-24w-team04/diabetic_retinopathy/configs/config.gin'], bindings)
         utils_params.save_config(run_paths['path_gin'], gin.config_str())
 
         # setup pipeline

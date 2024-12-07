@@ -8,7 +8,7 @@ from input_pipeline import datasets
 from utils import utils_params, utils_misc
 from models.architectures import mobilenet_like, vgg_like, inception_v2_like
 import tensorflow as tf
-from GRAD_CAM_visualization import grad_cam_visualization
+from deep_visualization.GRAD_CAM_visualization import grad_cam_visualization
 import random
 import numpy as np
 import os
@@ -54,7 +54,7 @@ def main(argv):
     utils_misc.set_loggers(run_paths_3['path_logs_train'], logging.INFO)
 
     # gin-config
-    gin.parse_config_files_and_bindings(['configs/config.gin'], [])
+    gin.parse_config_files_and_bindings(['/home/RUS_CIP/st186731/dl-lab-24w-team04/diabetic_retinopathy/configs/config.gin'], [])
     #print(gin.config_str())
     utils_params.save_config(run_paths_1['path_gin'], gin.config_str())
     utils_params.save_config(run_paths_2['path_gin'], gin.config_str())
@@ -124,9 +124,9 @@ def main(argv):
 
         #checkpoint_path_2 = r'F:\DL_lab\experiments\run_2024-12-04T20-04-07-323513_vgg_like\ckpts'
 
-        checkpoint_path_1 = r'F:\DL_lab\experiments\run_2024-12-06T18-13-51-177330_mobilenet_like\ckpts'
-        checkpoint_path_2 = r'F:\DL_lab\experiments\run_2024-12-06T18-13-51-178331_vgg_like\ckpts'
-        checkpoint_path_3 = r'F:\DL_lab\experiments\run_2024-12-06T18-13-51-179331_inception_v2_like\ckpts'
+        checkpoint_path_1 = '/home/RUS_CIP/st186731/dl-lab-24w-team04/experiments/run_2024-12-07T14-51-45-371592_mobilenet_like/ckpts'
+        checkpoint_path_2 = '/home/RUS_CIP/st186731/dl-lab-24w-team04/experiments/run_2024-12-07T14-51-45-371988_vgg_like/ckpts'
+        checkpoint_path_3 = '/home/RUS_CIP/st186731/dl-lab-24w-team04/experiments/run_2024-12-07T14-51-45-372289_inception_v2_like/ckpts'
 
         checkpoint_1 = tf.train.Checkpoint(model = model_1)
         latest_checkpoint_1 = tf.train.latest_checkpoint(checkpoint_path_1)
