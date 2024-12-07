@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 resized_folder = '/home/RUS_CIP/st186731/revized_images/test'
 final_folder = '/home/RUS_CIP/st186731/revized_images/test/binary'
-csv_file_path = '/home/data/IDRID_dataset/labels/test.csv'
+csv_file_path = '/home/RUS_CIP/st186731/dl-lab-24w-team04/labels/test.csv'
 
 if not os.path.exists(final_folder):
     os.makedirs(final_folder)

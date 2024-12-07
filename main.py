@@ -54,7 +54,7 @@ def main(argv):
     utils_misc.set_loggers(run_paths_3['path_logs_train'], logging.INFO)
 
     # gin-config
-    gin.parse_config_files_and_bindings([r'F:\DL_lab\Jiang241023\configs\config.gin'], [])
+    gin.parse_config_files_and_bindings(['configs/config.gin'], [])
     #print(gin.config_str())
     utils_params.save_config(run_paths_1['path_gin'], gin.config_str())
     utils_params.save_config(run_paths_2['path_gin'], gin.config_str())

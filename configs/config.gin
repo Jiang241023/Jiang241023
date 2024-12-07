@@ -31,8 +31,8 @@ Trainer.learning_rate = 1e-4
 
 # Input pipeline
 load.name = 'idrid'
-load.data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\train"
-load.test_data_dir = r"F:\IDRID_dataset\images_augmented\images_augmented\test\binary"
+load.data_dir = '/home/RUS_CIP/st186731/augmented_images/train'
+load.test_data_dir = '/home/RUS_CIP/st186731/revized_images/test/binary'
 load.batch_size = 16
 preprocess.img_height = 256
 preprocess.img_width = 256
@@ -42,4 +42,4 @@ prepare.caching = True
 train_model.unfrz_layer = 9
 
 # Grad_cam
-grad_cam_visualization.img_path =  r'F:\IDRID_dataset\images_augmented\images_augmented\train\class_1\IDRiD_001_aug_0.jpg'
+grad_cam_visualization.img_path =  '/home/RUS_CIP/st186731/augmented_images/train/class_1/IDRiD_001_aug_0.jpg'

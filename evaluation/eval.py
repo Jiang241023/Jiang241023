@@ -1,6 +1,5 @@
 import tensorflow as tf
-from keras.utils.version_utils import training
-from metrics import ConfusionMatrix
+from evaluation.metrics import ConfusionMatrix
 import logging
 import numpy as np
 import wandb

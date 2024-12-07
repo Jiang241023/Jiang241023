@@ -1,7 +1,7 @@
 import gin
 import tensorflow as tf
 from tensorflow.keras.applications import MobileNet, VGG16, InceptionResNetV2
-from layers import vgg_block, mobilenet_block, InceptionResNetV2_block
+from models.layers import vgg_block, mobilenet_block, InceptionResNetV2_block
 from tensorflow.keras.regularizers import l2
 
 @gin.configurable

@@ -17,13 +17,9 @@ def augment_image(image):  # Minor augmentation to balance the dataset
     return data_augmentation(image)
 
 # Paths and folders
-# preprocessed_folder = '/home/RUS_CIP/st186731/revized_images/train'
-# augmented_folder = '/home/RUS_CIP/st186731/augmented_images/train'
-# csv_file_path = '/home/data/IDRID_dataset/labels/train.csv'
-
-preprocessed_folder = r'F:\images_train_revized\train'
-augmented_folder = r'F:\1'
-csv_file_path = r'F:\IDRID_dataset\labels\train.csv'
+preprocessed_folder = '/home/RUS_CIP/st186731/revized_images/train'
+augmented_folder = '/home/RUS_CIP/st186731/augmented_images/train'
+csv_file_path = '/home/RUS_CIP/st186731/dl-lab-24w-team04/labels/train.csv'
 
 if not os.path.exists(augmented_folder):
     os.makedirs(augmented_folder)
