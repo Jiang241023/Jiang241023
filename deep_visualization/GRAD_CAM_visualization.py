@@ -120,8 +120,6 @@ def grad_cam_visualization(model, img_path):
     # Generate Grad-CAM heatmap
     heatmap = grad_cam(model, img_path, last_conv_layer_name)
 
-    # Visualize the result
-    display_grad_cam(heatmap, img_path)
 
 
 

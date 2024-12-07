@@ -4,11 +4,6 @@ mobilenet_like.n_blocks = 2
 mobilenet_like.dense_units = 243
 mobilenet_like.dropout_rate =  0.4983837360281846
 
-#vgg_like.base_filters = 115
-#vgg_like.n_blocks = 1
-#vgg_like.dense_units = 20
-#vgg_like.dropout_rate = 0.4338533294659501
-
 vgg_like.base_filters = 14
 vgg_like.n_blocks = 1
 vgg_like.dense_units = 70
@@ -25,8 +20,6 @@ layers.mobilenet_block.strides = 1
 
 # Training
 Trainer.total_epochs = 10
-#Trainer.log_interval = 37
-#Trainer.ckpt_interval = 37
 Trainer.learning_rate = 1e-4
 
 # Input pipeline
@@ -36,7 +29,6 @@ load.test_data_dir = '/home/RUS_CIP/st186731/revized_images/test/binary'
 load.batch_size = 16
 preprocess.img_height = 256
 preprocess.img_width = 256
-#prepare.batch_size = 16
 prepare.caching = True
 
 train_model.unfrz_layer = 9

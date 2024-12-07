@@ -6,14 +6,6 @@ from tqdm import tqdm
 import os
 import cv2
 
-
-sample_data_path = "/home/data/IDRID_dataset/images/train"
-output_folder = "/home/RUS_CIP/st186731/revized_images/train"
-
-if not os.path.exists(output_folder):
-    os.makedirs(output_folder)
-
-
 def trim(image):
 
     percentage = 0.02
@@ -68,4 +60,19 @@ def multi_image_resize(input_path_folder, output_path_folder, output_size=None):
         list(tqdm(p.imap_unordered(save_single, jobs), total=len(jobs)))
 
 if __name__ == '__main__':
-    multi_image_resize(sample_data_path, output_folder, output_size = (256,256))
+    data_paths = [
+        {
+            "sample_data_path": "/home/data/IDRID_dataset/images/train",
+            "output_folder": "/home/RUS_CIP/st186731/revized_images/train",
+        },
+        {
+            "sample_data_path": "/home/data/IDRID_dataset/images/test",
+            "output_folder": "/home/RUS_CIP/st186731/revized_images/test",
+        }
+    ]
+    for paths in data_paths:
+
+        if not os.path.exists(paths['output_folder']):
+            os.makedirs(paths['output_folder'])
+
+        multi_image_resize(input_path_folder = paths['sample_data_path'], output_path_folder = paths['output_folder'], output_size = (256,256))

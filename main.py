@@ -55,16 +55,12 @@ def main(argv):
 
     # gin-config
     gin.parse_config_files_and_bindings(['/home/RUS_CIP/st186731/dl-lab-24w-team04/diabetic_retinopathy/configs/config.gin'], [])
-    #print(gin.config_str())
     utils_params.save_config(run_paths_1['path_gin'], gin.config_str())
     utils_params.save_config(run_paths_2['path_gin'], gin.config_str())
     utils_params.save_config(run_paths_3['path_gin'], gin.config_str())
 
     # setup pipeline
     ds_train, ds_val, ds_test, ds_info, num_batches = datasets.load(name = 'idrid')
-    # for images, labels in ds_train.take(1):  # Take 3 batches
-    #     print(f"Images: {images.numpy()}")  # Check image tensor values
-    #     print(f"Labels: {labels.numpy()}")
 
      # model
     model_1, base_model_1 = mobilenet_like(input_shape=ds_info["features"]["image"]["shape"],
@@ -118,12 +114,6 @@ def main(argv):
         wandb.finish()
 
     else:
-        #checkpoint_path_1 = r'F:\DL_lab\experiments\mobilenet_like_5\ckpts'
-        #checkpoint_path_2 = r'F:\DL_lab\experiments\vgg_like_5\ckpts'
-        #checkpoint_path_3 = r'F:\DL_lab\experiments\inception_v2_like_3\ckpts'
-
-        #checkpoint_path_2 = r'F:\DL_lab\experiments\run_2024-12-04T20-04-07-323513_vgg_like\ckpts'
-
         checkpoint_path_1 = '/home/RUS_CIP/st186731/dl-lab-24w-team04/experiments/run_2024-12-07T14-51-45-371592_mobilenet_like/ckpts'
         checkpoint_path_2 = '/home/RUS_CIP/st186731/dl-lab-24w-team04/experiments/run_2024-12-07T14-51-45-371988_vgg_like/ckpts'
         checkpoint_path_3 = '/home/RUS_CIP/st186731/dl-lab-24w-team04/experiments/run_2024-12-07T14-51-45-372289_inception_v2_like/ckpts'

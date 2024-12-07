@@ -1,22 +1,16 @@
 import tensorflow as tf
 from evaluation.metrics import ConfusionMatrix
 import logging
-import numpy as np
 import wandb
 
 
-def evaluate(model_1, model_2, model_3, ds_test, ensemble ):
+def evaluate(model_1, model_2, model_3, ds_test, ensemble):
 
     metrics = ConfusionMatrix()
     accuracy_list = []
     tp, fp, fn, tn = 0, 0, 0, 0
 
     for idx, (images, labels) in enumerate(ds_test):
-
-        # Check the total number of test samples
-        #test_total_samples = sum(1 for _ in ds_test.unbatch())
-       # print(f"Total test samples in dataset: {test_total_samples}")
-
         threshold = 0.5
 
         if ensemble == True:
@@ -35,14 +29,11 @@ def evaluate(model_1, model_2, model_3, ds_test, ensemble ):
             # final_predictions
             votes = predictions_1 + predictions_2 + predictions_3  # Count votes (0, 1, or 2, or 3)
 
-            #print(f"prediction after ensembling")
             final_predictions = tf.cast(votes > 1, tf.int32)
         else:
             # Model_2
             predictions_2 = model_2(images, training=False)
             predictions_2 = tf.cast(predictions_2 > threshold, tf.int32)
-
-            #print(f"prediction using Model 2")
             final_predictions = predictions_2
 
         # Update accuracy
@@ -53,16 +44,11 @@ def evaluate(model_1, model_2, model_3, ds_test, ensemble ):
         # Update confusion matrix metrics
         metrics.update_state(labels, final_predictions)
 
-
-    #print(f"Batch {idx}: TP={tp}, FP={fp}, TN={tn}, FN={fn}")
     # Calculate metrics
     accuracy = sum(accuracy_list) / len(accuracy_list)
 
     # Log the test accuracy to WandB
     wandb.log({'Evaluation_accuracy': accuracy})
-
-    total_samples = tp + fp + tn + fn
-    #print(f"Total samples accounted for: {total_samples}")
 
     results = metrics.result()
 
@@ -70,8 +56,6 @@ def evaluate(model_1, model_2, model_3, ds_test, ensemble ):
     fp = results["fp"]
     tn = results["tn"]
     fn = results["fn"]
-    # update confusion matrix
-
 
     sensitivity = tp / (tp + fn) if (tp + fn) > 0 else 0.0
     specificity = tn / (tn + fp) if (tn + fp) > 0 else 0.0
@@ -79,7 +63,7 @@ def evaluate(model_1, model_2, model_3, ds_test, ensemble ):
     f1_score = 2 * (precision * sensitivity) / (precision + sensitivity) if (precision + sensitivity) > 0 else 0.0
 
     # Logging and printing results
-    logging.info(f"Test_accuracy: {accuracy:.2%}")
+    logging.info(f"Evaluation_accuracy: {accuracy:.2%}")
     logging.info(f"Confusion Matrix: TP={tp}, FP={fp}, TN={tn}, FN={fn}")
     logging.info(f"Sensitivity (Recall): {sensitivity:.2%}")
     logging.info(f"Specificity: {specificity:.2%}")
