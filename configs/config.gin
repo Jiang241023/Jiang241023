@@ -42,5 +42,5 @@ prepare.caching = True
 train_model.unfrz_layer = 9
 
 # Grad_cam
-grad_cam_visualization.img_path =  r'F:\IDRID_dataset\images_augmented\images_augmented\train\class_1\IDRiD_001_aug_0.jpg'
-grad_cam_visualization.output_path = r'F:\DL_lab\img_output'
+grad_cam_visualization.img_path =  '/home/RUS_CIP/st186731/augmented_images/train/class_1/IDRiD_001_aug_0.jpg'
+grad_cam_visualization.output_path = '/home/RUS_CIP/st186731/dl-lab-24w-team04/output_grad_cam/grad_cam.png'
