@@ -4,10 +4,10 @@ import numpy as np
 import tensorflow as tf
 import cv2
 import matplotlib.pyplot as plt
-
+import os
 
 @gin.configurable
-def grad_cam_visualization(model, img_path):
+def grad_cam_visualization(model, img_path, output_path):
 
     def find_target_layer(model):
         for layer in reversed(model.layers):
@@ -77,7 +77,8 @@ def grad_cam_visualization(model, img_path):
         return cam
 
     # Function to display Grad-CAM
-    def display_grad_cam(heatmap, img, alpha=0.5):
+
+    def display_grad_cam(heatmap, output_path, alpha=0.5):
 
         # Load the image
         image = cv2.imread(img_path)  # Load image in BGR format
@@ -101,27 +102,30 @@ def grad_cam_visualization(model, img_path):
 
         blended_image = alpha * colormap + (1 - alpha) * img
 
+        plt.imsave(output_path, blended_image)  # Save as a PNG file
+        print(f"Blended image saved to: {output_path}")
+
         # Display images
-        plt.figure(figsize=(12, 6))
-        plt.subplot(1, 2, 1)
-        plt.title("Original Image")
-        plt.imshow(img)
-        plt.axis("off")
-
-        plt.subplot(1, 2, 2)
-        plt.title("Blended Image")
-        plt.imshow(blended_image)
-        plt.axis("off")
-
-        plt.tight_layout()
-        plt.show()
+        # plt.figure(figsize=(12, 6))
+        # plt.subplot(1, 2, 1)
+        # plt.title("Original Image")
+        # plt.imshow(img)
+        # plt.axis("off")
+        #
+        # plt.subplot(1, 2, 2)
+        # plt.title("Blended Image")
+        # plt.imshow(blended_image)
+        # plt.axis("off")
+        #
+        # plt.tight_layout()
+        # plt.show()
 
 
     # Generate Grad-CAM heatmap
     heatmap = grad_cam(model, img_path, last_conv_layer_name)
 
     # Visualize the result
-    display_grad_cam(heatmap, img_path)
+    display_grad_cam(heatmap, img_path ,output_path)
 
 
 
