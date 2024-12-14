@@ -21,7 +21,7 @@ def random_seed(seed):
 random_seed(47)
 
 FLAGS = flags.FLAGS
-flags.DEFINE_boolean('train', True,'Specify whether to train or evaluate a model.')
+flags.DEFINE_boolean('train', False,'Specify whether to train or evaluate a model.')
 
 @gin.configurable
 def train_model(model, base_model, ds_train, ds_val, num_batches, unfrz_layer, ds_info, run_paths, path_model_id):
@@ -125,7 +125,7 @@ def main(argv):
         #checkpoint_path_2 = r'F:\DL_lab\experiments\run_2024-12-04T20-04-07-323513_vgg_like\ckpts'
 
         checkpoint_path_1 = r'F:\DL_lab\experiments\run_2024-12-06T18-13-51-177330_mobilenet_like\ckpts'
-        checkpoint_path_2 = r'F:\DL_lab\experiments\run_2024-12-06T18-13-51-178331_vgg_like\ckpts'
+        checkpoint_path_2 = r'F:\DL_lab\experiments\run_2024-12-10T14-16-40-605234_vgg_like\ckpts'
         checkpoint_path_3 = r'F:\DL_lab\experiments\run_2024-12-06T18-13-51-179331_inception_v2_like\ckpts'
 
         checkpoint_1 = tf.train.Checkpoint(model = model_1)
@@ -157,7 +157,7 @@ def main(argv):
         wandb.init(project='diabetic-retinopathy-detection', name='evaluation_phase',
                    config=utils_params.gin_config_to_readable_dictionary(gin.config._CONFIG))
 
-        evaluate(model_1 = model_1, model_2 = model_2, model_3 = model_3, ds_test = ds_test , ensemble=False)
+        evaluate(model_1 = model_1, model_2 = model_2, model_3 = model_3, ds_test = ds_test , ensemble=True)
 
         grad_cam_visualization(model = model_2)
 
