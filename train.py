@@ -25,8 +25,8 @@ class Trainer(object):
         self.train_loss = tf.keras.metrics.Mean(name='train_loss')
         self.train_accuracy = tf.keras.metrics.BinaryAccuracy(name='train_accuracy')
 
-        self.test_loss = tf.keras.metrics.Mean(name='test_loss')
-        self.test_accuracy = tf.keras.metrics.BinaryAccuracy(name='test_accuracy')
+        self.validation_loss = tf.keras.metrics.Mean(name='validation_loss')
+        self.validation_accuracy = tf.keras.metrics.BinaryAccuracy(name='validation_accuracy')
 
         self.model = model
         self.ds_train = ds_train
@@ -56,14 +56,14 @@ class Trainer(object):
         self.train_accuracy(labels, predictions)
 
     @tf.function
-    def test_step(self, images, labels):
+    def validation_step(self, images, labels):
         # training=False is only needed if there are layers with different
         # behavior during training versus inference (e.g. Dropout).
         predictions = self.model(images, training=False)
-        t_loss = self.loss_object(labels, predictions)
+        v_loss = self.loss_object(labels, predictions)
 
-        self.test_loss(t_loss)
-        self.test_accuracy(labels, predictions)
+        self.validation_loss(v_loss)
+        self.validation_accuracy(labels, predictions)
 
 
     def train(self):
@@ -76,22 +76,22 @@ class Trainer(object):
             if step % (1 * self.log_interval) == 0:
 
                 # Reset test metrics
-                self.test_loss.reset_states()
-                self.test_accuracy.reset_states()
+                self.validation_loss.reset_states()
+                self.validation_accuracy.reset_states()
 
-                for test_images, test_labels in self.ds_val:
-                    self.test_step(test_images, test_labels)
+                for validation_images, validation_labels in self.ds_val:
+                    self.validation_step(validation_images, validation_labels)
 
-                template = 'epochs: {}, Loss: {}, Accuracy: {}, Test Loss: {}, Test Accuracy: {}'
+                template = 'epochs: {}, Loss: {}, Accuracy: {}, validation Loss: {}, validation Accuracy: {}'
                 logging.info(template.format(step/self.log_interval,
                                              self.train_loss.result(),
                                              self.train_accuracy.result() * 100,
-                                             self.test_loss.result(),
-                                             self.test_accuracy.result() * 100))
+                                             self.validation_loss.result(),
+                                             self.validation_accuracy.result() * 100))
 
                 # wandb logging
                 wandb.log({'train_acc': self.train_accuracy.result() * 100, 'train_loss': self.train_loss.result(),
-                           'val_acc': self.test_accuracy.result() * 100, 'val_loss': self.test_loss.result(),
+                           'val_acc': self.validation_accuracy.result() * 100, 'val_loss': self.validation_loss.result(),
                            'step': step})
 
                 # Write summary to tensorboard
@@ -101,17 +101,12 @@ class Trainer(object):
                 self.train_loss.reset_states()
                 self.train_accuracy.reset_states()
 
-                yield self.test_accuracy.result().numpy()
+                yield self.validation_accuracy.result().numpy()
 
-            # if step % self.ckpt_interval == 0:
-            #     logging.info(f'Saving checkpoint to {self.run_paths["path_ckpts_train"]}.')
-            #     # Save checkpoint
-            #     # ...
-            #     self.checkpoint_manager.save()
 
             if step % (self.total_epochs * self.log_interval) == 0:
                 logging.info(f'Finished training after {step/self.log_interval} epochs.')
                 # Save final checkpoint
                 # ...
                 self.checkpoint_manager.save()
-                return self.test_accuracy.result().numpy()
+                return self.validation_accuracy.result().numpy()
