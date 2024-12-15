@@ -7,8 +7,6 @@ import wandb
 @gin.configurable
 class Trainer(object):
     def __init__(self, model, ds_train, ds_val, ds_info, run_paths, num_batches, total_epochs, learning_rate):
-        # Summary Writer
-        # ....
 
         # Checkpoint Manager
         # ...
@@ -94,15 +92,11 @@ class Trainer(object):
                            'val_acc': self.validation_accuracy.result() * 100, 'val_loss': self.validation_loss.result(),
                            'step': step})
 
-                # Write summary to tensorboard
-                # ...
-
                 # Reset train metrics
                 self.train_loss.reset_states()
                 self.train_accuracy.reset_states()
 
                 yield self.validation_accuracy.result().numpy()
-
 
             if step % (self.total_epochs * self.log_interval) == 0:
                 logging.info(f'Finished training after {step/self.log_interval} epochs.')
