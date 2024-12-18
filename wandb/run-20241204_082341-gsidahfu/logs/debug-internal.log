@@ -1,9 +1,0 @@
-{"time":"2024-12-04T08:23:41.4030466+01:00","level":"INFO","msg":"using version","core version":"0.18.6"}
-{"time":"2024-12-04T08:23:41.4030466+01:00","level":"INFO","msg":"created symlink","path":"F:\\DL_lab\\Jiang241023\\wandb\\run-20241204_082341-gsidahfu\\logs\\debug-core.log"}
-{"time":"2024-12-04T08:23:41.5304826+01:00","level":"INFO","msg":"created new stream","id":"gsidahfu"}
-{"time":"2024-12-04T08:23:41.5304826+01:00","level":"INFO","msg":"stream: started","id":"gsidahfu"}
-{"time":"2024-12-04T08:23:41.5304826+01:00","level":"INFO","msg":"sender: started","stream_id":"gsidahfu"}
-{"time":"2024-12-04T08:23:41.5304826+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"gsidahfu"}}
-{"time":"2024-12-04T08:23:41.5304826+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"gsidahfu"}}
-{"time":"2024-12-04T08:23:41.8509796+01:00","level":"INFO","msg":"Starting system monitor"}
-{"time":"2024-12-04T08:24:11.8559251+01:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 44036"}
